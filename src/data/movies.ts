@@ -92,37 +92,6 @@ export const movies: Movie[] = [
           },
         ],
       },
-      {
-        seasonNumber: 2,
-        episodes: [
-          {
-            title: "Episodio 1",
-            file: "migratisInvencible S2 E1.mp4",
-          },
-        ],
-      },
-      {
-              seasonNumber: 3,
-        episodes: [
-          {
-            title: "Episodio 1",
-            file: "",
-          },
-        ],
-      },
-      {
-              seasonNumber: 4,
-        episodes: [
-          {
-            title: "Episodio 1",
-            file: "migratisInvencible S4 Latino 01.mp4",
-          },
-                    {
-            title: "Episodio 2",
-            file: "miragratisInvencible S4Latin02.mp4",
-          },
-        ],
-      },
     ],
   },
    {
