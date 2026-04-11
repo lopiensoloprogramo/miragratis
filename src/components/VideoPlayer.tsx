@@ -26,7 +26,7 @@ export default function VideoPlayer({ file }: { file: string }) {
   }, [file]);
 
   return (
-    <div className="w-full aspect-[16/9] bg-black rounded-lg overflow-hidden relative">
+    <div className="w-full aspect-[16/8] bg-black rounded-lg overflow-hidden relative">
       
       {/* 🎬 VIDEO */}
       {videoUrl && (
