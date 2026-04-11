@@ -2,6 +2,7 @@ import { movies } from "../data/movies";
 import MovieRow from "../components/MovieRow";
 import HeroBanner from "../components/HeroBanner";
 
+
 export default function Home() {
   return (
     <div className="pt-20">
@@ -12,6 +13,8 @@ export default function Home() {
         <MovieRow title="Accion" movies={movies} />
         <MovieRow title="Recomendadas" movies={movies} />
       </div>
+
+       
     </div>
   );
 }
