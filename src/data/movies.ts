@@ -73,42 +73,11 @@ export const movies: Movie[] = [
     genre: "Acción-Aventura-Ciencia Ficción",
     seasons: [
       {
-        seasonNumber: 1,
-        episodes: [
-          {
-            title: "Episodio 1",
-            file: "migratisInvencible S1 E1.mp4",
-          },
-          {
-            title: "Episodio 2",
-            file: "migratisInvencible S1 E2.mp4",
-          },
-        ],
-      },
-      {
-        seasonNumber: 2,
-        episodes: [
-          {
-            title: "Episodio 1",
-            file: "migratisInvencible S2 E1.mp4",
-          },
-        ],
-      },
-      {
-              seasonNumber: 3,
-        episodes: [
-          {
-            title: "Episodio 1",
-            file: "",
-          },
-        ],
-      },
-      {
               seasonNumber: 4,
         episodes: [
           {
             title: "Episodio 1",
-            file: "migratisInvencible S4 Latino 01.mp4",
+            file: "Thewitcherseason4episodio1.mp4",
           },
                     {
             title: "Episodio 2",
