@@ -65,7 +65,7 @@ export const movies: Movie[] = [
           },
                                              {
             title: "Episodio 6",
-            file: "miragratisInvencibleS4Latino06.mp4",
+            file: "Miragratisinvencibles4latino6.mp4",
           },
         ],
       },
@@ -80,15 +80,15 @@ export const movies: Movie[] = [
     genre: "Acción",
     seasons: [
       {
-        seasonNumber: 1,
+        seasonNumber: 4,
         episodes: [
           {
             title: "Episodio 1",
-            file: "migratisInvencible S1 E1.mp4",
+            file: "Thbyss05e01.mp4",
           },
           {
             title: "Episodio 2",
-            file: "migratisInvencible S1 E2.mp4",
+            file: "Thbyss05e02.mp4",
           },
         ],
       },
