@@ -9,37 +9,7 @@ export const movies: Movie[] = [
     thumbnail: "https://stars-my-destination.com/wp-content/uploads/2025/02/invencible-3x05-1.jpg?w=819",
     genre: "Acción",
     seasons: [
-      {
-        seasonNumber: 1,
-        episodes: [
-          {
-            title: "Episodio 1",
-            file: "migratisInvencible S1 E1.mp4",
-          },
-          {
-            title: "Episodio 2",
-            file: "migratisInvencible S1 E2.mp4",
-          },
-        ],
-      },
-      {
-        seasonNumber: 2,
-        episodes: [
-          {
-            title: "Episodio 1",
-            file: "migratisInvencible S2 E1.mp4",
-          },
-        ],
-      },
-      {
-              seasonNumber: 3,
-        episodes: [
-          {
-            title: "Episodio 1",
-            file: "",
-          },
-        ],
-      },
+     
       {
               seasonNumber: 4,
         episodes: [
