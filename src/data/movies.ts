@@ -87,13 +87,17 @@ export const movies: Movie[] = [
             title: "Episodio 3",
             file: "drive:1uqrSLEA5miVaOQH42bx5TDFaJWJvv7Ff",
           },
-                                        {
+          {
             title: "Episodio 4",
             file: "drive:1GVMDSiQJ3vShdPAwAr0KxL3Rn64ocG-Q",
           },
-                                                  {
+        {
             title: "Episodio 5",
             file: "drive:1833JPPb-7rwKhlvnkD3PtgrEZ4t3I5YB",
+          },
+                  {
+            title: "Episodio 6",
+            file: "drive:1O01Km80TzibzOSmPlbwjvyTbvBDhw4yz",
           },
         ],
       },
