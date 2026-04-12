@@ -83,6 +83,10 @@ export const movies: Movie[] = [
             title: "Episodio 2",
             file: "Thewhichersean4episodio2.mp4",
           },
+                              {
+            title: "Episodio 3",
+            file: "drive:1uqrSLEA5miVaOQH42bx5TDFaJWJvv7Ff",
+          },
         ],
       },
     ],
@@ -139,6 +143,54 @@ export const movies: Movie[] = [
           },
         ],
       },
+    ],
+  },
+     {
+    id: "5",
+    title: "Euphoria",
+    year: 2019,
+    description: "Una reflexión sobre la adolescencia a través de un grupo de estudiantes de instituto que tienen que hacer frente a temas recurrentes de su edad, como la droga, el sexo y la violencia.",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfrjrT4Cp9s34CjihlGdknr99RctZeRfARPSTiSh4u91GlBpurQ5enciKKHQlzVw2RiZmJJQ&s=10",
+    genre: "Drama,HBO,Series",
+    seasons: [
+      {
+        seasonNumber: 2,
+        episodes: [
+          {
+            title: "Episodio 1",
+            file: "migratisInvencible S1 E1.mp4",
+          },
+          {
+            title: "Episodio 2",
+            file: "migratisInvencible S1 E2.mp4",
+          },
+        ],
+      },
+
+    ],
+  },
+      {
+    id: "6",
+    title: "Stranger Things",
+    year: 2016,
+    description: "A raíz de la desaparición de un niño, un pueblo desvela un misterio relacionado con experimentos secretos, fuerzas sobrenaturales aterradoras y una niña muy extraña.",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9QvnuHkNCoV0sqV9PlIhsYia_KWfwWDt7mQ&s",
+    genre: "C. Ficción,Drama,Fantasía,Netflix",
+    seasons: [
+      {
+        seasonNumber: 5,
+        episodes: [
+          {
+            title: "Episodio 1",
+            file: "migratisInvencible S1 E1.mp4",
+          },
+          {
+            title: "Episodio 2",
+            file: "migratisInvencible S1 E2.mp4",
+          },
+        ],
+      },
+
     ],
   },
 ];
