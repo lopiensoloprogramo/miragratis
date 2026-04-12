@@ -99,6 +99,10 @@ export const movies: Movie[] = [
             title: "Episodio 6",
             file: "drive:1O01Km80TzibzOSmPlbwjvyTbvBDhw4yz",
           },
+                {
+            title: "Episodio 7",
+            file: "drive:19Pl9RWOr9ZwnIdiLb4V3M2QAvwAH8Aoa",
+          },
         ],
       },
     ],
