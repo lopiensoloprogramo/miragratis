@@ -36,7 +36,7 @@ export default function MovieDetail() {
 
         {/* 📝 INFO */}
         <div className="flex-1">
-          <h1 className="text-4xl text-red font-bold">{movie.title}</h1>
+          <h1 className="text-4xl text-blue-950 font-bold">{movie.title}</h1>
           <p className="text-gray-400">{movie.year}</p>
 
           <p className="mt-4 text-black leading-relaxed">
