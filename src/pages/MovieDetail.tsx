@@ -99,7 +99,7 @@ const nextEpisode =
         {/* 🖼 IMAGEN */}
         <img
           src={movie.thumbnail}
-          className="w-64 h-80 object-cover rounded-xl"
+          className="w-64 h-90 object-cover rounded-xl"
         />
 
         {/* 📝 INFO */}
@@ -110,6 +110,15 @@ const nextEpisode =
           <p className="mt-4 text-black leading-relaxed">
             {movie.description}
           </p>
+          {movie.trailer && (
+            <div className="mt-6">
+              <h3 className="text-black font-semibold mb-2">Trailer Oficial</h3>
+
+              <div className="max-w-md">
+                <VideoPlayer file={movie.trailer} />
+              </div>
+            </div>
+          )}
         </div>
       </div>
 

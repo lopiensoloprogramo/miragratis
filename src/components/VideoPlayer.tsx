@@ -4,9 +4,12 @@ export default function VideoPlayer({ file }: { file: string }) {
   const [videoUrl, setVideoUrl] = useState("");
   const [loading, setLoading] = useState(true);
 
-  // 🔥 detectar si es Drive
+  // 🔥 detectar tipos
   const isDrive = file?.startsWith("drive:");
   const driveId = isDrive ? file.replace("drive:", "") : null;
+
+  const isYoutube = file?.startsWith("youtube:");
+  const youtubeId = isYoutube ? file.replace("youtube:", "") : null;
 
   const getVideoUrl = async (file: string) => {
     try {
@@ -28,13 +31,12 @@ export default function VideoPlayer({ file }: { file: string }) {
       return;
     }
 
-    // 🔥 SI ES DRIVE → NO LLAMAR API
-    if (isDrive) {
+    // 🔥 SI ES DRIVE o YOUTUBE → NO LLAMAR API
+    if (isDrive || isYoutube) {
       setLoading(false);
       return;
     }
 
-    // 🔥 SI ES VIDEO NORMAL
     const load = async () => {
       setLoading(true);
       const url = await getVideoUrl(file);
@@ -46,7 +48,18 @@ export default function VideoPlayer({ file }: { file: string }) {
   }, [file]);
 
   return (
-    <div className="w-full aspect-[16/8] bg-black rounded-lg overflow-hidden relative">
+    <div className="w-full aspect-[16/9] bg-black rounded-lg overflow-hidden relative">
+
+      {/* 🎬 YOUTUBE */}
+      {isYoutube && youtubeId && (
+        <iframe
+          key={youtubeId}
+          src={`https://www.youtube.com/embed/${youtubeId}`}
+          className="w-full h-full"
+          allow="autoplay; encrypted-media"
+          allowFullScreen
+        />
+      )}
 
       {/* 🎬 DRIVE */}
       {isDrive && driveId && (
@@ -60,7 +73,7 @@ export default function VideoPlayer({ file }: { file: string }) {
       )}
 
       {/* 🎬 BUNNY / MP4 */}
-      {!isDrive && videoUrl && (
+      {!isDrive && !isYoutube && videoUrl && (
         <video
           key={videoUrl}
           controls
@@ -72,7 +85,7 @@ export default function VideoPlayer({ file }: { file: string }) {
       )}
 
       {/* ❌ ERROR */}
-      {!loading && !isDrive && !videoUrl && (
+      {!loading && !isDrive && !isYoutube && !videoUrl && (
         <div className="absolute inset-0 flex items-center justify-center text-white">
           Video no disponible
         </div>
@@ -81,7 +94,7 @@ export default function VideoPlayer({ file }: { file: string }) {
       {/* 🔥 LOADER */}
       {loading && (
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="w-12 h-12 border-4 border-gray-600 border-t-white rounded-full animate-spin"></div>
+          <div className="w-10 h-10 border-4 border-gray-600 border-t-white rounded-full animate-spin"></div>
         </div>
       )}
     </div>
