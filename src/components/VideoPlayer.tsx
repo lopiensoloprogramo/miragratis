@@ -51,6 +51,7 @@ export default function VideoPlayer({ file }: { file: string }) {
       {/* 🎬 DRIVE */}
       {isDrive && driveId && (
         <iframe
+          key={driveId}
           src={`https://drive.google.com/file/d/${driveId}/preview`}
           className="w-full h-full"
           allow="autoplay"
@@ -61,6 +62,7 @@ export default function VideoPlayer({ file }: { file: string }) {
       {/* 🎬 BUNNY / MP4 */}
       {!isDrive && videoUrl && (
         <video
+          key={videoUrl}
           controls
           autoPlay
           className="w-full h-full"

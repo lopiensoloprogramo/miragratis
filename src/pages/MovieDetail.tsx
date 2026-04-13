@@ -11,6 +11,20 @@ export default function MovieDetail() {
 
   const [selectedEpisode, setSelectedEpisode] = useState<any>(null);
   const [openSeason, setOpenSeason] = useState<number | null>(1);
+// 🔥 todos los episodios en una sola lista
+const allEpisodes = movie.seasons.flatMap((s) => s.episodes);
+
+// 🔥 índice del episodio actual
+const currentIndex = allEpisodes.findIndex(
+  (ep) => ep.file === selectedEpisode?.file
+);
+
+// 🔥 anterior y siguiente
+const prevEpisode = currentIndex > 0 ? allEpisodes[currentIndex - 1] : null;
+const nextEpisode =
+  currentIndex < allEpisodes.length - 1
+    ? allEpisodes[currentIndex + 1]
+    : null;
 
   // 🔥 referencia al player
   const playerRef = useRef<HTMLDivElement>(null);
@@ -22,6 +36,55 @@ export default function MovieDetail() {
       {selectedEpisode && (
        <div ref={playerRef} className="scroll-mt-20 mb-12">
           <VideoPlayer file={selectedEpisode.file} />
+          {/* ⏮️⏭️ BOTONES */}
+<div className="flex justify-between mt-4">
+  
+  {/* ANTERIOR */}
+  <button
+    disabled={!prevEpisode}
+    onClick={() => {
+      if (!prevEpisode) return;
+      setSelectedEpisode(prevEpisode);
+
+      setTimeout(() => {
+        playerRef.current?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      }, 100);
+    }}
+    className={`px-4 py-2 rounded ${
+      prevEpisode ? "bg-gray-800 hover:bg-gray-700" : "bg-gray-700 opacity-50"
+    }`}
+  >
+    ⏮️ Anterior
+  </button>
+
+<h2 className="text-gray-500">
+  Episodio {currentIndex + 1} de {allEpisodes.length}
+</h2>
+
+  {/* SIGUIENTE */}
+  <button
+    disabled={!nextEpisode}
+    onClick={() => {
+      if (!nextEpisode) return;
+      setSelectedEpisode(nextEpisode);
+
+      setTimeout(() => {
+        playerRef.current?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      }, 100);
+    }}
+    className={`px-4 py-2 rounded ${
+      nextEpisode ? "bg-gray-800 hover:bg-gray-700" : "bg-gray-700 opacity-50"
+    }`}
+  >
+    Siguiente ⏭️
+  </button>
+</div>
         </div>
       )}
 
