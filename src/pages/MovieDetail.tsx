@@ -11,19 +11,24 @@ export default function MovieDetail() {
 
   const [selectedEpisode, setSelectedEpisode] = useState<any>(null);
   const [openSeason, setOpenSeason] = useState<number | null>(1);
-// 🔥 todos los episodios en una sola lista
-const allEpisodes = movie.seasons.flatMap((s) => s.episodes);
+  //episodios por temporada
+const currentSeason = movie.seasons.find((s) =>
+  s.episodes.some((ep) => ep.file === selectedEpisode?.file)
+);
+const seasonEpisodes = currentSeason?.episodes || [];
 
-// 🔥 índice del episodio actual
-const currentIndex = allEpisodes.findIndex(
+// 🔥 índice del episodio actual por temporada
+const currentIndex = seasonEpisodes.findIndex(
   (ep) => ep.file === selectedEpisode?.file
 );
 
 // 🔥 anterior y siguiente
-const prevEpisode = currentIndex > 0 ? allEpisodes[currentIndex - 1] : null;
+const prevEpisode =
+  currentIndex > 0 ? seasonEpisodes[currentIndex - 1] : null;
+
 const nextEpisode =
-  currentIndex < allEpisodes.length - 1
-    ? allEpisodes[currentIndex + 1]
+  currentIndex < seasonEpisodes.length - 1
+    ? seasonEpisodes[currentIndex + 1]
     : null;
 
   // 🔥 referencia al player
@@ -61,7 +66,7 @@ const nextEpisode =
   </button>
 
 <h2 className="text-gray-500">
-  Episodio {currentIndex + 1} de {allEpisodes.length}
+  Episodio {currentIndex + 1} de {seasonEpisodes.length}
 </h2>
 
   {/* SIGUIENTE */}
