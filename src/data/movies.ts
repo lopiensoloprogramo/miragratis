@@ -72,6 +72,17 @@ export const movies: Movie[] = [
     thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLXBJmKpB4BFuS0O9UmAoMTydf5cwilYQZHA&s",
     genre: "Acción-Aventura-Ciencia Ficción",
     seasons: [
+              {
+              seasonNumber: 1,
+        episodes: [
+         
+                 {
+            title: "Episodio 2",
+            file: "drive:1ZD537ASlPUgVqqH8L7Xhgg0JQW6uCQLa",
+          },
+        
+        ],
+      },
       {
               seasonNumber: 4,
         episodes: [
