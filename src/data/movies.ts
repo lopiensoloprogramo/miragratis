@@ -134,7 +134,7 @@ export const movies: Movie[] = [
           },
           {
             title: "Episodio 8",
-            file:"drive:1q51jH4hM1w8B5_flvaMpc4XtOiqlPw_8/"
+             file:"drive:1q51jH4hM1w8B5_flvaMpc4XtOiqlPw_8"
           }
         ],
       },
@@ -205,11 +205,11 @@ export const movies: Movie[] = [
     genre: "Drama,HBO,Series",
     seasons: [
       {
-        seasonNumber: 2,
+        seasonNumber: 1,
         episodes: [
           {
             title: "Episodio 1",
-            file: "migratisInvencible S1 E1.mp4",
+            file: "drive:1YMp3vN09gDlRoGBkisG4t8HWqm4biota",
           },
           {
             title: "Episodio 2",
