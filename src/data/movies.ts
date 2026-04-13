@@ -75,10 +75,10 @@ export const movies: Movie[] = [
               {
               seasonNumber: 1,
         episodes: [
-     
+       
                  {
             title: "Episodio 2",
-            file: "drive:1ZD537ASlPUgVqqH8L7Xhgg0JQW6uCQLa",
+            file: "drive:1PNm56sKAi91m2f4t0RP1p_00ESdiw3Vk",
           },
                     {
             title: "Episodio 3",
