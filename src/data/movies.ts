@@ -75,12 +75,15 @@ export const movies: Movie[] = [
               {
               seasonNumber: 1,
         episodes: [
-         
+     
                  {
             title: "Episodio 2",
             file: "drive:1ZD537ASlPUgVqqH8L7Xhgg0JQW6uCQLa",
           },
-        
+                    {
+            title: "Episodio 3",
+            file: "drive:12gyuA0MxJQ6K74s0PBPWKdNC_eTk20DR",
+          },     
         ],
       },
       {
@@ -97,7 +100,7 @@ export const movies: Movie[] = [
                               {
             title: "Episodio 3",
             file: "drive:1uqrSLEA5miVaOQH42bx5TDFaJWJvv7Ff",
-          },
+          }, 
           {
             title: "Episodio 4",
             file: "drive:1GVMDSiQJ3vShdPAwAr0KxL3Rn64ocG-Q",
