@@ -22,9 +22,10 @@ export default function Navbar() {
     >
       {/* Logo */}
       <Link to="/">
-        <h1 className="text-2xl font-bold text-red-600 cursor-pointer">
+        <h1 className="text-3xl font-bold text-red-600 cursor-pointer">
           MiraGratis
         </h1>
+        <span className="text-xs text-gray-700"> Series y Pélículas gratis.</span>
       </Link>
 
       {/* Opciones */}
