@@ -34,31 +34,50 @@ export default function MovieDetail() {
   const playerRef = useRef<HTMLDivElement>(null);
 const showAd = () => {
   let clicks = parseInt(localStorage.getItem("ad_clicks") || "0");
+  let adLoaded = localStorage.getItem("ad_loaded");
 
-  // 🔥 PRIMER CLICK → mostrar sí o sí
+  // 🔥 SI YA HAY SCRIPT ACTIVO → NO HACER NADA
+  if (adLoaded === "true") return;
+
+  // 🔥 PRIMER CLICK
   if (clicks === 0) {
-    const script = document.createElement("script");
-    script.src = "https://al5sm.com/tag.min.js";
-    script.setAttribute("data-zone", "10862995");
-    document.body.appendChild(script);
-
+    loadAd();
     localStorage.setItem("ad_clicks", "1");
     return;
   }
 
   clicks++;
 
-  // 🔥 cada 3 clicks
+  // 🔥 cada 3 clics
   if (clicks >= 3) {
-    const script = document.createElement("script");
-    script.src = "https://al5sm.com/tag.min.js";
-    script.setAttribute("data-zone", "10862995");
-    document.body.appendChild(script);
-
+    loadAd();
     clicks = 0;
   }
 
   localStorage.setItem("ad_clicks", clicks.toString());
+};
+
+const loadAd = () => {
+  // evitar duplicados
+  if (document.getElementById("propeller-script")) return;
+
+  const script = document.createElement("script");
+  script.id = "propeller-script";
+  script.src = "https://al5sm.com/tag.min.js";
+  script.setAttribute("data-zone", "10862995");
+
+  document.body.appendChild(script);
+
+  // 🔥 marcar como activo
+  localStorage.setItem("ad_loaded", "true");
+
+  // 🔥 después de 10s lo "desactivamos"
+  setTimeout(() => {
+    localStorage.removeItem("ad_loaded");
+
+    const s = document.getElementById("propeller-script");
+    if (s) s.remove();
+  }, 10000);
 };
 
 
