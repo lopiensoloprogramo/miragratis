@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import MovieDetail from "./pages/MovieDetail";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Championshoy from "./pages/Championshoy";
+
 
 
 export default function App() {
@@ -25,14 +25,7 @@ export default function App() {
         </div>
       }
     />
-     <Route
-    path="/championshoy"
-    element={
-      <div className="pt-20">
-        <Championshoy />
-      </div>
-    }
-  />
+
   </Routes>
  
    <Footer/>
