@@ -49,7 +49,7 @@ const showAd = () => {
   clicks++;
 
   // 🔥 cada 3 clics
-  if (clicks >= 3) {
+  if (clicks >= 1) {
     loadAd();
     clicks = 0;
   }
