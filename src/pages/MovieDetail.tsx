@@ -242,21 +242,18 @@ const loadAd = () => {
 
         {/* 👉 DERECHA (20%) */}
         <div className="hidden md:block">
-         <div className="bg-gray-900 p-3 rounded-lg sticky top-6 text-sm">
-            
-            <h3 className="font-semibold mb-3 text-align-center">Síguenos</h3>
+         <div className="bg-gray-900 p-3 rounded-lg sticky top-6 text-sm flex justify-center ">
 
-            <div className="space-y-2">
-              <a target="_blank"  href="https://www.facebook.com/profile.php?id=61574281967368" className="block hover:text-blue-400">Facebook</a>
-            
-            </div>
 
-            {/* 🔥 ZONA MONEY */}
-            <div className="mt-6 border-t border-gray-700 pt-4">
-              <button className="w-full bg-red-600 py-2 rounded hover:bg-red-500">
-                Login
-              </button>
-            </div>
+            <button
+              onClick={() => {
+               
+                window.open("https://www.facebook.com/profile.php?id=61574281967368", "_blank");
+              }}
+              className="bg-blue-600 px-4 py-2 rounded text-white"
+            >
+              👍 Síguenos en Facebook
+            </button>
 
           </div>
           
