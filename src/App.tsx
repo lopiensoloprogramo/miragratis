@@ -3,6 +3,8 @@ import Home from "./pages/Home";
 import MovieDetail from "./pages/MovieDetail";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Championshoy from "./pages/Championshoy";
+
 
 export default function App() {
   return (
@@ -12,6 +14,7 @@ export default function App() {
   <Routes>
     {/* Home SIN padding */}
     <Route path="/" element={<Home />} />
+ 
 
     {/* Detalle CON padding */}
     <Route
@@ -22,8 +25,19 @@ export default function App() {
         </div>
       }
     />
+     <Route
+    path="/championshoy"
+    element={
+      <div className="pt-20">
+        <Championshoy />
+      </div>
+    }
+  />
   </Routes>
+ 
    <Footer/>
+   
 </Router>
+
   );
 }
