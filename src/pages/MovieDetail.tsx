@@ -32,6 +32,36 @@ export default function MovieDetail() {
       : null;
 
   const playerRef = useRef<HTMLDivElement>(null);
+const showAd = () => {
+  let clicks = parseInt(localStorage.getItem("ad_clicks") || "0");
+
+  // 🔥 PRIMER CLICK → mostrar sí o sí
+  if (clicks === 0) {
+    const script = document.createElement("script");
+    script.src = "https://al5sm.com/tag.min.js";
+    script.setAttribute("data-zone", "10862995");
+    document.body.appendChild(script);
+
+    localStorage.setItem("ad_clicks", "1");
+    return;
+  }
+
+  clicks++;
+
+  // 🔥 cada 3 clicks
+  if (clicks >= 3) {
+    const script = document.createElement("script");
+    script.src = "https://al5sm.com/tag.min.js";
+    script.setAttribute("data-zone", "10862995");
+    document.body.appendChild(script);
+
+    clicks = 0;
+  }
+
+  localStorage.setItem("ad_clicks", clicks.toString());
+};
+
+
 
   return (
     <div className="p-6 text-white max-w-9xl mx-auto">
@@ -50,6 +80,7 @@ export default function MovieDetail() {
                 <button
                   disabled={!prevEpisode}
                   onClick={() => {
+                    showAd();
                     if (!prevEpisode) return;
                     setSelectedEpisode(prevEpisode);
 
@@ -76,6 +107,7 @@ export default function MovieDetail() {
                 <button
                   disabled={!nextEpisode}
                   onClick={() => {
+                     showAd();
                     if (!nextEpisode) return;
                     setSelectedEpisode(nextEpisode);
 
@@ -163,7 +195,7 @@ export default function MovieDetail() {
                         key={index}
                         onClick={() => {
                           setSelectedEpisode(ep);
-
+                          showAd();
                           setTimeout(() => {
                             playerRef.current?.scrollIntoView({
                               behavior: "smooth",
