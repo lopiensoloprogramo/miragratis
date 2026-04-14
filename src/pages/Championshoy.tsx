@@ -2,11 +2,54 @@ import { useState } from "react";
 
 export default function Live() {
   const [eventIndex, setEventIndex] = useState(0);
+  
+  const loadAd = () => {
+  // evitar duplicados
+  if (document.getElementById("propeller-script")) return;
 
-  const showAd = () => {
-    console.log("💰 anuncio");
-  };
+  const script = document.createElement("script");
+  script.id = "propeller-script";
+  script.src = "https://al5sm.com/tag.min.js";
+  script.setAttribute("data-zone", "10862995");
 
+  document.body.appendChild(script);
+
+  // 🔥 marcar como activo
+  localStorage.setItem("ad_loaded", "true");
+
+  // 🔥 después de 10s lo "desactivamos"
+  setTimeout(() => {
+    localStorage.removeItem("ad_loaded");
+
+    const s = document.getElementById("propeller-script");
+    if (s) s.remove();
+  }, 10000);
+};
+
+const showAd = () => {
+  let clicks = parseInt(localStorage.getItem("ad_clicks") || "0");
+  let adLoaded = localStorage.getItem("ad_loaded");
+
+  // 🔥 SI YA HAY SCRIPT ACTIVO → NO HACER NADA
+  if (adLoaded === "true") return;
+
+  // 🔥 PRIMER CLICK
+  if (clicks === 0) {
+    loadAd();
+    localStorage.setItem("ad_clicks", "1");
+    return;
+  }
+
+  clicks++;
+
+  // 🔥 cada 3 clics
+  if (clicks >= 3) {
+    loadAd();
+    clicks = 0;
+  }
+
+  localStorage.setItem("ad_clicks", clicks.toString());
+};
   // 🔥 EVENTOS
   const events = [
     {
