@@ -38,6 +38,10 @@ export const movies: Movie[] = [
             title: "Episodio 6",
             file: "Miragratisinvencibles4latino6.mp4",
           },
+                                                       {
+            title: "Episodio 7",
+            file: "drive:1iJ3hxPfTj-_YpLsdOcFp1vSuEsBRrBJ7",
+          },
         ],
       },
     ],
