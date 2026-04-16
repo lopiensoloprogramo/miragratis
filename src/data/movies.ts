@@ -17,6 +17,10 @@ export const movies: Movie[] = [
             title: "Episodio 1",
             file: "drive:1GtvyMXpIEeW1VQPViLUBzLPOMliTabGP",
           },
+          {
+            title: "Episodio 2",
+            file: "drive:",
+          },
     
         ],
       },
@@ -116,14 +120,18 @@ export const movies: Movie[] = [
             title: "Episodio 5",
             file: "drive:1WdqkjPZiyDqRxeGsyWWZX4eAKTwy7jY0",
           },     
-                                                  {
+                   {
             title: "Episodio 6",
             file: "drive:12d6bTbETUZexjWVcuOXVBwy5JwnC1Mrf",
           },   
-                                                            {
+                   {
             title: "Episodio 7",
             file: "drive:1MvyWmK9Gr-R_D18UlsCd9xfkI-ffrgON",
           },   
+                   {
+            title: "Episodio 8",
+            file: "drive:1St3pUPcyorLFRUXmGXCoidkqED8_EUW0",
+          }, 
         ],
       },
       {
