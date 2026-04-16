@@ -66,6 +66,10 @@ export const movies: Movie[] = [
             title: "Episodio 2",
             file: "Thbyss05e02.mp4",
           },
+                  {
+            title: "Episodio 3",
+            file: "drive:1apXfF940Ga7xrBTFlLV2aU3rqc6SPwX3",
+          },
         ],
       },
     ],
@@ -106,6 +110,10 @@ export const movies: Movie[] = [
                                                   {
             title: "Episodio 6",
             file: "drive:12d6bTbETUZexjWVcuOXVBwy5JwnC1Mrf",
+          },   
+                                                            {
+            title: "Episodio 7",
+            file: "drive:1MvyWmK9Gr-R_D18UlsCd9xfkI-ffrgON",
           },   
         ],
       },
