@@ -10,7 +10,7 @@ export default function Home() {
       <HeroBanner movie={movies[0]} />
 
      <div className="px-6 pb-6 pt-2">
-        <MovieRow title="Accion" movies={movies} />
+        <MovieRow title="Series" movies={movies} />
         <MovieRow title="Recomendadas" movies={movies} />
       </div>
 

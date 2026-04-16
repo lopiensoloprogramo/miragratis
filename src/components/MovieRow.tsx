@@ -14,41 +14,56 @@ export default function MovieRow({
   const scroll = (dir: "left" | "right") => {
     if (!rowRef.current) return;
 
+    const scrollAmount = rowRef.current.clientWidth;
+
     rowRef.current.scrollBy({
-      left: dir === "left" ? -300 : 300,
+      left: dir === "left" ? -scrollAmount : scrollAmount,
       behavior: "smooth",
     });
   };
 
   return (
-    <div className="mb-4">
-      <h2 className="text-xl mb-2 font-semibold">{title}</h2>
+    <div className="mb-6">
+      <h2 className="text-xl mb-3 font-semibold">{title}</h2>
 
       <div className="relative">
-        {/* botón izquierda */}
+        {/* Gradientes laterales (opcional pero pro) */}
+        <div className="hidden md:block absolute left-0 top-0 bottom-0 w-12 bg-gradient-to-r from-black to-transparent z-10 pointer-events-none" />
+        <div className="hidden md:block absolute right-0 top-0 bottom-0 w-12 bg-gradient-to-l from-black to-transparent z-10 pointer-events-none" />
+
+        {/* Botón izquierda (solo desktop) */}
         <button
           onClick={() => scroll("left")}
-          className="absolute left-0 top-0 bottom-0 z-10 bg-black/50 px-3 opacity-0 group-hover:opacity-100"
+          className="hidden md:flex items-center justify-center absolute left-0 top-0 bottom-0 z-20 bg-black/50 px-4 opacity-70 hover:opacity-100 transition"
         >
           ◀
         </button>
 
-        {/* carrusel */}
+        {/* Carrusel */}
         <div
           ref={rowRef}
-          className="flex gap-4 overflow-x-scroll scrollbar-hide"
+          className="
+            flex gap-4 
+            overflow-x-auto scrollbar-hide 
+            scroll-smooth
+            snap-x snap-mandatory
+            md:overflow-x-hidden
+          "
         >
           {movies.map((movie) => (
-            <div key={movie.id} className="min-w-[180px]">
+            <div
+              key={movie.id}
+              className="min-w-[180px] snap-start"
+            >
               <MovieCard movie={movie} />
             </div>
           ))}
         </div>
 
-        {/* botón derecha */}
+        {/* Botón derecha (solo desktop) */}
         <button
           onClick={() => scroll("right")}
-          className="absolute right-0 top-0 bottom-0 z-10 bg-black/50 px-3 opacity-0 group-hover:opacity-100"
+          className="hidden md:flex items-center justify-center absolute right-0 top-0 bottom-0 z-20 bg-black/50 px-4 opacity-70 hover:opacity-100 transition"
         >
           ▶
         </button>
