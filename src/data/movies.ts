@@ -303,4 +303,38 @@ export const movies: Movie[] = [
 
     ],
   },
+      {
+    id: "7",
+    title: "The Last of Us",
+    year: 2023,
+    description: "Veinte años después de que una pandemia acabase con casi toda la población mundial, las ciudades han sido abandonadas y la naturaleza ha ocupado su lugar. Los humanos infectados se han convertido en horripilantes monstruos que vagan sin control y los supervivientes se matan por comida y protección. Joel, cuyas circunstancias personales le han convertido en un violento superviviente, es contratado para sacar de una zona militar de cuarentena a Ellie, una chica de 14 años que es la única esperanza para la humanidad. Esta simple tarea se transformará en un brutal viaje a través de Estados Unidos.",
+    trailer:"youtube:HjmsvEZtjtg",
+    thumbnail: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSm6oVhnKDiwQi22bLIDhYLh_b3TaSPfjGnG0PH9fu_rUpZw7gK",
+    genre: "Acción,Aventura,C. Ficción,Drama",
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+
+          {
+            title: "Episodio 1",
+            file: "drive:1Ao2EofoROuB9SgWM-6pfpiUqb8dJ_ZqP",
+          },
+          {
+            title: "Episodio 2",
+            file: "drive:1zjJwWjIxQRAbYS-jpRwf8s4x97etYKmf",
+          },
+                    {
+            title: "Episodio 3",
+            file: "drive:1gIMUGsOOAd3IibE2OvEPQ3C3g5P9yI9N",
+          },
+                    {
+            title: "Episodio 4",
+            file: "drive:1uwhdBOyma0B-V2Ae21ibVrQKlW5882YU",
+          },
+        ],
+      },
+
+    ],
+  },
 ];
