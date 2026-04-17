@@ -13,7 +13,7 @@ export default function Home() {
      <div className="px-6 pb-6 pt-2">
         <MovieRow title="Recomendadas" items={series} />
         <MovieRow title="Series" items={series} />
-        <MovieRow title="Peliculas" items={movies}/>
+        <MovieRow title="Películas" items={movies}/>
       </div>
 
        
