@@ -43,8 +43,8 @@ export default function SerieDetail() {
 
           {/* 🎬 PLAYER */}
           {selectedEpisode && (
-            <div ref={playerRef}>
-              <VideoPlayer item={selectedEpisode.file} />
+            <div ref={playerRef}  className="scroll-mt-24">
+              <VideoPlayer item={selectedEpisode.file}  />
             </div>
           )}
 
