@@ -21,7 +21,10 @@ export const movies: Movie[] = [
             title: "Episodio 2",
             file: "drive:1VHv_e612q0NUTSFJTCD6FV2v_1QJzyRV",
           },
-    
+            {
+            title: "Episodio 3",
+            file: "drive:1pv4GIk02Y2Kjb_JnpPEpNDwLfYasNXFK",
+          },  
         ],
       },
       {
