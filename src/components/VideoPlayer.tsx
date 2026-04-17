@@ -65,7 +65,7 @@ export default function VideoPlayer({ item }: { item: string }) {
       {isDrive && driveId && (
         <iframe
           key={driveId}
-          src={`https://drive.google.com/item/d/${driveId}/preview`}
+          src={`https://drive.google.com/file/d/${driveId}/preview`}
           className="w-full h-full"
           allow="autoplay"
           allowFullScreen
