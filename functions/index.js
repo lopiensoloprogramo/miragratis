@@ -33,14 +33,14 @@ function generateBunnyToken(path, expirationTime = 120) {
 exports.getVideoUrl = functions.https.onRequest((req, res) => {
   res.set("Access-Control-Allow-Origin", "*");
 
-  const file = req.query.file;
+  const item = req.query.item;
 
-  if (!file) {
-    return res.status(400).json({ error: "Missing file param" });
+  if (!item) {
+    return res.status(400).json({ error: "Missing item param" });
   }
 
   try {
-    const result = generateBunnyToken(file);
+    const result = generateBunnyToken(item);
     res.json(result);
   } catch (error) {
     console.error(error);

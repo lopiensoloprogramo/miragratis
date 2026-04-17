@@ -1,13 +1,14 @@
 import { useRef } from "react";
+import type { Serie } from "../types/Serie";
 import type { Movie } from "../types/Movie";
 import MovieCard from "../components/MovieCard";
 
 export default function MovieRow({
   title,
-  movies,
+  items,
 }: {
   title: string;
-  movies: Movie[];
+  items: (Movie | Serie)[];
 }) {
   const rowRef = useRef<HTMLDivElement>(null);
 
@@ -50,12 +51,9 @@ export default function MovieRow({
             md:overflow-x-hidden
           "
         >
-          {movies.map((movie) => (
-            <div
-              key={movie.id}
-              className="min-w-[180px] snap-start"
-            >
-              <MovieCard movie={movie} />
+          {items.map((item) => (
+            <div key={item.id} className="min-w-[180px] snap-start">
+              <MovieCard item={item} />
             </div>
           ))}
         </div>

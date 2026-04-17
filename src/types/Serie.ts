@@ -1,10 +1,14 @@
-export interface Opcion {
+export interface Episode {
   title: string;
   file: string;
 }
 
+export interface Season {
+  seasonNumber: number;
+  episodes: Episode[];
+}
 
-export interface Movie{
+export interface Serie {
   id: string;
   title: string;
   year: number;
@@ -12,5 +16,5 @@ export interface Movie{
   trailer: string;
   thumbnail: string;
   genre: string;
-  opcion:Opcion[]
+  seasons: Season[];
 }

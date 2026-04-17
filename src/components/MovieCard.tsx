@@ -1,9 +1,22 @@
+import type { Serie } from "../types/Serie";
 import type { Movie } from "../types/Movie";
 import { Link } from "react-router-dom";
 
-export default function MovieCard({ movie }: { movie: Movie }) {
+export default function MovieCard({
+  item,
+}: {
+  item: Movie | Serie;
+}) {
+  // Detectar tipo automáticamente
+  const isSerie = "seasons" in item; // o cualquier campo exclusivo de Serie
+
+  const link = isSerie ? `/serie/${item.id}` : `/movie/${item.id}`;
+  const image = item.thumbnail; // asumiendo que ambos lo tienen
+  const title = item.title;
+  const year = item.year;
+
   return (
-    <Link to={`/movie/${movie.id}`}>
+    <Link to={link}>
       <div className="group cursor-pointer">
         
         {/* Contenedor con zoom */}
@@ -11,8 +24,8 @@ export default function MovieCard({ movie }: { movie: Movie }) {
           
           {/* Imagen */}
           <img
-            src={movie.thumbnail}
-            alt={movie.title}
+            src={image}
+            alt={title}
             className="w-full h-56 object-cover"
           />
 
@@ -20,11 +33,11 @@ export default function MovieCard({ movie }: { movie: Movie }) {
           <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition duration-300 flex flex-col justify-end p-3">
             
             <h2 className="opacity-0 group-hover:opacity-100 text-sm font-semibold transition">
-              {movie.title}
+              {title}
             </h2>
 
             <p className="opacity-0 group-hover:opacity-100 text-xs text-gray-300 transition">
-              {movie.year}
+              {year}
             </p>
 
           </div>

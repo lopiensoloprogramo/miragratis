@@ -1,20 +1,20 @@
 import { useState, useEffect } from "react";
 
-export default function VideoPlayer({ file }: { file: string }) {
+export default function VideoPlayer({ item }: { item: string }) {
   const [videoUrl, setVideoUrl] = useState("");
   const [loading, setLoading] = useState(true);
 
   // 🔥 detectar tipos
-  const isDrive = file?.startsWith("drive:");
-  const driveId = isDrive ? file.replace("drive:", "") : null;
+  const isDrive = item?.startsWith("drive:");
+  const driveId = isDrive ? item.replace("drive:", "") : null;
 
-  const isYoutube = file?.startsWith("youtube:");
-  const youtubeId = isYoutube ? file.replace("youtube:", "") : null;
+  const isYoutube = item?.startsWith("youtube:");
+  const youtubeId = isYoutube ? item.replace("youtube:", "") : null;
 
-  const getVideoUrl = async (file: string) => {
+  const getVideoUrl = async (item: string) => {
     try {
       const res = await fetch(
-        `https://us-central1-miragratis.cloudfunctions.net/getVideoUrl?file=${encodeURIComponent(file)}`
+        `https://us-central1-miragratis.cloudfunctions.net/getVideoUrl?item=${encodeURIComponent(item)}`
       );
 
       const data = await res.json();
@@ -26,7 +26,7 @@ export default function VideoPlayer({ file }: { file: string }) {
   };
 
   useEffect(() => {
-    if (!file) {
+    if (!item) {
       setLoading(false);
       return;
     }
@@ -39,13 +39,13 @@ export default function VideoPlayer({ file }: { file: string }) {
 
     const load = async () => {
       setLoading(true);
-      const url = await getVideoUrl(file);
+      const url = await getVideoUrl(item);
       setVideoUrl(url);
       setLoading(false);
     };
 
     load();
-  }, [file]);
+  }, [item]);
 
   return (
     <div className="w-full aspect-[16/8] bg-black rounded-lg overflow-hidden relative">
@@ -65,7 +65,7 @@ export default function VideoPlayer({ file }: { file: string }) {
       {isDrive && driveId && (
         <iframe
           key={driveId}
-          src={`https://drive.google.com/file/d/${driveId}/preview`}
+          src={`https://drive.google.com/item/d/${driveId}/preview`}
           className="w-full h-full"
           allow="autoplay"
           allowFullScreen

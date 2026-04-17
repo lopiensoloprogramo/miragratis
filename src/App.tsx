@@ -18,13 +18,14 @@ export default function App() {
 
     {/* Detalle CON padding */}
     <Route
-      path="/movie/:id"
+      path="/serie/:id"
       element={
         <div className="pt-20">
           <MovieDetail />
         </div>
       }
     />
+
 
   </Routes>
  
