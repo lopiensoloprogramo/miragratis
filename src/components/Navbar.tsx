@@ -16,8 +16,7 @@ export default function Navbar() {
 
   return (
     <div
-      className={`fixed top-0 w-full z-50 px-6 py-4 flex justify-between items-center transition-all duration-300 ${
-        scrolled ? "bg-black shadow-md" : "bg-gradient-to-b from-black to-transparent"
+className={`fixed top-0 w-full z-50 px-6 py-4 flex justify-between items-center transition-all duration-300 h-16 ${        scrolled ? "bg-black shadow-md" : "bg-gradient-to-b from-black to-transparent"
       }`}
     >
       {/* Logo */}

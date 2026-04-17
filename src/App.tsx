@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import MovieDetail from "./pages/MovieDetail";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-
+import SerieDetail from "./pages/SeriesDetail";
 
 
 export default function App() {
@@ -16,15 +16,19 @@ export default function App() {
     <Route path="/" element={<Home />} />
  
 
+
+
+   <Route path="/serie/:id" element={<SerieDetail />} />
     {/* Detalle CON padding */}
     <Route
-      path="/serie/:id"
+      path="/movie/:id"
       element={
         <div className="pt-20">
           <MovieDetail />
         </div>
       }
     />
+ 
 
 
   </Routes>
