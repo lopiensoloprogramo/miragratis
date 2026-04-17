@@ -18,7 +18,14 @@ export default function App() {
 
 
 
-   <Route path="/serie/:id" element={<SerieDetail />} />
+   <Route path="/serie/:id" element={
+    <div className="pt-20">
+   <SerieDetail />
+    </div>
+ 
+    
+    
+    } />
     {/* Detalle CON padding */}
     <Route
       path="/movie/:id"
