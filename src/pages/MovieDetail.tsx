@@ -80,7 +80,7 @@ export default function MovieDetail() {
                 </h3>
 
                 {!selectedOption && (
-                  <span className="text-sm text-black">
+                  <span className="text-sm text-black-800">
                     Selecciona un servidor
                   </span>
                 )}
