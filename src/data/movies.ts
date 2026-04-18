@@ -40,6 +40,30 @@ export const movies: Movie[] = [
             file: "drive:1rqVwXyzXkwiipKbmRtlPzW1qprZpiiqf",
           
           },
+          
+ 
+        ],
+},
+ {
+    id: "3",
+    title: "Terror en Silent Hill: Regreso al infierno",
+    year: 2026,
+    description: "Cuando James recibe una misteriosa carta de Mary, su amor perdido, se siente atraído por Silent Hill, un pueblo que antes le era familiar y ahora está sumido en la oscuridad.",
+    trailer:"youtube:RzzTn93ffZw",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/1a4b28e2b442424ced20ba09187aac3c_hd.webp",
+    genre: "Drama,Misterio,Terror",
+
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1cI5orUV921zs6o-nMFWn5U4kFa_Ct76H",
+          },
+          {
+            title: "Opcion 2",
+            file: "drive:1cI5orUV921zs6o-nMFWn5U4kFa_Ct76H",
+          
+          },
+          
  
         ],
 },
