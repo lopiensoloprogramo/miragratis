@@ -76,14 +76,10 @@ export default function MovieDetail() {
               {/* 👇 TEXTO NUEVO */}
               <div className="flex items-center justify-between">
                 <h3 className="text-lg font-semibold text-black">
-                    VER AHORA
+                   🎬 VER AHORA
                 </h3>
 
-                {!selectedOption && (
-                  <h2 className="text-sm text-black-800">
-                  🎬 Elige una opción para ver
-                  </h2>
-                )}
+             
               </div>
 
               {/* BOTONES */}
