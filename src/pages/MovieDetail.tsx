@@ -32,7 +32,7 @@ const showAd = () => {
    if (clicks === 0) { loadAd(); localStorage.setItem("ad_clicks", "1"); return; } clicks++; 
    // 🔥 cada 2 clics
    
-   if (clicks >= 2) { loadAd(); clicks = 0; } localStorage.setItem("ad_clicks", clicks.toString());
+   if (clicks >= 1) { loadAd(); clicks = 0; } localStorage.setItem("ad_clicks", clicks.toString());
    }; 
    
 // evitar duplicados// 
