@@ -22,28 +22,13 @@ export default function MovieDetail() {
   playerRef.current?.scrollIntoView({ behavior: "smooth" });
 
   };
-const showAd = () => {
-   let clicks = parseInt(localStorage.getItem("ad_clicks") || "0"); 
-   let adLoaded = localStorage.getItem("ad_loaded"); // 🔥 SI YA HAY SCRIPT ACTIVO → NO HACER NADA 
-   if (adLoaded === "true") return; 
-  
-   // // 🔥 PRIMER CLICK 
-  
-   if (clicks === 0) { loadAd(); localStorage.setItem("ad_clicks", "1"); return; } clicks++; 
-   // 🔥 cada 2 clics
-   
-   if (clicks >= 1) { loadAd(); clicks = 0; } localStorage.setItem("ad_clicks", clicks.toString());
-   }; 
-   
-// evitar duplicados// 
-const loadAd = () => { 
-     if (document.getElementById("propeller-script")) return; 
-     const script = document.createElement("script"); script.id = "propeller-script"; script.src = "https://al5sm.com/tag.min.js"; script.setAttribute("data-zone", "10862995"); document.body.appendChild(script); 
-     // 🔥 marcar como activo 
-     localStorage.setItem("ad_loaded", "true"); 
-     // 🔥 después de 10s lo "desactivamos" 
-     setTimeout(() => { localStorage.removeItem("ad_loaded"); const s = document.getElementById("propeller-script"); if (s) s.remove(); }, 10000); 
-    };
+
+
+  const openAddirecto = () => {
+  window.open("https://omg10.com/4/10893314", "_blank");
+};
+
+
 
   return (
     <div className="p-6 text-white max-w-9xl mx-auto">
@@ -107,7 +92,7 @@ const loadAd = () => {
                   <button
                     key={index}
                     onClick={() => {
-                      showAd()
+                      openAddirecto
                       setSelectedOption(op);
 
                       setTimeout(() => {
@@ -122,6 +107,7 @@ const loadAd = () => {
                   >
                     {op.title}
                   </button>
+                  
                 ))}
               </div>
             </div>

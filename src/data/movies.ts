@@ -14,6 +14,10 @@ export const movies: Movie[] = [
             title: "Opcion 1",
             file: "drive:1uMcWre_zrMNdknGIbmbifFDxfz0rdXR7",
           },
+          {
+            title: "Opcion 2",
+            file: "drive:1uMcWre_zrMNdknGIbmbifFDxfz0rdXR7",
+          },
  
         ],
 },

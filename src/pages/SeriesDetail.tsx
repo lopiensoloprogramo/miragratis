@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { series } from "../data/series";
 import VideoPlayer from "../components/VideoPlayer";
-import { useState, useRef } from "react";
+import { useState, useRef,useEffect } from "react";
 
 export default function SerieDetail() {
   const { id } = useParams();
@@ -34,28 +34,24 @@ export default function SerieDetail() {
       ? seasonEpisodes[currentIndex + 1]
       : null;
 
+ useEffect(() => {
+    // 🔥 evitar duplicados
+    if (document.getElementById("propeller-ad")) return;
 
-const showAd = () => {
-   let clicks = parseInt(localStorage.getItem("ad_clicks") || "0"); 
-   let adLoaded = localStorage.getItem("ad_loaded"); // 🔥 SI YA HAY SCRIPT ACTIVO → NO HACER NADA 
-   if (adLoaded === "true") return; 
-  
-   // // 🔥 PRIMER CLICK 
-  
-   if (clicks === 0) { loadAd(); localStorage.setItem("ad_clicks", "1"); return; } clicks++; 
-   // 🔥 cada 2 clics
-   
-   if (clicks >= 2) { loadAd(); clicks = 0; } localStorage.setItem("ad_clicks", clicks.toString());
-   }; 
-   
-    const loadAd = () => { // evitar duplicados// 
-     if (document.getElementById("propeller-script")) return; 
-     const script = document.createElement("script"); script.id = "propeller-script"; script.src = "https://al5sm.com/tag.min.js"; script.setAttribute("data-zone", "10862995"); document.body.appendChild(script); 
-     // 🔥 marcar como activo 
-     localStorage.setItem("ad_loaded", "true"); 
-     // 🔥 después de 10s lo "desactivamos" 
-     setTimeout(() => { localStorage.removeItem("ad_loaded"); const s = document.getElementById("propeller-script"); if (s) s.remove(); }, 10000); 
+    const script = document.createElement("script");
+    script.id = "propeller-ad";
+    script.src = "https://al5sm.com/tag.min.js";
+    script.dataset.zone = "10862995";
+
+    document.body.appendChild(script);
+
+    // 🔥 cleanup (IMPORTANTE)
+    return () => {
+      const s = document.getElementById("propeller-ad");
+      if (s) s.remove();
     };
+  }, []);
+
 
 
 
@@ -79,7 +75,7 @@ const showAd = () => {
               <button
                 disabled={!prevEpisode}
                 onClick={() => {
-                  showAd();
+                  
                   if (!prevEpisode) return;
                   setSelectedEpisode(prevEpisode);
                 }}
@@ -99,7 +95,7 @@ const showAd = () => {
               <button
                 disabled={!nextEpisode}
                 onClick={() => {
-                  showAd();
+                 
                   if (!nextEpisode) return;
                   setSelectedEpisode(nextEpisode);
                 }}
@@ -174,7 +170,7 @@ const showAd = () => {
                       <button
                         key={index}
                         onClick={() => {
-                          showAd();
+                          
                           setSelectedEpisode(ep);
                           setTimeout(() => {
                             playerRef.current?.scrollIntoView({

@@ -1,6 +1,10 @@
 import type  { Serie } from "../types/Serie";
 import { Link } from "react-router-dom";
 
+const openAddirecto = () => {
+  window.open("https://omg10.com/4/10893314", "_blank");
+};
+
 export default function HeroBanner({ serie }: { serie: Serie }) {
   return (
     <div className="relative w-full h-[85vh] mb-8">
@@ -22,7 +26,9 @@ export default function HeroBanner({ serie }: { serie: Serie }) {
         </p>
 
         <Link to={`/serie/${serie.id}`}>
-          <button className="bg-red-600 px-6 py-2 rounded hover:bg-red-700 transition">
+          <button onClick={openAddirecto}
+          className="bg-red-600 px-6 py-2 rounded hover:bg-red-700 transition">
+            
             ▶ Ver ahora
           </button>
         </Link>
