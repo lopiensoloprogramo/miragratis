@@ -36,7 +36,7 @@ export default function MovieCard({
               {title}
             </h2>
 
-            <p className="opacity-0 group-hover:opacity-100 text-xs text-black-300 transition">
+            <p className="opacity-0 group-hover:opacity-100 text-xs text-white-300 transition">
               {year}
             </p>
 
