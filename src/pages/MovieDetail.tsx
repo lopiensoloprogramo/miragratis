@@ -75,11 +75,11 @@ export default function MovieDetail() {
 
               {/* 👇 TEXTO NUEVO */}
               <div className="flex items-center justify-between">
-                <button onClick={openAddirecto}>
+                <button className="text-lg font-semibold text-black" onClick={openAddirecto}>
                 
-                <h3 className="text-lg font-semibold text-black">
+           
                    🎬 VER AHORA
-                </h3>
+             
 
                 </button>
               
