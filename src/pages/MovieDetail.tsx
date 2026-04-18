@@ -75,7 +75,8 @@ export default function MovieDetail() {
 
               {/* 👇 TEXTO NUEVO */}
               <div className="flex items-center justify-between">
-                <button className="text-lg font-semibold text-black" onClick={openAddirecto}>
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" 
+                        onClick={openAddirecto}>
                 
            
                    🎬 VER AHORA
