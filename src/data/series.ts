@@ -100,7 +100,7 @@ export const series: Serie[] = [
     genre: "Acción-Aventura-Ciencia Ficción",
     seasons: [
               {
-              seasonNumber: 1,
+        seasonNumber: 1,
         episodes: [
                             {
             title: "Episodio 1",
@@ -135,6 +135,21 @@ export const series: Serie[] = [
             title: "Episodio 8",
             file: "drive:1St3pUPcyorLFRUXmGXCoidkqED8_EUW0",
           }, 
+        ],
+      },
+               {
+        seasonNumber: 2,
+        episodes: [
+          
+          {
+            title: "Episodio 1",
+            file: "drive:1RkSxTjGCOZMElW9DdqaNamu0HJV9Ma4U",
+          },
+           {
+            title: "Episodio 2",
+            file: "drive:1CfuEb05q3mTiogfzgPKrmjLYH1825kKr",
+          },      
+          
         ],
       },
       {
@@ -273,6 +288,7 @@ export const series: Serie[] = [
           },
         ],
       },
+
      {
         seasonNumber: 3,
         episodes: [
