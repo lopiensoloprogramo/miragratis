@@ -32,11 +32,11 @@ export default function MovieCard({
           {/* Overlay */}
           <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition duration-300 flex flex-col justify-end p-3">
             
-            <h2 className="opacity-0 group-hover:opacity-100 text-sm font-semibold transition">
+            <h2 className="opacity-0 group-hover:opacity-100 text-white text-sm font-semibold transition">
               {title}
             </h2>
 
-            <p className="opacity-0 group-hover:opacity-100 text-xs text-white-300 transition">
+            <p className="opacity-0 group-hover:opacity-100 text-white text-xs  transition">
               {year}
             </p>
 
