@@ -93,7 +93,7 @@ export default function MovieDetail() {
                     key={index}
                     onClick={() => {
                       openAddirecto
-                      setSelectedOption(op);
+                      setSelectedOption(op); 
 
                       setTimeout(() => {
                         scrollToPlayer();
