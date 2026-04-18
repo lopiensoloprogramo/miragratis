@@ -149,7 +149,14 @@ export const series: Serie[] = [
             title: "Episodio 2",
             file: "drive:1CfuEb05q3mTiogfzgPKrmjLYH1825kKr",
           },      
-          
+            {
+            title: "Episodio 3",
+            file: "drive:1H0wEpqeUGBlyKRF12BjpXhwV8FAb4YlC",
+          },      
+                      {
+            title: "Episodio 4",
+            file: "drive:1wp8f4-uGwYxA1_dcCAdJcqmh_e5Ocais",
+          },          
         ],
       },
       {
