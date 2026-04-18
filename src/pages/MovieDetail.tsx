@@ -22,6 +22,28 @@ export default function MovieDetail() {
   playerRef.current?.scrollIntoView({ behavior: "smooth" });
 
   };
+const showAd = () => {
+   let clicks = parseInt(localStorage.getItem("ad_clicks") || "0"); 
+   let adLoaded = localStorage.getItem("ad_loaded"); // 🔥 SI YA HAY SCRIPT ACTIVO → NO HACER NADA 
+   if (adLoaded === "true") return; 
+  
+   // // 🔥 PRIMER CLICK 
+  
+   if (clicks === 0) { loadAd(); localStorage.setItem("ad_clicks", "1"); return; } clicks++; 
+   // 🔥 cada 2 clics
+   
+   if (clicks >= 2) { loadAd(); clicks = 0; } localStorage.setItem("ad_clicks", clicks.toString());
+   }; 
+   
+// evitar duplicados// 
+const loadAd = () => { 
+     if (document.getElementById("propeller-script")) return; 
+     const script = document.createElement("script"); script.id = "propeller-script"; script.src = "https://al5sm.com/tag.min.js"; script.setAttribute("data-zone", "10862995"); document.body.appendChild(script); 
+     // 🔥 marcar como activo 
+     localStorage.setItem("ad_loaded", "true"); 
+     // 🔥 después de 10s lo "desactivamos" 
+     setTimeout(() => { localStorage.removeItem("ad_loaded"); const s = document.getElementById("propeller-script"); if (s) s.remove(); }, 10000); 
+    };
 
   return (
     <div className="p-6 text-white max-w-9xl mx-auto">
@@ -73,7 +95,7 @@ export default function MovieDetail() {
                 </h3>
 
                 {!selectedOption && (
-                  <span className="text-sm text-gray-400">
+                  <span className="text-sm text-black">
                     Selecciona un servidor
                   </span>
                 )}
@@ -85,6 +107,7 @@ export default function MovieDetail() {
                   <button
                     key={index}
                     onClick={() => {
+                      showAd()
                       setSelectedOption(op);
 
                       setTimeout(() => {
@@ -118,6 +141,7 @@ export default function MovieDetail() {
           <div className="bg-gray-900 p-3 rounded-lg sticky top-6 text-sm flex justify-center">
             <button
               onClick={() =>
+                
                 window.open(
                   "https://www.facebook.com/profile.php?id=61574281967368",
                   "_blank"
