@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { series } from "../data/series";
 import VideoPlayer from "../components/VideoPlayer";
-import { useState, useRef,useEffect } from "react";
+import { useState, useRef } from "react";
 
 export default function SerieDetail() {
   const { id } = useParams();
@@ -34,23 +34,45 @@ export default function SerieDetail() {
       ? seasonEpisodes[currentIndex + 1]
       : null;
 
- useEffect(() => {
-    // 🔥 evitar duplicados
-    if (document.getElementById("propeller-ad")) return;
+const showAds = () => {
+  let clicks = parseInt(localStorage.getItem("ad_clicks") || "0");
+  let scriptLoaded = localStorage.getItem("ad_script");
 
-    const script = document.createElement("script");
-    script.id = "propeller-ad";
-    script.src = "https://al5sm.com/tag.min.js";
-    script.dataset.zone = "10862995";
+  // 🔥 PRIMER CLICK → cargar script
+  if (!scriptLoaded) {
+    loadScriptAd();
+    localStorage.setItem("ad_script", "true");
+    return;
+  }
 
-    document.body.appendChild(script);
+  // 🔥 DESPUÉS → direct link cada 2 clicks
+  clicks++;
 
-    // 🔥 cleanup (IMPORTANTE)
-    return () => {
-      const s = document.getElementById("propeller-ad");
-      if (s) s.remove();
-    };
-  }, []);
+  if (clicks >= 2) {
+    window.open("https://omg10.com/4/10893314", "_blank");
+    clicks = 0;
+  }
+
+  localStorage.setItem("ad_clicks", clicks.toString());
+};
+
+const loadScriptAd = () => {
+  if (document.getElementById("propeller-ad")) return;
+
+  const script = document.createElement("script");
+  script.id = "propeller-ad";
+  script.src = "https://al5sm.com/tag.min.js";
+  script.dataset.zone = "10862995";
+
+  document.body.appendChild(script);
+
+  // 🔥 opcional: remover después de unos segundos
+  setTimeout(() => {
+    const s = document.getElementById("propeller-ad");
+    if (s) s.remove();
+    localStorage.removeItem("ad_script");
+  }, 15000);
+};
 
 
 
@@ -75,7 +97,7 @@ export default function SerieDetail() {
               <button
                 disabled={!prevEpisode}
                 onClick={() => {
-                  
+                  showAds()
                   if (!prevEpisode) return;
                   setSelectedEpisode(prevEpisode);
                 }}
@@ -95,7 +117,7 @@ export default function SerieDetail() {
               <button
                 disabled={!nextEpisode}
                 onClick={() => {
-                 
+                 showAds()
                   if (!nextEpisode) return;
                   setSelectedEpisode(nextEpisode);
                 }}
@@ -170,7 +192,7 @@ export default function SerieDetail() {
                       <button
                         key={index}
                         onClick={() => {
-                          
+                          showAds()
                           setSelectedEpisode(ep);
                           setTimeout(() => {
                             playerRef.current?.scrollIntoView({
