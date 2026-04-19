@@ -19,7 +19,7 @@ export default function App() {
 
 
    <Route path="/serie/:id" element={
-    <div className="pt-20">
+    <div className="pt-14">
    <SerieDetail />
     </div>
  
@@ -30,7 +30,7 @@ export default function App() {
     <Route
       path="/movie/:id"
       element={
-        <div className="pt-20">
+        <div className="pt-14">
           <MovieDetail />
         </div>
       }
