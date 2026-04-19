@@ -75,7 +75,7 @@ const openAddirecto = () => {
               {/* 🎬 TRAILER */}
               {movie.trailer && (
                 <div className="mt-4">
-                  <h3 className="mt-3 text-black text-sm md:text-base leading-relaxed">
+                  <h3 className="mt-3 text-black text-sm md:text-base leading-relaxed font-black">
                     Trailer Oficial
                   </h3>
 
