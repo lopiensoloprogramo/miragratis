@@ -78,7 +78,7 @@ const loadScriptAd = () => {
 
 
   return (
-    <div className="p-6 text-white max-w-9xl mx-auto">
+ <div className="p-4 md:p-6 text-white max-w-9xl mx-auto">
       <div className="grid grid-cols-1 md:grid-cols-[4fr_1fr] gap-6">
 
         {/* IZQUIERDA */}
@@ -133,36 +133,44 @@ const loadScriptAd = () => {
           )}
 
           {/* INFO */}
-          <div className="flex gap-6">
-            <img
-              src={serie.thumbnail}
-              className="w-64 h-90 object-cover rounded-xl"
-            />
+        {/* INFO */}
+<div className="flex flex-col md:flex-row gap-4 md:gap-6">
 
-            <div className="flex-1">
-              <h1 className="text-4xl text-blue-950 font-bold">
-                {serie.title}
-              </h1>
-              <p className="text-gray-400">{serie.year}</p>
+  {/* 📷 IMAGEN */}
+  <img
+    src={serie.thumbnail}
+    className="w-32 md:w-56 lg:w-64 h-auto object-cover rounded-xl mx-auto md:mx-0"
+  />
 
-              <p className="mt-4 text-black leading-relaxed">
-                {serie.description}
-              </p>
+  {/* 📄 TEXTO */}
+  <div className="flex-1 text-center md:text-left">
+    <h1 className="text-2xl md:text-4xl text-blue-950 font-bold">
+      {serie.title}
+    </h1>
 
-              {/* TRAILER */}
-              {serie.trailer && (
-                <div className="mt-4">
-                  <h3 className="text-black font-semibold mb-2">
-                    Trailer Oficial
-                  </h3>
+    <p className="text-gray-400 text-sm md:text-base">
+      {serie.year}
+    </p>
 
-                  <div className="max-w-md">
-                    <VideoPlayer item={serie.trailer} />
-                  </div>
-                </div>
-              )}
-            </div>
-          </div>
+    <p className="mt-3 text-black text-sm md:text-base leading-relaxed">
+      {serie.description}
+    </p>
+
+    {/* 🎬 TRAILER */}
+    {serie.trailer && (
+      <div className="mt-4">
+        <h3 className="text-black font-semibold mb-2 text-sm md:text-base">
+          Trailer Oficial
+        </h3>
+
+        <div className="w-full md:max-w-md mx-auto md:mx-0">
+          <VideoPlayer item={serie.trailer} />
+        </div>
+      </div>
+    )}
+  </div>
+
+</div>
 
           {/* 📺 TEMPORADAS */}
           <div className="space-y-4">
