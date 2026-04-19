@@ -174,6 +174,11 @@ const loadScriptAd = () => {
 
           {/* 📺 TEMPORADAS */}
           <div className="space-y-4">
+                <div className="text-black  flex items-center justify-between">
+                  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    <span>🎬 Selecciona la Temporada👇</span> 
+                    </button>
+              </div>
             {serie.seasons.map((season) => (
               <div key={season.seasonNumber} className="bg-gray-900 rounded-lg">
                 <button
