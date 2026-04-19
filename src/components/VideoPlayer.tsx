@@ -48,7 +48,7 @@ export default function VideoPlayer({ item }: { item: string }) {
   }, [item]);
 
   return (
-    <div className="w-full aspect-[16/8] md:aspect-[16/9] ... bg-black rounded-lg overflow-hidden relative">
+    <div className="w-full aspect-[16/8] md:aspect-[16/8] ... bg-black rounded-lg overflow-hidden relative">
 
       {/* 🎬 YOUTUBE */}
       {isYoutube && youtubeId && (
