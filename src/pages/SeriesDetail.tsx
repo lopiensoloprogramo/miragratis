@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { series } from "../data/series";
 import VideoPlayer from "../components/VideoPlayer";
 import { useState, useRef } from "react";
-
+import AnuncioSidebar from "../components/AnunciosSidebar";
 export default function SerieDetail() {
   const { id } = useParams();
 
@@ -48,7 +48,7 @@ const showAds = () => {
   // 🔥 DESPUÉS → direct link cada 2 clicks
   clicks++;
 
-  if (clicks >= 2) {
+  if (clicks >= 3) {
     window.open("https://omg10.com/4/10893314", "_blank");
     clicks = 0;
   }
@@ -233,7 +233,7 @@ const loadScriptAd = () => {
             </button>
           </div>
         </div>
-
+   <AnuncioSidebar/>
       </div>
     </div>
   );

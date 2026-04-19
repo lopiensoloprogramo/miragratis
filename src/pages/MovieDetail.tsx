@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { movies } from "../data/movies";
 import VideoPlayer from "../components/VideoPlayer";
 import { useState, useRef } from "react";
+import AnuncioSidebar from "../components/AnunciosSidebar";
 
 export default function MovieDetail() {
   const { id } = useParams();
@@ -155,6 +156,10 @@ const openAddirecto = () => {
               👍 Síguenos en Facebook
             </button>
           </div>
+           
+          
+              <AnuncioSidebar/>
+        
         </div>
 
       </div>
