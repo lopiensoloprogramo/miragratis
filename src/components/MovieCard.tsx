@@ -8,13 +8,14 @@ export default function MovieCard({
   item: Movie | Serie;
 }) {
   // Detectar tipo automáticamente
+  
   const isSerie = "seasons" in item; // o cualquier campo exclusivo de Serie
 
   const link = isSerie ? `/serie/${item.id}` : `/movie/${item.id}`;
   const image = item.thumbnail; // asumiendo que ambos lo tienen
   const title = item.title;
   const year = item.year;
-
+  
   return (
     <Link to={link}>
       <div className="group cursor-pointer">
@@ -28,6 +29,20 @@ export default function MovieCard({
             alt={title}
             className="w-full h-56 object-cover"
           />
+            {item.isNew && !("seasons" in item)&&  (
+              <span className="absolute top-1 left-2 bg-yellow-400 text-black text-xs px-2 py-1 rounded font-bold">
+             NUEVO
+              </span>
+            )}
+          {"seasons"in item&& item.isNew&&(
+          <span className="absolute top-1 left-2 bg-yellow-400 text-black text-xs px-2 py-1 rounded font-bold">
+             NUEVO CAPÍTULO
+              </span>
+          )
+
+          }
+
+
 
           {/* Overlay */}
           <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition duration-300 flex flex-col justify-end p-3">

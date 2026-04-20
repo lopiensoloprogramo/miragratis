@@ -2,6 +2,7 @@ export interface Episode {
   title: string;
   file: string;
   download:string;
+  
 }
 
 export interface Season {
@@ -18,4 +19,5 @@ export interface Serie {
   thumbnail: string;
   genre: string;
   seasons: Season[];
+  isNew:boolean
 }

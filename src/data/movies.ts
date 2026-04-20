@@ -8,7 +8,7 @@ export const movies: Movie[] = [
     trailer:"youtube:WZXCpje7ZNo",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/62f4da8f7735a7caced5192d1e3ffac2_hd.webp",
     genre: "Crimen,Misterio, Terror",
-
+    isNew:false,
         opcion: [
           {
             title: "Opcion 1",
@@ -32,7 +32,7 @@ export const movies: Movie[] = [
     trailer:"youtube:SvJwEiy2Wok",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/c60ecb2ca9a1dc10133ed2d86386e3f9_hd.webp",
     genre: "Aventura,Animación,Familia,FantasíaC,Comedia",
-
+    isNew: false,
         opcion: [
           {
             title: "Opcion 1",
@@ -58,7 +58,7 @@ export const movies: Movie[] = [
     trailer:"youtube:RzzTn93ffZw",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/1a4b28e2b442424ced20ba09187aac3c_hd.webp",
     genre: "Drama,Misterio,Terror",
-
+    isNew: false,
         opcion: [
           {
             title: "Opcion 1",
@@ -84,7 +84,7 @@ export const movies: Movie[] = [
     trailer:"youtube:ipzEY7c7it8",
     thumbnail: "https://premierftp.com/wp-content/uploads/Descargar-Super-Mario-Galaxy-La-pelicula-2026-Espanol-1080p-Pelicula.webp",
     genre: "Aventura,Animación,Familia,FantasíaC,Comedia",
-
+    isNew: true,
         opcion: [
           {
             title: "Opcion 1",
@@ -110,7 +110,7 @@ export const movies: Movie[] = [
     trailer:"youtube:vY4Cw3GRLdI",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/801d7f3cd7e7de449b9d6247c6f6bb50_hd.webp",
     genre: "Aventura,Acción,Ciencia Ficción",
-
+    isNew:true,
         opcion: [
           {
             title: "Opcion 1",
@@ -126,6 +126,33 @@ export const movies: Movie[] = [
           
  
         ],
+        
+},
+ {
+    id: "6",
+    title: "Alien: Romulus",
+    year: 2024,
+    description: "Mientras exploran en las profundidade de una estación espacial abandonada, un grupo de jóvenes colonizadores del espacio se encuentra cara a cara con la forma de vida más aterradora del universo.",
+    trailer:"youtube:SevrcuQcS6g",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/500ce9f452d1a56d4025bb879d863a03_hd.webp",
+    genre: "Acción,Ciencia Ficción,Terror",
+    isNew:true,
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1F-WcTfuqoOOO1gv5LjZ3nexFnK-St_iH",
+            download:"",
+          },
+          {
+            title: "Opcion 2",
+            file: "",
+            download:"https://www.mediafire.com/file/j5b4qu0ba3gw6mn/tdrfghserthsrtysetryest.rar/file",
+          
+          },
+          
+ 
+        ],
+        
         
 },
 ];

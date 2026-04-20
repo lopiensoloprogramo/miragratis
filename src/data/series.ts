@@ -9,6 +9,7 @@ export const series: Serie[] = [
     trailer:"youtube:ROCIksHW2oc",
     thumbnail: "https://stars-my-destination.com/wp-content/uploads/2025/02/invencible-3x05-1.jpg?w=819",
     genre: "Acción",
+    isNew:false,
     seasons: [ 
       {
               seasonNumber: 3,
@@ -80,6 +81,7 @@ export const series: Serie[] = [
     trailer:"youtube:HK0PrzNOfck",
     thumbnail: "https://pics.filmaffinity.com/the_boys-166639634-mmed.jpg",
     genre: "Acción",
+    isNew:true,
     seasons: [
       {
         seasonNumber: 4,
@@ -111,6 +113,7 @@ export const series: Serie[] = [
     trailer:"youtube:GH5Sh8u-3V8",
     thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLXBJmKpB4BFuS0O9UmAoMTydf5cwilYQZHA&s",
     genre: "Acción-Aventura-Ciencia Ficción",
+    isNew:false,
     seasons: [
               {
         seasonNumber: 1,
@@ -249,6 +252,7 @@ export const series: Serie[] = [
     trailer:"youtube:OTWkkrflu_4",
     thumbnail: "https://m.media-amazon.com/images/I/51mRBPv8f-L._SY445_SX342_FMwebp_.jpg",
     genre: "Acción-Aventura-Ciencia Ficción",
+    isNew:false,
     seasons: [
       {
         seasonNumber: 1,
@@ -310,6 +314,7 @@ export const series: Serie[] = [
     trailer:"youtube:2SWP1VQDxAE",
     thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfrjrT4Cp9s34CjihlGdknr99RctZeRfARPSTiSh4u91GlBpurQ5enciKKHQlzVw2RiZmJJQ&s=10",
     genre: "Drama,HBO,Series",
+    isNew:true,
     seasons: [
       {
         seasonNumber: 1,
@@ -377,6 +382,7 @@ export const series: Serie[] = [
     trailer:"youtube:Zf03hjU1MWA",
     thumbnail: "https://schsnow.com/wp-content/uploads/2026/01/1876d157-4a02-4794-8cd0-89d510a7d6f6_740x925.jpg",
     genre: "C. Ficción,Drama,Fantasía,Netflix",
+    isNew:false,
     seasons: [
       {
         seasonNumber: 5,
@@ -415,6 +421,7 @@ export const series: Serie[] = [
     trailer:"youtube:HjmsvEZtjtg",
     thumbnail: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSm6oVhnKDiwQi22bLIDhYLh_b3TaSPfjGnG0PH9fu_rUpZw7gK",
     genre: "Acción,Aventura,C. Ficción,Drama",
+    isNew:false,
     seasons: [
       {
         seasonNumber: 1,
