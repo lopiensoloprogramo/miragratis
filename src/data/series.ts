@@ -360,6 +360,11 @@ export const series: Serie[] = [
             file: "drive:1mGHuvK1dyC-FzZ8dqIYyp_YotQjw13o0",
             download:"",
           },
+                    {
+            title: "Episodio 2",
+            file: "drive:1G70JVIU6lhfew5qaYsUaAybzTmEabmD4",
+            download:"",
+          },
         ],
       },
     ],
