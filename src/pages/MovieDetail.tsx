@@ -15,7 +15,7 @@ export default function MovieDetail() {
   const [selectedOption, setSelectedOption] = useState<any>(null);
   const [showDownloadOptions, setShowDownloadOptions] = useState(false);
   const [showOptions, setShowOptions] = useState(false);
-  
+  const [mode, setMode] = useState<"view" | "download" | null>(null);
   // 🔥 SCROLL
   const scrollToPlayer = () => {
     playerRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -92,34 +92,32 @@ export default function MovieDetail() {
             <div className="flex items-center gap-3 flex-wrap">
 
               {/* 🎬 VER */}
-              <button
-               className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded shadow"
-                onClick={() => {
-                 
-                  setShowDownloadOptions(false);
-                  setShowOptions(true); // 🔥 muestra opciones
-                }}
-              >
-                🎬 VER AHORA
-              </button>
+            <button
+              onClick={() => {
+                openAddirecto();
+                setMode("view");
+                setShowDownloadOptions(false);
+                setShowOptions(true);
+              }}
+              className={`font-bold py-2 px-5 rounded shadow transition ${
+                mode === "view"
+                  ? "bg-blue-700  ring-2 ring-blue-300"
+                  : "bg-blue-600 hover:bg-blue-700"
+              }`}
+            >
+              🎬 VER AHORA
+            </button>
 
               {/* ⬇️ DESCARGAR */}
-              <button
-               className="bg-green-600 text-white font-bold py-2 px-5 rounded shadow"
-                onClick={() => {
-                  setSelectedOption(null);
-                  setShowDownloadOptions(true);
-                  setShowOptions(true); // 🔥 muestra opciones
-                }}
-              >
-                ⬇️ DESCARGAR
-              </button>
 
+            
             </div>
 
               {/* 🎬 OPCIONES DE REPRODUCCIÓN */}
                 {showOptions &&!showDownloadOptions&& (
+                  
               <div className="flex gap-3 flex-wrap">
+                <p className="text-black">Elije entre las opciones</p>
                 {movie.opcion.map((op, index) => (
                   <button
                     key={index}
@@ -134,35 +132,20 @@ export default function MovieDetail() {
                     className={`px-4 py-2 rounded text-sm transition ${
                       selectedOption?.file === op.file
                         ? "bg-blue-600"
-                        : "bg-gray-800 hover:bg-gray-700"
+                        : "bg-blue-500 hover:bg-blue-700"
                     }`}
                   >
                     ▶ {op.title}
                   </button>
                 ))}
+                
               </div>
                 )}
 
-              {/* ⬇️ OPCIONES DE DESCARGA */}
-              { showOptions&&showDownloadOptions && (
-                <div className="flex gap-3 flex-wrap mt-3">
-                  {movie.opcion.map((op, index) => (
-                    <button
-                      key={index}
-                      onClick={() => {
-                        openAddirecto();
 
-                        window.location.href = `/go/movie-${movie.id}-${index}`;
-                      }}
-                      className="px-4 py-2 rounded text-sm bg-green-700 hover:bg-green-600"
-                    >
-                      ⬇ {op.title}
-                    </button>
-                  ))}
-                </div>
-              )}
 
             </div>
+            
           )}
 
           {/* 🎬 PLAYER */}
@@ -171,7 +154,46 @@ export default function MovieDetail() {
               <VideoPlayer item={selectedOption.file} />
             </div>
           )}
+            <button
+              onClick={() => {
+                setSelectedOption(null);
+                setMode("download");
+                setShowDownloadOptions(true);
+                setShowOptions(true);
+              }}
+              className={`font-bold py-2 px-5 rounded shadow transition ${
 
+                mode === "download"
+                  ? "bg-green-700  ring-2 ring-green-300"
+                  : "bg-green-700 hover:bg-green-600"
+                
+              }`
+            
+            }
+            >
+              ⬇️ DESCARGAR
+            </button>
+                          {/* ⬇️ OPCIONES DE DESCARGA */}
+              { showOptions&&showDownloadOptions && (
+                
+                <div className="flex gap-3 flex-wrap mt-3">
+                  <p className="text-black">Elije entre las opciones</p>
+                  {movie.opcion.map((op, index) => (
+                    
+                    <button
+                      key={index}
+                      onClick={() => {
+                        openAddirecto();
+
+                        window.location.href = `/go/movie-${movie.id}-${index}`;
+                      }}
+                      className="px-4 py-2 rounded text-sm bg-green-700 hover:bg-green-600 "
+                    >
+                      ⬇ {op.title}
+                    </button>
+                  ))}
+                </div>
+              )}
         </div>
 
         {/* DERECHA */}
