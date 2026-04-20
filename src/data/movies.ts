@@ -140,12 +140,12 @@ export const movies: Movie[] = [
         opcion: [
           {
             title: "Opcion 1",
-            file: "drive:1F-WcTfuqoOOO1gv5LjZ3nexFnK-St_iH",
+            file: "drive:1PU89H08ccCx7I6QeVb07vCOxgAeDrexu",
             download:"",
           },
           {
             title: "Opcion 2",
-            file: "",
+            file: "drive:1PU89H08ccCx7I6QeVb07vCOxgAeDrexu",
             download:"https://www.mediafire.com/file/j5b4qu0ba3gw6mn/tdrfghserthsrtysetryest.rar/file",
           
           },
