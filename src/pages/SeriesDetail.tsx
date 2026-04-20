@@ -75,7 +75,11 @@ const loadScriptAd = () => {
 };
 
 
+const allEpisodes = serie.seasons.flatMap((s) => s.episodes);
 
+const getGlobalIndex = (file: string) => {
+  return allEpisodes.findIndex((ep) => ep.file === file);
+};
 
   return (
  <div className="p-4 md:p-6 text-white max-w-9xl mx-auto">
@@ -201,28 +205,55 @@ const loadScriptAd = () => {
 
                 {openSeason === season.seasonNumber && (
                   <div className="px-4 pb-4 space-y-2">
-                    {season.episodes.map((ep, index) => (
-                      <button
-                        key={index}
-                        onClick={() => {
-                          showAds()
-                          setSelectedEpisode(ep);
-                          setTimeout(() => {
-                            playerRef.current?.scrollIntoView({
-                              behavior: "smooth",
-                            });
-                          }, 100);
-                        }}
-                        className={`w-full text-left p-3 rounded flex justify-between ${
-                          selectedEpisode?.file === ep.file
-                            ? "bg-gray-700"
-                            : "bg-gray-800 hover:bg-gray-700"
-                        }`}
-                      >
-                        <span>{ep.title}</span>
-                        <span className="text-gray-400 text-sm">▶</span>
-                      </button>
-                    ))}
+                 {season.episodes.map((ep, index) => (
+  <div
+    key={index}
+    className={`p-3 rounded ${
+      selectedEpisode?.file === ep.file
+        ? "bg-gray-700"
+        : "bg-gray-800"
+    }`}
+  >
+    <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
+
+      {/* 🎬 TITULO */}
+      <span className="text-left">{ep.title}</span>
+
+      {/* 🔥 BOTONES */}
+      <div className="flex gap-2">
+
+        {/* ▶️ VER ONLINE */}
+        <button
+          onClick={() => {
+            showAds();
+            setSelectedEpisode(ep);
+
+            setTimeout(() => {
+              playerRef.current?.scrollIntoView({
+                behavior: "smooth",
+              });
+            }, 100);
+          }}
+          className="px-3 py-1 text-sm rounded bg-gray-700 hover:bg-gray-600"
+        >
+          ▶ Ver
+        </button>
+
+        {/* ⬇️ DESCARGAR */}
+        <button
+          onClick={() => {
+            const indexGlobal = getGlobalIndex(ep.file);
+            window.location.href = `/go/serie-${serie.id}-${indexGlobal}`;
+          }}
+          className="px-3 py-1 text-sm rounded bg-blue-600 hover:bg-blue-500"
+        >
+          ⬇ Descargar
+        </button>
+
+      </div>
+    </div>
+  </div>
+))}
                   </div>
                 )}
               </div>

@@ -8,41 +8,38 @@ export default function MovieDetail() {
   const { id } = useParams();
 
   const movie = movies.find((m) => m.id === id);
-
   if (!movie) return <div>No encontrada</div>;
 
   const playerRef = useRef<HTMLDivElement>(null);
 
   const [selectedOption, setSelectedOption] = useState<any>(null);
-
-  // 🔥 SCROLL PRECISO (con offset)
+  const [showDownloadOptions, setShowDownloadOptions] = useState(false);
+  const [showOptions, setShowOptions] = useState(false);
+  
+  // 🔥 SCROLL
   const scrollToPlayer = () => {
-    if (!playerRef.current) return;
-
-    
-  playerRef.current?.scrollIntoView({ behavior: "smooth" });
-
+    playerRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
+  // 🔥 ADS CONTROL
+  const openAddirecto = () => {
+    let clicks = parseInt(localStorage.getItem("ad_clicks") || "0");
 
-const openAddirecto = () => {
-  let clicks = parseInt(localStorage.getItem("ad_clicks") || "0");
-
-  // 🔥 SI ES EL PRIMER CLICK → abrir sí o sí
-  if (clicks === 0) {
-    window.open("https://omg10.com/4/10893314", "_blank");
-    clicks = 1;
-  } else {
-    clicks++;
-
-    // 🔥 cada 2 clics después del primero
-    if (clicks % 2 !== 0) {
+    // primer click SIEMPRE abre
+    if (clicks === 0) {
       window.open("https://omg10.com/4/10893314", "_blank");
-    }
-  }
+      clicks = 1;
+    } else {
+      clicks++;
 
-  localStorage.setItem("ad_clicks", clicks.toString());
-};
+      // cada 2 clics
+      if (clicks % 2 !== 0) {
+        window.open("https://omg10.com/4/10893314", "_blank");
+      }
+    }
+
+    localStorage.setItem("ad_clicks", clicks.toString());
+  };
 
 
 
@@ -53,7 +50,7 @@ const openAddirecto = () => {
         {/* IZQUIERDA */}
         <div className="space-y-6 w-full">
 
-          {/* 🔝 INFO */}
+          {/* INFO */}
           <div className="flex flex-col md:flex-row gap-4 md:gap-6">
             <img
               src={movie.thumbnail}
@@ -61,21 +58,22 @@ const openAddirecto = () => {
             />
 
             <div className="flex-1 text-center md:text-left">
-              <h1 className="text-4xl text-blue-950 font-bold">
+              <h1 className="text-2xl md:text-4xl text-blue-950 font-bold">
                 {movie.title}
               </h1>
+
               <p className="text-gray-400 text-sm md:text-base">
                 {movie.year}
-                </p>
+              </p>
 
               <p className="mt-3 text-black text-sm md:text-base leading-relaxed">
                 {movie.description}
               </p>
 
-              {/* 🎬 TRAILER */}
+              {/* TRAILER */}
               {movie.trailer && (
                 <div className="mt-4">
-                  <h3 className="mt-3 text-black text-sm md:text-base leading-relaxed font-black">
+                  <h3 className="text-black font-semibold mb-2">
                     Trailer Oficial
                   </h3>
 
@@ -87,33 +85,47 @@ const openAddirecto = () => {
             </div>
           </div>
 
-          {/* 🎬 HEADER + BOTONES */}
+          {/* BOTONES PRINCIPALES */}
           {movie.opcion?.length > 0 && (
             <div className="space-y-3">
 
-              {/* 👇 TEXTO NUEVO */}
-              <div className="flex items-center justify-between">
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" 
-                        onClick={openAddirecto}>
-                
-           
-                   🎬 VER AHORA
-             
+            <div className="flex items-center gap-3 flex-wrap">
 
-                </button>
-              
+              {/* 🎬 VER */}
+              <button
+               className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded shadow"
+                onClick={() => {
+                  openAddirecto();
+                  setShowDownloadOptions(false);
+                  setShowOptions(true); // 🔥 muestra opciones
+                }}
+              >
+                🎬 VER AHORA
+              </button>
 
-             
-              </div>
+              {/* ⬇️ DESCARGAR */}
+              <button
+               className="bg-green-600 text-white font-bold py-2 px-5 rounded shadow"
+                onClick={() => {
+                  setSelectedOption(null);
+                  setShowDownloadOptions(true);
+                  setShowOptions(true); // 🔥 muestra opciones
+                }}
+              >
+                ⬇️ DESCARGAR
+              </button>
 
-              {/* BOTONES */}
+            </div>
+
+              {/* 🎬 OPCIONES DE REPRODUCCIÓN */}
+                {showOptions &&!showDownloadOptions&& (
               <div className="flex gap-3 flex-wrap">
                 {movie.opcion.map((op, index) => (
                   <button
                     key={index}
                     onClick={() => {
-                      openAddirecto()
-                      setSelectedOption(op); 
+                      openAddirecto();
+                      setSelectedOption(op);
 
                       setTimeout(() => {
                         scrollToPlayer();
@@ -125,11 +137,31 @@ const openAddirecto = () => {
                         : "bg-gray-800 hover:bg-gray-700"
                     }`}
                   >
-                    {op.title}
+                    ▶ {op.title}
                   </button>
-                  
                 ))}
               </div>
+                )}
+
+              {/* ⬇️ OPCIONES DE DESCARGA */}
+              { showOptions&&showDownloadOptions && (
+                <div className="flex gap-3 flex-wrap mt-3">
+                  {movie.opcion.map((op, index) => (
+                    <button
+                      key={index}
+                      onClick={() => {
+                        openAddirecto();
+
+                        window.location.href = `/go/movie-${movie.id}-${index}`;
+                      }}
+                      className="px-4 py-2 rounded text-sm bg-green-700 hover:bg-green-600"
+                    >
+                      ⬇ {op.title}
+                    </button>
+                  ))}
+                </div>
+              )}
+
             </div>
           )}
 
@@ -147,7 +179,6 @@ const openAddirecto = () => {
           <div className="bg-gray-900 p-3 rounded-lg sticky top-6 text-sm flex justify-center">
             <button
               onClick={() =>
-                
                 window.open(
                   "https://www.facebook.com/profile.php?id=61574281967368",
                   "_blank"
@@ -158,10 +189,8 @@ const openAddirecto = () => {
               👍 Síguenos en Facebook
             </button>
           </div>
-           
-          
-              <AnuncioSidebar/>
-        
+
+          <AnuncioSidebar />
         </div>
 
       </div>

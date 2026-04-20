@@ -1,6 +1,7 @@
 export interface Episode {
   title: string;
   file: string;
+  download:string;
 }
 
 export interface Season {

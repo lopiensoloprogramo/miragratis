@@ -4,7 +4,7 @@ import MovieDetail from "./pages/MovieDetail";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import SerieDetail from "./pages/SeriesDetail";
-import RedirectPage from "./components/RedirectPage";
+import GoPage from "./components/GoPage";
 
 export default function App() {
   return (
@@ -14,7 +14,7 @@ export default function App() {
   <Routes>
     {/* Home SIN padding */}
     <Route path="/" element={<Home />} />
-    <Route path="/go/:code" element={<RedirectPage />} />
+    <Route path="/go/:slug" element={<GoPage />} />
 
 
 

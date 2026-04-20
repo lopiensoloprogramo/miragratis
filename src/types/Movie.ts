@@ -1,6 +1,7 @@
 export interface Opcion {
   title: string;
   file: string;
+   download:string;
 }
 
 
@@ -13,4 +14,5 @@ export interface Movie{
   thumbnail: string;
   genre: string;
   opcion:Opcion[]
+ 
 }

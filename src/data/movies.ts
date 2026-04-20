@@ -13,13 +13,16 @@ export const movies: Movie[] = [
           {
             title: "Opcion 1",
             file: "drive:1uMcWre_zrMNdknGIbmbifFDxfz0rdXR7",
+              download:"",
           },
           {
             title: "Opcion 2",
             file: "drive:1uMcWre_zrMNdknGIbmbifFDxfz0rdXR7",
+              download:"",
           },
  
         ],
+      
 },
  {
     id: "2",
@@ -34,15 +37,18 @@ export const movies: Movie[] = [
           {
             title: "Opcion 1",
             file: "drive:1rqVwXyzXkwiipKbmRtlPzW1qprZpiiqf",
+              download:"",
           },
           {
             title: "Opcion 2",
             file: "drive:1rqVwXyzXkwiipKbmRtlPzW1qprZpiiqf",
+              download:"",
           
           },
           
  
         ],
+
 },
  {
     id: "3",
@@ -57,15 +63,18 @@ export const movies: Movie[] = [
           {
             title: "Opcion 1",
             file: "drive:1cI5orUV921zs6o-nMFWn5U4kFa_Ct76H",
+            download:"",
           },
           {
             title: "Opcion 2",
             file: "drive:1cI5orUV921zs6o-nMFWn5U4kFa_Ct76H",
+            download:"",
           
           },
           
  
         ],
+ 
 },
  {
     id: "4",
@@ -80,14 +89,17 @@ export const movies: Movie[] = [
           {
             title: "Opcion 1",
             file: "drive:1Ipq7u7tWxTHNgUG3UVPc8nCDx23botus",
+            download:"",
           },
           {
             title: "Opcion 2",
             file: "drive:1Ipq7u7tWxTHNgUG3UVPc8nCDx23botus",
+            download:"",
           
           },
           
  
         ],
+        
 },
 ];

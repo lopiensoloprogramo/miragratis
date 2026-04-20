@@ -16,14 +16,17 @@ export const series: Serie[] = [
           {
             title: "Episodio 1",
             file: "drive:1GtvyMXpIEeW1VQPViLUBzLPOMliTabGP",
+            download:"https://drive.google.com/file/d/1GtvyMXpIEeW1VQPViLUBzLPOMliTabGP/view?usp=drive_link"
           },
           {
             title: "Episodio 2",
             file: "drive:1VHv_e612q0NUTSFJTCD6FV2v_1QJzyRV",
+            download:"",
           },
             {
             title: "Episodio 3",
             file: "drive:1pv4GIk02Y2Kjb_JnpPEpNDwLfYasNXFK",
+            download:"",
           },  
         ],
       },
@@ -33,30 +36,37 @@ export const series: Serie[] = [
           {
             title: "Episodio 1",
             file: "migratisInvencible S4 Latino 01.mp4",
+            download:"",
           },
                     {
             title: "Episodio 2",
             file: "miragratisInvencible S4Latin02.mp4",
+            download:"",
           },
                           {
             title: "Episodio 3",
             file: "miragratisInvencibleS4Latino03.mp4",
+            download:"",
           },
                           {
             title: "Episodio 4",
             file: "miragratisInvencibleS4Latino04.mp4",
+            download:"",
           },
                                    {
             title: "Episodio 5",
             file: "miragratisInvencibleS4Latino05.mp4",
+             download:"",
           },
                                              {
             title: "Episodio 6",
             file: "Miragratisinvencibles4latino6.mp4",
+             download:"",
           },
                                                        {
             title: "Episodio 7",
             file: "drive:1iJ3hxPfTj-_YpLsdOcFp1vSuEsBRrBJ7",
+            download:"",
           },
         ],
       },
@@ -77,14 +87,17 @@ export const series: Serie[] = [
           {
             title: "Episodio 1",
             file: "Thbyss05e01.mp4",
+            download:"",
           },
           {
             title: "Episodio 2",
             file: "Thbyss05e02.mp4",
+            download:"",
           },
                   {
             title: "Episodio 3",
             file: "drive:1apXfF940Ga7xrBTFlLV2aU3rqc6SPwX3",
+            download:"",
           },
         ],
       },
@@ -105,35 +118,43 @@ export const series: Serie[] = [
                             {
             title: "Episodio 1",
             file: "drive:1UH_uk3dC_xNLVSWX5iANNeIVmOlQAYGe",
+            download:"",
           },
        
                  {
             title: "Episodio 2",
             file: "drive:1PNm56sKAi91m2f4t0RP1p_00ESdiw3Vk",
+            download:"",
           },
                     {
             title: "Episodio 3",
             file: "drive:12gyuA0MxJQ6K74s0PBPWKdNC_eTk20DR",
+            download:"",
           },  
                               {
             title: "Episodio 4",
             file: "drive:102NQ_ON3CZD1HeQNdxx7THHAz3Rl2plN",
+            download:"",
           },     
                                         {
             title: "Episodio 5",
             file: "drive:1rHH-1q97O_wW0QMNk6UBr7aTOiPnzjQE",
+            download:"",
           },     
                    {
             title: "Episodio 6",
             file: "drive:12d6bTbETUZexjWVcuOXVBwy5JwnC1Mrf",
+            download:"",
           },   
                    {
             title: "Episodio 7",
             file: "drive:1MvyWmK9Gr-R_D18UlsCd9xfkI-ffrgON",
+            download:"",
           },   
                    {
             title: "Episodio 8",
             file: "drive:1St3pUPcyorLFRUXmGXCoidkqED8_EUW0",
+            download:"",
           }, 
         ],
       },
@@ -144,26 +165,32 @@ export const series: Serie[] = [
           {
             title: "Episodio 1",
             file: "drive:1RkSxTjGCOZMElW9DdqaNamu0HJV9Ma4U",
+            download:"",
           },
            {
             title: "Episodio 2",
             file: "drive:1CfuEb05q3mTiogfzgPKrmjLYH1825kKr",
+            download:"",
           },      
             {
             title: "Episodio 3",
             file: "drive:1H0wEpqeUGBlyKRF12BjpXhwV8FAb4YlC",
+            download:"",
           },      
                       {
             title: "Episodio 4",
             file: "drive:1wp8f4-uGwYxA1_dcCAdJcqmh_e5Ocais",
+            download:"",
           },     
                                 {
             title: "Episodio 5",
             file: "drive:18Ux4X2aLMg2S64iwl-F-4Lt-ImQfQ7w0",
+            download:"",
           },    
                                           {
             title: "Episodio 6",
             file: "drive:1uGYjqApHUysPab2Q8OUNE1-gmNG1djyh",
+            download:"",
           },        
         ],
       },
@@ -173,34 +200,42 @@ export const series: Serie[] = [
           {
             title: "Episodio 1",
             file: "Thewitcherseason4episodio1.mp4",
+            download:"",
           },
                     {
             title: "Episodio 2",
             file: "Thewhichersean4episodio2.mp4",
+            download:"",
           },
                               {
             title: "Episodio 3",
             file: "drive:1uqrSLEA5miVaOQH42bx5TDFaJWJvv7Ff",
+            download:"",
           }, 
           {
             title: "Episodio 4",
             file: "drive:1GVMDSiQJ3vShdPAwAr0KxL3Rn64ocG-Q",
+            download:"",
           },
         {
             title: "Episodio 5",
             file: "drive:1833JPPb-7rwKhlvnkD3PtgrEZ4t3I5YB",
+            download:"",
           },
                   {
             title: "Episodio 6",
             file: "drive:1O01Km80TzibzOSmPlbwjvyTbvBDhw4yz",
+            download:"",
           },
                 {
             title: "Episodio 7",
             file: "drive:19Pl9RWOr9ZwnIdiLb4V3M2QAvwAH8Aoa",
+            download:"",
           },
           {
             title: "Episodio 8",
-             file:"drive:1q51jH4hM1w8B5_flvaMpc4XtOiqlPw_8"
+             file:"drive:1q51jH4hM1w8B5_flvaMpc4XtOiqlPw_8",
+             download:"",
           }
         ],
       },
@@ -221,10 +256,12 @@ export const series: Serie[] = [
           {
             title: "Episodio 1",
             file: "migratisInvencible S1 E1.mp4",
+            download:"",
           },
           {
             title: "Episodio 2",
             file: "migratisInvencible S1 E2.mp4",
+            download:"",
           },
         ],
       },
@@ -234,6 +271,7 @@ export const series: Serie[] = [
           {
             title: "Episodio 1",
             file: "migratisInvencible S2 E1.mp4",
+            download:"",
           },
         ],
       },
@@ -243,6 +281,7 @@ export const series: Serie[] = [
           {
             title: "Episodio 1",
             file: "",
+            download:"",
           },
         ],
       },
@@ -252,10 +291,12 @@ export const series: Serie[] = [
           {
             title: "Episodio 1",
             file: "migratisInvencible S4 Latino 01.mp4",
+            download:"",
           },
                     {
             title: "Episodio 2",
             file: "miragratisInvencible S4Latin02.mp4",
+            download:"",
           },
         ],
       },
@@ -276,30 +317,37 @@ export const series: Serie[] = [
           {
             title: "Episodio 1",
             file: "drive:1YMp3vN09gDlRoGBkisG4t8HWqm4biota",
+            download:"",
           },
           {
             title: "Episodio 2",
             file: "drive:1xqrFDN19p_ockUdh3bjdYCrgwHO-E2Vu",
+            download:"",
           },
                     {
             title: "Episodio 3",
             file: "drive:1NK-xpaDk179TSvofR1rSR53Jv5qSwiTP",
+            download:"",
           },
                               {
             title: "Episodio 4",
             file: "drive:1Kq8hL9zYts9WJQYUEllCzSezrq6NqDM5",
+            download:"",
           },
                                         {
             title: "Episodio 5",
             file: "drive:1R-McKfd6GUpgUJQllxj5Ewmggc3kAFNv",
+            download:"",
           },
-                                                  {
+                {
             title: "Episodio 6",
             file: "drive:1NwBdvZ2HKCSyWDJ-nbdrJIV6l_vJuTHQ",
+            download:"",
           },
-                                                            {
+                 {
             title: "Episodio 7",
             file: "drive:1VaoKpSnZ5yafHF734M9iEyncfWwOQ6cW",
+            download:"",
           },
         ],
       },
@@ -310,6 +358,7 @@ export const series: Serie[] = [
           {
             title: "Episodio 1",
             file: "drive:1mGHuvK1dyC-FzZ8dqIYyp_YotQjw13o0",
+            download:"",
           },
         ],
       },
@@ -331,18 +380,22 @@ export const series: Serie[] = [
           {
             title: "Episodio 1",
             file: "drive:1Ao2EofoROuB9SgWM-6pfpiUqb8dJ_ZqP",
+            download:"",
           },
           {
             title: "Episodio 2",
             file: "drive:1zjJwWjIxQRAbYS-jpRwf8s4x97etYKmf",
+            download:"",
           },
                     {
             title: "Episodio 3",
             file: "drive:1gIMUGsOOAd3IibE2OvEPQ3C3g5P9yI9N",
+            download:"",
           },
                     {
             title: "Episodio 4",
             file: "drive:1uwhdBOyma0B-V2Ae21ibVrQKlW5882YU",
+            download:"",
           },
         ],
       },
@@ -365,14 +418,17 @@ export const series: Serie[] = [
           {
             title: "Episodio 1",
             file: "drive:1Hj5tHac0T40D6zDsPH-2FudWPlzkWdws",
+            download:"",
           },
           {
             title: "Episodio 2",
             file: "drive:16vSbG6OXcS-F8pxPy7W_Lrl1ftbAM_Gr",
+            download:"",
           },
                     {
             title: "Episodio 3",
             file: "drive:1C3nHb7NzQToYtcH0S8sA6BAyJfD5P2iE",
+            download:"",
           },
         ],
       },
