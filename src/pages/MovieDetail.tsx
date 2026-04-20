@@ -95,7 +95,7 @@ export default function MovieDetail() {
               <button
                className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded shadow"
                 onClick={() => {
-                  openAddirecto();
+                 
                   setShowDownloadOptions(false);
                   setShowOptions(true); // 🔥 muestra opciones
                 }}
