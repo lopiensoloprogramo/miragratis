@@ -80,7 +80,7 @@ export const movies: Movie[] = [
     id: "4",
     title: "Super Mario Galaxy La película",
     year: 2026,
-    description: " Luego de haber derrotado a Bowser y salvado el vibrante Reino Champiñón, los inseparables hermanos Mario y Luigi finalmente disfrutan de una etapa de paz y tranquilidad. Pasan sus días ayudando a los ciudadanos locales con su clásica filosofía de trabajo, preparan con entusiasmo la gran fiesta de cumpleaños de la Princesa Peach, entablan una profunda e inseparable amistad con el tierno dinosaurio Yoshi e incluso intentan reformar a un inofensivo y diminuto Bowser que se encuentra en cautiverio. Sin embargo, la calma se rompe abruptamente cuando una misteriosa señal de auxilio proveniente del espacio exterior interrumpe sus vidas, obligándolos a mirar más allá de las nubes y emprender un viaje épico hacia lo desconocido.",
+    description: "Luego de haber derrotado a Bowser y salvado el vibrante Reino Champiñón, los inseparables hermanos Mario y Luigi finalmente disfrutan de una etapa de paz y tranquilidad. Pasan sus días ayudando a los ciudadanos locales con su clásica filosofía de trabajo, preparan con entusiasmo la gran fiesta de cumpleaños de la Princesa Peach, entablan una profunda e inseparable amistad con el tierno dinosaurio Yoshi e incluso intentan reformar a un inofensivo y diminuto Bowser que se encuentra en cautiverio. Sin embargo, la calma se rompe abruptamente cuando una misteriosa señal de auxilio proveniente del espacio exterior interrumpe sus vidas, obligándolos a mirar más allá de las nubes y emprender un viaje épico hacia lo desconocido.",
     trailer:"youtube:ipzEY7c7it8",
     thumbnail: "https://premierftp.com/wp-content/uploads/Descargar-Super-Mario-Galaxy-La-pelicula-2026-Espanol-1080p-Pelicula.webp",
     genre: "Aventura,Animación,Familia,FantasíaC,Comedia",
@@ -94,6 +94,32 @@ export const movies: Movie[] = [
           {
             title: "Opcion 2",
             file: "drive:1Ipq7u7tWxTHNgUG3UVPc8nCDx23botus",
+            download:"",
+          
+          },
+          
+ 
+        ],
+        
+},
+ {
+    id: "5",
+    title: "Depredador: Tierras salvajes",
+    year: 2025,
+    description: "En el futuro, en un planeta remoto, un joven Depredador, marginado de su clan, encuentra un aliado inesperado en Thia y se embarca en un peligroso viaje en busca del adversario definitivo.",
+    trailer:"youtube:vY4Cw3GRLdI",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/801d7f3cd7e7de449b9d6247c6f6bb50_hd.webp",
+    genre: "Aventura,Acción,Ciencia Ficción",
+
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1F-WcTfuqoOOO1gv5LjZ3nexFnK-St_iH",
+            download:"",
+          },
+          {
+            title: "Opcion 2",
+            file: "drive:",
             download:"",
           
           },
