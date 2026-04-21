@@ -155,4 +155,31 @@ export const movies: Movie[] = [
         
         
 },
+ {
+    id: "7",
+    title: "Proyecto: Fin del Mundo",
+    year: 2026,
+    description: "El profesor de ciencias Ryland Grace se despierta en una nave espacial a años luz de casa sin recordar quién es ni cómo ha llegado hasta allí. A medida que recupera la memoria, empieza a descubrir su misión: resolver el enigma de la misteriosa sustancia que provoca la extinción del sol. Deberá recurrir a sus conocimientos científicos y a sus ideas poco ortodoxas para salvar todo lo que hay en la Tierra de la extinción... pero una amistad inesperada significa que quizá no tenga que hacerlo solo.",
+    trailer:"youtube:448usLAnZr4",
+    thumbnail: "https://i0.wp.com/www.lajornadamorelos.mx/wp-content/uploads/2026/04/image-185.png?resize=768%2C978&ssl=1",
+    genre: "Aventura, C. Ficción, Estrenos",
+    isNew:true,
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1vccZBPIGx3QFYOoXAMcvwquOOeNflae0",
+            download:"",
+          },
+          {
+            title: "Opcion 2",
+            file: "drive:1vccZBPIGx3QFYOoXAMcvwquOOeNflae0",
+            download:"",
+          
+          },
+          
+ 
+        ],
+        
+        
+},
 ];
