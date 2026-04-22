@@ -69,6 +69,11 @@ export const series: Serie[] = [
             file: "drive:1iJ3hxPfTj-_YpLsdOcFp1vSuEsBRrBJ7",
             download:"",
           },
+                                                                 {
+            title: "Episodio 8",
+            file: "drive:1JMb61eesbPa1I3aThOQ7ZqwKmhqWoHij",
+            download:"https://www.mediafire.com/file/6kgtih31q7tarnt/ivwefgwsrgdrgh.zip/file",
+          },
         ],
       },
     ],
