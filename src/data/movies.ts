@@ -182,4 +182,31 @@ export const movies: Movie[] = [
         
         
 },
+ {
+    id: "8",
+    title: "Deadpool & Wolverine",
+    year: 2024,
+    description: "Un Wade Wilson apático se esfuerza en la vida civil. Sus días como el mercenario moralmente flexible Deadpool quedaron atrás. Cuando su mundo natal se enfrenta a una amenaza existencial, Wade debe, a regañadientes, volver a la acción junto a un reacio Wolverine.",
+    trailer:"youtube:UzFZR2dRsSY",
+    thumbnail: "https://www.ecartelera.com/carteles/16600/16608/005_p.webp",
+    genre: "Acción,Ciencia Ficción,Comedia",
+    isNew:true,
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1g4Xv-a9g_rMsTksyQUDiq-gLWDEW_svx",
+            download:"",
+          },
+          {
+            title: "Opcion 2",
+            file: "drive:1g4Xv-a9g_rMsTksyQUDiq-gLWDEW_svx",
+            download:"https://download.megaup.net/?url=l9OwIz8mqd2LDNCTvf69KU262BEcwqIPDNMIkc18j6moaJYGCEfbtZcOSw/53HLxK3gaM6Wu204aLpzosvUYRh+6fmtsen2QgBMiW4ZxCl+OR3HsoKu8NrAjOlo3G5AGf5tr/4cJk5fDFcbiY7vhejobXm5WN66R6BFeSY6lac4ZuD6MCmHx7cmQAlC0Oh9pZY1Mb3B9rNwu/TlrHJE65binfHyIfESktfJ+nOAVj16Ra9BDAhlW1N4boImQbwoG6I5uwS04JQhzr2Q5wLg691uWL89612TkPqDRVZZKSfVlHyGaw8tnVdsee7FztcndrwdEowz3YPxQokYQuqgV8g==",
+          
+          },
+          
+ 
+        ],
+        
+        
+},
 ];
