@@ -9,7 +9,7 @@ export const series: Serie[] = [
     trailer:"youtube:ROCIksHW2oc",
     thumbnail: "https://stars-my-destination.com/wp-content/uploads/2025/02/invencible-3x05-1.jpg?w=819",
     genre: "Acción",
-    isNew:false,
+    isNew:true,
     seasons: [ 
       {
               seasonNumber: 3,
