@@ -106,6 +106,11 @@ export const series: Serie[] = [
             file: "drive:1apXfF940Ga7xrBTFlLV2aU3rqc6SPwX3",
             download:"",
           },
+                            {
+            title: "Episodio 4",
+            file: "drive:1IBHPR5nVOYqvMPUgLxM5n0zWdfxiAsKf",
+            download:"https://www.mediafire.com/file/a7w02h9pb6hw84e/THBYSS05E04_ZL.rar/file",
+          },
         ],
       },
     ],
