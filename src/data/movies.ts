@@ -209,4 +209,31 @@ export const movies: Movie[] = [
         
         
 },
+ {
+    id: "9",
+    title: "¡Ayuda!",
+    year: 2026,
+    description: "Después de que un accidente de avión deje varados en una isla remota a una capaz empleada y a su molesto jefe, ella deberá utilizar sus habilidades de supervivencia para mantenerlos a ambos con vida, a pesar de su difícil relación.",
+    trailer:"youtube:37jXU_JQVZY",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/5bc4f3725d74ee7b65dfeb7b2602d15e_hd.webp",
+    genre: "Acción,Ciencia Ficción,Comedia",
+    isNew:true,
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1dOuXA7HYIFBJXAt5ySmNb73ZBf-sKyT1",
+            download:"",
+          },
+          {
+            title: "Opcion 2",
+            file: "drive:1dOuXA7HYIFBJXAt5ySmNb73ZBf-sKyT1",
+            download:"",
+          
+          },
+          
+ 
+        ],
+        
+        
+},
 ];
