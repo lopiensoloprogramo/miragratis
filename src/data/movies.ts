@@ -216,7 +216,7 @@ export const movies: Movie[] = [
     description: "Después de que un accidente de avión deje varados en una isla remota a una capaz empleada y a su molesto jefe, ella deberá utilizar sus habilidades de supervivencia para mantenerlos a ambos con vida, a pesar de su difícil relación.",
     trailer:"youtube:37jXU_JQVZY",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/5bc4f3725d74ee7b65dfeb7b2602d15e_hd.webp",
-    genre: "Acción,Ciencia Ficción,Comedia",
+    genre: "Suspenso,Comedio,Terror",
     isNew:true,
         opcion: [
           {
