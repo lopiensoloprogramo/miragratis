@@ -248,12 +248,12 @@ export const movies: Movie[] = [
         opcion: [
           {
             title: "Opcion 1",
-            file: "drive:1dOuXA7HYIFBJXAt5ySmNb73ZBf-sKyT1",
+            file: "drive:1vxFmsGAh73WfZ2IgUVLjqx_aoYEwjgP7",
             download:"",
           },
           {
             title: "Opcion 2",
-            file: "drive:1dOuXA7HYIFBJXAt5ySmNb73ZBf-sKyT1",
+            file: "drive:1vxFmsGAh73WfZ2IgUVLjqx_aoYEwjgP7",
             download:"",
           
           },
