@@ -171,7 +171,7 @@ export const series: Serie[] = [
           }, 
         ],
       },
-               {
+      {
         seasonNumber: 2,
         episodes: [
           
@@ -215,6 +215,23 @@ export const series: Serie[] = [
             file: "drive:1IRSo0zv9JZEHFLA9Up6w8MnmifZbFJu6",
             download:"",
           },     
+        ],
+      },
+          {
+        seasonNumber: 3,
+        episodes: [
+          
+          {
+            title: "Episodio 1",
+            file: "drive:1dsujgvpfRPwWdxFVqyzwXjvQtu9jHJiq",
+            download:"",
+          },
+           {
+            title: "Episodio 2",
+            file: "drive:196M3GxW5N6gkz5Ua_EdgvC-QfUwinJ-D",
+            download:"",
+          },      
+            
         ],
       },
       {
