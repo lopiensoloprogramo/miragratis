@@ -236,4 +236,31 @@ export const movies: Movie[] = [
         
         
 },
+ {
+    id: "10",
+    title: "Avatar: Fuego y ceniza",
+    year: 2025,
+    description: "Devastados por la guerra contra la RDA y la perdida de su hijo mayor, Jake Sully y Neytiri se enfrentan a una nueva amenaza en Pandora: el pueblo de la ceniza, una violenta tribu Na'vi ávida de poder liderada por los despiadados Varang.",
+    trailer:"youtube:yUykc63elIU",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/40dbe2dcc00ccc0f3d358eba9951c9d2_hd.webp",
+    genre: "Aventura,Ciencia Ficción,Fantasía",
+    isNew:true,
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1dOuXA7HYIFBJXAt5ySmNb73ZBf-sKyT1",
+            download:"",
+          },
+          {
+            title: "Opcion 2",
+            file: "drive:1dOuXA7HYIFBJXAt5ySmNb73ZBf-sKyT1",
+            download:"",
+          
+          },
+          
+ 
+        ],
+        
+        
+},
 ];
