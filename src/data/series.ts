@@ -457,4 +457,34 @@ export const series: Serie[] = [
 
     ],
   },
+        {
+    id: "8",
+    title: "Serie IT: Bienvenido a Derry",
+    year: 2017,
+    description: "Precuela de las películas de 'IT' basadas en las novelas de Stephen King. Comienza en la década de 1960, en la época previa a los acontecimientos de la película de 2017, y cuenta los orígenes del payaso Pennywise.",
+    trailer:"youtube:SXeHztWl0Ec",
+    thumbnail: "https://decine21.com/img/upload/obras/it-bienvenidos-a-derry-49306/it-bienvenidos-a-derry-49306-c.jpg",
+    genre: "Terror,C. Ficción,",
+    isNew:false,
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+
+          {
+            title: "Episodio 1",
+            file: "drive:1Op8NfHLwE8l9XSpK0dFRci6WQK9Y6yWf",
+            download:"",
+          },
+          {
+            title: "Episodio 2",
+            file: "drive:1FDp0u78XNO25nfJFPuc1TF7qEeOzUxrK",
+            download:"https://drive.google.com/file/d/1dBQAnc5PnAOQn25xyzrGU0M2HZg8onNa/view",
+          },
+
+        ],
+      },
+
+    ],
+  },
 ];
