@@ -231,6 +231,7 @@ export const series: Serie[] = [
             file: "drive:196M3GxW5N6gkz5Ua_EdgvC-QfUwinJ-D",
             download:"",
           },      
+          
             
         ],
       },
@@ -507,6 +508,16 @@ export const series: Serie[] = [
             title: "Episodio 2",
             file: "drive:1FDp0u78XNO25nfJFPuc1TF7qEeOzUxrK",
             download:"https://drive.google.com/file/d/1dBQAnc5PnAOQn25xyzrGU0M2HZg8onNa/view",
+          },
+                    {
+            title: "Episodio 3",
+            file: "drive:1WJNLYffC4iW5IACc7l04iO8Gh5PLVt4x",
+            download:"",
+          },
+                    {
+            title: "Episodio 4",
+            file: "drive:1PAZ7GhO8rFlIxugGSpE-OI_OWlRp5PKO",
+            download:"",
           },
 
         ],
