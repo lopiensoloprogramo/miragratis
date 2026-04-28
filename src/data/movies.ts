@@ -263,4 +263,31 @@ export const movies: Movie[] = [
         
         
 },
+ {
+    id: "11",
+    title: "Zootopia 2",
+    year: 2025,
+    description: "Tras resolver el caso más importante de la historia de Zootopia, los policías novatos Judy Hopps y Nick Wilde se encuentran en la sinuosa pista de un gran misterio cuando Gary De'Snake llega y revoluciona la metrópolis animal.",
+    trailer:"youtube:7gytUpiues8",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/d132228320ddc0537cb7d13b8d9a97da_hd.webp",
+    genre: "Aventura,Acción,Familia,Comedia",
+    isNew:true,
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1s75EfdIfAfIdohVFnaHL9JoByElMLcIs",
+            download:"",
+          },
+          {
+            title: "Opcion 2",
+            file: "drive:1s75EfdIfAfIdohVFnaHL9JoByElMLcIs",
+            download:"",
+          
+          },
+          
+ 
+        ],
+        
+        
+},
 ];
