@@ -265,33 +265,6 @@ export const movies: Movie[] = [
 },
  {
     id: "11",
-    title: "Ápex",
-    year: 2026,
-    description: "Una mujer en duelo que busca poner a prueba sus límites en la naturaleza australiana queda atrapada en un retorcido juego mortal con un asesino que la considera su presa.",
-    trailer:"youtube:Mb491Os4zFc",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/8415c6eca989a9758093a10853f06006_hd.webp",
-    genre: "Acción,Suspenso",
-    isNew:true,
-        opcion: [
-          {
-            title: "Opcion 1",
-            file: "drive:1R8jZ-0NC8FpLXIO70DfwVIWmf0axIwCI",
-            download:"",
-          },
-          {
-            title: "Opcion 2",
-            file: "drive:1R8jZ-0NC8FpLXIO70DfwVIWmf0axIwCI",
-            download:"",
-          
-          },
-          
- 
-        ],
-        
-        
-},
- {
-    id: "12",
     title: "Zootopia 2",
     year: 2025,
     description: "Tras resolver el caso más importante de la historia de Zootopia, los policías novatos Judy Hopps y Nick Wilde se encuentran en la sinuosa pista de un gran misterio cuando Gary De'Snake llega y revoluciona la metrópolis animal.",
@@ -308,6 +281,33 @@ export const movies: Movie[] = [
           {
             title: "Opcion 2",
             file: "drive:1s75EfdIfAfIdohVFnaHL9JoByElMLcIs",
+            download:"",
+          
+          },
+          
+ 
+        ],
+        
+        
+},
+ {
+    id: "12",
+    title: "Ápex",
+    year: 2026,
+    description: "Una mujer en duelo que busca poner a prueba sus límites en la naturaleza australiana queda atrapada en un retorcido juego mortal con un asesino que la considera su presa.",
+    trailer:"youtube:Mb491Os4zFc",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/8415c6eca989a9758093a10853f06006_hd.webp",
+    genre: "Acción,Suspenso",
+    isNew:true,
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1R8jZ-0NC8FpLXIO70DfwVIWmf0axIwCI",
+            download:"",
+          },
+          {
+            title: "Opcion 2",
+            file: "drive:1R8jZ-0NC8FpLXIO70DfwVIWmf0axIwCI",
             download:"",
           
           },
