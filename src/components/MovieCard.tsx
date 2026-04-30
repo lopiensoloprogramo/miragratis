@@ -4,11 +4,13 @@ import { Link } from "react-router-dom";
 
 export default function MovieCard({
   item,
+  index,
 }: {
   item: Movie | Serie;
-}) {
+  index: number;
+}){
   // Detectar tipo automáticamente
-  
+  const isNew = index < 5;
   const isSerie = "seasons" in item; // o cualquier campo exclusivo de Serie
 
   const link = isSerie ? `/serie/${item.id}` : `/movie/${item.id}`;
@@ -16,6 +18,9 @@ export default function MovieCard({
   const title = item.title;
   const year = item.year;
   
+
+
+
   return (
     <Link to={link}>
       <div className="group cursor-pointer">
@@ -29,12 +34,12 @@ export default function MovieCard({
             alt={title}
             className="w-full h-56 object-cover"
           />
-            {item.isNew && !("seasons" in item)&&  (
+           {isNew && (
               <span className="absolute top-1 left-2 bg-yellow-400 text-black text-xs px-2 py-1 rounded font-bold">
              NUEVO
               </span>
             )}
-          {"seasons"in item&& item.isNew&&(
+         {"seasons" in item && index < 5 && (
           <span className="absolute top-1 left-2 bg-yellow-400 text-black text-xs px-2 py-1 rounded font-bold">
              NUEVO CAPÍTULO
               </span>

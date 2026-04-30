@@ -22,7 +22,9 @@ export default function MovieRow({
       behavior: "smooth",
     });
   };
-
+const sortedItems = [...items].sort(
+  (a, b) => Number(b.id) - Number(a.id)
+);
   return (
     <div className="mb-6">
       <h2 className="text-xl mb-3 font-semibold">{title}</h2>
@@ -51,11 +53,11 @@ export default function MovieRow({
             md:overflow-x-hidden
           "
         >
-          {items.map((item) => (
-            <div key={item.id} className="min-w-[180px] snap-start">
-              <MovieCard item={item} />
-            </div>
-          ))}
+        {sortedItems.map((item, index) => (
+          <div key={item.id} className="min-w-[180px] snap-start">
+            <MovieCard item={item} index={index} />
+          </div>
+        ))}
         </div>
 
         {/* Botón derecha (solo desktop) */}

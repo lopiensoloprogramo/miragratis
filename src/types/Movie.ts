@@ -15,5 +15,5 @@ export interface Movie{
   thumbnail: string;
   genre: string;
   opcion:Opcion[]
-  isNew: boolean
+
 }

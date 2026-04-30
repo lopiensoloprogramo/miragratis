@@ -19,5 +19,5 @@ export interface Serie {
   thumbnail: string;
   genre: string;
   seasons: Season[];
-  isNew:boolean
+  createdAt: number,
 }

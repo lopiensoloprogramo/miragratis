@@ -10,7 +10,7 @@ export const movies: Movie[] = [
     trailer:"youtube:WZXCpje7ZNo",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/62f4da8f7735a7caced5192d1e3ffac2_hd.webp",
     genre: "Crimen,Misterio, Terror",
-    isNew:false,
+
         opcion: [
           {
             title: "Opcion 1",
@@ -34,7 +34,7 @@ export const movies: Movie[] = [
     trailer:"youtube:SvJwEiy2Wok",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/c60ecb2ca9a1dc10133ed2d86386e3f9_hd.webp",
     genre: "Aventura,Animación,Familia,FantasíaC,Comedia",
-    isNew: false,
+
         opcion: [
           {
             title: "Opcion 1",
@@ -60,7 +60,7 @@ export const movies: Movie[] = [
     trailer:"youtube:RzzTn93ffZw",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/1a4b28e2b442424ced20ba09187aac3c_hd.webp",
     genre: "Drama,Misterio,Terror",
-    isNew: false,
+
         opcion: [
           {
             title: "Opcion 1",
@@ -86,7 +86,7 @@ export const movies: Movie[] = [
     trailer:"youtube:ipzEY7c7it8",
     thumbnail: "https://premierftp.com/wp-content/uploads/Descargar-Super-Mario-Galaxy-La-pelicula-2026-Espanol-1080p-Pelicula.webp",
     genre: "Aventura,Animación,Familia,FantasíaC,Comedia",
-    isNew: true,
+
         opcion: [
           {
             title: "Opcion 1",
@@ -112,7 +112,7 @@ export const movies: Movie[] = [
     trailer:"youtube:vY4Cw3GRLdI",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/801d7f3cd7e7de449b9d6247c6f6bb50_hd.webp",
     genre: "Aventura,Acción,Ciencia Ficción",
-    isNew:true,
+
         opcion: [
           {
             title: "Opcion 1",
@@ -138,7 +138,7 @@ export const movies: Movie[] = [
     trailer:"youtube:SevrcuQcS6g",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/500ce9f452d1a56d4025bb879d863a03_hd.webp",
     genre: "Acción,Ciencia Ficción,Terror",
-    isNew:true,
+
         opcion: [
           {
             title: "Opcion 1",
@@ -165,7 +165,7 @@ export const movies: Movie[] = [
     trailer:"youtube:448usLAnZr4",
     thumbnail: "https://i0.wp.com/www.lajornadamorelos.mx/wp-content/uploads/2026/04/image-185.png?resize=768%2C978&ssl=1",
     genre: "Aventura, C. Ficción, Estrenos",
-    isNew:true,
+
         opcion: [
           {
             title: "Opcion 1",
@@ -192,7 +192,7 @@ export const movies: Movie[] = [
     trailer:"youtube:UzFZR2dRsSY",
     thumbnail: "https://www.ecartelera.com/carteles/16600/16608/005_p.webp",
     genre: "Acción,Ciencia Ficción,Comedia",
-    isNew:true,
+
         opcion: [
           {
             title: "Opcion 1",
@@ -219,7 +219,7 @@ export const movies: Movie[] = [
     trailer:"youtube:37jXU_JQVZY",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/5bc4f3725d74ee7b65dfeb7b2602d15e_hd.webp",
     genre: "Suspenso,Comedio,Terror",
-    isNew:true,
+
         opcion: [
           {
             title: "Opcion 1",
@@ -246,7 +246,7 @@ export const movies: Movie[] = [
     trailer:"youtube:yUykc63elIU",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/40dbe2dcc00ccc0f3d358eba9951c9d2_hd.webp",
     genre: "Aventura,Ciencia Ficción,Fantasía",
-    isNew:true,
+
         opcion: [
           {
             title: "Opcion 1",
@@ -273,7 +273,7 @@ export const movies: Movie[] = [
     trailer:"youtube:7gytUpiues8",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/d132228320ddc0537cb7d13b8d9a97da_hd.webp",
     genre: "Aventura,Acción,Familia,Comedia",
-    isNew:true,
+
         opcion: [
           {
             title: "Opcion 1",
@@ -300,7 +300,7 @@ export const movies: Movie[] = [
     trailer:"youtube:Mb491Os4zFc",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/8415c6eca989a9758093a10853f06006_hd.webp",
     genre: "Acción,Suspenso",
-    isNew:true,
+
         opcion: [
           {
             title: "Opcion 1",
@@ -327,7 +327,7 @@ export const movies: Movie[] = [
     trailer:"youtube:iVJaujA54Y8",
     thumbnail: "https://premierftp.com/wp-content/uploads/Descargar-Michael-2026-Espanol-1080p-Pelicula.webp",
     genre: "Biografía,Drama,Musical",
-    isNew:true,
+
         opcion: [
           {
             title: "Opcion 1",
