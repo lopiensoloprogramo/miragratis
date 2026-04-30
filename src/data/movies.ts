@@ -1,5 +1,7 @@
 import type { Movie } from "../types/Movie";
 export const movies: Movie[] = [
+
+ 
   {
     id: "1",
     title: "Scream 7",
@@ -308,6 +310,33 @@ export const movies: Movie[] = [
           {
             title: "Opcion 2",
             file: "drive:1R8jZ-0NC8FpLXIO70DfwVIWmf0axIwCI",
+            download:"",
+          
+          },
+          
+ 
+        ],
+        
+        
+},
+  {
+    id: "13",
+    title: "Michael",
+    year: 2026,
+    description: "Con una asombrosa y casi mística precisión, esta espectacular y esperada película biográfica nos sumerge de lleno en la fascinante, compleja y a menudo turbulenta vida de Michael Jackson (interpretado magistralmente por su sobrino, Jaafar Jackson). La historia traza el meteórico e inigualable ascenso del artista desde sus humildes y estrictos inicios como el carismático niño prodigio líder de los Jackson 5 bajo la dura mirada de su padre, Joe Jackson (Colman Domingo), hasta convertirse en la fuerza cultural más grande, innovadora e influyente de toda la historia de la música pop. A través de recreaciones vibrantes y absolutamente milimétricas de sus videos musicales más icónicos y sus presentaciones en vivo más legendarias, la cinta es un festín visual y sonoro que captura a la perfección la genialidad creativa detrás de obras maestras como Thriller, Billie Jean y Beat It.",
+    trailer:"youtube:iVJaujA54Y8",
+    thumbnail: "https://premierftp.com/wp-content/uploads/Descargar-Michael-2026-Espanol-1080p-Pelicula.webp",
+    genre: "Biografía,Drama,Musical",
+    isNew:true,
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1K3nH6r4l_vvQ-i2Xgs9S88d9VGnd9KtS",
+            download:"",
+          },
+          {
+            title: "Opcion 2",
+            file: "drive:1K3nH6r4l_vvQ-i2Xgs9S88d9VGnd9KtS",
             download:"",
           
           },
