@@ -39,7 +39,7 @@ export default function MovieCard({
              NUEVO
               </span>
             )}
-         {"seasons" in item && index < 5 && (
+         {"seasons" in item && index < 7 && (
           <span className="absolute top-1 left-2 bg-yellow-400 text-black text-xs px-2 py-1 rounded font-bold">
              NUEVO CAPÍTULO
               </span>
