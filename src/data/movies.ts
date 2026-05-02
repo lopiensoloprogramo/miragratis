@@ -346,4 +346,31 @@ export const movies: Movie[] = [
         
         
 },
+  {
+    id: "14",
+    title: "After: Aquí empieza todo",
+    year: 2019,
+    description: "La joven Tessa Young cursa su primer año en la universidad. Acostumbrada a una vida estable y ordenada, su mundo cambia cuando conoce a Hardin Scott, un misterioso joven de oscuro pasado. Desde el primer momento se odian, porque pertenecen a dos mundos distintos y son completamente opuestos. Sin embargo, estos dos polos opuestos pronto se unirán y nada volverá a ser igual. Tessa y Hardin deberán enfrentarse a difíciles pruebas para estar juntos. La inocencia, el despertar a la vida, el descubrimiento sexual y las huellas de un amor tan poderoso como la fuerza del destino.",
+    trailer:"youtube:3zjxECCWwrU",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/3b7796ce7eab29f10eec596922e0a022_hd.webp",
+    genre: "Drama,Romance",
+
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1O9oSchvvPkKp2pqGAq8rntseBJbgjPAg",
+            download:"",
+          },
+          {
+            title: "Opcion 2",
+            file: "drive:1O9oSchvvPkKp2pqGAq8rntseBJbgjPAg",
+            download:"",
+          
+          },
+          
+ 
+        ],
+        
+        
+},
 ];
