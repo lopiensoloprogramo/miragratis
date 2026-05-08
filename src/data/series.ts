@@ -116,9 +116,14 @@ export const series: Serie[] = [
             file: "drive:1k_nBLV0nGxJMgeCui07JUpEhd_gceaPL",
             download:"",
           },
+                                                {
+            title: "Episodio 6",
+            file: "drive:1xmw2fRJygHtQbvz6WBdZeRulAmRr4mvs",
+            download:"",
+          },
         ],
       },
-    ],
+    ]
   },
    {
     id: "3",
@@ -533,6 +538,36 @@ export const series: Serie[] = [
             title: "Episodio 4",
             file: "drive:1PAZ7GhO8rFlIxugGSpE-OI_OWlRp5PKO",
             download:"",
+          },
+
+        ],
+      },
+
+    ],
+  },
+        {
+    id: "9",
+    title: "FROM",
+    year: 2022,
+    description: "Desvela el misterio de un pueblo de pesadilla en el centro de América que atrapa a todos los que entran. Mientras los residentes involuntarios luchan por mantener una sensación de normalidad y buscan una salida, también deben sobrevivir a las amenazas del bosque circundante, incluidas las aterradoras criaturas que salen cuando se pone el sol.",
+    trailer:"youtube:A-6HRIzZo7s",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/54068ea05b97cac0a33469c99c25c350_hd.webp",
+    genre: "Terror,C. Ficción,",
+    createdAt: Date.now(),
+    seasons: [
+      {
+        seasonNumber: 4,
+        episodes: [
+
+          {
+            title: "Episodio 1",
+            file: "drive:19phOeX-5Qxj4j9cF7CI-YNYmwS_GnF4_",
+            download:"",
+          },
+          {
+            title: "Episodio 2",
+            file: "drive:1FDp0u78XNO25nfJFPuc1TF7qEeOzUxrK",
+            download:"https://drive.google.com/file/d/1dBQAnc5PnAOQn25xyzrGU0M2HZg8onNa/view",
           },
 
         ],
