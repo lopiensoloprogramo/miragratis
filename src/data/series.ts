@@ -566,8 +566,8 @@ export const series: Serie[] = [
           },
           {
             title: "Episodio 2",
-            file: "drive:1FDp0u78XNO25nfJFPuc1TF7qEeOzUxrK",
-            download:"https://drive.google.com/file/d/1dBQAnc5PnAOQn25xyzrGU0M2HZg8onNa/view",
+            file: "drive:1_qaJ4o_6yZfhyUO2esxRx-GdG2IwNpIb",
+            download:"",
           },
 
         ],
