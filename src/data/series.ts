@@ -89,7 +89,7 @@ export const series: Serie[] = [
     createdAt: Date.now(),
     seasons: [
       {
-        seasonNumber: 4,
+        seasonNumber: 5,
         episodes: [
           {
             title: "Episodio 1",
