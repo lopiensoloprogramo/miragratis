@@ -606,7 +606,7 @@ export const series: Serie[] = [
   },
     {
     id: "10",
-    title: "Kiss Me",
+    title: "Off Campus",
     year: 2026,
     description: "Cuenta la inesperada conexión entre una estudiante de música y el jugador estrella de hockey de la universidad. A medida que su relación se profundiza, deben enfrentarse a la amistad, la presión, la ambición y la realidad de la edad adulta, donde cada elección tiene sus consecuencias.",
     trailer:"youtube:2dHZjW6TclQ",
