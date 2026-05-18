@@ -604,4 +604,32 @@ export const series: Serie[] = [
 
     ],
   },
+    {
+    id: "10",
+    title: "Kiss Me",
+    year: 2026,
+    description: "Cuenta la inesperada conexión entre una estudiante de música y el jugador estrella de hockey de la universidad. A medida que su relación se profundiza, deben enfrentarse a la amistad, la presión, la ambición y la realidad de la edad adulta, donde cada elección tiene sus consecuencias.",
+    trailer:"youtube:2dHZjW6TclQ",
+    thumbnail: "https://descargaseriestv.com/wp-content/uploads/2026/05/Kiss-Me-Temporada-3-Serie-de-TV-2026-1080p-Descargar-689x1024.jpg",
+    genre: " Drama romántico. Adolescencia. Hockey sobre hielo",
+    createdAt: Date.now(),
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            title: "Episodio 6",
+            file: "drive:1QdI4M-wVLcF9AisUBwf6FtQ_r3cSU3Kb",
+            download:"",
+          },
+          {
+            title: "Episodio 7",
+            file: "migratisInvencible S1 E2.mp4",
+            download:"",
+          },
+        ],
+      },
+      
+    ],
+  },
 ];
