@@ -11,6 +11,10 @@ export default function VideoPlayer({ item }: { item: string }) {
   const isYoutube = item?.startsWith("youtube:");
   const youtubeId = isYoutube ? item.replace("youtube:", "") : null;
 
+  // 🔥 MEGA
+  const isMega = item?.startsWith("mega:");
+  const megaId = isMega ? item.replace("mega:", "") : null;
+
   const getVideoUrl = async (item: string) => {
     try {
       const res = await fetch(
@@ -31,15 +35,17 @@ export default function VideoPlayer({ item }: { item: string }) {
       return;
     }
 
-    // 🔥 SI ES DRIVE o YOUTUBE → NO LLAMAR API
-    if (isDrive || isYoutube) {
+    // 🔥 SI ES DRIVE / YOUTUBE / MEGA → NO LLAMAR API
+    if (isDrive || isYoutube || isMega) {
       setLoading(false);
       return;
     }
 
     const load = async () => {
       setLoading(true);
+
       const url = await getVideoUrl(item);
+
       setVideoUrl(url);
       setLoading(false);
     };
@@ -48,7 +54,7 @@ export default function VideoPlayer({ item }: { item: string }) {
   }, [item]);
 
   return (
-    <div className="w-full aspect-[16/8] md:aspect-[16/8] ... bg-black rounded-lg overflow-hidden relative">
+    <div className="w-full aspect-[16/8] md:aspect-[16/8] bg-black rounded-lg overflow-hidden relative">
 
       {/* 🎬 YOUTUBE */}
       {isYoutube && youtubeId && (
@@ -72,8 +78,19 @@ export default function VideoPlayer({ item }: { item: string }) {
         />
       )}
 
+      {/* 🎬 MEGA */}
+      {isMega && megaId && (
+        <iframe
+          key={megaId}
+          src={`https://mega.nz/embed/${megaId}`}
+          className="w-full h-full"
+          allow="autoplay"
+          allowFullScreen
+        />
+      )}
+
       {/* 🎬 BUNNY / MP4 */}
-      {!isDrive && !isYoutube && videoUrl && (
+      {!isDrive && !isYoutube && !isMega && videoUrl && (
         <video
           key={videoUrl}
           controls
@@ -85,7 +102,7 @@ export default function VideoPlayer({ item }: { item: string }) {
       )}
 
       {/* ❌ ERROR */}
-      {!loading && !isDrive && !isYoutube && !videoUrl && (
+      {!loading && !isDrive && !isYoutube && !isMega && !videoUrl && (
         <div className="absolute inset-0 flex items-center justify-center text-white">
           Video no disponible
         </div>
