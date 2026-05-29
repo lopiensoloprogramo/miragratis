@@ -373,4 +373,26 @@ export const movies: Movie[] = [
         
         
 },
+  {
+    id: "15",
+    title: "Obsesión",
+    year: 2026,
+    description: "El deseo desesperado y romántico de un joven por su amor platónico de siempre provoca un oscuro encantamiento: Niki se transforma en una obsesión irracional, convirtiéndose en la sombra de Bear. Una ilusión que al principio parece inofensiva se transforma en una inquietante pesadilla.",
+    trailer:"youtube:nkbdrYs7Maw",
+    thumbnail: "https://image.tmdb.org/t/p/w400/40I66L7QKguTFDPvcLcdiTbAD7I.jpg",
+    genre: "Suspense,Terror",
+
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:6Mx2TSLR#ke3_8wI6dkfG7skmjBS9O8bPc0DHYwEYvYI-u44-JmI",
+            download:"",
+          },
+
+          
+ 
+        ],
+        
+        
+},
 ];
