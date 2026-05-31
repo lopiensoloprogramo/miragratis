@@ -589,6 +589,24 @@ export const series: Serie[] = [
     genre: "Terror,C. Ficción,",
     createdAt: Date.now(),
     seasons: [
+             {
+        seasonNumber: 2,
+        episodes: [
+
+          {
+            title: "Episodio 6",
+            file: "mega:7UZxhLAK#WPwPK04a60GINrAyyh5QKm3hOekn0Or2X1OYrLhJDQg",
+            download:"",
+          },
+          {
+            title: "Episodio 7",
+            file: "mega:CVgWiBbJ#Vdq3UZhdKCfeSC_JQcy9ZZWOUtf5HrCQQKEjcNKrAbg",
+            download:"",
+          },
+ 
+
+        ],
+      },
       {
         seasonNumber: 4,
         episodes: [
@@ -611,6 +629,7 @@ export const series: Serie[] = [
 
         ],
       },
+     
 
     ],
   },
