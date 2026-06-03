@@ -123,12 +123,12 @@ export const series: Serie[] = [
           },
                                                           {
             title: "Episodio 7",
-            file: "drive:",
+            file: "drive:1QcapASAEExy4Hi6IWJ0pClbXue_q7mhK",
             download:"drive:1QcapASAEExy4Hi6IWJ0pClbXue_q7mhK",
           },
                                                                     {
             title: "Episodio 8",
-            file: "drive:",
+            file: "mega:PcIxyZDK#-EIUoYp6NImWzmJ9tcHGMNFwkuxdhFfNNC37eTU_tpI",
             download:"mega:PcIxyZDK#-EIUoYp6NImWzmJ9tcHGMNFwkuxdhFfNNC37eTU_tpI",
           },
         ],

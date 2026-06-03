@@ -395,4 +395,26 @@ export const movies: Movie[] = [
         
         
 },
+  {
+    id: "16",
+    title: "La posesión de la momia (2026)",
+    year: 2026,
+    description: "La joven hija de un periodista desaparece en el desierto sin dejar rastro. Ocho años después, la familia rota se sorprende cuando ella regresa con ellos, mientras lo que debería ser una reunión alegre se convierte en una pesadilla viviente.",
+    trailer:"youtube:az6bdokjRk8",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/c22fdaaf2da7157fd0ecc757f34ff726_hd.webp",
+    genre: "Suspense,Terror",
+
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:2Qwh1DpI#TcCFY3E_63ZEHTz3DfAXO4EV3IeGecxm_vohDJqRysw",
+            download:"",
+          },
+
+          
+ 
+        ],
+        
+        
+},
 ];
