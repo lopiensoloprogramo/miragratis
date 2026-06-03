@@ -126,6 +126,11 @@ export const series: Serie[] = [
             file: "drive:",
             download:"drive:1QcapASAEExy4Hi6IWJ0pClbXue_q7mhK",
           },
+                                                                    {
+            title: "Episodio 8",
+            file: "drive:",
+            download:"mega:PcIxyZDK#-EIUoYp6NImWzmJ9tcHGMNFwkuxdhFfNNC37eTU_tpI",
+          },
         ],
       },
     ]
@@ -601,6 +606,16 @@ export const series: Serie[] = [
           {
             title: "Episodio 7",
             file: "mega:CVgWiBbJ#Vdq3UZhdKCfeSC_JQcy9ZZWOUtf5HrCQQKEjcNKrAbg",
+            download:"",
+          },
+                    {
+            title: "Episodio 8",
+            file: "mega:yVIz0LyJ#QMpPeU-itgaCqrYoxnflCdZUPYcQQ11YGt4VzitRZso",
+            download:"",
+          },
+                    {
+            title: "Episodio 9",
+            file: "mega:zBAgEJyQ#1PRA9GQmWynzQq-22ug8MPIkUnFGcVJ_uX-qMTpO_-w",
             download:"",
           },
  
