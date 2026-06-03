@@ -407,7 +407,29 @@ export const movies: Movie[] = [
         opcion: [
           {
             title: "Opcion 1",
-            file: "mega:2Qwh1DpI#TcCFY3E_63ZEHTz3DfAXO4EV3IeGecxm_vohDJqRysw",
+            file: "mega:",
+            download:"",
+          },
+
+          
+ 
+        ],
+        
+        
+},
+  {
+    id: "17",
+    title: "El Exorcismo De Dios",
+    year: 2022,
+    description: "Un sacerdote estadounidense que trabaja en México es considerado un santo por muchos feligreses locales. Sin embargo, debido a un exorcismo fallido, lleva un secreto que lo está comiendo vivo hasta que tiene la oportunidad de enfrentar a su demonio por última vez.",
+    trailer:"youtube:69BdJUksRnQ",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/32b8ab97320012d424786286a12683d2_hd.webp",
+    genre: "Suspense,Terror",
+
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:uRpFCaoT#QFbldZbYBHeuMtmf54DSCojqE1Nu2h5K7OId6rphzRg",
             download:"",
           },
 
