@@ -129,7 +129,7 @@ export const series: Serie[] = [
                                                                     {
             title: "Episodio 8",
             file: "mega:PcIxyZDK#-EIUoYp6NImWzmJ9tcHGMNFwkuxdhFfNNC37eTU_tpI",
-            download:"mega:PcIxyZDK#-EIUoYp6NImWzmJ9tcHGMNFwkuxdhFfNNC37eTU_tpI",
+            download:"",
           },
         ],
       },
