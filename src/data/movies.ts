@@ -461,4 +461,26 @@ export const movies: Movie[] = [
         
         
 },
+ {
+    id: "19",
+    title: "El Diablo viste a la moda 2",
+    year: 2026,
+    description: "Sigue la lucha de Miranda Priestly contra Emily Charlton, su ex asistente convertida en ejecutiva rival, mientras compiten por los ingresos por publicidad en medio de la decadencia de los medios impresos y Miranda se acerca a la jubilación.",
+    trailer:"youtube:O52u0imiqNY",
+    thumbnail: "https://pics.filmaffinity.com/the_devil_wears_prada_2-402204206-mmed.jpg",
+    genre: "Comedia,Drama",
+
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:eNYynAxb#J9LvUv3ZI_sFrbLLxKD1C51GonZkYUPxL2fkoVFjNTw",
+            download:"",
+          },
+
+          
+ 
+        ],
+        
+        
+},
 ];
