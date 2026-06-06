@@ -546,7 +546,7 @@ export const series: Serie[] = [
   },
         {
     id: "8",
-    title: "Serie IT: Bienvenido a Derry",
+    title: "IT: Bienvenidos a Derry",
     year: 2025,
     description: "Precuela de las películas de 'IT' basadas en las novelas de Stephen King. Comienza en la década de 1960, en la época previa a los acontecimientos de la película de 2017, y cuenta los orígenes del payaso Pennywise.",
     trailer:"youtube:SXeHztWl0Ec",
