@@ -439,4 +439,26 @@ export const movies: Movie[] = [
         
         
 },
+  {
+    id: "18",
+    title: "Backrooms",
+    year: 2026,
+    description: "Una serie de perturbadores vídeos caseros documenta fenómenos sobrenaturales que sumen a sus testigos en el miedo y la angustia. Este filme de terror se inspira en los cortometrajes virales The Backrooms de Kane Parsons, que se hicieron famosos en YouTube por su inquietante representación de espacios infinitos y laberínticos. Combinando la estética del metraje encontrado con el terror psicológico, la película explora los límites de lo desconocido, donde entornos cotidianos se tornan hostiles y la línea entre lo natural y lo sobrenatural desaparece. Cada fragmento de vídeo desvela nuevas capas de horror, sumergiendo al espectador en un mundo laberíntico y desasosegante, donde la sensación de amenaza acecha en cada sombra y lo familiar se vuelve inquietantemente extraño.",
+    trailer:"youtube:j6xBUJSm_S8",
+    thumbnail: "https://m.media-amazon.com/images/M/MV5BYzQyYjZmMjctMzIyZi00MDI0LWJhNGQtMzQ3MTFlNDgwNGM5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    genre: "Suspense,Terror",
+
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:uJ5kFA7b#kY2ORKDL16lMzOYMHLvtIXl12tkONe21WFGRkIfQeMo",
+            download:"",
+          },
+
+          
+ 
+        ],
+        
+        
+},
 ];
