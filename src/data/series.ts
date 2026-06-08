@@ -426,6 +426,7 @@ export const series: Serie[] = [
             file: "drive:1VaoKpSnZ5yafHF734M9iEyncfWwOQ6cW",
             download:"",
           },
+
         ],
       },
 
@@ -465,6 +466,11 @@ export const series: Serie[] = [
                                                             {
             title: "Episodio 7",
             file: "mega:HAITxTqS#z_HgcXDVaNbEPwJZKTXFK8TbwIMKQDWch_I90Ok1Ip0",
+            download:"",
+          },
+                                     {
+            title: "Episodio 8",
+            file: "mega:HJZUHCyS#DLQ_woQVjjdgiZA4D4S4wf-0Cup4ihtfBy2X49rsEJY",
             download:"",
           },
         ],
