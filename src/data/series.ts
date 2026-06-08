@@ -383,7 +383,7 @@ export const series: Serie[] = [
     title: "Euphoria",
     year: 2019,
     description: "Una reflexión sobre la adolescencia a través de un grupo de estudiantes de instituto que tienen que hacer frente a temas recurrentes de su edad, como la droga, el sexo y la violencia.",
-    trailer:"youtube:2SWP1VQDxAE",
+    trailer:"youtube:w0zvCn268OI",
     thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfrjrT4Cp9s34CjihlGdknr99RctZeRfARPSTiSh4u91GlBpurQ5enciKKHQlzVw2RiZmJJQ&s=10",
     genre: "Drama,HBO,Series",
     createdAt: Date.now(),
