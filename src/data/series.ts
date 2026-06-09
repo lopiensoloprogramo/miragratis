@@ -666,6 +666,16 @@ export const series: Serie[] = [
             file: "mega:Wcx1hLgC#uxdLUi3Jd_cwF0yAs9PYkErramlFqL7-CZWaJe_GsUs",
             download:"",
           },
+                                        {
+            title: "Episodio 7",
+            file: "mega:6NgmHJYI#IYxE__RqIC_ZhN6ftYIT9VMtw9NsmkOoJlSiK3gQ230",
+            download:"",
+          },
+                                        {
+            title: "Episodio 8",
+            file: "mega:SIR0AaiC#4BOoWxOZTOe53NN1Qo_WUbJQfeDT3Wdew6js51-GqcA",
+            download:"",
+          },
          
 
         ],
