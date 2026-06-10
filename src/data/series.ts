@@ -698,6 +698,11 @@ export const series: Serie[] = [
             file: "mega:qAIGCaza#r7_wTioF3pkoUu7AJO_MjnRHyiDPR3dPw8PCy-NkRe0",
             download:"",
           },
+                                                  {
+            title: "Episodio 10",
+            file: "mega:zNIFFRJb#JimWPHgN5ZfEUgwo_tCrxWzSWZYvW0Ne4eDIernam0s",
+            download:"",
+          },
 
          
 
