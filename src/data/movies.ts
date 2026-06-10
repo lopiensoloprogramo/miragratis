@@ -483,4 +483,26 @@ export const movies: Movie[] = [
         
         
 },
+ {
+    id: "20",
+    title: "MORTAL KOMBAT 2",
+    year: 2026,
+    description: "Los campeones favoritos de los fans —ahora acompañados por el mismísimo Johnny Cage— se enfrentan entre sí en la batalla definitiva, sangrienta y sin reglas, para derrotar el oscuro dominio de Shao Kahn, que amenaza con destruir el Reino de la Tierra y a sus defensores.",
+    trailer:"youtube:_5RFjYeWSls",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/83d2aeedc57230d8d320d1c7f55a199a_hd.webp",
+    genre: "Aventura,Acción,Fantasía",
+
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:jR5kjQaJ#ZLRdZ5I6YWL3uZgXxDU5ntwTf20MWbcDqG5DJzC57I8",
+            download:"",
+          },
+
+          
+ 
+        ],
+        
+        
+},
 ];
