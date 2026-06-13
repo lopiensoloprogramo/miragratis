@@ -660,6 +660,16 @@ export const series: Serie[] = [
              {
         seasonNumber: 2,
         episodes: [
+                    {
+            title: "Episodio 1",
+            file: "mega:TdwnATAQ#BJMrMxDOllX2dPlFfUB1NCoGrGbHZl3LzPnSWmrPWE8",
+            download:"",
+          },
+                    {
+            title: "Episodio 2",
+            file: "mega:XJZ1EZ5C#8ZgLWkKt5MEXdBxjCW9PJAaCANwFheq0HPF8uKnfCyg",
+            download:"",
+          },
 
           {
             title: "Episodio 6",

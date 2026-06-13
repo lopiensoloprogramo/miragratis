@@ -505,4 +505,26 @@ export const movies: Movie[] = [
         
         
 },
+ {
+    id: "21",
+    title: "Scary Movie 6: Terroríficamente incorrecta",
+    year: 2026,
+    description: "Veintiséis años después de conseguir escapar de un asesino enmascarado sospechosamente familiar, el Core Four están de vuelta en el punto de mira del asesino y ninguna película de terror está a salvo.",
+    trailer:"youtube:UPDjaBBJThU",
+    thumbnail: "https://cdnfiles.cfd/p/v2/w1/viF09nVknN5a1JGyiMTqMrJUq2Vif9RB.webp",
+    genre: "Comedia",
+
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:jR5kjQaJ#ZLRdZ5I6YWL3uZgXxDU5ntwTf20MWbcDqG5DJzC57I8",
+            download:"",
+          },
+
+          
+ 
+        ],
+        
+        
+},
 ];
