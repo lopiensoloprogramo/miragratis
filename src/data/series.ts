@@ -7,7 +7,7 @@ export const series: Serie[] = [
     year: 2021,
     description: "Mark Grayson es un joven común, salvo por el detalle de que su papá es el héroe más fuerte del mundo. Poco tiempo después de cumplir diecisiete años, Mark comienza a manifestar sus propios poderes y se convierte en el aprendiz de su padre.",
     trailer:"youtube:ROCIksHW2oc",
-    thumbnail: "https://stars-my-destination.com/wp-content/uploads/2025/02/invencible-3x05-1.jpg?w=819",
+    thumbnail: "https://i.pinimg.com/webp85/1200x/a8/c9/e9/a8c9e977522fbdaa8b816a7dafecf9cc.webp",
     genre: "Acción",
     createdAt: Date.now(),
     seasons: [ 
