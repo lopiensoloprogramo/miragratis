@@ -3,7 +3,7 @@ import { movies } from "../data/movies";
 import VideoPlayer from "../components/VideoPlayer";
 import { useState, useRef } from "react";
 import AnuncioSidebar from "../components/AnunciosSidebar";
-
+import qryape from '../assets/yape-qr.png'
 export default function MovieDetail() {
   const { id } = useParams();
 
@@ -198,19 +198,37 @@ export default function MovieDetail() {
 
         {/* DERECHA */}
         <div className="hidden md:block">
-          <div className="bg-gray-900 p-3 rounded-lg sticky top-6 text-sm flex justify-center">
-            <button
-              onClick={() =>
-                window.open(
-                  "https://www.facebook.com/profile.php?id=61574281967368",
-                  "_blank"
-                )
-              }
-              className="bg-blue-600 px-4 py-2 rounded text-white"
-            >
-              👍 Síguenos en Facebook
-            </button>
-          </div>
+
+             <div className="bg-gray-900 p-3 rounded-lg sticky top-6 text-sm">
+
+                <button
+                  onClick={() =>
+                    window.open(
+                      "https://www.facebook.com/profile.php?id=61574281967368",
+                      "_blank"
+                    )
+                  }
+                  className="w-full bg-blue-600 px-4 py-2 rounded text-white"
+                >
+                  👍 Síguenos en Facebook
+                </button>
+
+                <div className="mt-4 border-t border-gray-700 pt-4 text-center">
+                  <p className="text-white font-semibold">
+                     ❤️ Apoya MiraGratis
+                  </p>
+                  <img
+                    src={qryape}
+                    alt="Yape"
+                    className="w-24 mx-auto mt-2 rounded-lg"
+                  />
+
+                  <p className="text-green-400 text-sm mt-2">
+                      Ayuda a mantener la web
+                  </p>
+                </div>
+
+            </div>
 
           <AnuncioSidebar />
         </div>
