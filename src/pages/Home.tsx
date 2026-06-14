@@ -1,5 +1,5 @@
 import { series } from "../data/series";
-import {movies} from "../data/movies"
+import { movies } from "../data/movies";
 import MovieRow from "../components/MovieRow";
 import HeroBanner from "../components/HeroBanner";
 
@@ -7,16 +7,17 @@ import HeroBanner from "../components/HeroBanner";
 export default function Home() {
   return (
     <div className="pt-20">
-      {/* banner principal */}
+
+  
+
       <HeroBanner serie={series[0]} />
 
-     <div className="px-6 pb-6 pt-2">
+      <div className="px-6 pb-6 pt-2">
         <MovieRow title="Recomendadas" items={series} />
         <MovieRow title="Series" items={series} />
-        <MovieRow title="Películas" items={movies}/>
+        <MovieRow title="Películas" items={movies} />
       </div>
 
-       
     </div>
   );
 }
