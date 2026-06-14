@@ -263,7 +263,7 @@ const getGlobalIndex = (file: string) => {
         </div>
 
         {/* DERECHA */}
-        <div className="hidden md:block">
+       <div className="block md:block">
            <div className="bg-gray-900 p-3 rounded-lg sticky top-6 text-sm">
 
                 <button
