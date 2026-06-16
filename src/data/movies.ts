@@ -527,4 +527,26 @@ export const movies: Movie[] = [
         
         
 },
+ {
+    id: "22",
+    title: "La hora de tu muerte",
+    year: 2019,
+    description: "Quinn, una joven enfermera, descarga una aplicación para el móvil llamada 'Countdown', que puede predecir el momento exacto en el que una persona va a morir. En ese momento descubre que a ella sólo le quedan tres días de vida. Con el tiempo jugando en su contra y tras ser perseguida por una persona desconocida, tratará desesperadamente de burlar al destino antes de que se le agote el tiempo.",
+    trailer:"youtube:MPC7ittsHAc",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/3da2ab1a1ac826717b072d019a94bbcc_hd.webp",
+    genre: "Comedia",
+
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:vVIlxA4C#Xh1R1HHEMgB0VAoAM_Gem2P0tG_MqyM4qB9Q_2qPRfE",
+            download:"https://mega.nz/file/zdQ3zR6B#B0IFE18ga2w5LlbCPdXMQ4JLC1XKrsuuJnrF9vqUet4",
+          },
+
+          
+ 
+        ],
+        
+        
+},
 ];
