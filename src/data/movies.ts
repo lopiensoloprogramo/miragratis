@@ -529,7 +529,7 @@ export const movies: Movie[] = [
 },
  {
     id: "22",
-    title: "La hora de tu muerte",
+    title: "La Hora de tu Muerte",
     year: 2019,
     description: "Quinn, una joven enfermera, descarga una aplicación para el móvil llamada 'Countdown', que puede predecir el momento exacto en el que una persona va a morir. En ese momento descubre que a ella sólo le quedan tres días de vida. Con el tiempo jugando en su contra y tras ser perseguida por una persona desconocida, tratará desesperadamente de burlar al destino antes de que se le agote el tiempo.",
     trailer:"youtube:MPC7ittsHAc",
