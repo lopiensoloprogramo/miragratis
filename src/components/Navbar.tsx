@@ -41,16 +41,23 @@ className={`fixed top-0 w-full z-50 px-6 py-4 flex justify-between items-center 
               {showSearch ? <X size={22} /> : <Search size={22} />}
             </button>
 
-            <Link
-              to="/"
-              className="hover:text-red-500 transition"
-            >
-              Inicio
-            </Link>
+                <Link
+                  to="/"
+                  className="hover:text-red-500 transition"
+                >
+                  Inicio
+                </Link>
 
-            <span className="hover:text-red-500 cursor-pointer transition">
-              Películas
-            </span>
+                <span className="hover:text-red-500 cursor-pointer transition">
+                  Películas
+                </span>
+
+                <Link
+                  to="/requests"
+                  className="text-black-500 hover:text-green-400 transition font-medium"
+                >
+                  🎬 Solicitar
+                </Link>
 
           </div>
     </div>

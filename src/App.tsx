@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import SerieDetail from "./pages/SeriesDetail";
 import GoPage from "./components/GoPage";
+import MovieRequest from "./components/MovieRequest"
 
 export default function App() {
   return (
@@ -15,7 +16,14 @@ export default function App() {
     {/* Home SIN padding */}
     <Route path="/" element={<Home />} />
     <Route path="/go/:slug" element={<GoPage />} />
-
+        <Route
+          path="/requests"
+          element={
+            <div className="pt-14">
+              <MovieRequest />
+            </div>
+          }
+        />
 
 
    <Route path="/serie/:id" element={
