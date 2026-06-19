@@ -6,8 +6,8 @@ import SearchBar from "./SearchBar";
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [showSearch, setShowSearch] = useState(false);
-  
-useEffect(() => {
+
+  useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
     };
@@ -19,53 +19,61 @@ useEffect(() => {
 
   return (
     <>
-    <div
-className={`fixed top-0 w-full z-50 px-6 py-4 flex justify-between items-center transition-all duration-300 h-16 ${        scrolled ? "bg-black shadow-md" : "bg-gradient-to-b from-black to-transparent"
-      }`}
-    >
-      {/* Logo */}
-      <Link to="/">
-        <h1 className="text-3xl font-bold text-red-600 cursor-pointer">
-          MiraGratis
-        </h1>
-        <span className="text-xs text-gray-700"> Series y Pélículas gratis.</span>
-      </Link>
+      <div
+        className={`fixed top-0 w-full z-50 px-4 md:px-6 py-3 flex justify-between items-center transition-all duration-300 h-16 ${
+          scrolled
+            ? "bg-black shadow-md"
+            : "bg-gradient-to-b from-black to-transparent"
+        }`}
+      >
+        {/* Logo */}
+        <Link to="/" className="flex flex-col">
+          <h1 className="text-xl md:text-3xl font-bold text-red-600">
+            MiraGratis
+          </h1>
 
-      {/* Opciones */}
-          <div className="flex items-center gap-6 text-sm">
+          <span className="hidden md:block text-xs text-gray-400">
+            Series y Películas gratis.
+          </span>
+        </Link>
 
-            <button
-              onClick={() => setShowSearch(!showSearch)}
-              className="hover:text-red-500 transition"
-            >
-              {showSearch ? <X size={22} /> : <Search size={22} />}
-            </button>
+        {/* Opciones */}
+        <div className="flex items-center gap-3 md:gap-6 text-sm">
 
-                <Link
-                  to="/"
-                  className="hover:text-red-500 transition"
-                >
-                  Inicio
-                </Link>
+          <button
+            onClick={() => setShowSearch(!showSearch)}
+            className="hover:text-red-500 transition"
+          >
+            {showSearch ? <X size={22} /> : <Search size={22} />}
+          </button>
 
-                <span className="hover:text-red-500 cursor-pointer transition">
-                  Películas
-                </span>
+          {/* Solo visible en PC */}
+          <Link
+            to="/"
+            className="hidden md:block hover:text-red-500 transition"
+          >
+            Inicio
+          </Link>
 
-                <Link
-                  to="/requests"
-                  className="text-black-500 hover:text-green-400 transition font-medium"
-                >
-                  🎬 Solicitar
-                </Link>
+          <span className="hidden md:block hover:text-red-500 cursor-pointer transition">
+            Películas
+          </span>
 
-          </div>
-    </div>
-{showSearch && (
-  <div className="fixed top-16 left-0 w-full bg-black/95 backdrop-blur-sm z-40 p-4">
-    <SearchBar onClose={() => setShowSearch(false)} />
-  </div>
-)}
+          {/* Visible siempre */}
+          <Link
+            to="/requests"
+            className="text black-500 hover:bg-red-700 px-2 py-1 rounded-lg text-white font-semibold text-xs md:text-sm transition"
+          >
+            🎬 Solicitar
+          </Link>
+        </div>
+      </div>
+
+      {showSearch && (
+        <div className="fixed top-16 left-0 w-full bg-black/95 backdrop-blur-sm z-40 p-4">
+          <SearchBar onClose={() => setShowSearch(false)} />
+        </div>
+      )}
     </>
   );
 }
