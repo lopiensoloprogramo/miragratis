@@ -841,4 +841,53 @@ export const series: Serie[] = [
       
     ],
   },
+     {
+    id: "11",
+    title: "Dark",
+    year: 2017,
+    description: "Tras la desaparición de un joven, cuatro familias desesperadas tratan de entender lo ocurrido a medida que van desvelando un retorcido misterio que abarca tres décadas... Saga familiar con un giro sobrenatural, 'Dark' se sitúa en un pueblo alemán, donde dos misteriosas desapariciones dejan al descubierto las dobles vidas y las relaciones resquebrajadas entre estas cuatro familias.",
+    trailer:"youtube:IW4KjKZQJAw",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/45ebbcb5660836c30d4ace204244127c_hd.webp",
+    genre: "Misterio, Sobre Natural,Fantacía,Sci-Fi",
+    createdAt: Date.now(),
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            title: "Episodio 1",
+            file: "mega:fMYGxTLD#T5z3x8sep4tereTIcQJsWG68C1KL-BgOHZ2n1_Quf3k",
+            download:"",
+          },
+          {
+            title: "Episodio 2",
+            file: "mega:nAgB3Qpb#crbL3K-yDD3NLdb0SAvNwNn_oQzxXe4twSho0YA3x6I",
+            download:"",
+          },
+                    {
+            title: "Episodio 3",
+            file: "mega:CYgn0ayZ#ZsRzhQ8LujpDnYM85U_IG-EcRWA6yLNPk0pAYfaiMZs",
+            download:"",
+          },
+                    {
+            title: "Episodio 4",
+            file: "mega:DR41ELzR#MGRClDdgSpP7nCftsnhgCUVyWzt948UB-opzGN1xQmE",
+            download:"",
+          },
+                    {
+            title: "Episodio 5",
+            file: "mega:DR41ELzR#MGRClDdgSpP7nCftsnhgCUVyWzt948UB-opzGN1xQmE",
+            download:"",
+          },
+                    {
+            title: "Episodio 6",
+            file: "mega:iBxQnIbY#5cgPbylAcU7g83YsalT88I2S9lzOwzK7wFeNAR8QyPQ",
+            download:"",
+          },
+
+        ],
+      },
+      
+    ],
+  },
 ];
