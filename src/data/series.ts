@@ -36,12 +36,12 @@ export const series: Serie[] = [
         episodes: [
           {
             title: "Episodio 1",
-            file: "migratisInvencible S4 Latino 01.mp4",
+            file: "mega:vEojBRLC#lKNJLWjL4_-q7hQxvZsl0wWqoLLH4MWSSCRSE09CTZY",
             download:"",
           },
                     {
             title: "Episodio 2",
-            file: "miragratisInvencible S4Latin02.mp4",
+            file: "mega:WAhUWLYb#iiuGI3cjW6R5_FEh2CvrgkzRtmB_2AhZuajg3010JYQ",
             download:"",
           },
                           {
