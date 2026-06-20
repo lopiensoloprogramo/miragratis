@@ -549,4 +549,26 @@ export const movies: Movie[] = [
         
         
 },
+ {
+    id: "23",
+    title: "Toy Story 5",
+    year: 2026,
+    description: "Buzz, Woody, Jessie y el resto de la pandilla tienen un trabajo exponencialmente más difícil cuando se enfrentan a esta nueva amenaza para la hora de jugar: la tecnología.",
+    trailer:"youtube:kuRPc0JjygU",
+    thumbnail: "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/261/2026/05/16150319/dWIAOC9EKFehGs3CYvDQih3hxaG-scaled.jpg",
+    genre: "Fantasia,Familia",
+
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:176anVphlYpsgdQZFml3b6Rp_rSxDrT-g",
+            download:"",
+          },
+
+          
+ 
+        ],
+        
+        
+},
 ];
