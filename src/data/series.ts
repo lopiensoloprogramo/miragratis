@@ -41,27 +41,27 @@ export const series: Serie[] = [
           },
                     {
             title: "Episodio 2",
-            file: "mega:WAhUWLYb#iiuGI3cjW6R5_FEh2CvrgkzRtmB_2AhZuajg3010JYQ",
+            file: "drive:1BaT91yJ9CfW_QKYim-LPmCNT7tzytcHW",
             download:"",
           },
                           {
             title: "Episodio 3",
-            file: "miragratisInvencibleS4Latino03.mp4",
+            file: "drive:10ZpsmDqVwPIYJUOSazZeKJDI8acnTV1E",
             download:"",
           },
                           {
             title: "Episodio 4",
-            file: "miragratisInvencibleS4Latino04.mp4",
+            file: "drive:1LFBUCA3DmjnskJm6yH21MCt9SqZDM0pW",
             download:"",
           },
                                    {
             title: "Episodio 5",
-            file: "miragratisInvencibleS4Latino05.mp4",
+            file: "drive:1AtxRdgbwdIcmkJ05X59DvCCfT4FOe62z",
              download:"",
           },
                                              {
             title: "Episodio 6",
-            file: "Miragratisinvencibles4latino6.mp4",
+            file: "drive:1i6fBDCLt8QY6yfqC9-Y8EGbHDlv4HyLH",
              download:"",
           },
                                                        {
