@@ -894,6 +894,16 @@ export const series: Serie[] = [
             file: "mega:iBxQnIbY#5cgPbylAcU7g83YsalT88I2S9lzOwzK7wFeNAR8QyPQ",
             download:"",
           },
+                              {
+            title: "Episodio 7",
+            file: "mega:yRZigC5Q#BFmNMYwWqNwO-7tdGlNZey5WjXBo5d02EcYVFCUdEFw",
+            download:"",
+          },
+                              {
+            title: "Episodio 8",
+            file: "mega:TE4Q0ajR#AmAlMntCueV5mvLOHjZ4F3W54t_Zuh_7mv42CarLk5E",
+            download:"",
+          },
 
         ],
       },
