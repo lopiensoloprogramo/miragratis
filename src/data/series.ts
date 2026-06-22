@@ -594,6 +594,16 @@ export const series: Serie[] = [
             file: "drive:1PAZ7GhO8rFlIxugGSpE-OI_OWlRp5PKO",
             download:"",
           },
+                              {
+            title: "Episodio 5",
+            file: "drive:1xfBGn1t7JkMocDqti8Ec52Av-g0dgSax",
+            download:"",
+          },
+                              {
+            title: "Episodio 6",
+            file: "drive:1PAZ7GhO8rFlIxugGSpE-OI_OWlRp5PKO",
+            download:"",
+          },
 
         ],
       },
@@ -904,6 +914,46 @@ export const series: Serie[] = [
             file: "mega:TE4Q0ajR#AmAlMntCueV5mvLOHjZ4F3W54t_Zuh_7mv42CarLk5E",
             download:"",
           },
+
+        ],
+      },
+      
+    ],
+  },
+      {
+    id: "12",
+    title: "El Caballero de los Siete Reinos (2026)",
+    year: 2026,
+    description: "Ambientada en una época en la que el linaje Targaryen todavía ostenta el Trono de Hierro y el recuerdo del último dragón aún no ha desaparecido de la memoria viva, grandes destinos, enemigos poderosos y hazañas peligrosas esperan a estos improbables e incomparables amigos.",
+    trailer:"youtube:OmEznZAw9cw",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/f8d7eb6179e68e82a3f128c85bd9149c_hd.webp",
+    genre: "Drama, Ciencia Ficción",
+    createdAt: Date.now(),
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            title: "Episodio 1",
+            file: "drive:1eUTdeZjIFQD7upoQcNCLux0duhp359o3",
+            download:"",
+          },
+          {
+            title: "Episodio 2",
+            file: "drive:1RkEhMNBJbw5w43o5rZQ-601LlczxHb-W",
+            download:"",
+          },
+                    {
+            title: "Episodio 3",
+            file: "drive:1OUkbE28vbLD0ZsBWuAA_Gq7sTiRK5nKu",
+            download:"",
+          },
+                    {
+            title: "Episodio 4",
+            file: "drive:1L-92Sl-me0Vfm4pl_CDbzQfnEvvxBBrv",
+            download:"",
+          },
+        
 
         ],
       },
