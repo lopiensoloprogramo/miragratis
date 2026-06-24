@@ -581,7 +581,7 @@ export const movies: Movie[] = [
     year: 2026,
     description: "Jill trata de lidiar con la muerte de su hermana enviándole mensajes a su buzón de voz en los que le narra su caótica vida en San Francisco, hasta que reasignan su número sin previo aviso y un joven agente inmobiliario de Austin empieza a recibir sus confesiones.",
     trailer:"youtube:LgGWpyf1fkM",
-    thumbnail: "https://es.web.img2.acsta.net/c_310_420/img/9c/09/9c09485127a013f29b1194da8d43ec38.jpg",
+    thumbnail: "https://image.tmdb.org/t/p/w342/nmGIRyuMH72WHJengMo8LQjnZQn.jpg",
     genre: "Romance,Drama",
 
         opcion: [
