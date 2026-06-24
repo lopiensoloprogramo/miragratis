@@ -596,4 +596,25 @@ export const movies: Movie[] = [
         
         
 },
+ {
+    id: "25",
+    title: "Superman (2025)",
+    year: 2025,
+    description:"En sus primeros años, el joven reportero de Metrópolis y superhéroe se embarca en un viaje para reconciliar su herencia kryptoniana con su educación humana como Clark Kent.",
+    trailer:"youtube:lBu2CwVSAEw",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/d505450b7b5b26ffb99b6d7dcec352f7_hd.webp",
+    genre: "Aventura, Acción, Ciencia Ficción",
+
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1Lt4yv_FhKfgfpfCApscP3zC3tdk2ysUn",
+            download:"",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
