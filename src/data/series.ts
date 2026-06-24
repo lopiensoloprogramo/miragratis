@@ -970,4 +970,74 @@ export const series: Serie[] = [
       
     ],
   },
+      {
+    id: "13",
+    title: "La Casa del Dragón",
+    year: 2022,
+    description: "Inspirada en el libro 'Fuego y Sangre' de George R.R. Martin, la serie se enfoca en la familia Targaryen, tres siglos antes de los acontecimientos que se desarrollan en 'Juego de Tronos'.",
+    trailer:"youtube:5h6XfziHUAA",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrOId2u-l8SWY30DkzC06GAWPwloGbeVwmF1Xr4-BiUhIQoKa-FnEa0Sc&s=10",
+    genre: "Drama, Ciencia Ficción",
+    createdAt: Date.now(),
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            title: "Episodio 1",
+            file: "drive:1lhqOP_jMZ6p_gSr7HKEC46m9iOmy06ly",
+            download:"",
+          },
+          {
+            title: "Episodio 2",
+            file: "drive:1UI94TQszDP9nfIHgQkJPyFDV46bhVEGa",
+            download:"",
+          },
+                    {
+            title: "Episodio 3",
+            file: "drive:1cyd4Tp-bkp-D1NonjViuL8Ey0qaWovqJ",
+            download:"",
+          },
+                    {
+            title: "Episodio 4",
+            file: "drive:1nqLWqiJOwkStGkMzJ532rf2FSf0gIXSr",
+            download:"",
+          },
+     
+                              {
+            title: "Episodio 5",
+            file: "drive:1O62UceEPmabTf0Cad0pV782OFUVwLX8x",
+            download:"",
+          },
+                              {
+            title: "Episodio 6",
+            file: "drive:1xuzhJg0wrI29mg0Oxc6RaCrhDRMerr_n",
+            download:"",
+          },
+                              {
+            title: "Episodio 7",
+            file: "drive:1okW6HdlwrPlaTL9KROOsjo84fgw0ceiX",
+            download:"",
+          },
+                              {
+            title: "Episodio 8",
+            file: "drive:1per-sJyOqJzRV0EoGcn_L7mZJHj3SqqQ",
+            download:"",
+          },
+                              {
+            title: "Episodio 9",
+            file: "drive:1GrbFGVIza_CV2ioGv369EyPPiDTnSZMg",
+            download:"",
+          },
+                              {
+            title: "Episodio 10",
+            file: "drive:1jJFWlLVbUOsGbMZD-NJX1NlKrI3Mu2V6",
+            download:"",
+          },
+
+        ],
+      },
+      
+    ],
+  },
 ];
