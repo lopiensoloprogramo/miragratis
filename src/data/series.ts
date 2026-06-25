@@ -845,7 +845,7 @@ export const series: Serie[] = [
   },
     {
     id: "10",
-    title: "Off Campus",
+    title: "Off Campus| Kiss Me (2026)",
     year: 2026,
     description: "Cuenta la inesperada conexión entre una estudiante de música y el jugador estrella de hockey de la universidad. A medida que su relación se profundiza, deben enfrentarse a la amistad, la presión, la ambición y la realidad de la edad adulta, donde cada elección tiene sus consecuencias.",
     trailer:"youtube:2dHZjW6TclQ",
@@ -856,6 +856,32 @@ export const series: Serie[] = [
       {
         seasonNumber: 1,
         episodes: [
+
+                    {
+            title: "Episodio 1",
+            file: "drive:1EWnPrMuavrKxfCpzNesuwUS6BFMPIcHv",
+            download:"",
+          },
+                    {
+            title: "Episodio 2",
+            file: "drive:1R5ZFMYGOYJEFCGVs-_6724vcagiyrgxP",
+            download:"",
+          },
+                    {
+            title: "Episodio 3",
+            file: "drive:1_yoxm4FsZR1mULM9eSqWdbKf8wgxQ8Jy",
+            download:"",
+          },
+                    {
+            title: "Episodio 4",
+            file: "drive:16sGMbOvNTNetIDZwi1ib0m4fhDFchqlZ",
+            download:"",
+          },
+                    {
+            title: "Episodio 5",
+            file: "drive:19gq3S6u9aYgmEyM4PcVJAsk4v4aInei2",
+            download:"",
+          },
           {
             title: "Episodio 6",
             file: "drive:1QdI4M-wVLcF9AisUBwf6FtQ_r3cSU3Kb",
