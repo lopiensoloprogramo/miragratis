@@ -11,6 +11,21 @@ export const series: Serie[] = [
     genre: "Acción",
     createdAt: Date.now(),
     seasons: [ 
+            {
+              seasonNumber: 1,
+        episodes: [
+          {
+            title: "Episodio 1",
+            file: "drive:1BNcGu3NDhKQejMHhYCJzjgcJLSakcFon",
+            download:""
+          },
+          {
+            title: "Episodio 2",
+            file: "drive:1le6MZMIBhoU_Sy3XvghyF3yGkqRZls-s",
+            download:"",
+          }, 
+        ],
+      },
       {
               seasonNumber: 3,
         episodes: [
