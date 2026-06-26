@@ -113,6 +113,51 @@ export const series: Serie[] = [
     genre: "Acción",
     createdAt: Date.now(),
     seasons: [
+       {
+        seasonNumber: 1,
+        episodes: [
+          {
+            title: "Episodio 1",
+            file: "drive:1aTxn3JOlxB52QUfCW4zqa7280OmLMxz4",
+            download:"",
+          },
+          {
+            title: "Episodio 2",
+            file: "drive:14R1Y1Fkc2rP1OoXcDBWowRZSMRCAbof0",
+            download:"",
+          },
+                  {
+            title: "Episodio 3",
+            file: "drive:1_wYeUFf-p2BElLz3UIvp_HdTJW0FBMPD",
+            download:"",
+          },
+                            {
+            title: "Episodio 4",
+            file: "drive:1ZanARcN3LdzBOzT1pLpNmiWv_NMg7RP3",
+            download:"",
+          },
+                                      {
+            title: "Episodio 5",
+            file: "mega:eJ4xRK4a#6GvRpufv_GJd92mMUfKvREXV3axHB3dE4cPnMDCiRs0",
+            download:"",
+          },
+                                                {
+            title: "Episodio 6",
+            file: "drive:16EAIQFdwlfiTdTBxX8L2-Od6RCJlV2F_",
+            download:"",
+          },
+                                                          {
+            title: "Episodio 7",
+            file: "drive:",
+            download:"",
+          },
+                                                                    {
+            title: "Episodio 8",
+            file: "drive:",
+            download:"",
+          },
+        ],
+      },
       {
         seasonNumber: 5,
         episodes: [
