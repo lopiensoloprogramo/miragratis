@@ -521,7 +521,11 @@ export const movies: Movie[] = [
             download:"",
           },
 
-          
+          {
+            title: "Opcion 2",
+            file: "pixel:mM6mmtt3",
+            download:"",
+          }, 
  
         ],
         

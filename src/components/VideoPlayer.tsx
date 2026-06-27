@@ -15,6 +15,12 @@ export default function VideoPlayer({ item }: { item: string }) {
   const isMega = item?.startsWith("mega:");
   const megaId = isMega ? item.replace("mega:", "") : null;
 
+  //PixelDrain
+
+  const isPixel = item?.startsWith("pixel:");
+  const pixelId = isPixel ? item.replace("pixel:", "") : null;
+
+  
   const getVideoUrl = async (item: string) => {
     try {
       const res = await fetch(
@@ -35,8 +41,8 @@ export default function VideoPlayer({ item }: { item: string }) {
       return;
     }
 
-    // 🔥 SI ES DRIVE / YOUTUBE / MEGA → NO LLAMAR API
-    if (isDrive || isYoutube || isMega) {
+    // 🔥 SI ES DRIVE / YOUTUBE / MEGA / Pixeldrain → NO LLAMAR API
+  if (isDrive || isYoutube || isMega || isPixel) {
       setLoading(false);
       return;
     }
@@ -89,8 +95,21 @@ export default function VideoPlayer({ item }: { item: string }) {
         />
       )}
 
+      {/* 🎬 PIXELDRAIN */}
+      {isPixel && pixelId && (
+        <iframe
+          key={pixelId}
+          src={`https://pixeldrain.com/u/${pixelId}?embed`}
+          className="w-full h-full"
+          allow="autoplay; fullscreen"
+          allowFullScreen
+        />
+      )}
+
+
+
       {/* 🎬 BUNNY / MP4 */}
-      {!isDrive && !isYoutube && !isMega && videoUrl && (
+{!isDrive && !isYoutube && !isMega && !isPixel && videoUrl && (
         <video
           key={videoUrl}
           controls
@@ -102,7 +121,7 @@ export default function VideoPlayer({ item }: { item: string }) {
       )}
 
       {/* ❌ ERROR */}
-      {!loading && !isDrive && !isYoutube && !isMega && !videoUrl && (
+      {!loading && !isDrive && !isYoutube && !isMega && !isPixel && !videoUrl && (
         <div className="absolute inset-0 flex items-center justify-center text-white">
           Video no disponible
         </div>
