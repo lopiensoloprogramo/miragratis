@@ -623,7 +623,7 @@ export const movies: Movie[] = [
     year: 2013,
     description:"Cuenta la verdadera historia de Jordan Belfort (Leonardo DiCaprio), un agente de bolsa de Nueva York. Partiendo del sueño americano hasta llegar a la codicia corporativa, Belfort pasa de las acciones especulativas y la honradez al lanzamiento indiscriminado de empresas en la Bolsa y a la corrupción a finales de los ochenta. El éxito y la fortuna desmedidos de este joven veinteañero como fundador de la agencia bursátil Stratton Oakmont, le valieron a Belfort el apodo de “El lobo de Wall Street”.",
     trailer:"youtube:PaAvUOXUohk",
-    thumbnail: "https://www.zona-leros.com/storage/movies_tumbl/el-lobo-de-wall-street-cover-ynk.jpg",
+    thumbnail: "https://pics.filmaffinity.com/El_lobo_de_Wall_Street-597158261-large.jpg",
     genre: "Drama,Crimen",
 
         opcion: [
