@@ -523,8 +523,8 @@ export const movies: Movie[] = [
 
           {
             title: "Opcion 2",
-            file: "pixel:mM6mmtt3",
-            download:"",
+            file: "drive:1k9QrCFRttSVs68KoOw4z5eLNs5LyNUWI",
+            download:"https://ouo.io/7NTHbg",
           }, 
  
         ],
