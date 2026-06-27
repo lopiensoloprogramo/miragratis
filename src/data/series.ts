@@ -163,12 +163,12 @@ export const series: Serie[] = [
         episodes: [
           {
             title: "Episodio 1",
-            file: "Thbyss05e01.mp4",
+            file: "drive:1_kMKQVqz02FgR7n_MZyVzmtm523ILsxY",
             download:"",
           },
           {
             title: "Episodio 2",
-            file: "Thbyss05e02.mp4",
+            file: "drive:1e4kaZP5Apr44WDUSpUO9ZKO6fqOYT9v0",
             download:"",
           },
                   {
