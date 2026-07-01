@@ -669,7 +669,11 @@ export const series: Serie[] = [
             file: "drive:A9jxkUXx4LfGuSo3afhk-GYoNfFLwxUH",
             download:"",
           },
-
+                                        {
+            title: "Episodio 8",
+            file: "drive:1CaEq9vnk2QmgaBCDqXRfHhJEqNLDCYtZ",
+            download:"",
+          },
         ],
       },
 
