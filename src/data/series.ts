@@ -1145,4 +1145,38 @@ export const series: Serie[] = [
       
     ],
   },
+        {
+    id: "14",
+    title: "SILO",
+    year: 2023,
+    description: "En un futuro arruinado y tóxico, existe una comunidad en un enorme silo subterráneo cientos de pisos bajo tierra. Ahí, hombres y mujeres viven en una sociedad llena de reglas que creen que están hechas para protegerlos.",
+    trailer:"youtube:X-mKRbAeAd0",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/a12a03ab3fe24cd0e967d6d97f08cb8b_hd.webp",
+    genre: "Drama, Ciencia Ficción",
+    createdAt: Date.now(),
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            title: "Episodio 1",
+            file: "mega:HMxiGBZD#lIbVmGeUWdRJojXMOdqrHcQ7mjkccGUYfAMvxF8UCrE",
+            download:"",
+          },
+          {
+            title: "Episodio 2",
+            file: "mega:bAI1iBQS#fcp3C1Z11HMEkeTNVdte3ZFNJT8YuDp2RYxC8L7xxZ4",
+            download:"",
+          },
+                    {
+            title: "Episodio 3",
+            file: "mega:HMAGFTqQ#c-zdqvjvaqfPMtVZ_V24Nna_lVY3UYaQbSWpuCWrXbs",
+            download:"",
+          },
+                
+        ],
+      },
+      
+    ],
+  },
 ];
