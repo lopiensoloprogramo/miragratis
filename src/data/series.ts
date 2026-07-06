@@ -1178,11 +1178,7 @@ export const series: Serie[] = [
             file: "mega:XMgy3aKR#ZWsxuGo9omSs0ACDieJdCsVDlQN2uwedNWoGGk38ykE",
             download:"",
           },
-                                        {
-            title: "Episodio 5",
-            file: "mega:qAYlERiA#y2BrgDLd5dplREjJJSgepLQ80v67JTdKhRXLacFFh6w",
-            download:"",
-          },
+
                 
         ],
       },
