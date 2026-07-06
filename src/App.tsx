@@ -6,12 +6,28 @@ import Footer from "./components/Footer";
 import SerieDetail from "./pages/SeriesDetail";
 import GoPage from "./components/GoPage";
 import MovieRequest from "./components/MovieRequest"
-
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+import { trackPageView } from "./components/analytics";
 export default function App() {
+
+  function AnalyticsTracker() {
+    const location = useLocation();
+
+    useEffect(() => {
+        trackPageView(
+            location.pathname +
+            location.search +
+            location.hash
+        );
+    }, [location]);
+
+    return null;
+}
   return (
 <Router>
   <Navbar />
-
+<AnalyticsTracker />
   <Routes>
     {/* Home SIN padding */}
     <Route path="/" element={<Home />} />
