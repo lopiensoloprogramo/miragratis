@@ -507,7 +507,7 @@ export const movies: Movie[] = [
 },
  {
     id: "21",
-    title: "Scary Movie 6: Terroríficamente incorrectassss",
+    title: "Scary Movie 6: Terroríficamente incorrectas",
     year: 2026,
     description: "Veintiséis años después de conseguir escapar de un asesino enmascarado sospechosamente familiar, el Core Four están de vuelta en el punto de mira del asesino y ninguna película de terror está a salvo.",
     trailer:"youtube:UPDjaBBJThU",
