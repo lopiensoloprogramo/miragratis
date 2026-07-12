@@ -27,12 +27,17 @@ export default function SearchBar({ onClose }: SearchBarProps) {
     ];
 
     return allContent
-      .filter(
-        (item) =>
+      .filter((item) => {
+        const genres = Array.isArray(item.genre)
+          ? item.genre.join(" ")
+          : item.genre;
+
+        return (
           item.title.toLowerCase().includes(search) ||
-          item.genre.toLowerCase().includes(search) ||
+          genres.toLowerCase().includes(search) ||
           item.description.toLowerCase().includes(search)
-      )
+        );
+      })
       .slice(0, 10);
   }, [query]);
 
@@ -49,15 +54,15 @@ export default function SearchBar({ onClose }: SearchBarProps) {
       {results.length > 0 && (
         <div className="absolute left-6 right-6 mt-2 bg-gray-900 border border-gray-700 rounded-lg overflow-hidden z-50">
           {results.map((item) => (
-                <Link
-                key={`${item.type}-${item.id}`}
-                to={`/${item.type}/${item.id}`}
-                onClick={() => {
-                    setQuery("");
-                    onClose?.();
-                }}
-                className="flex gap-3 p-3 hover:bg-gray-800 transition"
-                >
+            <Link
+              key={`${item.type}-${item.id}`}
+              to={`/${item.type}/${item.id}`}
+              onClick={() => {
+                setQuery("");
+                onClose?.();
+              }}
+              className="flex gap-3 p-3 hover:bg-gray-800 transition"
+            >
               <img
                 src={item.thumbnail}
                 alt={item.title}
