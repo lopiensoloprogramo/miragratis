@@ -511,7 +511,7 @@ export const movies: Movie[] = [
     year: 2026,
     description: "Veintiséis años después de conseguir escapar de un asesino enmascarado sospechosamente familiar, el Core Four están de vuelta en el punto de mira del asesino y ninguna película de terror está a salvo.",
     trailer:"youtube:UPDjaBBJThU",
-    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJr3DKyx8Q_wVSdtkyWCoKEyve0VBmtrxGGx8YJ2nyNg&s=10",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzCX518mwG4hqbBtqTQPKP8TZn3YdwWSpS6qlfMT1ebA&s=10",
     genre: ["Comedia"],
 
         opcion: [
