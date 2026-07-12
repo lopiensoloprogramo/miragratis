@@ -292,7 +292,7 @@ const relatedMovies = movies
         </div>
 
       </div>
-                    <div >
+              
                                     {relatedMovies.length > 0 && (
                         <div className="mt-8 text-black font-semibold">
                           <MovieRow
@@ -301,7 +301,7 @@ const relatedMovies = movies
                           />
                         </div>
                       )}
-              </div>
+            
     </div>
     
   );
