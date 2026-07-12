@@ -9,7 +9,7 @@ export const movies: Movie[] = [
     description: "La tranquila y rehecha vida Sidney Prescott se cae a pedazos cuando Ghostface llega al pueblo. Sin embargo, sus peores temores se hacen realidad cuando su hija Tatum se convierte en la próxima víctima.",
     trailer:"youtube:WZXCpje7ZNo",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/62f4da8f7735a7caced5192d1e3ffac2_hd.webp",
-    genre: "Crimen,Misterio, Terror",
+    genre: ["Crimen","Misterio", "Terror"],
 
         opcion: [
           {
@@ -33,7 +33,7 @@ export const movies: Movie[] = [
     description: "Mientras trabaja bajo tierra para arreglar una tubería de agua, los plomeros de Brooklyn Mario y su hermano Luigi son transportados por una misteriosa tubería y llegan a un nuevo mundo mágico. Pero cuando los hermanos se separan, Mario se embarca en una búsqueda épica para encontrar a Luigi. Con la ayuda de un residente del Reino Champiñón, Toad y algo de entrenamiento de la gobernante del Reino Champiñón, la Princesa Peach, Mario conocerá su propio poder.",
     trailer:"youtube:SvJwEiy2Wok",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/c60ecb2ca9a1dc10133ed2d86386e3f9_hd.webp",
-    genre: "Aventura,Animación,Familia,FantasíaC,Comedia",
+    genre: ["Familia","Comedia","Fantasía","Animación"],
 
         opcion: [
           {
@@ -59,7 +59,7 @@ export const movies: Movie[] = [
     description: "Cuando James recibe una misteriosa carta de Mary, su amor perdido, se siente atraído por Silent Hill, un pueblo que antes le era familiar y ahora está sumido en la oscuridad.",
     trailer:"youtube:RzzTn93ffZw",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/1a4b28e2b442424ced20ba09187aac3c_hd.webp",
-    genre: "Drama,Misterio,Terror",
+    genre: ["Drama","Misterio","Terror"],
 
         opcion: [
           {
@@ -85,7 +85,7 @@ export const movies: Movie[] = [
     description: "Luego de haber derrotado a Bowser y salvado el vibrante Reino Champiñón, los inseparables hermanos Mario y Luigi finalmente disfrutan de una etapa de paz y tranquilidad. Pasan sus días ayudando a los ciudadanos locales con su clásica filosofía de trabajo, preparan con entusiasmo la gran fiesta de cumpleaños de la Princesa Peach, entablan una profunda e inseparable amistad con el tierno dinosaurio Yoshi e incluso intentan reformar a un inofensivo y diminuto Bowser que se encuentra en cautiverio. Sin embargo, la calma se rompe abruptamente cuando una misteriosa señal de auxilio proveniente del espacio exterior interrumpe sus vidas, obligándolos a mirar más allá de las nubes y emprender un viaje épico hacia lo desconocido.",
     trailer:"youtube:ipzEY7c7it8",
     thumbnail: "https://premierftp.com/wp-content/uploads/Descargar-Super-Mario-Galaxy-La-pelicula-2026-Espanol-1080p-Pelicula.webp",
-    genre: "Aventura,Animación,Familia,FantasíaC,Comedia",
+    genre: ["Familia","Comedia","Fantasía","Animación"],
 
         opcion: [
           {
@@ -111,7 +111,7 @@ export const movies: Movie[] = [
     description: "En el futuro, en un planeta remoto, un joven Depredador, marginado de su clan, encuentra un aliado inesperado en Thia y se embarca en un peligroso viaje en busca del adversario definitivo.",
     trailer:"youtube:vY4Cw3GRLdI",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/801d7f3cd7e7de449b9d6247c6f6bb50_hd.webp",
-    genre: "Aventura,Acción,Ciencia Ficción",
+    genre: ["Acción","Ciencia","Ficción"],
 
         opcion: [
           {
@@ -137,7 +137,7 @@ export const movies: Movie[] = [
     description: "Mientras exploran en las profundidade de una estación espacial abandonada, un grupo de jóvenes colonizadores del espacio se encuentra cara a cara con la forma de vida más aterradora del universo.",
     trailer:"youtube:SevrcuQcS6g",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/500ce9f452d1a56d4025bb879d863a03_hd.webp",
-    genre: "Acción,Ciencia Ficción,Terror",
+    genre: ["Acción","Ciencia","Ficción"],
 
         opcion: [
           {
@@ -164,7 +164,7 @@ export const movies: Movie[] = [
     description: "El profesor de ciencias Ryland Grace se despierta en una nave espacial a años luz de casa sin recordar quién es ni cómo ha llegado hasta allí. A medida que recupera la memoria, empieza a descubrir su misión: resolver el enigma de la misteriosa sustancia que provoca la extinción del sol. Deberá recurrir a sus conocimientos científicos y a sus ideas poco ortodoxas para salvar todo lo que hay en la Tierra de la extinción... pero una amistad inesperada significa que quizá no tenga que hacerlo solo.",
     trailer:"youtube:448usLAnZr4",
     thumbnail: "https://i0.wp.com/www.lajornadamorelos.mx/wp-content/uploads/2026/04/image-185.png?resize=768%2C978&ssl=1",
-    genre: "Aventura, C. Ficción, Estrenos",
+    genre: ["Aventura", "C. Ficción", "Estrenos"],
 
         opcion: [
           {
@@ -191,7 +191,7 @@ export const movies: Movie[] = [
     description: "Un Wade Wilson apático se esfuerza en la vida civil. Sus días como el mercenario moralmente flexible Deadpool quedaron atrás. Cuando su mundo natal se enfrenta a una amenaza existencial, Wade debe, a regañadientes, volver a la acción junto a un reacio Wolverine.",
     trailer:"youtube:UzFZR2dRsSY",
     thumbnail: "https://www.ecartelera.com/carteles/16600/16608/005_p.webp",
-    genre: "Acción,Ciencia Ficción,Comedia",
+    genre: ["Acción","Ciencia","Ficción","Comedia"],
 
         opcion: [
           {
@@ -218,7 +218,7 @@ export const movies: Movie[] = [
     description: "Después de que un accidente de avión deje varados en una isla remota a una capaz empleada y a su molesto jefe, ella deberá utilizar sus habilidades de supervivencia para mantenerlos a ambos con vida, a pesar de su difícil relación.",
     trailer:"youtube:37jXU_JQVZY",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/5bc4f3725d74ee7b65dfeb7b2602d15e_hd.webp",
-    genre: "Suspenso,Comedio,Terror",
+    genre: ["Suspenso","Comedio","Terror"],
 
         opcion: [
           {
@@ -245,7 +245,7 @@ export const movies: Movie[] = [
     description: "Devastados por la guerra contra la RDA y la perdida de su hijo mayor, Jake Sully y Neytiri se enfrentan a una nueva amenaza en Pandora: el pueblo de la ceniza, una violenta tribu Na'vi ávida de poder liderada por los despiadados Varang.",
     trailer:"youtube:yUykc63elIU",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/40dbe2dcc00ccc0f3d358eba9951c9d2_hd.webp",
-    genre: "Aventura,Ciencia Ficción,Fantasía",
+    genre: ["Acción","Aventura","Ciencia Ficción","Fantasía"],
 
         opcion: [
           {
@@ -272,7 +272,7 @@ export const movies: Movie[] = [
     description: "Tras resolver el caso más importante de la historia de Zootopia, los policías novatos Judy Hopps y Nick Wilde se encuentran en la sinuosa pista de un gran misterio cuando Gary De'Snake llega y revoluciona la metrópolis animal.",
     trailer:"youtube:7gytUpiues8",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/d132228320ddc0537cb7d13b8d9a97da_hd.webp",
-    genre: "Aventura,Acción,Familia,Comedia",
+    genre: ["Familia","Comedia","Fantasía","Animación"],
 
         opcion: [
           {
@@ -299,7 +299,7 @@ export const movies: Movie[] = [
     description: "Una mujer en duelo que busca poner a prueba sus límites en la naturaleza australiana queda atrapada en un retorcido juego mortal con un asesino que la considera su presa.",
     trailer:"youtube:Mb491Os4zFc",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/8415c6eca989a9758093a10853f06006_hd.webp",
-    genre: "Acción,Suspenso",
+    genre: ["Acción","Suspenso"],
 
         opcion: [
           {
@@ -326,7 +326,7 @@ export const movies: Movie[] = [
     description: "Con una asombrosa y casi mística precisión, esta espectacular y esperada película biográfica nos sumerge de lleno en la fascinante, compleja y a menudo turbulenta vida de Michael Jackson (interpretado magistralmente por su sobrino, Jaafar Jackson). La historia traza el meteórico e inigualable ascenso del artista desde sus humildes y estrictos inicios como el carismático niño prodigio líder de los Jackson 5 bajo la dura mirada de su padre, Joe Jackson (Colman Domingo), hasta convertirse en la fuerza cultural más grande, innovadora e influyente de toda la historia de la música pop. A través de recreaciones vibrantes y absolutamente milimétricas de sus videos musicales más icónicos y sus presentaciones en vivo más legendarias, la cinta es un festín visual y sonoro que captura a la perfección la genialidad creativa detrás de obras maestras como Thriller, Billie Jean y Beat It.",
     trailer:"youtube:iVJaujA54Y8",
     thumbnail: "https://premierftp.com/wp-content/uploads/Descargar-Michael-2026-Espanol-1080p-Pelicula.webp",
-    genre: "Biografía,Drama,Musical",
+    genre: ["Biografía","Drama","Musical"],
 
         opcion: [
           {
@@ -353,7 +353,7 @@ export const movies: Movie[] = [
     description: "La joven Tessa Young cursa su primer año en la universidad. Acostumbrada a una vida estable y ordenada, su mundo cambia cuando conoce a Hardin Scott, un misterioso joven de oscuro pasado. Desde el primer momento se odian, porque pertenecen a dos mundos distintos y son completamente opuestos. Sin embargo, estos dos polos opuestos pronto se unirán y nada volverá a ser igual. Tessa y Hardin deberán enfrentarse a difíciles pruebas para estar juntos. La inocencia, el despertar a la vida, el descubrimiento sexual y las huellas de un amor tan poderoso como la fuerza del destino.",
     trailer:"youtube:3zjxECCWwrU",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/3b7796ce7eab29f10eec596922e0a022_hd.webp",
-    genre: "Drama,Romance",
+    genre: ["Drama","Romance"],
 
         opcion: [
           {
@@ -380,7 +380,7 @@ export const movies: Movie[] = [
     description: "El deseo desesperado y romántico de un joven por su amor platónico de siempre provoca un oscuro encantamiento: Niki se transforma en una obsesión irracional, convirtiéndose en la sombra de Bear. Una ilusión que al principio parece inofensiva se transforma en una inquietante pesadilla.",
     trailer:"youtube:nkbdrYs7Maw",
     thumbnail: "https://image.tmdb.org/t/p/w400/40I66L7QKguTFDPvcLcdiTbAD7I.jpg",
-    genre: "Suspense,Terror",
+    genre: ["Suspense","Terror"],
 
         opcion: [
           {
@@ -402,7 +402,7 @@ export const movies: Movie[] = [
     description: "La joven hija de un periodista desaparece en el desierto sin dejar rastro. Ocho años después, la familia rota se sorprende cuando ella regresa con ellos, mientras lo que debería ser una reunión alegre se convierte en una pesadilla viviente.",
     trailer:"youtube:az6bdokjRk8",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/c22fdaaf2da7157fd0ecc757f34ff726_hd.webp",
-    genre: "Suspense,Terror",
+    genre: ["Suspense","Terror"],
 
         opcion: [
           {
@@ -424,7 +424,7 @@ export const movies: Movie[] = [
     description: "Un sacerdote estadounidense que trabaja en México es considerado un santo por muchos feligreses locales. Sin embargo, debido a un exorcismo fallido, lleva un secreto que lo está comiendo vivo hasta que tiene la oportunidad de enfrentar a su demonio por última vez.",
     trailer:"youtube:69BdJUksRnQ",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/32b8ab97320012d424786286a12683d2_hd.webp",
-    genre: "Suspense,Terror",
+    genre: ["Suspense","Terror"],
 
         opcion: [
           {
@@ -446,7 +446,7 @@ export const movies: Movie[] = [
     description: "Una serie de perturbadores vídeos caseros documenta fenómenos sobrenaturales que sumen a sus testigos en el miedo y la angustia. Este filme de terror se inspira en los cortometrajes virales The Backrooms de Kane Parsons, que se hicieron famosos en YouTube por su inquietante representación de espacios infinitos y laberínticos. Combinando la estética del metraje encontrado con el terror psicológico, la película explora los límites de lo desconocido, donde entornos cotidianos se tornan hostiles y la línea entre lo natural y lo sobrenatural desaparece. Cada fragmento de vídeo desvela nuevas capas de horror, sumergiendo al espectador en un mundo laberíntico y desasosegante, donde la sensación de amenaza acecha en cada sombra y lo familiar se vuelve inquietantemente extraño.",
     trailer:"youtube:j6xBUJSm_S8",
     thumbnail: "https://cinemagizmo.com/wp-content/uploads/2026/04/backrooms-poster-02.jpg?w=1024",
-    genre: "Suspense,Terror",
+    genre: ["Suspense","Terror"],
 
         opcion: [
           {
@@ -468,7 +468,7 @@ export const movies: Movie[] = [
     description: "Sigue la lucha de Miranda Priestly contra Emily Charlton, su ex asistente convertida en ejecutiva rival, mientras compiten por los ingresos por publicidad en medio de la decadencia de los medios impresos y Miranda se acerca a la jubilación.",
     trailer:"youtube:O52u0imiqNY",
     thumbnail: "https://pics.filmaffinity.com/the_devil_wears_prada_2-402204206-mmed.jpg",
-    genre: "Comedia,Drama",
+    genre: ["Drama","Comedia"],
 
         opcion: [
           {
@@ -490,7 +490,7 @@ export const movies: Movie[] = [
     description: "Los campeones favoritos de los fans —ahora acompañados por el mismísimo Johnny Cage se enfrentan entre sí en la batalla definitiva, sangrienta y sin reglas, para derrotar el oscuro dominio de Shao Kahn, que amenaza con destruir el Reino de la Tierra y a sus defensores.",
     trailer:"youtube:_5RFjYeWSls",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/83d2aeedc57230d8d320d1c7f55a199a_hd.webp",
-    genre: "Aventura,Acción,Fantasía",
+    genre: ["Aventura","Acción","Fantasía"],
 
         opcion: [
           {
@@ -511,8 +511,8 @@ export const movies: Movie[] = [
     year: 2026,
     description: "Veintiséis años después de conseguir escapar de un asesino enmascarado sospechosamente familiar, el Core Four están de vuelta en el punto de mira del asesino y ninguna película de terror está a salvo.",
     trailer:"youtube:UPDjaBBJThU",
-    thumbnail: "https://cdnfiles.cfd/p/v2/w1/viF09nVknN5a1JGyiMTqMrJUq2Vif9RB.webp",
-    genre: "Comedia",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJr3DKyx8Q_wVSdtkyWCoKEyve0VBmtrxGGx8YJ2nyNg&s=10",
+    genre: ["Comedia"],
 
         opcion: [
           {
@@ -538,7 +538,7 @@ export const movies: Movie[] = [
     description: "Quinn, una joven enfermera, descarga una aplicación para el móvil llamada 'Countdown', que puede predecir el momento exacto en el que una persona va a morir. En ese momento descubre que a ella sólo le quedan tres días de vida. Con el tiempo jugando en su contra y tras ser perseguida por una persona desconocida, tratará desesperadamente de burlar al destino antes de que se le agote el tiempo.",
     trailer:"youtube:MPC7ittsHAc",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/3da2ab1a1ac826717b072d019a94bbcc_hd.webp",
-    genre: "Comedia",
+    genre: ["Terror","Suspenso"],
 
         opcion: [
           {
@@ -560,7 +560,7 @@ export const movies: Movie[] = [
     description: "Buzz, Woody, Jessie y el resto de la pandilla tienen un trabajo exponencialmente más difícil cuando se enfrentan a esta nueva amenaza para la hora de jugar: la tecnología.",
     trailer:"youtube:kuRPc0JjygU",
     thumbnail: "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/261/2026/05/16150319/dWIAOC9EKFehGs3CYvDQih3hxaG-scaled.jpg",
-    genre: "Fantasia,Familia",
+    genre: ["Familia","Fantasía"],
 
         opcion: [
           {
@@ -586,7 +586,7 @@ export const movies: Movie[] = [
     description: "Jill trata de lidiar con la muerte de su hermana enviándole mensajes a su buzón de voz en los que le narra su caótica vida en San Francisco, hasta que reasignan su número sin previo aviso y un joven agente inmobiliario de Austin empieza a recibir sus confesiones.",
     trailer:"youtube:LgGWpyf1fkM",
     thumbnail: "https://image.tmdb.org/t/p/w342/nmGIRyuMH72WHJengMo8LQjnZQn.jpg",
-    genre: "Romance,Drama",
+    genre: ["Romance","Drama"],
 
         opcion: [
           {
@@ -607,7 +607,7 @@ export const movies: Movie[] = [
     description:"En sus primeros años, el joven reportero de Metrópolis y superhéroe se embarca en un viaje para reconciliar su herencia kryptoniana con su educación humana como Clark Kent.",
     trailer:"youtube:lBu2CwVSAEw",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/d505450b7b5b26ffb99b6d7dcec352f7_hd.webp",
-    genre: "Aventura, Acción, Ciencia Ficción",
+    genre: ["Aventura","Acción","Ciencia Ficción"],
 
         opcion: [
           {
@@ -628,7 +628,7 @@ export const movies: Movie[] = [
     description:"Cuenta la verdadera historia de Jordan Belfort (Leonardo DiCaprio), un agente de bolsa de Nueva York. Partiendo del sueño americano hasta llegar a la codicia corporativa, Belfort pasa de las acciones especulativas y la honradez al lanzamiento indiscriminado de empresas en la Bolsa y a la corrupción a finales de los ochenta. El éxito y la fortuna desmedidos de este joven veinteañero como fundador de la agencia bursátil Stratton Oakmont, le valieron a Belfort el apodo de “El lobo de Wall Street”.",
     trailer:"youtube:PaAvUOXUohk",
     thumbnail: "https://pics.filmaffinity.com/El_lobo_de_Wall_Street-597158261-large.jpg",
-    genre: "Drama,Crimen",
+    genre: ["Drama","Crimen"],
 
         opcion: [
           {

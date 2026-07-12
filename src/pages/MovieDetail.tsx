@@ -4,6 +4,9 @@ import VideoPlayer from "../components/VideoPlayer";
 import { useState, useRef } from "react";
 import AnuncioSidebar from "../components/AnunciosSidebar";
 import qryape from '../assets/yape-qr.png'
+import MovieRow from "../components/MovieRow";
+
+
 export default function MovieDetail() {
   const { id } = useParams();
 
@@ -41,7 +44,58 @@ export default function MovieDetail() {
     localStorage.setItem("ad_clicks", clicks.toString());
   };
 
+const normalizeText = (text: string) =>
+  text
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9\s]/g, "")
+    .split(" ")
+    .filter(word => word.length > 2);
 
+
+const normalize = (genres: string[]) =>
+  genres.map((g) => g.trim().toLowerCase());
+
+
+const movieGenres = normalize(movie.genre);
+const movieTitleWords = normalizeText(movie.title);
+
+
+const relatedMovies = movies
+  .filter((m) => m.id !== movie.id)
+  .map((m) => {
+
+    const genres = normalize(m.genre);
+
+    // Coincidencia de géneros
+    const genreMatches = genres.filter((g) =>
+      movieGenres.includes(g)
+    ).length;
+
+
+    // Coincidencia de palabras del título
+    const titleWords = normalizeText(m.title);
+
+    const titleMatches = titleWords.filter(word =>
+      movieTitleWords.includes(word)
+    ).length;
+
+
+    // Puntaje final
+    const score =
+      (titleMatches * 100) +
+      (genreMatches * 2);
+
+
+    return {
+      movie: m,
+      score
+    };
+  })
+  .filter((x) => x.score > 0)
+  .sort((a, b) => b.score - a.score)
+  .map((x) => x.movie);
 
   return (
     <div className="p-4 md:p-6 text-white max-w-9xl mx-auto">
@@ -192,8 +246,10 @@ export default function MovieDetail() {
                       ⬇ {op.title}
                     </button>
                   ))}
+                  
                 </div>
               )}
+
         </div>
 
         {/* DERECHA */}
@@ -228,12 +284,25 @@ export default function MovieDetail() {
                   </p>
                 </div>
 
+
+
             </div>
 
           <AnuncioSidebar />
         </div>
 
       </div>
+                    <div >
+                                    {relatedMovies.length > 0 && (
+                        <div className="mt-8 text-black font-semibold">
+                          <MovieRow
+                            title="🍿 Películas relacionadas"
+                            items={relatedMovies}
+                          />
+                        </div>
+                      )}
+              </div>
     </div>
+    
   );
 }

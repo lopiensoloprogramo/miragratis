@@ -13,7 +13,7 @@ export interface Movie{
   description: string;
   trailer: string;
   thumbnail: string;
-  genre: string;
+  genre: string[];
   opcion:Opcion[]
 
 }
