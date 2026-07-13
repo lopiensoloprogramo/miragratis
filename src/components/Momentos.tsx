@@ -76,7 +76,7 @@ export default function Momentos() {
           {momentos.map((item) => (
             <Link
               key={item.id}
-              to={`/momento/${item.id}`}
+              to={`/momentos/${item.id}`}
               className="flex-none w-[180px] snap-start group"
             >
               <div className="relative overflow-hidden rounded-xl">

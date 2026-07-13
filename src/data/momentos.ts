@@ -1,11 +1,11 @@
 export const momentos = [
   {
     id: "1",
-    title: "Origen de Pennywise",
+    title: "¿Quien es Pennywise?",
     thumbnail: "https://www.indiewire.com/wp-content/uploads/2025/10/Welcome-To-Derry-Pennywise-actor-Bill-Skarsgard.jpg",
     year: 2017,
     duration: "8:43",
-    description: "Las escenas más impactantes de IT resumidas en menos de 10 minutos.",
+    description: "Conoce el origen del temible Pennywise.",
     genre: ["Terror"],
     video: "mega:uZgQ2ZTR#O32Wkr-AYoBkJi7w2rxg2nSubgewwWzuY006K3Z2RaY"
   },
