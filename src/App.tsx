@@ -53,7 +53,7 @@ export default function App() {
     }
   />
 <Route
-  path="/momento/:id"
+  path="/momentos/:id"
   element={
     <div className="pt-14">
       <MomentoDetail />
