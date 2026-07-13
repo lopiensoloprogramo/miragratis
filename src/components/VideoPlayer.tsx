@@ -1,6 +1,12 @@
 import { useState, useEffect } from "react";
 
-export default function VideoPlayer({ item }: { item: string }) {
+export default function VideoPlayer({
+  item,
+  showAd = false,
+}: {
+  item: string;
+  showAd?: boolean;
+}) {
   const [videoUrl, setVideoUrl] = useState("");
   const [loading, setLoading] = useState(true);
 
@@ -30,6 +36,32 @@ export default function VideoPlayer({ item }: { item: string }) {
     }
   };
 
+
+  const openAddirecto = () => {
+  let clicks = parseInt(localStorage.getItem("ad_clicks") || "0");
+
+  // Primer clic siempre abre
+  if (clicks === 0) {
+    window.open("https://omg10.com/4/10893314", "_blank");
+    clicks = 1;
+  } else {
+    clicks++;
+
+    // Cada 2 clics
+    if (clicks % 2 !== 0) {
+      window.open("https://omg10.com/4/10893314", "_blank");
+    }
+  }
+
+  localStorage.setItem("ad_clicks", clicks.toString());
+};
+
+const handlePlayerClick = () => {
+  if (showAd) {
+    openAddirecto();
+  }
+};
+
   useEffect(() => {
     if (!item) {
       setLoading(false);
@@ -55,8 +87,10 @@ export default function VideoPlayer({ item }: { item: string }) {
   }, [item]);
 
   return (
-    <div className="w-full aspect-[16/8] md:aspect-[16/8] bg-black rounded-lg overflow-hidden relative">
-
+<div
+  onClick={handlePlayerClick}
+  className="w-full aspect-[16/8] md:aspect-[16/8] bg-black rounded-lg overflow-hidden relative"
+>
       {/* 🎬 YOUTUBE */}
       {isYoutube && youtubeId && (
         <iframe
@@ -118,3 +152,5 @@ export default function VideoPlayer({ item }: { item: string }) {
     </div>
   );
 }
+
+

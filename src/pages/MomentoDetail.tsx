@@ -15,6 +15,25 @@ export default function MomentoDetail() {
       </div>
     );
   }
+const openAddirecto = () => {
+    let clicks = parseInt(localStorage.getItem("ad_clicks") || "0");
+
+    // primer click SIEMPRE abre
+    if (clicks === 0) {
+      window.open("https://omg10.com/4/10893314", "_blank");
+      clicks = 1;
+    } else {
+      clicks++;
+
+      // cada 2 clics
+      if (clicks % 2 !== 0) {
+        window.open("https://omg10.com/4/10893314", "_blank");
+      }
+    }
+
+    localStorage.setItem("ad_clicks", clicks.toString());
+  };
+openAddirecto();
 
   return (
     <div className="max-w-7xl mx-auto px-4 md:px-6 py-6">
@@ -52,7 +71,10 @@ export default function MomentoDetail() {
 
       {/* Video */}
       <div className="mb-10">
-        <VideoPlayer item={momento.video} />
+       <VideoPlayer
+            item={momento.video}
+            showAd={true}
+        />
       </div>
 
       {/* Otros momentos */}
@@ -61,3 +83,6 @@ export default function MomentoDetail() {
     </div>
   );
 }
+
+
+
