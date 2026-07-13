@@ -31,7 +31,7 @@ export default function Momentos() {
             🔥 MOMENTOS CLAVE
           </h2>
 
-          <p className="text-gray-400 text-sm">
+          <p className="text-gray-800 text-sm">
             Revive las escenas más épicas en menos de 10 minutos.
           </p>
         </div>

@@ -59,7 +59,15 @@ export default function Navbar() {
             Películas
           </span>
 
+
+
           {/* Visible siempre */}
+                              <Link
+            to="/momentos"
+            className="text black-500 hover:bg-red-700 px-2 py-1 rounded-lg text-black-800 font-bold bg-yellow-500 text-xs md:text-sm transition"
+          >
+            Especiales
+          </Link>
           <Link
             to="/requests"
             className="text black-500 hover:bg-red-700 px-2 py-1 rounded-lg text-white font-semibold text-xs md:text-sm transition"
