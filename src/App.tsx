@@ -9,6 +9,9 @@ import MovieRequest from "./components/MovieRequest"
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { trackPageView } from "./components/analytics";
+import MomentosPage from "./pages/MomentosPage";
+import MomentoDetail from "./pages/MomentoDetail";
+
 export default function App() {
 
   function AnalyticsTracker() {
@@ -41,7 +44,22 @@ export default function App() {
           }
         />
 
-
+  <Route
+    path="/momentos"
+    element={
+      <div className="pt-14">
+        <MomentosPage />
+      </div>
+    }
+  />
+<Route
+  path="/momento/:id"
+  element={
+    <div className="pt-14">
+      <MomentoDetail />
+    </div>
+  }
+/>
    <Route path="/serie/:id" element={
     <div className="pt-14">
    <SerieDetail />
@@ -70,3 +88,12 @@ export default function App() {
 
   );
 }
+
+
+
+
+
+
+
+
+
