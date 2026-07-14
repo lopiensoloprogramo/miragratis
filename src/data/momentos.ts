@@ -7,7 +7,7 @@ export const momentos = [
     duration: "8:43",
     description: "Conoce el origen del temible Pennywise.",
     genre: ["Terror"],
-    video: "mega:uZgQ2ZTR#O32Wkr-AYoBkJi7w2rxg2nSubgewwWzuY006K3Z2RaY"
+    video: "mega:eIxEEboJ#RWhj_9wK9ga-7n78BW6QDihwMmXQq_v5bzzwJl7g6fQ"
   },
     {
     id: "2",
