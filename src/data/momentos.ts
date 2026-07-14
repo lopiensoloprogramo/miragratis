@@ -4,7 +4,7 @@ export const momentos = [
     title: "¿Quien es Pennywise?",
     thumbnail: "https://www.indiewire.com/wp-content/uploads/2025/10/Welcome-To-Derry-Pennywise-actor-Bill-Skarsgard.jpg",
     year: 2017,
-    duration: "8:43",
+    duration: "10:15",
     description: "Conoce el origen del temible Pennywise.",
     genre: ["Terror"],
     video: "mega:eIxEEboJ#RWhj_9wK9ga-7n78BW6QDihwMmXQq_v5bzzwJl7g6fQ"
