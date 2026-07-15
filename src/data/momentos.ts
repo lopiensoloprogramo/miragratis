@@ -22,7 +22,7 @@ export const momentos = [
       {
     id: "3",
     title: "Homelander vs Butcher",
-    thumbnail: "https://images.justwatch.com/poster/319251193/s718/the-boys.jpg",
+    thumbnail: "https://images.squarespace-cdn.com/content/v1/672e1e9f7812cb6bfc7efab1/47860658-0b40-406d-82aa-b263fa4b3d51/Homelander+%26+Billy+Butcher.jpg?format=original",
     year: 2026,
     duration: "12:09",
     description: "Batalla final entre el capitan de los seven y el loco de Butcher.",
