@@ -642,4 +642,25 @@ export const movies: Movie[] = [
         
         
 },
+ {
+    id: "27",
+    title: "Rebel Moon (Parte uno): La niña del fuego (2023)",
+    year: 2023,
+    description:"Cuando las fuerzas despiadadas del Mundo Madre amenazan a una comunidad agrícola en una luna remota, la única esperanza de sobrevivir recae en una misteriosa forastera.",
+    trailer:"youtube:QNDKJB3p3Ag",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/e35b19e927fc77ad7802953e3c1243e6_hd.webp",
+    genre: ["Drama","Crimen","Cienci Ficción"],
+
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:XNIAzbbK#U4HfSydu1xG6wIDGaV6SNCtkGVmol2jEnwnkNpYNp2o",
+            download:"",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
