@@ -663,4 +663,25 @@ export const movies: Movie[] = [
         
         
 },
+ {
+    id: "28",
+    title: "MINIONS & MONSTRUOS",
+    year: 2026,
+    description:"Narra la historia de cómo los minions conquistaron la industria de Hollywood, se convirtieron en estrellas de cine, lo perdieron todo, desataron monstruos en el mundo y luego se unieron para intentar salvar al planeta del caos que acababan de crear.",
+    trailer:"youtube:Pp91fIfUrkM",
+    thumbnail: "https://s2.elespanol.com/zona_n/c1/1d6860a2bc2758c2896899acd33f522f.jpg",
+    genre: ["Familia","Fantasía","Animación"],
+
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:TAAjTZYY#XdwuSLnpa4kiflFbF7AEEk_-FNz1c3cRWpook5AvmM8",
+            download:"",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
