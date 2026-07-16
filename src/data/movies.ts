@@ -676,7 +676,7 @@ export const movies: Movie[] = [
           {
             title: "Opcion 1",
             file: "mega:TAAjTZYY#XdwuSLnpa4kiflFbF7AEEk_-FNz1c3cRWpook5AvmM8",
-            download:"",
+            download:"", 
           },
 
  
