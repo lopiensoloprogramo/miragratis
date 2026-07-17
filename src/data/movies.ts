@@ -41,7 +41,14 @@ export const movies: Movie[] = [
     trailer:"youtube:SvJwEiy2Wok",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/c60ecb2ca9a1dc10133ed2d86386e3f9_hd.webp",
     genre: ["Familia","Comedia","Fantasía","Animación"],
-    gallery:[],
+    gallery:["https://image.tmdb.org/t/p/w780/9n2tJBplPbgR2ca05hS5CKXwP2c.jpg",
+             "https://image.tmdb.org/t/p/w780/dBkvawTlvciUvW7jmNAtuvhdtdr.jpg",
+             "https://image.tmdb.org/t/p/w780/bYaXa3tG4SynhArrX2SMiqJBNmA.jpg",
+             "https://image.tmdb.org/t/p/w780/tts9ZQimnTsWdR4bV6CNzY2AUkk.jpg",
+             "https://image.tmdb.org/t/p/w780/50Q9nDZOLN12QEaObicd4BCaqtX.jpg",
+             "https://image.tmdb.org/t/p/w780/re7Z1tABMR0NjZoer3IFPFsEKPX.jpg",
+
+            ],
         opcion: [
           {
             title: "Opcion 1",
@@ -67,7 +74,14 @@ export const movies: Movie[] = [
     trailer:"youtube:RzzTn93ffZw",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/1a4b28e2b442424ced20ba09187aac3c_hd.webp",
     genre: ["Drama","Misterio","Terror"],
-    gallery:[],
+    gallery:["https://image.tmdb.org/t/p/w780/Aaek2T8mITC7hggz5wxAf6PTO3p.jpg",
+             "https://image.tmdb.org/t/p/w780/v0NEB75SZjxY8GS3ho8WeEvjIT3.jpg",
+             "https://image.tmdb.org/t/p/w780/iYtdDPURUXebWX0sbSx3uLNfvPO.jpg",
+             "https://image.tmdb.org/t/p/w780/8pUye1LPtIL1Z0hKhgtiax0akI8.jpg",
+             "https://image.tmdb.org/t/p/w780/i42hEqA0oY8HMF6DpSj78czE7go.jpg",
+             "https://image.tmdb.org/t/p/w780/kFLNpc0Ua5ajE10FUDrJgpASBoQ.jpg",
+             "https://image.tmdb.org/t/p/w780/nTbO6UF944b0VZrgypMK5rFYRSW.jpg",
+            ],
         opcion: [
           {
             title: "Opcion 1",
