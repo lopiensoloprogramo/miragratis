@@ -5,7 +5,7 @@ import { useState, useRef } from "react";
 import AnuncioSidebar from "../components/AnunciosSidebar";
 import qryape from '../assets/yape-qr.png'
 import MovieRow from "../components/MovieRow";
-
+import ImageGallery from "../components/ImageGallery";
 
 export default function MovieDetail() {
   const { id } = useParams();
@@ -279,14 +279,17 @@ const relatedMovies = movies
                     className="w-24 mx-auto mt-2 rounded-lg"
                   />
 
+
                   <p className="text-green-400 text-sm mt-2">
                       Ayuda a mantener la web
                   </p>
+                  
                 </div>
-
-
-
+                <ImageGallery images={movie.gallery} />
             </div>
+                  
+
+
 
           <AnuncioSidebar />
         </div>

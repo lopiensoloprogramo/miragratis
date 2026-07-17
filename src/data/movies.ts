@@ -10,7 +10,14 @@ export const movies: Movie[] = [
     trailer:"youtube:WZXCpje7ZNo",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/62f4da8f7735a7caced5192d1e3ffac2_hd.webp",
     genre: ["Crimen","Misterio", "Terror"],
-
+    gallery:["https://image.tmdb.org/t/p/w780/hz7TdCrpLLt2Dz7S3PS2HG9rpAO.jpg",
+             "https://image.tmdb.org/t/p/w780/xVFrUxxJC5r8XL8QtkHcUyEeLvT.jpg",
+             "https://image.tmdb.org/t/p/w780/3eUyLEF5M0ky3h6KJsWiWzaakB8.jpg",
+             "https://image.tmdb.org/t/p/w780/lUKKS5HUyanRmwC90KuXFxk06tJ.jpg",
+             "https://image.tmdb.org/t/p/w780/yWCZc2TcsCYbMMjvUIsczmQi2TX.jpg"
+          
+          
+          ],
         opcion: [
           {
             title: "Opcion 1",
@@ -34,7 +41,7 @@ export const movies: Movie[] = [
     trailer:"youtube:SvJwEiy2Wok",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/c60ecb2ca9a1dc10133ed2d86386e3f9_hd.webp",
     genre: ["Familia","Comedia","Fantasía","Animación"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -60,7 +67,7 @@ export const movies: Movie[] = [
     trailer:"youtube:RzzTn93ffZw",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/1a4b28e2b442424ced20ba09187aac3c_hd.webp",
     genre: ["Drama","Misterio","Terror"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -86,7 +93,7 @@ export const movies: Movie[] = [
     trailer:"youtube:ipzEY7c7it8",
     thumbnail: "https://premierftp.com/wp-content/uploads/Descargar-Super-Mario-Galaxy-La-pelicula-2026-Espanol-1080p-Pelicula.webp",
     genre: ["Familia","Comedia","Fantasía","Animación"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -112,7 +119,7 @@ export const movies: Movie[] = [
     trailer:"youtube:vY4Cw3GRLdI",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/801d7f3cd7e7de449b9d6247c6f6bb50_hd.webp",
     genre: ["Acción","Ciencia","Ficción"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -138,7 +145,7 @@ export const movies: Movie[] = [
     trailer:"youtube:SevrcuQcS6g",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/500ce9f452d1a56d4025bb879d863a03_hd.webp",
     genre: ["Acción","Ciencia","Ficción"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -165,7 +172,7 @@ export const movies: Movie[] = [
     trailer:"youtube:448usLAnZr4",
     thumbnail: "https://i0.wp.com/www.lajornadamorelos.mx/wp-content/uploads/2026/04/image-185.png?resize=768%2C978&ssl=1",
     genre: ["Aventura", "C. Ficción", "Estrenos"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -192,7 +199,7 @@ export const movies: Movie[] = [
     trailer:"youtube:UzFZR2dRsSY",
     thumbnail: "https://www.ecartelera.com/carteles/16600/16608/005_p.webp",
     genre: ["Acción","Ciencia","Ficción","Comedia"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -219,7 +226,7 @@ export const movies: Movie[] = [
     trailer:"youtube:37jXU_JQVZY",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/5bc4f3725d74ee7b65dfeb7b2602d15e_hd.webp",
     genre: ["Suspenso","Comedio","Terror"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -246,7 +253,7 @@ export const movies: Movie[] = [
     trailer:"youtube:yUykc63elIU",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/40dbe2dcc00ccc0f3d358eba9951c9d2_hd.webp",
     genre: ["Acción","Aventura","Ciencia Ficción","Fantasía"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -273,7 +280,7 @@ export const movies: Movie[] = [
     trailer:"youtube:7gytUpiues8",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/d132228320ddc0537cb7d13b8d9a97da_hd.webp",
     genre: ["Familia","Comedia","Fantasía","Animación"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -300,7 +307,7 @@ export const movies: Movie[] = [
     trailer:"youtube:Mb491Os4zFc",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/8415c6eca989a9758093a10853f06006_hd.webp",
     genre: ["Acción","Suspenso"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -327,7 +334,7 @@ export const movies: Movie[] = [
     trailer:"youtube:iVJaujA54Y8",
     thumbnail: "https://premierftp.com/wp-content/uploads/Descargar-Michael-2026-Espanol-1080p-Pelicula.webp",
     genre: ["Biografía","Drama","Musical"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -354,7 +361,7 @@ export const movies: Movie[] = [
     trailer:"youtube:3zjxECCWwrU",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/3b7796ce7eab29f10eec596922e0a022_hd.webp",
     genre: ["Drama","Romance"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -381,7 +388,7 @@ export const movies: Movie[] = [
     trailer:"youtube:nkbdrYs7Maw",
     thumbnail: "https://image.tmdb.org/t/p/w400/40I66L7QKguTFDPvcLcdiTbAD7I.jpg",
     genre: ["Suspense","Terror"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -403,7 +410,7 @@ export const movies: Movie[] = [
     trailer:"youtube:az6bdokjRk8",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/c22fdaaf2da7157fd0ecc757f34ff726_hd.webp",
     genre: ["Suspense","Terror"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -425,7 +432,7 @@ export const movies: Movie[] = [
     trailer:"youtube:69BdJUksRnQ",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/32b8ab97320012d424786286a12683d2_hd.webp",
     genre: ["Suspense","Terror"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -447,7 +454,7 @@ export const movies: Movie[] = [
     trailer:"youtube:j6xBUJSm_S8",
     thumbnail: "https://cinemagizmo.com/wp-content/uploads/2026/04/backrooms-poster-02.jpg?w=1024",
     genre: ["Suspense","Terror"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -469,7 +476,7 @@ export const movies: Movie[] = [
     trailer:"youtube:O52u0imiqNY",
     thumbnail: "https://pics.filmaffinity.com/the_devil_wears_prada_2-402204206-mmed.jpg",
     genre: ["Drama","Comedia"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -491,7 +498,7 @@ export const movies: Movie[] = [
     trailer:"youtube:_5RFjYeWSls",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/83d2aeedc57230d8d320d1c7f55a199a_hd.webp",
     genre: ["Aventura","Acción","Fantasía"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -513,7 +520,7 @@ export const movies: Movie[] = [
     trailer:"youtube:UPDjaBBJThU",
     thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzCX518mwG4hqbBtqTQPKP8TZn3YdwWSpS6qlfMT1ebA&s=10",
     genre: ["Comedia"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -539,7 +546,7 @@ export const movies: Movie[] = [
     trailer:"youtube:MPC7ittsHAc",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/3da2ab1a1ac826717b072d019a94bbcc_hd.webp",
     genre: ["Terror","Suspenso"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -561,7 +568,7 @@ export const movies: Movie[] = [
     trailer:"youtube:kuRPc0JjygU",
     thumbnail: "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/261/2026/05/16150319/dWIAOC9EKFehGs3CYvDQih3hxaG-scaled.jpg",
     genre: ["Familia","Fantasía"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -587,7 +594,7 @@ export const movies: Movie[] = [
     trailer:"youtube:LgGWpyf1fkM",
     thumbnail: "https://image.tmdb.org/t/p/w342/nmGIRyuMH72WHJengMo8LQjnZQn.jpg",
     genre: ["Romance","Drama"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -608,7 +615,7 @@ export const movies: Movie[] = [
     trailer:"youtube:lBu2CwVSAEw",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/d505450b7b5b26ffb99b6d7dcec352f7_hd.webp",
     genre: ["Aventura","Acción","Ciencia Ficción"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -629,7 +636,7 @@ export const movies: Movie[] = [
     trailer:"youtube:PaAvUOXUohk",
     thumbnail: "https://pics.filmaffinity.com/El_lobo_de_Wall_Street-597158261-large.jpg",
     genre: ["Drama","Crimen"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -650,7 +657,7 @@ export const movies: Movie[] = [
     trailer:"youtube:QNDKJB3p3Ag",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/e35b19e927fc77ad7802953e3c1243e6_hd.webp",
     genre: ["Drama","Crimen","Cienci Ficción"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
@@ -671,7 +678,7 @@ export const movies: Movie[] = [
     trailer:"youtube:Pp91fIfUrkM",
     thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF5jS2xRQUUiikqOv-GdFeukJNtSjzM1Vpgt7pNEnZlEjBjRm6ID0jonej&s=10",
     genre: ["Familia","Fantasía","Animación"],
-
+    gallery:[],
         opcion: [
           {
             title: "Opcion 1",
