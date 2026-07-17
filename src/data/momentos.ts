@@ -45,7 +45,7 @@ export const momentos = [
     thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA47l_3f0fx3D0itkkrG6JkV9eEfwFiNU7x16w35ctM6EaU6_4q9Y43TPJ&s=10",
     year: 2026,
     duration: "05:48",
-    description: "Perturbadora escena de esta terrorífica pélicula",
+    description: "Perturbadora escena de esta terrorífica pélicula.",
     genre: ["Terror"],
     video: "mega:qchX3Ygb#bWTu-mRYWalkW5JPEstW_wb_n9Fo_Ie1Yl4CxqJ_K7g"
   },
