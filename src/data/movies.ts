@@ -107,7 +107,14 @@ export const movies: Movie[] = [
     trailer:"youtube:ipzEY7c7it8",
     thumbnail: "https://premierftp.com/wp-content/uploads/Descargar-Super-Mario-Galaxy-La-pelicula-2026-Espanol-1080p-Pelicula.webp",
     genre: ["Familia","Comedia","Fantasía","Animación"],
-    gallery:[],
+    gallery:[
+              "https://image.tmdb.org/t/p/w780/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg",
+              "https://image.tmdb.org/t/p/w780/9Z2uDYXqJrlmePznQQJhL6d92Rq.jpg",
+              "https://image.tmdb.org/t/p/w780/tTr7lLtSrzHuwy6foiXI9w2Bje6.jpg",
+              "https://image.tmdb.org/t/p/w780/naA95XbPMuRBhLUFf5HXtvjHJlR.jpg",
+              "https://image.tmdb.org/t/p/w780/qcXpAN3Ds7LB6C6iGxzLGYgKN9r.jpg",
+              "https://image.tmdb.org/t/p/w780/xTd74mchq96pqfdlgmKDMQx12gv.jpg",
+            ],
         opcion: [
           {
             title: "Opcion 1",
@@ -133,7 +140,14 @@ export const movies: Movie[] = [
     trailer:"youtube:vY4Cw3GRLdI",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/801d7f3cd7e7de449b9d6247c6f6bb50_hd.webp",
     genre: ["Acción","Ciencia","Ficción"],
-    gallery:[],
+    gallery:["https://image.tmdb.org/t/p/w780/82lM4GJ9uuNvNDOEpxFy77uv4Ak.jpg",
+             "https://image.tmdb.org/t/p/w780/ebyxeBh56QNXxSJgTnmz7fXAlwk.jpg",
+             "https://image.tmdb.org/t/p/w780/iYxzsEBJnFzcgX0amOD6NcaCuPz.jpg",
+             "https://image.tmdb.org/t/p/w780/7hDFhV4ng4cHgSnxvO0MIb11Sbp.jpg",
+             "https://image.tmdb.org/t/p/w780/85pFLmsVkivqjGsVYPktM8ImXvF.jpg",
+             "https://image.tmdb.org/t/p/w780/95sdBy1vBKI3Ci20UAW5ynqLar.jpg"
+
+            ],
         opcion: [
           {
             title: "Opcion 1",
