@@ -669,7 +669,7 @@ export const movies: Movie[] = [
     year: 2026,
     description:"Narra la historia de cómo los minions conquistaron la industria de Hollywood, se convirtieron en estrellas de cine, lo perdieron todo, desataron monstruos en el mundo y luego se unieron para intentar salvar al planeta del caos que acababan de crear.",
     trailer:"youtube:Pp91fIfUrkM",
-    thumbnail: "https://s2.elespanol.com/zona_n/c1/1d6860a2bc2758c2896899acd33f522f.jpg",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF5jS2xRQUUiikqOv-GdFeukJNtSjzM1Vpgt7pNEnZlEjBjRm6ID0jonej&s=10",
     genre: ["Familia","Fantasía","Animación"],
 
         opcion: [
