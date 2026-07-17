@@ -17,7 +17,7 @@ export interface Serie {
   description: string;
   trailer: string;
   thumbnail: string;
-  genre: string;
+  genre: string[];
   seasons: Season[];
   createdAt: number,
 }

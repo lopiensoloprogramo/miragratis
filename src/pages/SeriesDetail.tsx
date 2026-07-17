@@ -4,6 +4,9 @@ import VideoPlayer from "../components/VideoPlayer";
 import { useState, useRef } from "react";
 import AnuncioSidebar from "../components/AnunciosSidebar";
 import qryape from '../assets/yape-qr.png'
+import MovieRow from "../components/MovieRow";
+
+
 export default function SerieDetail() {
   const { id } = useParams();
 
@@ -81,6 +84,49 @@ const allEpisodes = serie.seasons.flatMap((s) => s.episodes);
 const getGlobalIndex = (file: string) => {
   return allEpisodes.findIndex((ep) => ep.file === file);
 };
+
+const normalizeText = (text: string) =>
+  text
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9\s]/g, "")
+    .split(" ")
+    .filter(word => word.length > 2);
+
+const normalize = (genres: string[]) =>
+  genres.map((g) => g.trim().toLowerCase());
+
+const serieGenres = normalize(serie.genre);
+const serieTitleWords = normalizeText(serie.title);
+
+const relatedSeries = series
+  .filter((s) => s.id !== serie.id)
+  .map((s) => {
+    const genres = normalize(s.genre);
+
+    const genreMatches = genres.filter((g) =>
+      serieGenres.includes(g)
+    ).length;
+
+    const titleWords = normalizeText(s.title);
+
+    const titleMatches = titleWords.filter((word) =>
+      serieTitleWords.includes(word)
+    ).length;
+
+    const score =
+      titleMatches * 100 +
+      genreMatches * 2;
+
+    return {
+      serie: s,
+      score,
+    };
+  })
+  .filter((x) => x.score > 0)
+  .sort((a, b) => b.score - a.score)
+  .map((x) => x.serie);
 
   return (
  <div className="p-4 md:p-6 text-white max-w-9xl mx-auto">
@@ -297,6 +343,14 @@ const getGlobalIndex = (file: string) => {
         </div>
    <AnuncioSidebar/>
       </div>
+        {relatedSeries.length > 0 && (
+        <div className="mt-8 text-black font-semibold">
+          <MovieRow
+            title="📺 Series relacionadas"
+            items={relatedSeries}
+          />
+        </div>
+      )}
     </div>
   );
 }

@@ -8,7 +8,7 @@ export const series: Serie[] = [
     description: "Mark Grayson es un joven común, salvo por el detalle de que su papá es el héroe más fuerte del mundo. Poco tiempo después de cumplir diecisiete años, Mark comienza a manifestar sus propios poderes y se convierte en el aprendiz de su padre.",
     trailer:"youtube:ROCIksHW2oc",
     thumbnail: "https://i.pinimg.com/webp85/1200x/a8/c9/e9/a8c9e977522fbdaa8b816a7dafecf9cc.webp",
-    genre: "Acción",
+    genre: ["Acción"],
     createdAt: Date.now(),
     seasons: [ 
             {
@@ -110,7 +110,7 @@ export const series: Serie[] = [
     description: "La serie se desarrolla en un universo donde los superhéroes encarnan el lado sombrío de la fama y el estrellato. Un conjunto de justicieros, que se autodenominan 'The Boys', se compromete a luchar con todas sus fuerzas contra los superhéroes que dañan a la sociedad, sin importar los peligros que esto implique.",
     trailer:"youtube:HK0PrzNOfck",
     thumbnail: "https://pics.filmaffinity.com/the_boys-166639634-mmed.jpg",
-    genre: "Acción",
+    genre: ["Acción"],
     createdAt: Date.now(),
     seasons: [
        {
@@ -212,7 +212,7 @@ export const series: Serie[] = [
     description: "Geralt, un cazador de monstruos genéticamente alterados, busca su lugar en un mundo donde, con frecuencia, los seres humanos resultan ser más crueles que las propias criaturas.",
     trailer:"youtube:GH5Sh8u-3V8",
     thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLXBJmKpB4BFuS0O9UmAoMTydf5cwilYQZHA&s",
-    genre: "Acción-Aventura-Ciencia Ficción",
+    genre: ["Acción","Aventura","Ciencia Ficción"],
     createdAt: Date.now(),
     seasons: [
               {
@@ -393,7 +393,7 @@ export const series: Serie[] = [
     description: "Comedia de animación que cuenta las peripecias de un brillante pero excéntrico científico, Rick Sánchez, quien regresa tras dos décadas para convivir con su hija, su yerno y sus nietos Morty y Summer.",
     trailer:"youtube:OTWkkrflu_4",
     thumbnail: "https://m.media-amazon.com/images/I/51mRBPv8f-L._SY445_SX342_FMwebp_.jpg",
-    genre: "Acción-Aventura-Ciencia Ficción",
+    genre: ["Acción","Aventura","Ciencia Ficción"],
     createdAt: Date.now(),
     seasons: [
       {
@@ -455,7 +455,7 @@ export const series: Serie[] = [
     description: "Una reflexión sobre la adolescencia a través de un grupo de estudiantes de instituto que tienen que hacer frente a temas recurrentes de su edad, como la droga, el sexo y la violencia.",
     trailer:"youtube:w0zvCn268OI",
     thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfrjrT4Cp9s34CjihlGdknr99RctZeRfARPSTiSh4u91GlBpurQ5enciKKHQlzVw2RiZmJJQ&s=10",
-    genre: "Drama,HBO,Series",
+    genre: ["Drama","HBO","Series"],
     createdAt: Date.now(),
     seasons: [
       {
@@ -554,7 +554,7 @@ export const series: Serie[] = [
     description: "A raíz de la desaparición de un niño, un pueblo desvela un misterio relacionado con experimentos secretos, fuerzas sobrenaturales aterradoras y una niña muy extraña.",
     trailer:"youtube:Zf03hjU1MWA",
     thumbnail: "https://schsnow.com/wp-content/uploads/2026/01/1876d157-4a02-4794-8cd0-89d510a7d6f6_740x925.jpg",
-    genre: "C. Ficción,Drama,Fantasía,Netflix",
+    genre: ["Ciencia Ficción","Drama","Fantasía","Netflix"],
     createdAt: Date.now(),
     seasons: [
       {
@@ -593,7 +593,7 @@ export const series: Serie[] = [
     description: "Veinte años después de que una pandemia acabase con casi toda la población mundial, las ciudades han sido abandonadas y la naturaleza ha ocupado su lugar. Los humanos infectados se han convertido en horripilantes monstruos que vagan sin control y los supervivientes se matan por comida y protección. Joel, cuyas circunstancias personales le han convertido en un violento superviviente, es contratado para sacar de una zona militar de cuarentena a Ellie, una chica de 14 años que es la única esperanza para la humanidad. Esta simple tarea se transformará en un brutal viaje a través de Estados Unidos.",
     trailer:"youtube:HjmsvEZtjtg",
     thumbnail: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSm6oVhnKDiwQi22bLIDhYLh_b3TaSPfjGnG0PH9fu_rUpZw7gK",
-    genre: "Acción,Aventura,C. Ficción,Drama",
+    genre: ["Acción","Aventura","Ciencia Ficción","Drama"],
     createdAt: Date.now(),
     seasons: [
       {
@@ -627,7 +627,7 @@ export const series: Serie[] = [
     description: "Precuela de las películas de 'IT' basadas en las novelas de Stephen King. Comienza en la década de 1960, en la época previa a los acontecimientos de la película de 2017, y cuenta los orígenes del payaso Pennywise.",
     trailer:"youtube:SXeHztWl0Ec",
     thumbnail: "https://decine21.com/img/upload/obras/it-bienvenidos-a-derry-49306/it-bienvenidos-a-derry-49306-c.jpg",
-    genre: "Terror,C. Ficción,",
+    genre: ["Terror","Ciencia Ficción"],
     createdAt: Date.now(),
     seasons: [
       {
@@ -686,7 +686,7 @@ export const series: Serie[] = [
     description: "Desvela el misterio de un pueblo de pesadilla en el centro de América que atrapa a todos los que entran. Mientras los residentes involuntarios luchan por mantener una sensación de normalidad y buscan una salida, también deben sobrevivir a las amenazas del bosque circundante, incluidas las aterradoras criaturas que salen cuando se pone el sol.",
     trailer:"youtube:A-6HRIzZo7s",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/54068ea05b97cac0a33469c99c25c350_hd.webp",
-    genre: "Terror,C. Ficción,",
+    genre: ["Terror","Ciencia Ficción"],
     createdAt: Date.now(),
     seasons: [
                    {
@@ -914,7 +914,7 @@ export const series: Serie[] = [
     description: "Cuenta la inesperada conexión entre una estudiante de música y el jugador estrella de hockey de la universidad. A medida que su relación se profundiza, deben enfrentarse a la amistad, la presión, la ambición y la realidad de la edad adulta, donde cada elección tiene sus consecuencias.",
     trailer:"youtube:2dHZjW6TclQ",
     thumbnail: "https://descargaseriestv.com/wp-content/uploads/2026/05/Kiss-Me-Temporada-3-Serie-de-TV-2026-1080p-Descargar-689x1024.jpg",
-    genre: " Drama romántico. Adolescencia. Hockey sobre hielo",
+    genre: ["Drama romántico","Adolescencia","Hockey sobre hielo"],
     createdAt: Date.now(),
     seasons: [
       {
@@ -973,7 +973,7 @@ export const series: Serie[] = [
     description: "Tras la desaparición de un joven, cuatro familias desesperadas tratan de entender lo ocurrido a medida que van desvelando un retorcido misterio que abarca tres décadas... Saga familiar con un giro sobrenatural, 'Dark' se sitúa en un pueblo alemán, donde dos misteriosas desapariciones dejan al descubierto las dobles vidas y las relaciones resquebrajadas entre estas cuatro familias.",
     trailer:"youtube:IW4KjKZQJAw",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/45ebbcb5660836c30d4ace204244127c_hd.webp",
-    genre: "Misterio, Sobre Natural,Fantacía,Sci-Fi",
+    genre: ["Misterio","Sobre Natural","Fantacía","Sci-Fi"],
     createdAt: Date.now(),
     seasons: [
       {
@@ -1042,7 +1042,7 @@ export const series: Serie[] = [
     description: "Ambientada en una época en la que el linaje Targaryen todavía ostenta el Trono de Hierro y el recuerdo del último dragón aún no ha desaparecido de la memoria viva, grandes destinos, enemigos poderosos y hazañas peligrosas esperan a estos improbables e incomparables amigos.",
     trailer:"youtube:OmEznZAw9cw",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/f8d7eb6179e68e82a3f128c85bd9149c_hd.webp",
-    genre: "Drama, Ciencia Ficción",
+    genre: ["Drama","Ciencia Ficción"],
     createdAt: Date.now(),
     seasons: [
       {
@@ -1082,7 +1082,7 @@ export const series: Serie[] = [
     description: "Inspirada en el libro 'Fuego y Sangre' de George R.R. Martin, la serie se enfoca en la familia Targaryen, tres siglos antes de los acontecimientos que se desarrollan en 'Juego de Tronos'.",
     trailer:"youtube:5h6XfziHUAA",
     thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrOId2u-l8SWY30DkzC06GAWPwloGbeVwmF1Xr4-BiUhIQoKa-FnEa0Sc&s=10",
-    genre: "Drama, Ciencia Ficción",
+    genre: ["Drama","Ciencia Ficción"],
     createdAt: Date.now(),
     seasons: [
       {
@@ -1152,7 +1152,7 @@ export const series: Serie[] = [
     description: "En un futuro arruinado y tóxico, existe una comunidad en un enorme silo subterráneo cientos de pisos bajo tierra. Ahí, hombres y mujeres viven en una sociedad llena de reglas que creen que están hechas para protegerlos.",
     trailer:"youtube:X-mKRbAeAd0",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/a12a03ab3fe24cd0e967d6d97f08cb8b_hd.webp",
-    genre: "Drama, Ciencia Ficción",
+    genre: ["Drama","Ciencia Ficción"],
     createdAt: Date.now(),
     seasons: [
       {
