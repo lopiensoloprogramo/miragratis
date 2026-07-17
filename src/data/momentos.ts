@@ -19,7 +19,7 @@ export const momentos = [
     genre: ["Acción"],
     video: "mega:SIYADb4B#f74UDTXpnNVKqThq5DxDxQW7dSgSV3nL_Cn_5dn1-Jo"
   },
-      {
+{
     id: "3",
     title: "Homelander vs Butcher",
     thumbnail: "https://images.squarespace-cdn.com/content/v1/672e1e9f7812cb6bfc7efab1/47860658-0b40-406d-82aa-b263fa4b3d51/Homelander+%26+Billy+Butcher.jpg?format=original",
@@ -29,5 +29,14 @@ export const momentos = [
     genre: ["Acción"],
     video: "mega:zBJwBaKI#lGWWx5ZSGa0J5ZgNhN4HtRAN1eDqawbKxcUBvyQQBq8"
   },
-
+{
+    id: "4",
+    title: "Homelander vs A-Train",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Yxi9-afOr5U9_fQYnaGqfWNM0bFFYr9qHTsZpE_4sH7pAx6twzRncGeg&s=10",
+    year: 2026,
+    duration: "05:03",
+    description: "Homelander y A-Train se ven las caras después de tiempo.",
+    genre: ["Acción"],
+    video: "mega:TcIXzRZT#z5bM1oxhI82OjyVIRxc0HONr4e5ZJKp7mT-e8XfUIKQ"
+  },
 ];
