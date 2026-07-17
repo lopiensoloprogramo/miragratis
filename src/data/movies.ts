@@ -400,7 +400,7 @@ export const movies: Movie[] = [
     year: 2026,
     description: "El deseo desesperado y romántico de un joven por su amor platónico de siempre provoca un oscuro encantamiento: Niki se transforma en una obsesión irracional, convirtiéndose en la sombra de Bear. Una ilusión que al principio parece inofensiva se transforma en una inquietante pesadilla.",
     trailer:"youtube:nkbdrYs7Maw",
-    thumbnail: "https://image.tmdb.org/t/p/w400/40I66L7QKguTFDPvcLcdiTbAD7I.jpg",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA47l_3f0fx3D0itkkrG6JkV9eEfwFiNU7x16w35ctM6EaU6_4q9Y43TPJ&s=10",
     genre: ["Suspense","Terror"],
     gallery:[],
         opcion: [
