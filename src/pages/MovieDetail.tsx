@@ -269,7 +269,7 @@ const relatedMovies = movies
                   👍 Síguenos en Facebook
                 </button>
 
-                <div className="mt-4 border-t border-gray-700 pt-4 text-center">
+                <div className="mt-4 border-t border-gray-700 pt-4 mb-0 text-center">
                   <p className="text-white font-semibold">
                      ❤️ Apoya MiraGratis
                   </p>
