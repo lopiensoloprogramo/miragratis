@@ -173,7 +173,13 @@ export const movies: Movie[] = [
     trailer:"youtube:SevrcuQcS6g",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/500ce9f452d1a56d4025bb879d863a03_hd.webp",
     genre: ["Acción","Ciencia","Ficción"],
-    gallery:[],
+    gallery:["https://image.tmdb.org/t/p/w780/6vn6K9oX82i6E86ZiHVxqVEMQqP.jpg",
+             "https://image.tmdb.org/t/p/w780/9SSEUrSqhljBMzRe4aBTh17rUaC.jpg",
+             "https://image.tmdb.org/t/p/w780/7g7cAWKvMKnzJQCxYE4OHfx131t.jpg",
+             "https://image.tmdb.org/t/p/w780/hgWY0fXfh8UgUcjL4HEPRj1gOED.jpg",
+             "https://image.tmdb.org/t/p/w780/9QfEgu9j6I4aXqGMsPUvDhtkAT5.jpg",
+             "https://image.tmdb.org/t/p/w780/xZVY45mfAeeZJ6O6j2IHuwxcfzS.jpg",
+            ],
         opcion: [
           {
             title: "Opcion 1",
@@ -200,7 +206,14 @@ export const movies: Movie[] = [
     trailer:"youtube:448usLAnZr4",
     thumbnail: "https://i0.wp.com/www.lajornadamorelos.mx/wp-content/uploads/2026/04/image-185.png?resize=768%2C978&ssl=1",
     genre: ["Aventura", "C. Ficción", "Estrenos"],
-    gallery:[],
+    gallery:[
+              "https://image.tmdb.org/t/p/w780/xQRNN12LePQqqIbhP6xP5X212HG.jpg",
+              "https://image.tmdb.org/t/p/w780/2I1OFQJ0L9T0dpU6FobKFWV2PxX.jpg",
+              "https://image.tmdb.org/t/p/w780/qL4dBGLkWOVP5vImN7EEoqJQYd8.jpg",
+              "https://image.tmdb.org/t/p/w780/fFyLcR22R4ynrecqjMniKXm0UTp.jpg",
+              "https://image.tmdb.org/t/p/w780/afHAM9qOTmrVDeaLIU7zfssotUY.jpg",
+              "https://image.tmdb.org/t/p/w780/y8vQKqARUYPktoQTp1kLuHqBZkh.jpg",
+            ],
         opcion: [
           {
             title: "Opcion 1",
