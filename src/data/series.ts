@@ -1142,6 +1142,46 @@ export const series: Serie[] = [
 
         ],
       },
+      {
+                seasonNumber: 2,
+        episodes: [
+          {
+            title: "Episodio 1",
+            file: "mega:iURkiTCa#K4fAj5BWc-6hhUdYcqD71YYahQ8R29D77fxWzhVK6xA",
+            download:"",
+          },
+                    {
+            title: "Episodio 2",
+            file: "mega:vR5VnBjT#tcidQp-A2O-P1nZk9hsbrJERisFIIlne7PqFplpFU5Q",
+            download:"",
+          },
+                    {
+            title: "Episodio 3",
+            file: "mega:iF5RCLxL#bpgjZA3sJhHalGwpGfRejvjwwsJt80HNo3rY0a4kEEc",
+            download:"",
+          },
+                    {
+            title: "Episodio 4",
+            file: "mega:rRRzQK7A#0X3wnAwpHcr2y_dLAEQOiI044j2JAVIlvgFDA1KbZFk",
+            download:"",
+          },
+                    {
+            title: "Episodio 5",
+            file: "mega:DdADzJja#2hOD-Ob33v7h5wNIGtR-AF_DeALZ4gojjapc-CVVImQ",
+            download:"",
+          },
+                    {
+            title: "Episodio 6",
+            file: "mega:LdoWkY4a#CruUg9Ws1f02Fg_bOTbYr6EK-v8q2E22eS-qAuGksrg",
+            download:"",
+          },
+                    {
+            title: "Episodio 7",
+            file: "mega:",
+            download:"",
+          },
+          ]
+      }
       
     ],
   },
