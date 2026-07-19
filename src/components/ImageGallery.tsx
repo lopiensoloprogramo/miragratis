@@ -19,7 +19,7 @@ export default function ImageGallery({ images }: ImageGalleryProps) {
   };
 
   return (
-    <div className="mt-4">
+    <div className="mt-4 mb-0">
 
       <h3 className="text-xl font-bold text-white mb-3 text-center">
         📸 Galería
