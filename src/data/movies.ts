@@ -739,7 +739,13 @@ export const movies: Movie[] = [
     trailer:"youtube:WLAsJIOFNqM",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/a0b164805ae5f2a5de512a4a59105282_hd.webp",
     genre: ["Drama","Crimen","Cienci Ficción"],
-    gallery:[],
+    gallery:[ "https://image.tmdb.org/t/p/w780/lHgipA5wT9iyAT0s2OLoT5WE4Wg.jpg",
+              "https://image.tmdb.org/t/p/w780/j2ee67UEvNZj5KrUagGq8SBMW2z.jpg",
+              "https://image.tmdb.org/t/p/w780/4ziUJAFQed7xb0DUECTzysrp9dU.jpg",
+              "https://image.tmdb.org/t/p/w780/mcymlABFPpV2kblqrpmySoVsGVO.jpg",
+              "https://image.tmdb.org/t/p/w780/fSzqf4jtAVcb9lq5ShM8Ub34DI4.jpg",
+              "https://image.tmdb.org/t/p/w780/FUnAVgaTs5xZWXcVzPJNxd9qGA.jpg",
+            ],
         opcion: [
           {
             title: "Opcion 1",
