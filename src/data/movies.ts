@@ -731,4 +731,25 @@ export const movies: Movie[] = [
         
         
 },
+ {
+    id: "29",
+    title: "Rebel Moon (Parte dos): La guerrera que deja marcas (2024)",
+    year: 2024,
+    description:"Los fugitivos más buscados en el universo lideran una rebelión en «Rebel Moon (Capítulo dos): La maldición del perdón», una versión de Zack Snyder sin filtros.",
+    trailer:"youtube:WLAsJIOFNqM",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/a0b164805ae5f2a5de512a4a59105282_hd.webp",
+    genre: ["Drama","Crimen","Cienci Ficción"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:vVh2gSaI#ngGZn_BjdtKDn7ynmaPUA24e-CetYsCXOLrRqf0iLLw",
+            download:"",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
