@@ -1186,6 +1186,16 @@ export const series: Serie[] = [
             download:"",
           },
           ]
+      },
+      {
+        seasonNumber: 3,
+        episodes:[
+          {
+            title:"Episodio 1",
+            file:"mega:KV4zCLYI#Piq--VGv8tpVX-OYezPNMhIJoesKcCQVwJa1W6qyyQE",
+            download:""
+          }
+        ]
       }
       
     ],
