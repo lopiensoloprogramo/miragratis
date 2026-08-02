@@ -1194,6 +1194,26 @@ export const series: Serie[] = [
             title:"Episodio 1",
             file:"mega:KV4zCLYI#Piq--VGv8tpVX-OYezPNMhIJoesKcCQVwJa1W6qyyQE",
             download:""
+          },
+                    {
+            title:"Episodio 2",
+            file:"mega:ecJlXA5a#Xf9iAmWBPZUJ6rRWn2_GUeiLFgbL6uaspp6P109w-mM",
+            download:""
+          },
+                    {
+            title:"Episodio 3",
+            file:"mega:7Zp1iZjS#Q6ohK5paC0g6DUNrL3ru8TPoSGzNwAr6FdH2Xusd09Q",
+            download:""
+          },
+                    {
+            title:"Episodio 4",
+            file:"mega:qdol0Ipa#1Axat2eIpOCliny3xaP75BO4TptPaiD5A2YretJlblQ",
+            download:""
+          },
+                             {
+            title:"Episodio 5",
+            file:"mega:bUp1QToC#BbHQLs6kVgeKTVHnGcnH_HRnlbtdrUb9g5c27eCn4ik",
+            download:""
           }
         ]
       }
