@@ -758,4 +758,25 @@ export const movies: Movie[] = [
         
         
 },
+ {
+    id: "30",
+    title: "Spider-Man: Un nuevo día(2026)",
+    year: 2026,
+    description:"Han pasado cuatro años desde los acontecimientos de No Way Home, y Peter Parker ahora es un adulto que vive completamente solo, ha desaparecido voluntariamente de las vidas y recuerdos de quienes ama. Combatiendo el crimen en una Nueva York que ya no conoce su nombre, se ha dedicado por completo a proteger su ciudad, pero a medida que aumentan las exigencias sobre él, la presión desencadena una evolución física que amenaza su existencia, al mismo tiempo que un extraño nuevo patrón de crímenes da lugar a una de las amenazas más poderosas a las que se ha enfrentado.",
+    trailer:"youtube:YAfxu9voYLs",
+    thumbnail: "https://media.filmelier.com/optimized/113296/cartaz/32e9bf303bc74dacb762f4b44b4214a9.webp",
+    genre: ["Acción","Super Heroes","Marvel","Ciencia Ficción"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1IkWNzVqw00vCg6F4VGfGSQipB9aBpFhM",
+            download:"https://ouo.io/a6WAuk1",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
