@@ -779,4 +779,25 @@ export const movies: Movie[] = [
         
         
 },
+ {
+    id: "31",
+    title: "La Odisea(2026)",
+    year: 2026,
+    description:"El regreso del héroe: Ulises y su épica travesía por el Mediterráneo. Tras la caída de Troya, Ulises, el astuto rey de Ítaca, emprende un peligroso viaje de regreso a casa que se convertirá en una odisea épica. Ulises deberá usar todo su ingenio y su fuerza para superar los desafíos que los dioses y el destino le deparan.",
+    trailer:"youtube:8un_UztYsw0",
+    thumbnail: "https://s.pelisflixhd.blog/p/v2/w1/ty7zfdlgY2HU3eopy3SLV8JJIODoGd5ZB3oH.webp",
+    genre: ["Acción","Guerras","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1h6szei0Z1IuwGBdiCLy_m45GlCDAIeQP",
+            download:"https://ouo.io/j5PAi6",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
