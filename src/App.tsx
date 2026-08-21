@@ -11,6 +11,9 @@ import { useLocation } from "react-router-dom";
 import { trackPageView } from "./components/analytics";
 import MomentosPage from "./pages/MomentosPage";
 import MomentoDetail from "./pages/MomentoDetail";
+import Peliculas from "./pages/Peliculas";
+
+
 
 export default function App() {
 
@@ -77,7 +80,14 @@ export default function App() {
         </div>
       }
     />
- 
+     <Route
+      path="/peliculas"
+      element={
+
+          <Peliculas />
+   
+      }
+    />
 
 
   </Routes>

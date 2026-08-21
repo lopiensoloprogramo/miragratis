@@ -55,9 +55,12 @@ export default function Navbar() {
             Inicio
           </Link>
 
-          <span className="hidden md:block hover:text-red-500 cursor-pointer transition">
+          <Link
+            to="/peliculas"
+            className="hidden md:block hover:text-red-500 transition"
+          >
             Películas
-          </span>
+          </Link>
 
 
 
