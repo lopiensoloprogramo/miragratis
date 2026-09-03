@@ -2,8 +2,7 @@ import { series } from "../data/series";
 import { movies } from "../data/movies";
 import MovieRow from "../components/MovieRow";
 import HeroBanner from "../components/HeroBanner";
-import { Link } from "react-router-dom";
-import Peliculas from "./Peliculas";
+
 
 export default function Home() {
   return (
