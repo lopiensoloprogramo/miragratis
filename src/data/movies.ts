@@ -800,4 +800,46 @@ export const movies: Movie[] = [
         
         
 },
+ {
+    id: "32",
+    title: "Camino hacia el Terror(2003)",
+    year: 2003,
+    description:"Seis adolescentes viajan en coche cuando, de pronto, deben desviarse de su ruta al encontrar la carretera bloqueada por un accidente. Pero los jóvenes se pierden en los densos bosques de Virginia Occidental, donde serán perseguidos por una raza humana de caníbales, horriblemente desfigurados por su antinatural alimentación a lo largo de generaciones.",
+    trailer:"youtube:D7DkA-sG98k",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/a729d76292a6a72fc99598bbc1e33ae6_hd.webp",
+    genre: ["Terror","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:16aYXC43S4Cph96-DfvjLl4-5rVPke0Ai",
+            download:"https://ouo.io/eC3nOC",
+          },
+
+ 
+        ],
+        
+        
+},
+ {
+    id: "33",
+    title: "Camino Hacia el Terror 2: Final mortal (2007)",
+    year: 2003,
+    description:"Dale Murphy es el presentador de The Apocalypse, un reality-show en el que los participantes son aislados en un remoto paraje y obligados a sobrevivir por sus propios medios. Lejos están de imaginar que el bosque donde acaban de instalarse es el hogar de un grupo de mutantes caníbales y que el juego no va a tardar en convertirse en terrorífica realidad.",
+    trailer:"youtube:X2mQUwjc8Vo",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/db570f6a73a4d7e10ede827746ae992c_hd.webp",
+    genre: ["Terror","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1lZIuEGfvUJOxFk8LEY1_26dLsHJ0AiBW",
+            download:"https://ouo.io/1V6Hnd",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
