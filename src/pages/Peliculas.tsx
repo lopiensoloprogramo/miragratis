@@ -82,7 +82,7 @@ export default function Peliculas() {
             type="text"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            placeholder="Buscar una película..."
+            placeholder="🔎 Buscar una película..."
             className="
               w-full
               bg-zinc-900

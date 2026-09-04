@@ -63,144 +63,173 @@ export default function Series() {
   return (
         <main className="min-h-screen bg-black text-white pt-24 px-4 md:px-8 pb-12">
 
-      {/* TÍTULO */}
-      <div className="mb-6">
-        <h1 className="text-3xl md:text-4xl font-bold">
-          📺 Series
-        </h1>
+    {/* Encabezado */}
+      <div className="max-w-7xl mx-auto">
 
-        <p className="text-gray-600 mt-2">
-          Explora nuestra colección de series y encuentra tu próxima favorita.
-        </p>
-      </div>
+        <div className="mb-8">
+          <h1 className="text-3xl md:text-4xl font-bold mb-2">
+            📺 Series
+          </h1>
 
-      {/* CONTROLES */}
-      <div className="flex flex-col md:flex-row gap-3 mb-8">
-
-        {/* BUSCADOR */}
-        <input
-          type="text"
-          placeholder="🔎 Buscar serie..."
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-          className="
-            w-full md:flex-1
-            px-4 py-3
-            rounded-lg
-            border border-gray-300
-            bg-white
-            text-black
-            outline-none
-            focus:ring-2
-            focus:ring-blue-500
-          "
-        />
-
-        {/* GÉNERO */}
-        <select
-          value={genre}
-          onChange={(e) => setGenre(e.target.value)}
-          className="
-            px-4 py-3
-            rounded-lg
-            border border-gray-300
-            bg-white
-            text-black
-            outline-none
-            focus:ring-2
-            focus:ring-blue-500
-          "
-        >
-          {genres.map((g) => (
-            <option key={g} value={g}>
-              {g}
-            </option>
-          ))}
-        </select>
-
-        {/* ORDEN */}
-        <select
-          value={sort}
-          onChange={(e) => setSort(e.target.value)}
-          className="
-            px-4 py-3
-            rounded-lg
-            border border-gray-300
-            bg-white
-            text-black
-            outline-none
-            focus:ring-2
-            focus:ring-blue-500
-          "
-        >
-          <option value="recent">
-            Más recientes
-          </option>
-
-          <option value="oldest">
-            Más antiguas
-          </option>
-
-          <option value="az">
-            Nombre A-Z
-          </option>
-
-          <option value="za">
-            Nombre Z-A
-          </option>
-        </select>
-
-      </div>
-
-      {/* RESULTADOS */}
-      <div className="mb-4 text-gray-600">
-        {filteredSeries.length}{" "}
-        {filteredSeries.length === 1 ? "serie encontrada" : "series encontradas"}
-      </div>
-
-      {/* GRID */}
-      {filteredSeries.length > 0 ? (
-
-        <div
-          className="
-            grid
-            grid-cols-2
-            sm:grid-cols-3
-            md:grid-cols-4
-            lg:grid-cols-5
-            xl:grid-cols-6
-            gap-4
-          "
-        >
-          {filteredSeries.map((serie, index) => (
-            <div key={serie.id}>
-              <MovieCard
-                item={serie}
-                index={index}
-              />
-            </div>
-          ))}
+          <p className="text-gray-400">
+            Explora nuestra colección de series y encuentra tu próxima favorita.
+          </p>
         </div>
 
-      ) : (
+        {/* Buscador */}
+        <div className="mb-6">
+          <input
+            type="text"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="🔎 Buscar una serie..."
+            className="
+              w-full
+              bg-zinc-900
+              border border-zinc-800
+              rounded-lg
+              px-4
+              py-3
+              text-white
+              placeholder-gray-500
+              outline-none
+              focus:border-red-600
+              transition
+            "
+          />
+        </div>
 
-        <div className="text-center py-16">
+        {/* Filtros */}
+        <div className="flex flex-col md:flex-row gap-4 mb-8">
 
-          <div className="text-5xl mb-4">
-            😕
+          {/* Géneros */}
+          <div className="flex-1">
+            <label className="block text-sm text-gray-400 mb-2">
+              Género
+            </label>
+
+            <select
+              value={genre}
+              onChange={(e) => setGenre(e.target.value)}
+              className="
+                w-full
+                bg-zinc-900
+                border border-zinc-800
+                rounded-lg
+                px-4
+                py-3
+                text-white
+                outline-none
+                focus:border-red-600
+              "
+            >
+              {genres.map((item) => (
+                <option key={item} value={item}>
+                  {item}
+                </option>
+              ))}
+            </select>
           </div>
 
-          <h2 className="text-xl font-semibold">
-            No encontramos series
-          </h2>
+          {/* Orden */}
+          <div className="flex-1">
+            <label className="block text-sm text-gray-400 mb-2">
+              Ordenar
+            </label>
 
-          <p className="text-gray-500 mt-2">
-            Intenta cambiar el nombre o el género.
-          </p>
+            <select
+              value={sort}
+              onChange={(e) => setSort(e.target.value)}
+              className="
+                w-full
+                bg-zinc-900
+                border border-zinc-800
+                rounded-lg
+                px-4
+                py-3
+                text-white
+                outline-none
+                focus:border-red-600
+              "
+            >
+              <option value="recent">
+                Más recientes
+              </option>
+
+              <option value="old">
+                Más antiguas
+              </option>
+
+              <option value="az">
+                A - Z
+              </option>
+
+              <option value="za">
+                Z - A
+              </option>
+            </select>
+          </div>
 
         </div>
 
-      )}
+        {/* Cantidad */}
+        <div className="flex justify-between items-center mb-5">
+
+          <h2 className="text-xl font-semibold">
+            Todas las series
+          </h2>
+
+          <span className="text-sm text-gray-500">
+            {filteredSeries.length} series
+          </span>
+
+        </div>
+
+        {/* Grid */}
+        {filteredSeries.length > 0 ? (
+
+          <div
+            className="
+              grid
+              grid-cols-2
+              sm:grid-cols-3
+              md:grid-cols-4
+              lg:grid-cols-5
+              xl:grid-cols-6
+              gap-4
+            "
+          >
+            {filteredSeries.map((movie, index) => (
+              <div key={movie.id}>
+                <MovieCard
+                  item={movie}
+                  index={index}
+                />
+              </div>
+            ))}
+          </div>
+
+        ) : (
+
+          <div className="text-center py-20">
+
+            <div className="text-5xl mb-4">
+              📺
+            </div>
+
+            <h3 className="text-xl font-semibold mb-2">
+              No encontramos series
+            </h3>
+
+            <p className="text-gray-500">
+              Prueba con otro nombre o género.
+            </p>
+
+          </div>
+
+        )}
+
+      </div>
 
     </main>
   );
