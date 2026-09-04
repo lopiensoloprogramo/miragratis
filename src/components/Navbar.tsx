@@ -21,14 +21,14 @@ export default function Navbar() {
   return (
     <>
       <div
-        className={`fixed top-0 w-full z-50 px-4 md:px-6 py-3 flex justify-between items-center transition-all duration-300 h-16 ${
+        className={`fixed top-0 w-full z-50 px-3 md:px-6 py-3 flex justify-between items-center transition-all duration-300 h-16 ${
           scrolled
             ? "bg-black shadow-md"
             : "bg-gradient-to-b from-black to-transparent"
         }`}
       >
         {/* Logo */}
-        <Link to="/" className="flex flex-col">
+        <Link to="/" className="flex flex-col flex-shrink-0">
           <h1 className="text-xl md:text-3xl font-bold text-red-600">
             MiraGratis
           </h1>
@@ -39,14 +39,14 @@ export default function Navbar() {
         </Link>
 
         {/* Opciones */}
-        <div className="flex items-center gap-3 md:gap-6 text-sm">
+        <div className="flex items-center gap-2 sm:gap-3 md:gap-6 text-xs sm:text-sm">
 
           {/* Buscador */}
           <button
             onClick={() => setShowSearch(!showSearch)}
-            className="text-white hover:text-red-500 transition"
+            className="text-white hover:text-red-500 transition flex-shrink-0"
           >
-            {showSearch ? <X size={22} /> : <Search size={22} />}
+            {showSearch ? <X size={20} /> : <Search size={20} />}
           </button>
 
           {/* Inicio */}
@@ -54,7 +54,7 @@ export default function Navbar() {
             to="/"
             end
             className={({ isActive }) =>
-              `hidden md:block relative py-2 transition-all duration-300 ${
+              `relative py-2 transition-all duration-300 whitespace-nowrap ${
                 isActive
                   ? "text-red-500 font-semibold"
                   : "text-white hover:text-red-500"
@@ -76,7 +76,7 @@ export default function Navbar() {
           <NavLink
             to="/peliculas"
             className={({ isActive }) =>
-              `hidden md:block relative py-2 transition-all duration-300 ${
+              `relative py-2 transition-all duration-300 whitespace-nowrap ${
                 isActive
                   ? "text-red-500 font-semibold"
                   : "text-white hover:text-red-500"
@@ -98,7 +98,7 @@ export default function Navbar() {
           <NavLink
             to="/series"
             className={({ isActive }) =>
-              `hidden md:block relative py-2 transition-all duration-300 ${
+              `relative py-2 transition-all duration-300 whitespace-nowrap ${
                 isActive
                   ? "text-red-500 font-semibold"
                   : "text-white hover:text-red-500"
@@ -119,7 +119,7 @@ export default function Navbar() {
           {/* Especiales */}
           <Link
             to="/momentos"
-            className="text-black hover:bg-red-700 px-2 py-1 rounded-lg font-bold bg-yellow-500 text-xs md:text-sm transition"
+            className="text-black hover:bg-red-700 px-2 py-1 rounded-lg font-bold bg-yellow-500 text-[10px] sm:text-xs md:text-sm transition whitespace-nowrap"
           >
             Especiales
           </Link>
@@ -127,7 +127,7 @@ export default function Navbar() {
           {/* Solicitar */}
           <Link
             to="/requests"
-            className="text-white hover:bg-red-700 px-2 py-1 rounded-lg font-semibold text-xs md:text-sm transition"
+            className="text-white hover:bg-red-700 px-2 py-1 rounded-lg font-semibold text-[10px] sm:text-xs md:text-sm transition whitespace-nowrap"
           >
             🎬 Solicitar
           </Link>
