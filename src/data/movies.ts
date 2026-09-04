@@ -842,4 +842,46 @@ export const movies: Movie[] = [
         
         
 },
+ {
+    id: "34",
+    title: "Camino hacia el terror 3 (2009)",
+    year: 2009,
+    description:"Fonda y sus amigos deciden pasar en el bosque unos días de tranquilidad. Sin embargo, estos serán acechados por los salvajes mutantes que viven en el lugar. Mientras tanto, varios peligrosos prisioneros son trasladados de prisión y durante el traslado son atacados y varios de ellos escapan. A partir de ese momento, Fonda y Nate deberán hacer lo posible por sobrevivir tratando de evitar a los mutantes y a los prisioneros.",
+    trailer:"youtube:Sqb8rTnysTQ",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/e04bc8909bb7969ae5488620e00f8c57_hd.webp",
+    genre: ["Terror","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1x8EHlXDI1WBPFbtbYVCQp2GuU1gqbM_V",
+            download:"https://ouo.io/V2eyXy",
+          },
+
+ 
+        ],
+        
+        
+},
+{
+    id: "35",
+    title: "Camino Hacia el Terror 4 (2011)",
+    year: 2011,
+    description:"Un grupo de amigos deciden ir a practicar snow en sus vacaciones invernales. Pero como en anteriores ocasiones, tomarán un camino equivocado perdiéndose en una tormenta y buscando refugio en un antiguo sanatorio. Allí están completamente aislados y a merced de la tormenta. Pero el lugar, tiene un pasado y algunos de sus antiguos pacientes no están demasiado contentos en tener 'invitados'",
+    trailer:"youtube:BGIEWmmY1I8",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/be6f9246f5de43e4a63103104e235b4c_hd.webp",
+    genre: ["Terror","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1prnKdAbVc2kqN1oGqoI04tR2Ce6jKLe_",
+            download:"https://ouo.io/mbE4nJ",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
