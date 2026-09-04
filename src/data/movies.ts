@@ -785,7 +785,7 @@ export const movies: Movie[] = [
     year: 2026,
     description:"El regreso del héroe: Ulises y su épica travesía por el Mediterráneo. Tras la caída de Troya, Ulises, el astuto rey de Ítaca, emprende un peligroso viaje de regreso a casa que se convertirá en una odisea épica. Ulises deberá usar todo su ingenio y su fuerza para superar los desafíos que los dioses y el destino le deparan.",
     trailer:"youtube:8un_UztYsw0",
-    thumbnail: "https://s.pelisflixhd.blog/p/v2/w1/ty7zfdlgY2HU3eopy3SLV8JJIODoGd5ZB3oH.webp",
+    thumbnail: "https://es.web.img3.acsta.net/img/1a/23/1a238e79ea26da69c2ff751c232c60e3.png",
     genre: ["Acción","Guerras","Drama"],
     gallery:[],
         opcion: [
