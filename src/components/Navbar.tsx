@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+
+import { Link, NavLink } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { Search, X } from "lucide-react";
 import SearchBar from "./SearchBar";
@@ -40,46 +41,100 @@ export default function Navbar() {
         {/* Opciones */}
         <div className="flex items-center gap-3 md:gap-6 text-sm">
 
+          {/* Buscador */}
           <button
             onClick={() => setShowSearch(!showSearch)}
-            className="hover:text-red-500 transition"
+            className="text-white hover:text-red-500 transition"
           >
             {showSearch ? <X size={22} /> : <Search size={22} />}
           </button>
 
-          {/* Solo visible en PC */}
-          <Link
+          {/* Inicio */}
+          <NavLink
             to="/"
-            className="hidden md:block hover:text-red-500 transition"
+            end
+            className={({ isActive }) =>
+              `hidden md:block relative py-2 transition-all duration-300 ${
+                isActive
+                  ? "text-red-500 font-semibold"
+                  : "text-white hover:text-red-500"
+              }`
+            }
           >
-            Inicio
-          </Link>
+            {({ isActive }) => (
+              <>
+                Inicio
 
-          <Link
+                {isActive && (
+                  <span className="absolute left-0 right-0 -bottom-0.5 h-0.5 bg-red-500 rounded-full shadow-[0_0_8px_rgba(239,68,68,0.8)]" />
+                )}
+              </>
+            )}
+          </NavLink>
+
+          {/* Películas */}
+          <NavLink
             to="/peliculas"
-            className="hidden md:block hover:text-red-500 transition"
+            className={({ isActive }) =>
+              `hidden md:block relative py-2 transition-all duration-300 ${
+                isActive
+                  ? "text-red-500 font-semibold"
+                  : "text-white hover:text-red-500"
+              }`
+            }
           >
-            Películas
-          </Link>
+            {({ isActive }) => (
+              <>
+                Películas
 
+                {isActive && (
+                  <span className="absolute left-0 right-0 -bottom-0.5 h-0.5 bg-red-500 rounded-full shadow-[0_0_8px_rgba(239,68,68,0.8)]" />
+                )}
+              </>
+            )}
+          </NavLink>
 
+          {/* Series */}
+          <NavLink
+            to="/series"
+            className={({ isActive }) =>
+              `hidden md:block relative py-2 transition-all duration-300 ${
+                isActive
+                  ? "text-red-500 font-semibold"
+                  : "text-white hover:text-red-500"
+              }`
+            }
+          >
+            {({ isActive }) => (
+              <>
+                Series
 
-          {/* Visible siempre */}
-                              <Link
+                {isActive && (
+                  <span className="absolute left-0 right-0 -bottom-0.5 h-0.5 bg-red-500 rounded-full shadow-[0_0_8px_rgba(239,68,68,0.8)]" />
+                )}
+              </>
+            )}
+          </NavLink>
+
+          {/* Especiales */}
+          <Link
             to="/momentos"
-            className="text black-500 hover:bg-red-700 px-2 py-1 rounded-lg text-black-800 font-bold bg-yellow-500 text-xs md:text-sm transition"
+            className="text-black hover:bg-red-700 px-2 py-1 rounded-lg font-bold bg-yellow-500 text-xs md:text-sm transition"
           >
             Especiales
           </Link>
+
+          {/* Solicitar */}
           <Link
             to="/requests"
-            className="text black-500 hover:bg-red-700 px-2 py-1 rounded-lg text-white font-semibold text-xs md:text-sm transition"
+            className="text-white hover:bg-red-700 px-2 py-1 rounded-lg font-semibold text-xs md:text-sm transition"
           >
             🎬 Solicitar
           </Link>
         </div>
       </div>
 
+      {/* Buscador desplegable */}
       {showSearch && (
         <div className="fixed top-16 left-0 w-full bg-black/95 backdrop-blur-sm z-40 p-4">
           <SearchBar onClose={() => setShowSearch(false)} />
@@ -88,3 +143,4 @@ export default function Navbar() {
     </>
   );
 }
+

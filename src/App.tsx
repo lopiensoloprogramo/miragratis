@@ -12,7 +12,7 @@ import { trackPageView } from "./components/analytics";
 import MomentosPage from "./pages/MomentosPage";
 import MomentoDetail from "./pages/MomentoDetail";
 import Peliculas from "./pages/Peliculas";
-
+import Series from "./pages/Series";
 
 
 export default function App() {
@@ -88,7 +88,7 @@ export default function App() {
    
       }
     />
-
+    <Route path="/series" element={<Series />} />
 
   </Routes>
  

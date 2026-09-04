@@ -109,7 +109,7 @@ export const series: Serie[] = [
     year: 2019,
     description: "La serie se desarrolla en un universo donde los superhéroes encarnan el lado sombrío de la fama y el estrellato. Un conjunto de justicieros, que se autodenominan 'The Boys', se compromete a luchar con todas sus fuerzas contra los superhéroes que dañan a la sociedad, sin importar los peligros que esto implique.",
     trailer:"youtube:HK0PrzNOfck",
-    thumbnail: "https://pics.filmaffinity.com/the_boys-166639634-mmed.jpg",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/bb31bb1b1b3b1900fa619d1a7e3ebb92_hd.webp",
     genre: ["Acción"],
     createdAt: Date.now(),
     seasons: [
