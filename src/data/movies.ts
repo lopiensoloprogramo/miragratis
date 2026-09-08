@@ -884,4 +884,25 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "36",
+    title: "Los Ilusionistas: Nada es lo que Parece",
+    year: 2013,
+    description:"Un agente del FBI y un detective de la Interpol siguen la pista de un equipo de ilusionistas que cometen atracos a bancos durante sus actuaciones, y recompensan a su público con el dinero.",
+    trailer:"youtube:6ZQv_k4KJqI",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/37fca4601222dbb1f9fe53c8716e8a00_hd.webp",
+    genre: ["Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1LKkCO_CJHe3wwzzLP6Cvu8XzSNkMPJvC",
+            download:"https://ouo.io/WIgMJqj",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
