@@ -202,7 +202,9 @@ const relatedSeries = series
     <p className="text-gray-400 text-sm md:text-base">
       {serie.year}
     </p>
-
+    <p className="text-black font-semibold text-sm md:text-base">
+      Lenguaje: {serie.languaje}
+    </p>
     <p className="mt-3 text-black text-sm md:text-base leading-relaxed">
       {serie.description}
     </p>

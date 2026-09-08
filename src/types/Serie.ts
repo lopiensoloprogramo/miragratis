@@ -14,6 +14,7 @@ export interface Serie {
   id: string;
   title: string;
   year: number;
+  languaje:string[]
   description: string;
   trailer: string;
   thumbnail: string;

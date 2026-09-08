@@ -11,6 +11,7 @@ export interface Movie{
   title: string;
   year: number;
   description: string;
+  languaje:string[]
   trailer: string;
   thumbnail: string;
   gallery:string[];

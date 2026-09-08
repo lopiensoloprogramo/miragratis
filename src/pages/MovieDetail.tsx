@@ -120,6 +120,10 @@ const relatedMovies = movies
                 {movie.year}
               </p>
 
+              <p className="text-black font-semibold text-sm md:text-base">
+                Lenguaje: {movie.languaje}
+              </p>
+
               <p className="mt-3 text-black text-sm md:text-base leading-relaxed">
                 {movie.description}
               </p>
