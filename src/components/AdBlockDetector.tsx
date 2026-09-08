@@ -52,7 +52,7 @@ export default function AdBlockDetector() {
 
         <p className="text-gray-300 leading-relaxed">
           MiraGratis se mantiene gracias a la publicidad.
-          Para continuar navegando, desactiva tu bloqueador de anuncios
+          Para continuar navegando, desactiva tu bloqueador de anuncios en el menú extensiones de tu navegador
           y recarga la página.
         </p>
 
