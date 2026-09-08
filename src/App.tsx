@@ -13,7 +13,7 @@ import MomentosPage from "./pages/MomentosPage";
 import MomentoDetail from "./pages/MomentoDetail";
 import Peliculas from "./pages/Peliculas";
 import Series from "./pages/Series";
-
+import AdBlockDetector from "./components/AdBlockDetector";
 
 export default function App() {
 
@@ -32,6 +32,7 @@ export default function App() {
 }
   return (
 <Router>
+    <AdBlockDetector />
   <Navbar />
 <AnalyticsTracker />
   <Routes>
