@@ -941,4 +941,26 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "37",
+    title: "La noche del demonio (2011) Insidious",
+    year: 2011,
+    languaje:["Español latino"],
+    description:"Una familia descubre que los espíritus oscuros han invadido su hogar después de que su hijo inexplicablemente cae en un sueño sin fin. Cuando llegan a un profesional para obtener ayuda, aprenden que las cosas son mucho más personales de lo que pensaban.",
+    trailer:"youtube:FRW3K0LlsD0",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/6a10f542e6f79265c34a405dbc928e37_hd.webp",
+    genre: ["Terror","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1Z_k7TaLjN-6Cm1BXLcM00oILn-FfCxbi",
+            download:"https://ouo.io/OEYcPU",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
