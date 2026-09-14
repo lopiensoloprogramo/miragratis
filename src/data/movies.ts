@@ -963,4 +963,48 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "38",
+    title: "Insidious 2 (La noche del demonio 2)",
+    year: 2013,
+    languaje:["Español latino"],
+    description:"Josh y Renai Lambert se han mudado con sus hijos a la casa de Lorraine, la madre de Josh, esperando olvidar el pasado y comenzar una nueva vida. Pero pronto la familia empieza a percibir extrañas visiones y fenómenos amenazantes que los obligarán a desentrañar un oscuro secreto.",
+    trailer:"youtube:lFZYwrWRM3U",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/42c713bf648e23626d05dd0265c8695e_hd.webp",
+    genre: ["Terror","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1TQ868RMkO08Tqc9-XCcFz_WysAUWXcf4",
+            download:"https://ouo.io/jkpuM6",
+          },
+
+ 
+        ],
+        
+        
+},
+{
+    id: "39",
+    title: "Insidious 3 (La Noche del demonio 3)",
+    year: 2015,
+    languaje:["Español latino"],
+    description:"Elise Rainier (Lin Shaye) acepta a regañadientes utilizar su capacidad de ponerse en contacto con los muertos a fin de ayudar a una adolescente (Stefanie Scott) que se ha convertido en el blanco de una peligrosa entidad sobrenatural.",
+    trailer:"youtube:QK15n5I--8A",
+    thumbnail: "https://s.pelisflixhd.blog/p/v2/w1/TVW34smv0vTjcJNYuYGI.webp",
+    genre: ["Terror","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:12wT2vvYikJe5iXyD2namjec362R159J2",
+            download:"https://ouo.io/TBVbUPW",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
