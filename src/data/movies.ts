@@ -1007,4 +1007,48 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "40",
+    title: "Insidious 4 (La Noche del demonio la última llave)",
+    year: 2018,
+    languaje:["Español latino"],
+    description:"En esta novedosa película de terror, regresamos a ver a Lin Shaye interpretando a la Doctora Elise Rainier. La talentosa parapsicóloga se enfrenta a su cacería más íntima y aterradora hasta el momento, que tiene lugar en su antigua residencia familiar.",
+    trailer:"youtube:lUwaosQZkHU",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSekjGi-0mxp4aVukBxZVE3BFFOxtlwAqG1EH5XyuW1K5W57Q3xPnS7Tss&s=10",
+    genre: ["Terror","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1gJ5QXjlgApZpuqCOdBFs4FT7tbMpsvvP",
+            download:"https://ouo.io/9CdXJf",
+          },
+
+ 
+        ],
+        
+        
+},
+{
+    id: "41",
+    title: "Insidious 5 La noche del demonio: La puerta roja (2023)",
+    year: 2023,
+    languaje:["Español latino"],
+    description:"Una familia se ve atrapada en una espiral de terror cuando descubren una misteriosa puerta en su nueva casa. Al abrirla, liberan fuerzas oscuras que amenazan con consumirlos, enfrentándolos a un mal más allá de su comprensión y poniendo en peligro sus vidas y su cordura.",
+    trailer:"youtube:ujpQGz3MBfU",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/5c4c9e9432da64f809f7690c776367e8_hd.webp",
+    genre: ["Terror","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1NI_-GP-zGdtznZp3Y6O3SExceqhxX3z1",
+            download:"https://ouo.io/dvnbpO",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
