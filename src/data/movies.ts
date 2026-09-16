@@ -948,7 +948,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description:"Una familia descubre que los espíritus oscuros han invadido su hogar después de que su hijo inexplicablemente cae en un sueño sin fin. Cuando llegan a un profesional para obtener ayuda, aprenden que las cosas son mucho más personales de lo que pensaban.",
     trailer:"youtube:FRW3K0LlsD0",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/6a10f542e6f79265c34a405dbc928e37_hd.webp",
+    thumbnail: "https://es.web.img3.acsta.net/pictures/14/05/07/09/01/306626.jpg",
     genre: ["Terror","Fantasía","Misterio","Drama"],
     gallery:[],
         opcion: [
@@ -970,7 +970,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description:"Josh y Renai Lambert se han mudado con sus hijos a la casa de Lorraine, la madre de Josh, esperando olvidar el pasado y comenzar una nueva vida. Pero pronto la familia empieza a percibir extrañas visiones y fenómenos amenazantes que los obligarán a desentrañar un oscuro secreto.",
     trailer:"youtube:lFZYwrWRM3U",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/42c713bf648e23626d05dd0265c8695e_hd.webp",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV4hiLD9ubfkfAMALm58kNiL359m9Psoxocv4A2Q5Neg&s=10",
     genre: ["Terror","Fantasía","Misterio","Drama"],
     gallery:[],
         opcion: [
