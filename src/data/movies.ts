@@ -1036,7 +1036,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description:"Una familia se ve atrapada en una espiral de terror cuando descubren una misteriosa puerta en su nueva casa. Al abrirla, liberan fuerzas oscuras que amenazan con consumirlos, enfrentándolos a un mal más allá de su comprensión y poniendo en peligro sus vidas y su cordura.",
     trailer:"youtube:ujpQGz3MBfU",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/5c4c9e9432da64f809f7690c776367e8_hd.webp",
+    thumbnail: "https://m.media-amazon.com/images/S/pv-target-images/b562faf71c1b3daedb6f1ec5af477189e1a3037995fd54f28549678bcbc91a7b.jpg",
     genre: ["Terror","Fantasía","Misterio","Drama"],
     gallery:[],
         opcion: [
@@ -1080,7 +1080,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description:"Moana que quiere ser una viajera marinera. Cuando su isla natal se ve amenazada, Moana debe adentrarse en el mar junto a un semidiós llamado Maui para salvar a su pueblo.",
     trailer:"youtube:u3ZqySuR-Z0",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/4cb1a2ff3943626c26769b13ca6ad7a7_hd.webp",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGGCw7b-bIO1f2g5LQQR2YX1wU2etI_dCs9iX5YfrmwFfrQ8TYp9eIH6Q&s=10",
     genre: ["Live Action","Fantasía","Misterio","Drama"],
     gallery:[],
         opcion: [
@@ -1102,7 +1102,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description:"Mientras celebra su cumpleaños número 21, Kara Zor-El viaja por la galaxia con su perro Krypto, durante el cual conoce a la joven Ruthye Marye Knoll y emprende una 'búsqueda asesina de venganza'.",
     trailer:"youtube:S2JsnctozH4",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/14a2465b70826ade8fd748ebd4c25988_hd.webp",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9fD6x-E6wKWWYO7ISAGZflQcqDc9RbiTfg5unkr5TKQ&s=10",
     genre: ["Live Action","DC","Super Heroes"],
     gallery:[],
         opcion: [
