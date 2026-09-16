@@ -38,8 +38,7 @@ const openAddirecto = () => {
     clicks.toString()
   );
 
-  // Mostrar anuncio en el primer clic
-  // y posteriormente cada 2 clics
+  // Primer clic y luego cada 2 clics
   const shouldOpenAd =
     clicks === 1 || clicks % 2 === 1;
 
@@ -47,31 +46,14 @@ const openAddirecto = () => {
     return;
   }
 
-  const adUrl = "https://omg10.com/4/10893314";
+  const adWindow = window.open(
+    "https://omg10.com/4/10893314",
+    "_blank"
+  );
 
-  let popupBlocked = false;
-
-  try {
-    const adWindow = window.open(
-      adUrl,
-      "_blank",
-      "noopener,noreferrer"
-    );
-
-    // El navegador/extensión impidió crear la pestaña
-    if (!adWindow) {
-      popupBlocked = true;
-    }
-  } catch {
-    popupBlocked = true;
-  }
-
-  // Si el popup fue bloqueado, esperamos un momento
-  // antes de decidir si realmente mostramos el aviso.
-  if (popupBlocked) {
-    setTimeout(() => {
-      window.__miraGratisAdBlocked?.();
-    }, 800);
+  // Si el anuncio fue bloqueado, mostrar inmediatamente el aviso
+  if (!adWindow) {
+    window.__miraGratisAdBlocked?.();
   }
 };
 

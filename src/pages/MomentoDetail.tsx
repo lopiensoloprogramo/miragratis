@@ -38,11 +38,10 @@ const openAddirecto = () => {
 
   const adWindow = window.open(
     "https://omg10.com/4/10893314",
-    "_blank",
-    "noopener,noreferrer"
+    "_blank"
   );
 
-  // Si el navegador/extensión bloqueó la apertura
+  // Si el anuncio fue bloqueado, mostrar inmediatamente el aviso
   if (!adWindow) {
     window.__miraGratisAdBlocked?.();
   }
