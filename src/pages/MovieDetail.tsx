@@ -25,7 +25,7 @@ export default function MovieDetail() {
   };
 
   // 🔥 ADS CONTROL
- const openAddirecto = () => {
+const openAddirecto = () => {
   let clicks = parseInt(
     localStorage.getItem("ad_clicks") || "0",
     10
@@ -38,7 +38,8 @@ export default function MovieDetail() {
     clicks.toString()
   );
 
-  // Primer clic y luego cada 2 clics
+  // Mostrar anuncio en el primer clic
+  // y posteriormente cada 2 clics
   const shouldOpenAd =
     clicks === 1 || clicks % 2 === 1;
 
@@ -46,15 +47,31 @@ export default function MovieDetail() {
     return;
   }
 
-  const adWindow = window.open(
-    "https://omg10.com/4/10893314",
-    "_blank",
-    "noopener,noreferrer"
-  );
+  const adUrl = "https://omg10.com/4/10893314";
 
-  // Si el navegador/extensión bloqueó la apertura
-  if (!adWindow) {
-    window.__miraGratisAdBlocked?.();
+  let popupBlocked = false;
+
+  try {
+    const adWindow = window.open(
+      adUrl,
+      "_blank",
+      "noopener,noreferrer"
+    );
+
+    // El navegador/extensión impidió crear la pestaña
+    if (!adWindow) {
+      popupBlocked = true;
+    }
+  } catch {
+    popupBlocked = true;
+  }
+
+  // Si el popup fue bloqueado, esperamos un momento
+  // antes de decidir si realmente mostramos el aviso.
+  if (popupBlocked) {
+    setTimeout(() => {
+      window.__miraGratisAdBlocked?.();
+    }, 800);
   }
 };
 
