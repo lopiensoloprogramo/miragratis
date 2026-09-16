@@ -1095,4 +1095,26 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "44",
+    title: "Supergirl (2026)",
+    year: 2026,
+    languaje:["Español latino"],
+    description:"Mientras celebra su cumpleaños número 21, Kara Zor-El viaja por la galaxia con su perro Krypto, durante el cual conoce a la joven Ruthye Marye Knoll y emprende una 'búsqueda asesina de venganza'.",
+    trailer:"youtube:S2JsnctozH4",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/14a2465b70826ade8fd748ebd4c25988_hd.webp",
+    genre: ["Live Action","DC","Super Heroes"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1IXbvJMpBIQ19oqy9kyWwfYkU9HaKwJTU",
+            download:"https://ouo.io/aXt5vuS",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
