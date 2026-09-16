@@ -838,7 +838,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description:"Seis adolescentes viajan en coche cuando, de pronto, deben desviarse de su ruta al encontrar la carretera bloqueada por un accidente. Pero los jóvenes se pierden en los densos bosques de Virginia Occidental, donde serán perseguidos por una raza humana de caníbales, horriblemente desfigurados por su antinatural alimentación a lo largo de generaciones.",
     trailer:"youtube:D7DkA-sG98k",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/a729d76292a6a72fc99598bbc1e33ae6_hd.webp",
+    thumbnail: "https://m.media-amazon.com/images/M/MV5BNmVjZDk4NmUtMTMwYS00YmRiLWFiNWQtMzIxNjFjZWQ5Njc5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     genre: ["Terror","Misterio","Drama"],
     gallery:[],
         opcion: [
@@ -860,7 +860,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description:"Dale Murphy es el presentador de The Apocalypse, un reality-show en el que los participantes son aislados en un remoto paraje y obligados a sobrevivir por sus propios medios. Lejos están de imaginar que el bosque donde acaban de instalarse es el hogar de un grupo de mutantes caníbales y que el juego no va a tardar en convertirse en terrorífica realidad.",
     trailer:"youtube:X2mQUwjc8Vo",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/db570f6a73a4d7e10ede827746ae992c_hd.webp",
+    thumbnail: "https://static.wikia.nocookie.net/doblaje/images/b/b3/Camino_Hacia_El_Terror_2_Divx.jpg/revision/latest?cb=20130729043253&path-prefix=es",
     genre: ["Terror","Misterio","Drama"],
     gallery:[],
         opcion: [
@@ -882,7 +882,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description:"Fonda y sus amigos deciden pasar en el bosque unos días de tranquilidad. Sin embargo, estos serán acechados por los salvajes mutantes que viven en el lugar. Mientras tanto, varios peligrosos prisioneros son trasladados de prisión y durante el traslado son atacados y varios de ellos escapan. A partir de ese momento, Fonda y Nate deberán hacer lo posible por sobrevivir tratando de evitar a los mutantes y a los prisioneros.",
     trailer:"youtube:Sqb8rTnysTQ",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/e04bc8909bb7969ae5488620e00f8c57_hd.webp",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt8e-7vJlmiuUQCfM2SIvvSM83PIuKJxsMflvyb36z-A&s=10",
     genre: ["Terror","Misterio","Drama"],
     gallery:[],
         opcion: [
@@ -904,7 +904,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description:"Un grupo de amigos deciden ir a practicar snow en sus vacaciones invernales. Pero como en anteriores ocasiones, tomarán un camino equivocado perdiéndose en una tormenta y buscando refugio en un antiguo sanatorio. Allí están completamente aislados y a merced de la tormenta. Pero el lugar, tiene un pasado y algunos de sus antiguos pacientes no están demasiado contentos en tener 'invitados'",
     trailer:"youtube:BGIEWmmY1I8",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/be6f9246f5de43e4a63103104e235b4c_hd.webp",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ_Yn_Ujd2WBn3SUghz34Q6-77t-MOosi2DMVkN4ROkmmz3h9ZloNQhO0&s=10",
     genre: ["Terror","Misterio","Drama"],
     gallery:[],
         opcion: [
