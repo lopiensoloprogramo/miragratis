@@ -1051,4 +1051,26 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "42",
+    title: "The Accursed(2022)",
+    year: 2022,
+    languaje:["Castellano"],
+    description:"Conocida en español como Herencia diabólica, sigue a una joven enfermera que acepta cuidar a una anciana en una cabaña remota y termina atrapada en una aterradora maldición demoníaca.",
+    trailer:"youtube:TmVIstKEvf8",
+    thumbnail: "https://pics.filmaffinity.com/the_accursed-882620652-mmed.jpg",
+    genre: ["Terror","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1qMlTzOD0iA1tFC6kuUIYCBnPH7AGcrj-",
+            download:"https://ouo.io/c9gjC7H",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
