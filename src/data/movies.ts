@@ -1073,4 +1073,26 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "43",
+    title: "Moana (2026)",
+    year: 2026,
+    languaje:["Españoñ latino"],
+    description:"Moana que quiere ser una viajera marinera. Cuando su isla natal se ve amenazada, Moana debe adentrarse en el mar junto a un semidiós llamado Maui para salvar a su pueblo.",
+    trailer:"youtube:u3ZqySuR-Z0",
+    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/4cb1a2ff3943626c26769b13ca6ad7a7_hd.webp",
+    genre: ["Live Action","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1rBBsXkSp_2H27iwaTAf2OQ3Q6jojFcgf",
+            download:"https://ouo.io/P0m4L66",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
