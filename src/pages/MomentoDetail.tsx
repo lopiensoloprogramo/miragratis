@@ -16,36 +16,23 @@ export default function MomentoDetail() {
     );
   }
 const openAddirecto = () => {
-  let clicks = parseInt(
-    localStorage.getItem("ad_clicks") || "0",
-    10
-  );
+    let clicks = parseInt(localStorage.getItem("ad_clicks") || "0");
 
-  clicks++;
+    // primer click SIEMPRE abre
+    if (clicks === 0) {
+      window.open("https://omg10.com/4/10893314", "_blank");
+      clicks = 1;
+    } else {
+      clicks++;
 
-  localStorage.setItem(
-    "ad_clicks",
-    clicks.toString()
-  );
+      // cada 2 clics
+      if (clicks % 2 !== 0) {
+        window.open("https://omg10.com/4/10893314", "_blank");
+      }
+    }
 
-  // Primer clic y luego cada 2 clics
-  const shouldOpenAd =
-    clicks === 1 || clicks % 2 === 1;
-
-  if (!shouldOpenAd) {
-    return;
-  }
-
-  const adWindow = window.open(
-    "https://omg10.com/4/10893314",
-    "_blank"
-  );
-
-  // Si el anuncio fue bloqueado, mostrar inmediatamente el aviso
-  if (!adWindow) {
-    window.__miraGratisAdBlocked?.();
-  }
-};
+    localStorage.setItem("ad_clicks", clicks.toString());
+  };
 openAddirecto();
 
   return (
