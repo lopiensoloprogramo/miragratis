@@ -1080,7 +1080,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description:"Moana que quiere ser una viajera marinera. Cuando su isla natal se ve amenazada, Moana debe adentrarse en el mar junto a un semidiós llamado Maui para salvar a su pueblo.",
     trailer:"youtube:u3ZqySuR-Z0",
-    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGGCw7b-bIO1f2g5LQQR2YX1wU2etI_dCs9iX5YfrmwFfrQ8TYp9eIH6Q&s=10",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSoWv2ShQcPSLRrV5FehZlUU_q4DpOicvoPM4RqorYvQ&s=10",
     genre: ["Live Action","Fantasía","Misterio","Drama"],
     gallery:[],
         opcion: [
