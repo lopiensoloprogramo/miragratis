@@ -28,7 +28,8 @@ export default function SerieDetail() {
 
   const currentIndex = seasonEpisodes.findIndex(
     (ep) => ep.file === selectedEpisode?.file
-  );
+  );  
+  
 
   const prevEpisode =
     currentIndex > 0 ? seasonEpisodes[currentIndex - 1] : null;
