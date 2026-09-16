@@ -926,7 +926,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description:"Un agente del FBI y un detective de la Interpol siguen la pista de un equipo de ilusionistas que cometen atracos a bancos durante sus actuaciones, y recompensan a su público con el dinero.",
     trailer:"youtube:6ZQv_k4KJqI",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/37fca4601222dbb1f9fe53c8716e8a00_hd.webp",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShjh5lLk1OC8xb7MQ2X-Tg9Nld3goVB4UUkFOofasuZw&s=10",
     genre: ["Fantasía","Misterio","Drama"],
     gallery:[],
         opcion: [
