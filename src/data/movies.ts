@@ -1117,4 +1117,26 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "45",
+    title: "La noche del demonio: Estan entre nosotros (2026)",
+    year: 2026,
+    languaje:["Español latino"],
+    description:"Un trio de acosadores se infiltra en un tranquilo suburbio y obliga a una nueva familia a entrar en el plano astral, donde descubren una verdad aterradora: el máss allá¡ se está filtrando al mundo real.",
+    trailer:"youtube:orvNgTGq6cg",
+    thumbnail: "https://image.tmdb.org/t/p/w500/uEqCJh1fA9Ao9jaCL2xoROPJeUB.jpg",
+    genre: ["Terror","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1BwJ20Uz519UxLwEn7r0r1p9FJ39UXCn0",
+            download:"https://ouo.io/qJ1FZo",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
