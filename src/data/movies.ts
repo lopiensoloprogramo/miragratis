@@ -1139,4 +1139,26 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "46",
+    title: "Tarot de la muerte(2024)",
+    year: 2024,
+    languaje:["Español latino"],
+    description:"Cuando un grupo de amigos viola imprudentemente la regla sagrada de las lecturas de Tarot -nunca usar la baraja de otra persona-, desatan sin saberlo un mal innombrable atrapado en las cartas malditas. Uno a uno, se enfrentan cara a cara con el destino y terminan en una carrera contra la muerte para escapar del futuro predicho en sus lecturas.",
+    trailer:"youtube:tLttLNQLq6o",
+    thumbnail: "https://m.media-amazon.com/images/S/pv-target-images/a2533ab4954013ec9e08d1fa23d58e25c3aae0863dcd61a95fb94c742bfd9248.jpg",
+    genre: ["Terror","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1CnFjlyfhEefe65sBUx8qX4pCeGnhGYBi",
+            download:"https://drive.google.com/file/d/1CnFjlyfhEefe65sBUx8qX4pCeGnhGYBi/view?usp=sharing",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
