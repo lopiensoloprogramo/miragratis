@@ -1205,4 +1205,26 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "49",
+    title: "28 DSías después",
+    year: 2002,
+    languaje:["Español latino"],
+    description:"Londres es un cementerio. Las calles están ahora desiertas. Reina un silencio total. Tras la propagación de un virus que acabó con la mayor parte de la población, tuvo lugar la invasión de unos seres terroríficos. El virus se difundió, tras la incursión en un laboratorio, de un grupo de defensores de los derechos de los animales. Transmitido por la sangre, el virus produce efectos devastadores. En 28 días la epidemia se extiende por todo el país y sólo queda un puñado de supervivientes...",
+    trailer:"youtube:OEEX3F9YcDY",
+    thumbnail: "http://hips.hearstapps.com/hmg-prod/images/sigslu7hmdvkhgksrfcfxuatfyt-664b796b6e6fd.jpeg?resize=980:*",
+    genre: ["Zombies","Terror","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:19wm33hXwNf-OOhtSaQCf-8r0qYRWQwPU",
+            download:"https://ouo.io/1iQ1Ne",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
