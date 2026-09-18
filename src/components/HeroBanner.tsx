@@ -10,7 +10,7 @@ export default function HeroBanner({ serie }: { serie: Serie }) {
     <div className="relative w-full h-[85vh] mb-8">
       {/* imagen de fondo */}
       <img
-        src={serie.thumbnail}
+        src={"https://www.ecartelera.com/images/noticias/70100/70154-h3.webp"}
         className="w-full h-full object-cover"
       />
 
@@ -19,13 +19,13 @@ export default function HeroBanner({ serie }: { serie: Serie }) {
 
       {/* contenido */}
       <div className="absolute bottom-10 left-10 max-w-xl">
-        <h1 className="text-4xl text-sky-600 font-bold mb-4">{serie.title}</h1>
+        <h1 className="text-4xl text-sky-600 font-bold mb-4">{"La Casa del Dragón"}</h1>
 
         <p className="text-gray-300 mb-4 line-clamp-3">
-          {serie.description}
+          {"Inspirada en el libro 'Fuego y Sangre' de George R.R. Martin, la serie se enfoca en la familia Targaryen, tres siglos antes de los acontecimientos que se desarrollan en 'Juego de Tronos'."}
         </p>
 
-        <Link to={`/serie/${serie.id}`}>
+        <Link to={`/serie/${serie+"13"}`}>
           <button onClick={openAddirecto}
           className="bg-red-600 px-6 py-2 rounded hover:bg-red-700 transition">
             
