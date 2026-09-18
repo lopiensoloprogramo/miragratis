@@ -25,7 +25,7 @@ export default function HeroBanner({ serie }: { serie: Serie }) {
           {"Inspirada en el libro 'Fuego y Sangre' de George R.R. Martin, la serie se enfoca en la familia Targaryen, tres siglos antes de los acontecimientos que se desarrollan en 'Juego de Tronos'."}
         </p>
 
-        <Link to={`/serie/${serie.id+12}`}>
+        <Link to={`/serie/${serie.id+3}`}>
           <button onClick={openAddirecto}
           className="bg-red-600 px-6 py-2 rounded hover:bg-red-700 transition">
             
