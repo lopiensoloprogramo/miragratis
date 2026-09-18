@@ -1161,4 +1161,48 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "47",
+    title: "La Hora de la Desaparición (weapons)",
+    year: 2025,
+    languaje:["Español latino"],
+    description:"Cuando todos los niños de una secundaria, menos uno, desaparecen misteriosamente la misma noche y exactamente a la misma hora, toda la comunidad de un pequeño pueblo se pregunta quién (o qué) es responsable de su desaparición.",
+    trailer:"youtube:J3R3DyQZ1e8",
+    thumbnail: "https://pics.filmaffinity.com/weapons-367021125-mmed.jpg",
+    genre: ["Terror","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:11rNcXFTYdt9ldZpxImv0uEc9afU3GAYn",
+            download:"https://ouo.io/GMf2jQY",
+          },
+
+ 
+        ],
+        
+        
+},
+{
+    id: "48",
+    title: "28 años después(2025)",
+    year: 2025,
+    languaje:["Español latino"],
+    description:"Años transcurridos tras los sucesos de '28 semanas después', el virus de la ira ha regresado y un grupo de supervivientes debe sobrevivir en un mundo asolado por hordas de infectados. Realizada con un iPhone 15 Pro Max y con la ayuda de numerosos accesorios especializados.",
+    trailer:"youtube:rTwMM-71PM8",
+    thumbnail: "https://www.movistarplus.es/recorte/n/caratula5/F4402409?od[]=Z1V:MM3_V",
+    genre: ["Zombies","Terror","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1Zzdw42Yq2sfgTw6QCpzhBZzymmMLr1EX",
+            download:"https://ouo.io/B651XD",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
