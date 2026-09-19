@@ -1249,4 +1249,26 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "51",
+    title: "28 Años después: El templo de los Huesos",
+    year: 2026,
+    languaje:["Español latino"],
+    description:"El Dr. Kelson (Ralph Fiennes) se encuentra inmerso en una inesperada y fascinante conexión, cuyas repercusiones podrían transformar el planeta tal como lo conocemos. Por otro lado, el encuentro de Spike (Alfie Williams) con el Gran Lord Jimmy Crystal (Jack O'Connell) se convierte en una experiencia pesadillesca de la que el joven no logra liberarse. En esta realidad, los infectados ya no representan la principal amenaza para la supervivencia, ya que la falta de humanidad de los sobrevivientes puede resultar incluso más inquietante y aterradora.",
+    trailer:"youtube:rYawDt9CgVg",
+    thumbnail: "https://cdn.cuevana3l.live/unsafe/rs:fit:360/q:70/plain/tmdb/t/p/w500//kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
+    genre: ["Zombies","Terror","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1sVlZZtLkPkqQu3zvufDQwWlEwMR6cyRN",
+            download:"https://ouo.io/rf8G3B",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
