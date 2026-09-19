@@ -1227,4 +1227,26 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "50",
+    title: "28 Semanas después",
+    year: 2007,
+    languaje:["Español latino"],
+    description:"Seis meses después de que la propagación de un virus haya devastado las Islas Británicas, el ejército de los Estados Unidos declara que, vencida la epidemia, ya se puede acometer la reconstrucción del país. Los evacuados regresan entonces al país y las familias se reúnen de nuevo. Sin embargo, el virus aún no ha sido destruido y es más peligroso que nunca.",
+    trailer:"youtube:ALlpOHHLtxw",
+    thumbnail: "https://www.zona-leros.com/storage/movies_tumbl/28-semanas-despues-cover-tdw.jpg",
+    genre: ["Zombies","Terror","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1dP5QvFrTCVcrlJq6xPklJuWdI_viBqQO",
+            download:"https://ouo.io/FAqbQee",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
