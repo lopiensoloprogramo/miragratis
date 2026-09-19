@@ -178,7 +178,7 @@ export const movies: Movie[] = [
     description: "Mientras exploran en las profundidade de una estación espacial abandonada, un grupo de jóvenes colonizadores del espacio se encuentra cara a cara con la forma de vida más aterradora del universo.",
     trailer:"youtube:SevrcuQcS6g",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/500ce9f452d1a56d4025bb879d863a03_hd.webp",
-    genre: ["Acción","Ciencia","Ficción"],
+    genre: ["Acción","Ciencia Ficción"],
     gallery:["https://image.tmdb.org/t/p/w780/6vn6K9oX82i6E86ZiHVxqVEMQqP.jpg",
              "https://image.tmdb.org/t/p/w780/9SSEUrSqhljBMzRe4aBTh17rUaC.jpg",
              "https://image.tmdb.org/t/p/w780/7g7cAWKvMKnzJQCxYE4OHfx131t.jpg",
@@ -1308,6 +1308,28 @@ export const movies: Movie[] = [
             title: "Opcion 1",
             file: "drive:1Sw4n7e2fGXa0e9mpiPMBagtzab1FW1Bz",
             download:"https://ouo.io/UdWB4o",
+          },
+
+ 
+        ],
+        
+        
+},
+{
+    id: "54",
+    title: "No alimentes a los Niños",
+    year: 2024,
+    languaje:["Español latino"],
+    description:"Tras un virus que mata a la mayoría de los adultos, unos niños huérfanos viajan al sur, donde se enfrentan a una mujer psicópata que oculta un oscuro secreto.",
+    trailer:"youtube:WiSzIiIVbPk",
+    thumbnail: "https://moviefilms.com.uy/wp-content/uploads/2025/10/NoAlimentesALosNinos_Arte640x1137_Cines-576x1024.jpg",
+    genre: ["Terror","Ciencia Ficción","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1dfLfqb4aZ-8Cw_9B0ItaSaoJcD8iEPoy",
+            download:"https://ouo.io/mPNmu3",
           },
 
  
