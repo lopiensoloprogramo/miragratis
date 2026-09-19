@@ -1317,7 +1317,7 @@ export const movies: Movie[] = [
 },
 {
     id: "54",
-    title: "No alimentes a los Niños",
+    title: "No Alimentes a los Niños",
     year: 2024,
     languaje:["Español latino"],
     description:"Tras un virus que mata a la mayoría de los adultos, unos niños huérfanos viajan al sur, donde se enfrentan a una mujer psicópata que oculta un oscuro secreto.",
