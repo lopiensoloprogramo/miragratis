@@ -1293,4 +1293,26 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "53",
+    title: "Resident Evil Noche cero (2026)",
+    year: 2026,
+    languaje:["Español latino"],
+    description:"Película basada en la saga de videojuegos de Capcom del mismo nombre. En una reinvención totalmente nueva, el mensajero médico Bryan se ve inmerso en una carrera de acción sin descanso por la supervivencia, mientras el caos se desata a su alrededor.",
+    trailer:"youtube:anjYhRPoROE",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGrcGtSIGJ4_VrSxH3ZsYMZZnLFKHT_BZAUw1YTT0Pjh2z3pfRIPYLU--O&s=10",
+    genre: ["Zombies","Terror","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1Sw4n7e2fGXa0e9mpiPMBagtzab1FW1Bz",
+            download:"https://ouo.io/UdWB4o",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
