@@ -1279,7 +1279,7 @@ export const movies: Movie[] = [
     description:"Finney Shaw, un tímido, pero inteligente niño de 13 años es secuestrado por un sádico asesino y atrapado en un aterrador, oscuro y aislado sótano, donde los gritos son de poca utilidad. Cuando un teléfono negro desconectado en la pared comienza a sonar, Finney descubre que puede escuchar a los espíritus de las víctimas anteriores del asesino.",
     trailer:"youtube:JZB1lFciUrw",
     thumbnail: "https://static.wikia.nocookie.net/doblaje/images/d/da/El_tel%C3%A9fono_negro_poster.jpg/revision/latest?cb=20220701034454&path-prefix=es",
-    genre: ["Zombies","Terror","Fantasía","Misterio","Drama"],
+    genre: ["Terror","Fantasía","Misterio","Drama"],
     gallery:[],
         opcion: [
           {
