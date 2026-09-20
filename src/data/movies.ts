@@ -1359,4 +1359,26 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "56",
+    title: "El Final de la Calle Oak",
+    year: 2026,
+    languaje:["Español latino"],
+    description:"Después de que un misterioso fenómeno cósmico modifique Oak Street y su entorno suburbano, la familia Platt pronto descubre que su propia supervivencia depende de que permanezcan unidos mientras se orientan en un entorno que ya no reconocen.",
+    trailer:"youtube:dBRKObRkuOw",
+    thumbnail: "https://www.zona-leros.com/storage/movies_tumbl/el-final-de-la-calle-oak-cover-qvz.webp",
+    genre: ["Ciencia Ficción","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:CQJjVapR#HoDyi5H5wixZEXHa77Yx_UrZ78w8nDcpm3T4i59D59c",
+            download:"https://ouo.io/79U5IG",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
