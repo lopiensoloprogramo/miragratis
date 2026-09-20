@@ -1366,7 +1366,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description:"Después de que un misterioso fenómeno cósmico modifique Oak Street y su entorno suburbano, la familia Platt pronto descubre que su propia supervivencia depende de que permanezcan unidos mientras se orientan en un entorno que ya no reconocen.",
     trailer:"youtube:dBRKObRkuOw",
-    thumbnail: "https://www.zona-leros.com/storage/movies_tumbl/el-final-de-la-calle-oak-cover-qvz.webp",
+    thumbnail: "https://www.sdpnoticias.com/resizer/v2/6SMEB3EZKFH6VCHFIUV6RVI544.jpg?smart=true&auth=c147533df2bf50633eb2056f96ea48a29a9ca6897e2ba325b9696c393adbf639&width=1000&height=675",
     genre: ["Ciencia Ficción","Fantasía","Misterio","Drama"],
     gallery:[],
         opcion: [
