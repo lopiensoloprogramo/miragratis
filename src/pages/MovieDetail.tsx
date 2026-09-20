@@ -115,7 +115,7 @@ const relatedMovies = movies
               <h1 className="text-2xl md:text-4xl text-blue-950 font-bold">
                 {movie.title}
               </h1>
-
+              
               <p className="text-gray-400 text-sm md:text-base">
                 {movie.year}
               </p>

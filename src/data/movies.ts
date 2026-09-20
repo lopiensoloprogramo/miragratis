@@ -1337,4 +1337,26 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "55",
+    title: "Teléfono Negro 2 Black Phone 2(2025)",
+    year: 2025,
+    languaje:["Español latino"],
+    description:"A sus 17 años, Finney Blake lucha por su vida tras su cautiverio. Sin embargo, su hermana Gwen empieza a recibir llamadas de un teléfono negro en sus sueños y visiones inquietantes qué los conduce a ambos en un campamento de invierno.",
+    trailer:"youtube:Sld9WCVCygw",
+    thumbnail: "https://pics.filmaffinity.com/Black_Phone_2-262636229-large.jpg",
+    genre: ["Terror","Ciencia Ficción","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1dIk8m8S6mBUgW5lVNUGaqnY6KRDIcsA9",
+            download:"https://ouo.io/qC5615",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
