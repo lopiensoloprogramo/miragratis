@@ -1409,15 +1409,15 @@ export const movies: Movie[] = [
     year: 2026,
     languaje:["Español latino"],
     description:"Un escritor especializado en historias de terror decide viajar a una posada de Irlanda con la intención de esparcir en la zona las cenizas de sus difuntos padres. Lo que no sabe es que la posada es un lugar maldito habitado por una bruja. O eso cuentan los lugareños que viven cerca del lugar...",
-    trailer:"youtube:dBRKObRkuOw",
-    thumbnail: "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2014_23/491626/140606-slender-man-mn-735.jpg",
+    trailer:"youtube:40J3QkxXJf0",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkSoBWvxuLQ_ZPU1K9mBBCAx6b8aGXzjosoz8S47QCZJvCDZqZ_Asi21hq&s=10",
     genre: ["Terror","Ciencia Ficción","Fantasía","Misterio","Drama"],
     gallery:[],
         opcion: [
           {
             title: "Opcion 1",
-            file: "mega:SIZUETYT#RXeRFpSB36URhEOx7d4iwH7KOJ8PiPHfBUATxvb0yec",
-            download:"https://ouo.io/jkFKh0",
+            file: "mega:3UxyETbL#sJv-5Pm81DBPlTg0FeXbWV0-05bbdd-izXIHga9puyY",
+            download:"https://ouo.io/52gJVf",
           },
 
  
