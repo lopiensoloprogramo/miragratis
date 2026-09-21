@@ -1381,4 +1381,26 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "57",
+    title: "Slender Man",
+    year: 2018,
+    languaje:["Español latino"],
+    description:"El ser más espectral. El atuendo más sombrío. Más colosal que el gigante más alto. Temed a este individuo: Slender Man, pues posee habilidades que nadie más tiene. Estas son algunas de las características que los usuarios de Internet han atribuido al personaje ficticio de terror Slender Man (el hombre delgado). Ahora, esta entidad aterradora llega a la pantalla grande con esta película de horror, inspirada en una de las leyendas urbanas más populares de la web, surgida de una colección de imágenes en el foro Something Awful y que, en la actualidad, forma parte de la cultura 'creepypasta'.",
+    trailer:"youtube:dBRKObRkuOw",
+    thumbnail: "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2014_23/491626/140606-slender-man-mn-735.jpg",
+    genre: ["Terror","Ciencia Ficción","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:SIZUETYT#RXeRFpSB36URhEOx7d4iwH7KOJ8PiPHfBUATxvb0yec",
+            download:"https://ouo.io/jkFKh0",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
