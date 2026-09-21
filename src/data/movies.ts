@@ -1387,6 +1387,28 @@ export const movies: Movie[] = [
     year: 2018,
     languaje:["Español latino"],
     description:"El ser más espectral. El atuendo más sombrío. Más colosal que el gigante más alto. Temed a este individuo: Slender Man, pues posee habilidades que nadie más tiene. Estas son algunas de las características que los usuarios de Internet han atribuido al personaje ficticio de terror Slender Man (el hombre delgado). Ahora, esta entidad aterradora llega a la pantalla grande con esta película de horror, inspirada en una de las leyendas urbanas más populares de la web, surgida de una colección de imágenes en el foro Something Awful y que, en la actualidad, forma parte de la cultura 'creepypasta'.",
+    trailer:"youtube:RhgeNY24wZY",
+    thumbnail: "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2014_23/491626/140606-slender-man-mn-735.jpg",
+    genre: ["Terror","Ciencia Ficción","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:SIZUETYT#RXeRFpSB36URhEOx7d4iwH7KOJ8PiPHfBUATxvb0yec",
+            download:"https://ouo.io/jkFKh0",
+          },
+
+ 
+        ],
+        
+        
+},
+{
+    id: "58",
+    title: "Hokum: La maldición de la bruja",
+    year: 2026,
+    languaje:["Español latino"],
+    description:"Un escritor especializado en historias de terror decide viajar a una posada de Irlanda con la intención de esparcir en la zona las cenizas de sus difuntos padres. Lo que no sabe es que la posada es un lugar maldito habitado por una bruja. O eso cuentan los lugareños que viven cerca del lugar...",
     trailer:"youtube:dBRKObRkuOw",
     thumbnail: "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2014_23/491626/140606-slender-man-mn-735.jpg",
     genre: ["Terror","Ciencia Ficción","Fantasía","Misterio","Drama"],
