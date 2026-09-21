@@ -1410,7 +1410,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description:"Un escritor especializado en historias de terror decide viajar a una posada de Irlanda con la intención de esparcir en la zona las cenizas de sus difuntos padres. Lo que no sabe es que la posada es un lugar maldito habitado por una bruja. O eso cuentan los lugareños que viven cerca del lugar...",
     trailer:"youtube:40J3QkxXJf0",
-    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkSoBWvxuLQ_ZPU1K9mBBCAx6b8aGXzjosoz8S47QCZJvCDZqZ_Asi21hq&s=10",
+    thumbnail: "https://image.tmdb.org/t/p/original/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
     genre: ["Terror","Ciencia Ficción","Fantasía","Misterio","Drama"],
     gallery:[],
         opcion: [
