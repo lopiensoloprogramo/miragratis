@@ -1425,4 +1425,26 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "59",
+    title: "Hokum: La maldición de la bruja",
+    year: 2025,
+    languaje:["Español latino"],
+    description:"Atragantada por una violenta pesadilla recurrente, la estudiante universitaria Stefanie regresa a casa para encontrar a la única persona que podría romper el ciclo y salvar a su familia de la horrible muerte que inevitablemente les espera a todos.",
+    trailer:"youtube:9dVeLRCW5Mc",
+    thumbnail: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/IZ556RFIUBA4HBEZ5NEM6WTT5I.jpg",
+    genre: ["Terror","Ciencia Ficción","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:qcBxxQAJ#Bqf00Lxv9l_6fYGt8SwrlJfh4okpN5h6lQbgkqx8eYU",
+            download:"https://ouo.io/dIi1ri1",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
