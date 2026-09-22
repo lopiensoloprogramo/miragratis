@@ -1469,4 +1469,26 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "61",
+    title: "Maze Runner: The Scorch Trials",
+    year: 2015,
+    languaje:["Español latino"],
+    description:"En este emocionante capítulo 2 de la fascinante saga 'El Corredor del Laberinto', Thomas (Dylan O'Brien) y sus compañeros clarianos se enfrentarán a su reto más formidable hasta la fecha: investigar sobre la enigmática y poderosa organización llamada CRUEL. Su aventura los llevará a 'La Quemadura', un territorio postapocalíptico lleno de obstáculos inimaginables. Uniendo fuerzas con integrantes de la resistencia, los clarianos deberán descubrir las verdaderas intenciones de CRUEL y desvelar cuáles son sus planes para todos ellos.",
+    trailer:"youtube:SDofO3P2HpE",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgwlkF7fv2e79qhefb-HEHWen1ghLqdaj3unlQB16tlfeIXL4EziBzw74&s=10",
+    genre: ["Ciencia Ficción","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:18R4nKITTTmyhvLDcDq_4rmGsSORmzIEC",
+            download:"https://ouo.io/VW2BJ7",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
