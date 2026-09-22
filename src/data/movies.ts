@@ -1447,4 +1447,26 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "60",
+    title: "Maze Runner: Correr o Morir",
+    year: 2014,
+    languaje:["Español latino"],
+    description:"Thomas abre los ojos y se percata de que se encuentra en un ascensor. Lo peculiar es que no logra recordar nada: ni su ubicación ni su identidad. Lo único que permanece grabado en su mente es su nombre, lo cual ya es bastante. Antes de que tenga la oportunidad de reflexionar sobre su propia existencia, las puertas se abrirán, revelando ante él un mundo extraño. Todo lo que observa son jóvenes de su edad que también padecen el mismo estado de amnesia. Una aventura extraordinaria que pronto desvelará la dura realidad oculta tras ese manto de incertidumbre: todos ellos están atrapados en un laberinto. Para tener alguna oportunidad de escapar y recuperar su vida anterior, así como los recuerdos que han perdido, deberán unir sus fuerzas. Este mundo post-apocalíptico que los acecha y siempre parece estar un paso adelante será el reto que estos jóvenes deberán enfrentar en su búsqueda de libertad.",
+    trailer:"youtube:KNYPRt6SfrE",
+    thumbnail: "https://geekymythology.wordpress.com/wp-content/uploads/2018/09/dashner-james-the-maze-runner.png",
+    genre: ["Ciencia Ficción","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1Qy749GyoNretCqpbmbPrtmKJFxqLMgSw",
+            download:"https://ouo.io/Yx7dRZ",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
