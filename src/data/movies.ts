@@ -1427,7 +1427,7 @@ export const movies: Movie[] = [
 },
 {
     id: "59",
-    title: "Hokum: La maldición de la bruja",
+    title: "Destino Final 6: Lazos de Sangre",
     year: 2025,
     languaje:["Español latino"],
     description:"Atragantada por una violenta pesadilla recurrente, la estudiante universitaria Stefanie regresa a casa para encontrar a la única persona que podría romper el ciclo y salvar a su familia de la horrible muerte que inevitablemente les espera a todos.",
