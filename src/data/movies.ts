@@ -1491,4 +1491,26 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "62",
+    title: "Maze Runner: The Death Cure",
+    year: 2018,
+    languaje:["Español latino"],
+    description:"En el desenlace de esta saga, Thomas encabeza a su equipo en una última aventura. Tendrán que infiltrarse en la mítica Última Ciudad, un complejo laberinto dominado por WCKD, que podría ser el más mortal de todos. Aquellos que logren superarlo obtendrán las respuestas que buscan, y los protagonistas desean descubrir la verdad detrás de los acontecimientos.",
+    trailer:"youtube:d7K7pkZJhe8",
+    thumbnail: "https://gingerjumble.wordpress.com/wp-content/uploads/2019/11/maze-runner-608x900.jpg",
+    genre: ["Ciencia Ficción","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1psSZQ6On7NPO25TEHPVhZ55aZ3ZQN4jh",
+            download:"https://ouo.io/sq7bDE",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
