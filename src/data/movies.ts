@@ -1557,4 +1557,26 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "65",
+    title: "La Muerte de Robin Hood",
+    year: 2026,
+    languaje:["Español latino"],
+    description:"Robin Hood intenta lidia con sus demonios tras una larga vida de crímenes y asesinatos. Cuando en una sangrienta batalla resulta herido de gravedad, es enviado a un misterioso castillo para que curen sus heridas. Allí conocerá a una mujer que le ofrecerá una última oportunidad de redención.",
+    trailer:"youtube:AMp0dl9L6jI",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqGALrZi1e4nexK4xuyqxDinwr4LZ-ynM3_Hviu8lF5rFtej9dMfZ9eHX6&s=10",
+    genre: ["Acción","Ciencia Ficción","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1uCYTjWL5Oug2Pwzv0GH4pznmZdkPbidA",
+            download:"https://ouo.io/ejM1yGl",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
