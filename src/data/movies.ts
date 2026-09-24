@@ -1539,7 +1539,7 @@ export const movies: Movie[] = [
     id: "64",
     title: "After Impact",
     year: 2026,
-    languaje:["Español latino"],
+    languaje:["Subtitulado"],
     description:"Después de heredar el enorme invernadero de su padre cuando un asteroide amenaza a la Tierra, Ethan enfrenta la traición y el aislamiento. Sobreviviendo al impacto en el búnker de su familia, maltratado y desesperado, una voz en la radio revela que no está solo.",
     trailer:"youtube:HPYM0kFUo5s",
     thumbnail: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p33707744_p_v12_aa.jpg",
