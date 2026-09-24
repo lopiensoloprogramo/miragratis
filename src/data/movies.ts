@@ -1535,4 +1535,26 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "64",
+    title: "After Impact",
+    year: 2026,
+    languaje:["Español latino"],
+    description:"Después de heredar el enorme invernadero de su padre cuando un asteroide amenaza a la Tierra, Ethan enfrenta la traición y el aislamiento. Sobreviviendo al impacto en el búnker de su familia, maltratado y desesperado, una voz en la radio revela que no está solo.",
+    trailer:"youtube:HPYM0kFUo5s",
+    thumbnail: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p33707744_p_v12_aa.jpg",
+    genre: ["Ciencia Ficción","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1mRXVrTUUfOxkC4dLgR70UIiL1OlHsTDd",
+            download:"https://ouo.io/ot87CQz",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
