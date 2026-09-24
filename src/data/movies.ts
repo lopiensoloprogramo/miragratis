@@ -1471,7 +1471,7 @@ export const movies: Movie[] = [
 },
 {
     id: "61",
-    title: "Maze Runner: The Scorch Trials",
+    title: "Maze Runner 2: The Scorch Trials",
     year: 2015,
     languaje:["Español latino"],
     description:"En este emocionante capítulo 2 de la fascinante saga 'El Corredor del Laberinto', Thomas (Dylan O'Brien) y sus compañeros clarianos se enfrentarán a su reto más formidable hasta la fecha: investigar sobre la enigmática y poderosa organización llamada CRUEL. Su aventura los llevará a 'La Quemadura', un territorio postapocalíptico lleno de obstáculos inimaginables. Uniendo fuerzas con integrantes de la resistencia, los clarianos deberán descubrir las verdaderas intenciones de CRUEL y desvelar cuáles son sus planes para todos ellos.",
@@ -1493,7 +1493,7 @@ export const movies: Movie[] = [
 },
 {
     id: "62",
-    title: "Maze Runner: The Death Cure",
+    title: "Maze Runner 3: The Death Cure",
     year: 2018,
     languaje:["Español latino"],
     description:"En el desenlace de esta saga, Thomas encabeza a su equipo en una última aventura. Tendrán que infiltrarse en la mítica Última Ciudad, un complejo laberinto dominado por WCKD, que podría ser el más mortal de todos. Aquellos que logren superarlo obtendrán las respuestas que buscan, y los protagonistas desean descubrir la verdad detrás de los acontecimientos.",
@@ -1506,6 +1506,28 @@ export const movies: Movie[] = [
             title: "Opcion 1",
             file: "drive:1psSZQ6On7NPO25TEHPVhZ55aZ3ZQN4jh",
             download:"https://ouo.io/sq7bDE",
+          },
+
+ 
+        ],
+        
+        
+},
+{
+    id: "63",
+    title: "Undertone: Frecuencia maldita (2026)",
+    year: 2026,
+    languaje:["Español latino"],
+    description:"Una presentadora de pódcast de terror se muda con su madre terminal. Cintas misteriosas sobre vivencias paranormales de una pareja embarazada reflejan su situación, enloqueciendo.",
+    trailer:"youtube:FN-Mz1XRhNo",
+    thumbnail: "https://image.tmdb.org/t/p/original/2PFgFMnrdCPXWiZl1PUvky7Mo9D.jpg",
+    genre: ["Terror","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:13-fZGc4mlkRZMSBlrup-lFQS3inVYnWp",
+            download:"https://ouo.io/ot87CQz",
           },
 
  
