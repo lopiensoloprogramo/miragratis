@@ -1601,4 +1601,26 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "67",
+    title: "Grand Theft Auto VI: Una mirada extendida",
+    year: 2026,
+    languaje:["Subtitulado"],
+    description:"No te pierdas la próxima evolución de la revolucionaria saga Grand Theft Auto.",
+    trailer:"youtube:VQRLujxTm3c",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfxg4RsNDvY1adlPYFMscraamLZ2KM-Jxcd619QJaaeg&s=10",
+    genre: ["Terror","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1zZCAUkWWlH04ayCmWy7PBh2884gJz918",
+            download:"https://ouo.io/45OoLU",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
