@@ -1625,7 +1625,7 @@ export const movies: Movie[] = [
 },
 {
     id: "68",
-    title: "Soulm8te",
+    title: "Soulm8te(2026)",
     year: 2026,
     languaje:["Español Latino"],
     description:"Un hombre adquiere un androide con Inteligencia Artificial para hacer frente a la pérdida de su esposa recientemente fallecida. En un intento por crear una pareja verdaderamente sensible, sin darse cuenta convierte a un inofensivo robot del amor en un alma gemela mortal.",
