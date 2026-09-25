@@ -1579,4 +1579,26 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "66",
+    title: "Dead Awake",
+    year: 2017,
+    languaje:["Español latino"],
+    description:"Una mujer tiene la responsabilidad de protegerse a sí misma y a sus amigos de una entidad maligna que ataca a sus víctimas durante los episodios de parálisis del sueño.",
+    trailer:"youtube:C6e1u2ZqK4A",
+    thumbnail: "https://pics.filmaffinity.com/Dead_Awake-552670642-large.jpg",
+    genre: ["Terror","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1zSDbTGZniQeVl-7yAQsd8e5s7aUokO9y",
+            download:"https://ouo.io/YJhfWTj",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
