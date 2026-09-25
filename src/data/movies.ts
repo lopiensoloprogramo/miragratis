@@ -1623,4 +1623,26 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "68",
+    title: "Soulm8te",
+    year: 2026,
+    languaje:["Español Latino"],
+    description:"Un hombre adquiere un androide con Inteligencia Artificial para hacer frente a la pérdida de su esposa recientemente fallecida. En un intento por crear una pareja verdaderamente sensible, sin darse cuenta convierte a un inofensivo robot del amor en un alma gemela mortal.",
+    trailer:"youtube:TfHNVLJVolU",
+    thumbnail: "https://pbs.twimg.com/media/HOkW3FrWoAAA-b6?format=webp&name=large",
+    genre: ["Ciencia Ficción","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1QO1Im7oMaZ2dYDTnzBDM9Og75A-fRvhy",
+            download:"https://ouo.io/YrVt23w",
+          },
+
+ 
+        ],
+        
+        
+},
 ];
