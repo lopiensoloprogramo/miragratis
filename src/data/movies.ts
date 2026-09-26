@@ -1586,7 +1586,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description:"Una mujer tiene la responsabilidad de protegerse a sí misma y a sus amigos de una entidad maligna que ataca a sus víctimas durante los episodios de parálisis del sueño.",
     trailer:"youtube:C6e1u2ZqK4A",
-    thumbnail: "https://pics.filmaffinity.com/Dead_Awake-552670642-large.jpg",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOuSi7lOpb0NP9vjVQNL9cVUpxKrW_Z4kLR6AVNJOY8R2RCEDH-LXTJ8qu&s=10",
     genre: ["Terror","Fantasía","Misterio","Drama"],
     gallery:[],
         opcion: [
@@ -1645,4 +1645,27 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "69",
+    title: "Terror en Shelby Oaks",
+    year: 2024,
+    languaje:["Español Latino"],
+    description:"Cuando un documentalista descubre una nueva pista perturbadora, la búsqueda desesperada de una mujer por su hermana perdida hace mucho tiempo se convierte en obsesión al darse cuenta de que el demonio imaginario de su infancia puede haber sido real.",
+    trailer:"youtube:s7xa4Eud9fY",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShL4BtKKiPvDIHWByLKzG6IubYGVSrZKDdItZxj3PqYQ&s=10",
+    genre: ["Terror","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1DGASxsjMEVPSmteNNSVlo2fG_fUcpaDG",
+            download:"https://ouo.io/pTngfd",
+          },
+
+ 
+        ],
+        
+        
+},
+
 ];

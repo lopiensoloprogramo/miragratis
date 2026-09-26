@@ -1240,7 +1240,7 @@ export const series: Serie[] = [
     languaje:["Español latino"],
     description: "En un futuro arruinado y tóxico, existe una comunidad en un enorme silo subterráneo cientos de pisos bajo tierra. Ahí, hombres y mujeres viven en una sociedad llena de reglas que creen que están hechas para protegerlos.",
     trailer:"youtube:X-mKRbAeAd0",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/a12a03ab3fe24cd0e967d6d97f08cb8b_hd.webp",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtJrqGXr0Dcf3Y_CLrAEpYRktESMDCSnRmtLpNCPFz-Q&s=10",
     genre: ["Drama","Ciencia Ficción"],
     createdAt: Date.now(),
     seasons: [
