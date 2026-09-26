@@ -534,7 +534,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description: "Sigue la lucha de Miranda Priestly contra Emily Charlton, su ex asistente convertida en ejecutiva rival, mientras compiten por los ingresos por publicidad en medio de la decadencia de los medios impresos y Miranda se acerca a la jubilación.",
     trailer:"youtube:O52u0imiqNY",
-    thumbnail: "https://pics.filmaffinity.com/the_devil_wears_prada_2-402204206-mmed.jpg",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5BR3lN82zvXe_AXRvNGsyqkIZQ5wWbj0U_Jfru7aWPg&s=10",
     genre: ["Drama","Comedia"],
     gallery:[],
         opcion: [
