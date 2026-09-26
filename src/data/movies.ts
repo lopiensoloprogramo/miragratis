@@ -1278,7 +1278,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description:"Finney Shaw, un tímido, pero inteligente niño de 13 años es secuestrado por un sádico asesino y atrapado en un aterrador, oscuro y aislado sótano, donde los gritos son de poca utilidad. Cuando un teléfono negro desconectado en la pared comienza a sonar, Finney descubre que puede escuchar a los espíritus de las víctimas anteriores del asesino.",
     trailer:"youtube:JZB1lFciUrw",
-    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT200rnOW4M3Cr30IXYRTJ3oEI12j0gQqftiYpwLAp3gMw9PgazH8SDQqHy&s=10",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoXnezpvyIvSu-2r-a5ADgCKo6d847G6_s3m7Z9U8L0w6FxRmY_24NKXQ&s=10",
     genre: ["Terror","Fantasía","Misterio","Drama"],
     gallery:[],
         opcion: [
