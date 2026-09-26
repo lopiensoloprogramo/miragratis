@@ -701,7 +701,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description:"Cuenta la verdadera historia de Jordan Belfort (Leonardo DiCaprio), un agente de bolsa de Nueva York. Partiendo del sueño americano hasta llegar a la codicia corporativa, Belfort pasa de las acciones especulativas y la honradez al lanzamiento indiscriminado de empresas en la Bolsa y a la corrupción a finales de los ochenta. El éxito y la fortuna desmedidos de este joven veinteañero como fundador de la agencia bursátil Stratton Oakmont, le valieron a Belfort el apodo de “El lobo de Wall Street”.",
     trailer:"youtube:PaAvUOXUohk",
-    thumbnail: "https://pics.filmaffinity.com/El_lobo_de_Wall_Street-597158261-large.jpg",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBWhpfGrrDGhFgNb1O_fk1JVJ85zknKYHNO0j-6ipLuA&s=10",
     genre: ["Drama","Crimen"],
     gallery:[],
         opcion: [
@@ -1058,7 +1058,7 @@ export const movies: Movie[] = [
     languaje:["Castellano"],
     description:"Conocida en español como Herencia diabólica, sigue a una joven enfermera que acepta cuidar a una anciana en una cabaña remota y termina atrapada en una aterradora maldición demoníaca.",
     trailer:"youtube:TmVIstKEvf8",
-    thumbnail: "https://pics.filmaffinity.com/the_accursed-882620652-mmed.jpg",
+    thumbnail: "https://assets-prd.ignimgs.com/2022/09/30/accursed-button-1664577941882.jpg",
     genre: ["Terror","Fantasía","Misterio","Drama"],
     gallery:[],
         opcion: [
@@ -1168,7 +1168,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description:"Cuando todos los niños de una secundaria, menos uno, desaparecen misteriosamente la misma noche y exactamente a la misma hora, toda la comunidad de un pequeño pueblo se pregunta quién (o qué) es responsable de su desaparición.",
     trailer:"youtube:J3R3DyQZ1e8",
-    thumbnail: "https://pics.filmaffinity.com/weapons-367021125-mmed.jpg",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqBCWs4n_FrJKwKGtd7tRe_TP7XTaFSThbkN4xo6-QoA&s=10",
     genre: ["Terror","Fantasía","Misterio","Drama"],
     gallery:[],
         opcion: [
