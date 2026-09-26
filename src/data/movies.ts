@@ -1667,5 +1667,27 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "70",
+    title: "Camina o muere",
+    year: 2025,
+    languaje:["Español Latino"],
+    description:"En un futuro distópico, cien adolescentes participan en una brutal competición conocida como 'La larga marcha', donde deben caminar sin descanso: si se detienen o reducen la velocidad de la marcha, mueren. Solo uno sobrevivirá. Adaptación cinematográfica de la novela de Stephen King.",
+    trailer:"youtube:tnhl4igBpLM",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj-9DmKSmAohteXfb-ckAyGQuURjdGWS4f9wLimt_jGlLflkjgLi3THc2o&s=10",
+    genre: ["Terror","Fantasía","Misterio","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1_mtxn1AyeWGekjCq6WN1lMNTFDVO3E6T",
+            download:"https://ouo.io/8QT97T",
+          },
+
+ 
+        ],
+        
+        
+},
 
 ];
