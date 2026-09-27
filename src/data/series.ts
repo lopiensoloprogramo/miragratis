@@ -982,7 +982,7 @@ export const series: Serie[] = [
     year: 2017,
     languaje:["Español latino"],
     description: "Tras la desaparición de un joven, cuatro familias desesperadas tratan de entender lo ocurrido a medida que van desvelando un retorcido misterio que abarca tres décadas... Saga familiar con un giro sobrenatural, 'Dark' se sitúa en un pueblo alemán, donde dos misteriosas desapariciones dejan al descubierto las dobles vidas y las relaciones resquebrajadas entre estas cuatro familias.",
-    trailer:"youtube:IW4KjKZQJAw",
+    trailer:"youtube:ZMdHaMdPeUE",
     thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/45ebbcb5660836c30d4ace204244127c_hd.webp",
     genre: ["Misterio","Sobre Natural","Fantacía","Sci-Fi"],
     createdAt: Date.now(),
