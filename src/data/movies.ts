@@ -1711,5 +1711,27 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "72",
+    title: "Minions y sus amigos: Volumen 1",
+    year: 2022,
+    languaje:["Español Latino"],
+    description:"Esta colección de cortos de los Minions de la franquicia de «Mi villano favorito» incluye minipelículas como «Ruedines», «Cachorro» y «Yellow is the New Black».",
+    trailer:"youtube:lrykXYY6jks",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ91pfjxYFke1VGdVGJYnkyD27X12kD6tDkKyXzQXz5CA&s=10",
+    genre: ["Dibujos Animados","Familiar","Fantasía"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:DRAwlD7C#PUpvDOAEHLGXscXzj_R_XJHY09MOvdewZcIQWnVYQNE",
+            download:"https://ouo.io/iUlRm2",
+          },
+
+ 
+        ],
+        
+        
+},
 
 ];
