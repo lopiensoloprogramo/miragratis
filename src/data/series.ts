@@ -111,7 +111,7 @@ export const series: Serie[] = [
     languaje:["Español latino"],
     description: "La serie se desarrolla en un universo donde los superhéroes encarnan el lado sombrío de la fama y el estrellato. Un conjunto de justicieros, que se autodenominan 'The Boys', se compromete a luchar con todas sus fuerzas contra los superhéroes que dañan a la sociedad, sin importar los peligros que esto implique.",
     trailer:"youtube:HK0PrzNOfck",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/bb31bb1b1b3b1900fa619d1a7e3ebb92_hd.webp",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUbLOcMdv8mDZW-QqTf39fD5qykyQMhN7S01Pb8PDiD-unyarir6-U4rk&s=10",
     genre: ["Acción"],
     createdAt: Date.now(),
     seasons: [
@@ -694,7 +694,7 @@ export const series: Serie[] = [
     languaje:["Español latino"],
     description: "Desvela el misterio de un pueblo de pesadilla en el centro de América que atrapa a todos los que entran. Mientras los residentes involuntarios luchan por mantener una sensación de normalidad y buscan una salida, también deben sobrevivir a las amenazas del bosque circundante, incluidas las aterradoras criaturas que salen cuando se pone el sol.",
     trailer:"youtube:A-6HRIzZo7s",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/54068ea05b97cac0a33469c99c25c350_hd.webp",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJSuHZf4VDJ2RVw5xwddang3w5oOUdRTdPWyQ2J6pQultXfZYC3qApt_2E&s=10",
     genre: ["Terror","Ciencia Ficción"],
     createdAt: Date.now(),
     seasons: [
@@ -983,7 +983,7 @@ export const series: Serie[] = [
     languaje:["Español latino"],
     description: "Tras la desaparición de un joven, cuatro familias desesperadas tratan de entender lo ocurrido a medida que van desvelando un retorcido misterio que abarca tres décadas... Saga familiar con un giro sobrenatural, 'Dark' se sitúa en un pueblo alemán, donde dos misteriosas desapariciones dejan al descubierto las dobles vidas y las relaciones resquebrajadas entre estas cuatro familias.",
     trailer:"youtube:ZMdHaMdPeUE",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/45ebbcb5660836c30d4ace204244127c_hd.webp",
+    thumbnail: "https://cdn.culturagenial.com/es/imagenes/dark-logo-cke.jpg?class=article",
     genre: ["Misterio","Sobre Natural","Fantacía","Sci-Fi"],
     createdAt: Date.now(),
     seasons: [
@@ -1053,7 +1053,7 @@ export const series: Serie[] = [
     languaje:["Español latino"],
     description: "Ambientada en una época en la que el linaje Targaryen todavía ostenta el Trono de Hierro y el recuerdo del último dragón aún no ha desaparecido de la memoria viva, grandes destinos, enemigos poderosos y hazañas peligrosas esperan a estos improbables e incomparables amigos.",
     trailer:"youtube:OmEznZAw9cw",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/f8d7eb6179e68e82a3f128c85bd9149c_hd.webp",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS86UFzxmumJXNLbZTHe-4m5Uyj41ZvafUCjeUVhTR2EoETGAIFtKzwBV8u&s=10",
     genre: ["Drama","Ciencia Ficción"],
     createdAt: Date.now(),
     seasons: [
