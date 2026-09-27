@@ -1689,5 +1689,27 @@ export const movies: Movie[] = [
         
         
 },
+{
+    id: "71",
+    title: "Coyote vs. Acme",
+    year: 2026,
+    languaje:["Español Latino"],
+    description:"Después de que todos los productos fabricados por ACME Corporation le salgan mal a Wile E. Coyote, en su persecución del Correcaminos, contrata a un abogado humano igualmente desafortunado para demandar a la empresa. Cuando el abogado de Wile E. descubre que el intimidante jefe de su antiguo bufete es el director general de ACME, se une a Wile E. para ganar el juicio contra él.",
+    trailer:"youtube:Yj-Nm47IW9k",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNHHBS4S6qjvLATaaAJRgN2Ub-HcQX2ooGBV2nhis6Cg&s=10",
+    genre: ["Dibujos Animados","Fantasía"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1kcU8ZSK42ZFVE8nQAwp_7HdAx3A4Cgvb",
+            download:"https://ouo.io/w8IJzJ",
+          },
+
+ 
+        ],
+        
+        
+},
 
 ];
