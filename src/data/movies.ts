@@ -414,7 +414,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description: "La joven Tessa Young cursa su primer año en la universidad. Acostumbrada a una vida estable y ordenada, su mundo cambia cuando conoce a Hardin Scott, un misterioso joven de oscuro pasado. Desde el primer momento se odian, porque pertenecen a dos mundos distintos y son completamente opuestos. Sin embargo, estos dos polos opuestos pronto se unirán y nada volverá a ser igual. Tessa y Hardin deberán enfrentarse a difíciles pruebas para estar juntos. La inocencia, el despertar a la vida, el descubrimiento sexual y las huellas de un amor tan poderoso como la fuerza del destino.",
     trailer:"youtube:3zjxECCWwrU",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/3b7796ce7eab29f10eec596922e0a022_hd.webp",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpLdn21b1ajySUvA1wKKEECOOOIkMs4yea3YW38Rr0Hg&s=10",
     genre: ["Drama","Romance"],
     gallery:[],
         opcion: [
@@ -465,7 +465,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description: "La joven hija de un periodista desaparece en el desierto sin dejar rastro. Ocho años después, la familia rota se sorprende cuando ella regresa con ellos, mientras lo que debería ser una reunión alegre se convierte en una pesadilla viviente.",
     trailer:"youtube:az6bdokjRk8",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/c22fdaaf2da7157fd0ecc757f34ff726_hd.webp",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyqyssSY9YUwY8WOER7nBScEhGC3jfMLEuIjRj2dyR73woFM5NCuAWj5o&s=10",
     genre: ["Suspense","Terror"],
     gallery:[],
         opcion: [
@@ -488,7 +488,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description: "Un sacerdote estadounidense que trabaja en México es considerado un santo por muchos feligreses locales. Sin embargo, debido a un exorcismo fallido, lleva un secreto que lo está comiendo vivo hasta que tiene la oportunidad de enfrentar a su demonio por última vez.",
     trailer:"youtube:69BdJUksRnQ",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/32b8ab97320012d424786286a12683d2_hd.webp",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJliB7SO3KPYmRmnj5pCbdu2uMF5uY662KB_QNClbQE7A9lcYZelaX3lQ&s=10",
     genre: ["Suspense","Terror"],
     gallery:[],
         opcion: [
@@ -557,7 +557,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description: "Los campeones favoritos de los fans —ahora acompañados por el mismísimo Johnny Cage se enfrentan entre sí en la batalla definitiva, sangrienta y sin reglas, para derrotar el oscuro dominio de Shao Kahn, que amenaza con destruir el Reino de la Tierra y a sus defensores.",
     trailer:"youtube:_5RFjYeWSls",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/83d2aeedc57230d8d320d1c7f55a199a_hd.webp",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDRJQ3M-wdVCV2lqyRkRomKRWkntpZnYpMOXZ_vNuPnQ&s=10",
     genre: ["Aventura","Acción","Fantasía"],
     gallery:[],
         opcion: [
@@ -607,7 +607,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description: "Quinn, una joven enfermera, descarga una aplicación para el móvil llamada 'Countdown', que puede predecir el momento exacto en el que una persona va a morir. En ese momento descubre que a ella sólo le quedan tres días de vida. Con el tiempo jugando en su contra y tras ser perseguida por una persona desconocida, tratará desesperadamente de burlar al destino antes de que se le agote el tiempo.",
     trailer:"youtube:MPC7ittsHAc",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/3da2ab1a1ac826717b072d019a94bbcc_hd.webp",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0_IFzSKZrRYQDA5d3TYgWWOUY1gUf26dkAh2pzkyETQ&s=10",
     genre: ["Terror","Suspenso"],
     gallery:[],
         opcion: [
@@ -679,7 +679,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description:"En sus primeros años, el joven reportero de Metrópolis y superhéroe se embarca en un viaje para reconciliar su herencia kryptoniana con su educación humana como Clark Kent.",
     trailer:"youtube:lBu2CwVSAEw",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/d505450b7b5b26ffb99b6d7dcec352f7_hd.webp",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2w7Yg8JVwugzaU_7GPYmADAJdwB3jrc1VycF1Jc5nTA&s=10",
     genre: ["Aventura","Acción","Ciencia Ficción"],
     gallery:[],
         opcion: [
@@ -723,7 +723,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description:"Cuando las fuerzas despiadadas del Mundo Madre amenazan a una comunidad agrícola en una luna remota, la única esperanza de sobrevivir recae en una misteriosa forastera.",
     trailer:"youtube:QNDKJB3p3Ag",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/e35b19e927fc77ad7802953e3c1243e6_hd.webp",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb0yKt2DUJrZX4fjT9wJvZWIjXuSDFxQKnJHYzBdnFmw&s=10",
     genre: ["Drama","Crimen","Cienci Ficción"],
     gallery:[],
         opcion: [
@@ -766,7 +766,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description:"Los fugitivos más buscados en el universo lideran una rebelión en «Rebel Moon (Capítulo dos): La maldición del perdón», una versión de Zack Snyder sin filtros.",
     trailer:"youtube:WLAsJIOFNqM",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/a0b164805ae5f2a5de512a4a59105282_hd.webp",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkeKaATO4KzpEkaZZKTFygQuKCFpBQcGXxLHbnsleL5g&s=10",
     genre: ["Drama","Crimen","Cienci Ficción"],
     gallery:[ "https://image.tmdb.org/t/p/w780/lHgipA5wT9iyAT0s2OLoT5WE4Wg.jpg",
               "https://image.tmdb.org/t/p/w780/j2ee67UEvNZj5KrUagGq8SBMW2z.jpg",
