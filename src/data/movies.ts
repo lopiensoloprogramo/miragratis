@@ -1730,8 +1730,7 @@ export const movies: Movie[] = [
 
  
         ],
-        
-        
+              
 },
 
 ];
