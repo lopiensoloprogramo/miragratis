@@ -75,7 +75,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description: "Cuando James recibe una misteriosa carta de Mary, su amor perdido, se siente atraído por Silent Hill, un pueblo que antes le era familiar y ahora está sumido en la oscuridad.",
     trailer:"youtube:RzzTn93ffZw",
-    thumbnail: "https://compucalitv.tv/wp-content/uploads/thumbs/1a4b28e2b442424ced20ba09187aac3c_hd.webp",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpSb4qvlYe-A9cy9AVJiDzNEDTr8JziGkDKT47JiLX6vYNbFBiqhTzqzA&s=10",
     genre: ["Drama","Misterio","Terror"],
     gallery:["https://image.tmdb.org/t/p/w780/Aaek2T8mITC7hggz5wxAf6PTO3p.jpg",
              "https://image.tmdb.org/t/p/w780/v0NEB75SZjxY8GS3ho8WeEvjIT3.jpg",

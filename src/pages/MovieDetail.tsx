@@ -6,6 +6,7 @@ import AnuncioSidebar from "../components/AnunciosSidebar";
 import qryape from '../assets/yape-qr.png'
 import MovieRow from "../components/MovieRow";
 import ImageGallery from "../components/ImageGallery";
+import donarmeme from '../assets/donarmeme.jpg'
 
 export default function MovieDetail() {
   const { id } = useParams();
@@ -276,6 +277,11 @@ const relatedMovies = movies
                 <div className="mt-4 border-t border-gray-700 pt-4 mb-0 text-center">
                   <p className="text-white font-semibold">
                      ❤️ Apoya MiraGratis
+                  </p>
+                  <p>
+                    <img src={donarmeme}
+                    className="w-30 mx-auto mt-2 rounde-lg"
+                    /> 
                   </p>
                   <img
                     src={qryape}

@@ -5,7 +5,7 @@ import { useState, useRef } from "react";
 import AnuncioSidebar from "../components/AnunciosSidebar";
 import qryape from '../assets/yape-qr.png'
 import MovieRow from "../components/MovieRow";
-
+import donarmeme from "../assets/donarmeme.jpg"
 
 export default function SerieDetail() {
   const { id } = useParams();
@@ -339,6 +339,11 @@ const relatedSeries = series
 
                   <p className="text-green-400 text-sm mt-2">
                      Ayuda a mantener la web
+                  </p>
+                                    <p>
+                    <img src={donarmeme}
+                    className="w-30 mx-auto mt-2 rounde-lg"
+                    /> 
                   </p>
                 </div>
 
