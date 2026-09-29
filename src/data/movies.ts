@@ -1760,7 +1760,7 @@ export const movies: Movie[] = [
     languaje:["Español Latino"],
     description:"Wade Wilson (Ryan Reynolds), mejor conocido como Deadpool, su nombre de batalla e identidad antiheroica, está de regreso con Deadpool 2 y en esta ocasión su misión será salvar a un chico llamado Russell (Julian Dennison) de las manos de un poderoso rival llamado Cable (Josh Brolin). En aras de dar cumplimiento a su tarea el antihéroe formará un grupo al cual pondrá el nombre de X-Force. Secuela de la exitosa película parodia de los superhéroes mutantes del 2016, también protagonizada por Reynolds.",
     trailer:"youtube:4i6ZePa8jz4",
-    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYa5UwE4lGElXljEwdE7xAdAvg-UzGyqH_qqowKpG8Ah94oAduwArTZE6c&s=10",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXFexNQedQiDT9GYYdZMObP85C8VO3HP-1UV0h_8i4lg&s=10",
     genre: ["Marvel","Super Heroes","Acción"],
     gallery:[],
         opcion: [
