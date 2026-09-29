@@ -1732,5 +1732,47 @@ export const movies: Movie[] = [
         ],
               
 },
+{
+    id: "73",
+    title: "DeadPool",
+    year: 2016,
+    languaje:["Español Latino"],
+    description:"Inspirada en el anti-héroe más inusual de Marvel, Deadpool relata la historia de Wade Wilson, un ex-operativo de las fuerzas especiales que se convierte en mercenario. Tras someterse a un despiadado experimento, Wade obtiene la capacidad de curarse rápidamente y asume la identidad de Deadpool. Con sus recién adquiridas habilidades y un humor oscuro y retorcido, Deadpool se embarca en la misión de encontrar al individuo que casi arruina su existencia.",
+    trailer:"youtube:0JnRdfiUMa8",
+    thumbnail: "https://m.media-amazon.com/images/M/MV5BNjc3NjFkZWYtOTFjNS00NjI1LTljNjgtNzE5MTJlNzlhMTljXkEyXkFqcGc@._V1_.jpg",
+    genre: ["Marvel","Super Heroes","Acción"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:bBYyTJIT#mUewN1cByZLFAz-zi7MwpTc270ec14NDaziUdL4uIs8",
+            download:"https://ouo.io/s7LIdd",
+          },
+
+ 
+        ],
+              
+},
+{
+    id: "73",
+    title: "DeadPool 2",
+    year: 2018,
+    languaje:["Español Latino"],
+    description:"Wade Wilson (Ryan Reynolds), mejor conocido como Deadpool, su nombre de batalla e identidad antiheroica, está de regreso con Deadpool 2 y en esta ocasión su misión será salvar a un chico llamado Russell (Julian Dennison) de las manos de un poderoso rival llamado Cable (Josh Brolin). En aras de dar cumplimiento a su tarea el antihéroe formará un grupo al cual pondrá el nombre de X-Force. Secuela de la exitosa película parodia de los superhéroes mutantes del 2016, también protagonizada por Reynolds.",
+    trailer:"youtube:4i6ZePa8jz4",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYa5UwE4lGElXljEwdE7xAdAvg-UzGyqH_qqowKpG8Ah94oAduwArTZE6c&s=10",
+    genre: ["Marvel","Super Heroes","Acción"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:GYBkyCJZ#8-n080frGwgbtDY--56IqiX4ds3gG5YFz17t4B7DyA0",
+            download:"https://ouo.io/HvxYLpx",
+          },
+
+ 
+        ],
+              
+},
 
 ];
