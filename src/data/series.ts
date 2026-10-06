@@ -1302,4 +1302,55 @@ export const series: Serie[] = [
       
     ],
   },
+       {
+    id: "15",
+    title: "Moon Knight (2022)",
+    year: 2022,
+    languaje:["Español latino"],
+    description: "Steven Grant parecía llevar una vida sin sobresaltos hasta que la realidad empezó a desmoronarse a sus pies, rodeado de pesadillas de otra vida: la del mercenario Marc Spector. Además de múltiples personalidades, ahora tiene enemigos brutales que lo persiguen, y un misterio mortal que resolver con los dioses del antiguo Egipto.",
+    trailer:"youtube:x7Krla_UxRg",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDkJKR05I-uvmCum0N4Bia3Ld1dIu1ye1Hiosj-PkHCw&s=10",
+    genre: ["Super Heroes","Marvel","Acción","Ciencia Ficción"],
+    createdAt: Date.now(),
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            title: "Episodio 1",
+            file: "mega:7NQFyYzR#2UlKuVPGj_1ZDDdF2doZDUfliuQwvXiNepOEq8nPVTQ",
+            download:"",
+          },
+          {
+            title: "Episodio 2",
+            file: "mega:yAwEiT6B#FRNUlqd02hgZrBBKRm-mH_Ni3RQ8ctXHjV116bphmBQ",
+            download:"",
+          },
+                    {
+            title: "Episodio 3",
+            file: "mega:7BozjCyC#VZnIlCzjCUASJEGf6K4YkL7nG3C8veJELidJOhZq3ZM",
+            download:"",
+          },
+                              {
+            title: "Episodio 4",
+            file: "mega:uZ4i3ZZY#zLYbBLbh228X6nCHaAX8SNqddKO61pm7J-kXxiUI8Rc",
+            download:"",
+          },
+                              {
+            title: "Episodio 5",
+            file: "mega:vMp2ABiS#RN0k9z8G5IFjGEewaSeDlalyhtsFS93KIK975gOD65Y",
+            download:"",
+          },
+                                        {
+            title: "Episodio 6",
+            file: "mega:TBwDVT6B#OJC5fze8W1A1CWfd3TILAqPuE1HB-ZqXRdPXeS9siLU",
+            download:"",
+          },
+                                          
+                                                    
+        ],
+      },
+      
+    ],
+  },
 ];
