@@ -1774,5 +1774,47 @@ export const movies: Movie[] = [
         ],
               
 },
+{
+    id: "75",
+    title: "Gato con botas (2011)",
+    year: 2011,
+    languaje:["Español Latino"],
+    description:"'Gato con botas' se sitúa en el tiempo como la precuela de Shrek 2. Mucho tiempo antes de conocer a Shrek, el Gato con Botas emprendió un viaje aliándose con el ingenioso Humpty Dumpty y con la avispada Kitty Softpaws para robar el famoso ganso de los huevos de oro.",
+    trailer:"youtube:g9n2Of3eFJg",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNdtPAcvNfT8D7vW_GJw0146ZLKM-FdH0ub3lsCOm9Ew&s=10",
+    genre: ["Animacion","Fantasía","Acción"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:3VZ0GALI#rvwb2DXp6svu4OlRRj2lmexUI9pK85QNWW2y7OXKkpw",
+            download:"https://ouo.io/MEr7FJ",
+          },
+
+ 
+        ],
+              
+},
+{
+    id: "76",
+    title: "Gato con Botas 2: El último deseo (2022)",
+    year: 2022,
+    languaje:["Español Latino"],
+    description:"El audaz forajido Gato con Botas descubre que su pasión por el peligro y su desprecio por la seguridad le han pasado factura. El Gato ha quemado ocho de sus nueve vidas, aunque ha perdido la cuenta por el camino. Recuperar esas vidas hará que el Gato con Botas emprenda su mayor búsqueda hasta ahora; la mítica Estrella de los Deseos.",
+    trailer:"youtube:18v5EPO5ySs",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlR-GdZ20MnDXuTBgNFMES8-Glx6ZJkGbgTI2taEzxiw&s=10",
+    genre: ["Animacion","Fantasía","Acción"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:GYY1wZSa#VLGJpHt5FE5z7_RcQAzkA4uvj8mkQ9HEoYK7LY4yseY",
+            download:"https://ouo.io/aoC42o",
+          },
+
+ 
+        ],
+              
+},
 
 ];
