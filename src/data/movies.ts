@@ -109,7 +109,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],   
     description: "Luego de haber derrotado a Bowser y salvado el vibrante Reino Champiñón, los inseparables hermanos Mario y Luigi finalmente disfrutan de una etapa de paz y tranquilidad. Pasan sus días ayudando a los ciudadanos locales con su clásica filosofía de trabajo, preparan con entusiasmo la gran fiesta de cumpleaños de la Princesa Peach, entablan una profunda e inseparable amistad con el tierno dinosaurio Yoshi e incluso intentan reformar a un inofensivo y diminuto Bowser que se encuentra en cautiverio. Sin embargo, la calma se rompe abruptamente cuando una misteriosa señal de auxilio proveniente del espacio exterior interrumpe sus vidas, obligándolos a mirar más allá de las nubes y emprender un viaje épico hacia lo desconocido.",
     trailer:"youtube:ipzEY7c7it8",
-    thumbnail: "https://premierftp.com/wp-content/uploads/Descargar-Super-Mario-Galaxy-La-pelicula-2026-Espanol-1080p-Pelicula.webp",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuhJxHSmpnhv2u7NA-vLIqA581H1DXaGhFqKt3CnRG_w&s=10",
     genre: ["Familia","Comedia","Fantasía","Animación"],
     gallery:[
               "https://image.tmdb.org/t/p/w780/kxQiIJ4gVcD3K6o14MJ72p5yRcE.jpg",
@@ -386,7 +386,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description: "Con una asombrosa y casi mística precisión, esta espectacular y esperada película biográfica nos sumerge de lleno en la fascinante, compleja y a menudo turbulenta vida de Michael Jackson (interpretado magistralmente por su sobrino, Jaafar Jackson). La historia traza el meteórico e inigualable ascenso del artista desde sus humildes y estrictos inicios como el carismático niño prodigio líder de los Jackson 5 bajo la dura mirada de su padre, Joe Jackson (Colman Domingo), hasta convertirse en la fuerza cultural más grande, innovadora e influyente de toda la historia de la música pop. A través de recreaciones vibrantes y absolutamente milimétricas de sus videos musicales más icónicos y sus presentaciones en vivo más legendarias, la cinta es un festín visual y sonoro que captura a la perfección la genialidad creativa detrás de obras maestras como Thriller, Billie Jean y Beat It.",
     trailer:"youtube:iVJaujA54Y8",
-    thumbnail: "https://premierftp.com/wp-content/uploads/Descargar-Michael-2026-Espanol-1080p-Pelicula.webp",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVEDNGUkx6ehupc68oRK17KmOpplyYYaQypEM3PZZjOg&s=10",
     genre: ["Biografía","Drama","Musical"],
     gallery:[],
         opcion: [
@@ -1256,7 +1256,7 @@ export const movies: Movie[] = [
     languaje:["Español latino"],
     description:"El Dr. Kelson (Ralph Fiennes) se encuentra inmerso en una inesperada y fascinante conexión, cuyas repercusiones podrían transformar el planeta tal como lo conocemos. Por otro lado, el encuentro de Spike (Alfie Williams) con el Gran Lord Jimmy Crystal (Jack O'Connell) se convierte en una experiencia pesadillesca de la que el joven no logra liberarse. En esta realidad, los infectados ya no representan la principal amenaza para la supervivencia, ya que la falta de humanidad de los sobrevivientes puede resultar incluso más inquietante y aterradora.",
     trailer:"youtube:rYawDt9CgVg",
-    thumbnail: "https://cdn.cuevana3l.live/unsafe/rs:fit:360/q:70/plain/tmdb/t/p/w500//kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
+    thumbnail: "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2026/01/28-Anos-Despues-El-Templo-de-los-Huesos.jpg?fit=2500%2C1500&quality=70&strip=all&ssl=1",
     genre: ["Zombies","Terror","Fantasía","Misterio","Drama"],
     gallery:[],
         opcion: [
