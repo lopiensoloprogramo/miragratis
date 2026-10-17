@@ -1816,5 +1816,26 @@ export const movies: Movie[] = [
         ],
               
 },
+{
+    id: "77",
+    title: "Avengers: Endgame",
+    year: 2019,
+    languaje:["Español Latino"],
+    description:"Después de los devastadores eventos de los Vengadores: Infinity War (2018), el universo está en ruinas. Con la ayuda de los aliados restantes, los Vengadores se reúnen una vez más para revertir las acciones de Thanos y restaurar el equilibrio del universo.",
+    trailer:"youtube:u7QErIFCc7k",
+    thumbnail: "https://d9s3e2ooa0od7.cloudfront.net/assets/movies-avengers-endgame/624f94b6-428b-4b65-b29b-be35210d5147/624f94b6-428b-4b65-b29b-be35210d5147.jpg",
+    genre: ["Marvel","Super Heroes","Fantasía","Acción"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:WB5SDIAA#e9fhiLqIzjVPL9FUyqteNJZyIsbWpQ4_rw-2tqIEd3o",
+            download:"https://ouo.io/TwvBHS",
+          },
+
+ 
+        ],
+              
+},
 
 ];
