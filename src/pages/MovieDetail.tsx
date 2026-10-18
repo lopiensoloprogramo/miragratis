@@ -37,7 +37,7 @@ export default function MovieDetail() {
       clicks++;
 
       // cada 2 clics
-      if (clicks % 2 !== 0) {
+      if (clicks % 1 !== 0) {
         window.open("https://omg10.com/4/10893314", "_blank");
       }
     }

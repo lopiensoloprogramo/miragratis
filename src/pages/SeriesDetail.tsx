@@ -53,7 +53,7 @@ const showAds = () => {
   // 🔥 DESPUÉS → direct link cada 2 clicks
   clicks++;
 
-  if (clicks >= 3) {
+  if (clicks >= 1) {
     window.open("https://omg10.com/4/10893314", "_blank");
     clicks = 0;
   }
