@@ -18,24 +18,7 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
- const openAddirecto = () => {
-    let clicks = parseInt(localStorage.getItem("ad_clicks") || "0");
-
-    // primer click SIEMPRE abre
-    if (clicks === 0) {
-      window.open("https://omg10.com/4/10893314", "_blank");
-      clicks = 1;
-    } else {
-      clicks++;
-
-      // cada 2 clics
-      if (clicks % 1 !== 0) {
-        window.open("https://omg10.com/4/10893314", "_blank");
-      }
-    }
-
-    localStorage.setItem("ad_clicks", clicks.toString());
-  };
+ 
   
   return (
     <>
@@ -62,7 +45,7 @@ export default function Navbar() {
 
           {/* Buscador */}
           <button
-            onClick={() => {openAddirecto(); setShowSearch(!showSearch)}}
+            onClick={() =>  setShowSearch(!showSearch)}
             className="text-white hover:text-red-500 transition flex-shrink-0"
           >
             {showSearch ? <X size={20} /> : <Search size={20} />}
