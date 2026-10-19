@@ -1859,4 +1859,25 @@ export const movies: Movie[] = [
               
 },
 
+{
+    id: "79",
+    title: "No dejes a los niños solos",
+    year: 2025,
+    languaje:["Español Latino"],
+    description:"Por una emergencia de trabajo, Catalina Camacho, una joven y reciente viuda, se ve obligada a dejar a sus hijos a solas por unas cuantas horas. Esa noche, y con la casa para ellos solos, Matías y Emiliano (de diez y siete años) se dan vuelo desempacando cajas para desenterrar su preciada consola de videojuegos, sin saber que algo les hará creer, a cada quién por separado, que su hermano lo quiere matar para volverse el hijo único y favorito. (GIFF)",
+    trailer:"youtube:Pg3HFOLIjFE",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRRTGAiQ7bzYUiiBsvelvgGa1zx8mGGLda9IY3U0o3yQ&s=10",
+    genre: ["Terror","Drama","Suspenso"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1MHPB-FRanufQpsLdACg1vHClnVJqm7fU",
+            download:"https://ouo.io/jvmWaV",
+          },
+
+ 
+        ],
+              
+},
 ];
