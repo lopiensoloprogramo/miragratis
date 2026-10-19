@@ -41,24 +41,7 @@ export default function SearchBar({ onClose }: SearchBarProps) {
       .slice(0, 20);
   }, [query]);
 
-  const openAddirecto = () => {
-    let clicks = parseInt(localStorage.getItem("ad_clicks") || "0");
-
-    // primer click SIEMPRE abre
-    if (clicks === 0) {
-      window.open("https://omg10.com/4/10893314", "_blank");
-      clicks = 1;
-    } else {
-      clicks++;
-
-      // cada 2 clics
-      if (clicks % 1 !== 0) {
-        window.open("https://omg10.com/4/10893314", "_blank");
-      }
-    }
-
-    localStorage.setItem("ad_clicks", clicks.toString());
-  };
+  
 
 
   return (
@@ -68,7 +51,7 @@ export default function SearchBar({ onClose }: SearchBarProps) {
         type="text"
         placeholder="Buscar películas o series..."
         value={query}
-        onChange={(e) => {  openAddirecto(); setQuery(e.target.value)}}
+        onChange={(e) => setQuery(e.target.value)}
         className="w-full bg-gray-900 border border-gray-700 rounded-lg px-4 py-3 text-white outline-none focus:border-red-500"
       />
 
