@@ -1837,5 +1837,26 @@ export const movies: Movie[] = [
         ],
               
 },
+{
+    id: "78",
+    title: "UNABOMBER(2026)",
+    year: 2026,
+    languaje:["Español Latino"],
+    description:"Un estudiante de Harvard se convierte en 'Unabomber' tras someterse a una serie de experimentos psicológicos. Años más tarde, la investigación de un agente del FBI revela cómo su pasado determinó la campaña mortal que se cobró la vida de tres personas e hirió a otras veintitrés entre 1978 y 1995.",
+    trailer:"youtube:1nm1KgTsuOc",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzQm9xQ-WPmwCLukR8eBmz5qGLNi97ZXUaBcqFT8PNDgo_gXj0IZOgzi0&s=10",
+    genre: ["Crimen","Drama","Acción","Suspenso"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:18hm9b3wVz-NS4mZcVKL7PulRAEKqsnkw",
+            download:"https://ouo.io/xaWBu0",
+          },
+
+ 
+        ],
+              
+},
 
 ];
