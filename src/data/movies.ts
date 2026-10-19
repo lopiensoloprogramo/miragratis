@@ -1880,4 +1880,25 @@ export const movies: Movie[] = [
         ],
               
 },
+{
+    id: "80",
+    title: "Verity: La sombra de un engaño (2026) ",
+    year: 2026,
+    languaje:["Subtitulado"],
+    description:"La escritora en apuros Lowen Ashleigh está al borde de la ruina financiera cuando acepta la oferta de su vida: ha sido contratada para completar los libros restantes de una exitosa serie que la autora de thrillers superventas, Verity Crawford, no puede terminar tras un misterioso accidente. Al llegar a la lujosa mansión de los Crawford, Ashleigh descubre poco a poco que las cosas no son exactamente lo que parecen.",
+    trailer:"youtube:2AckZubjDiU",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPoe0H3-sva-wC2n0nAIiWwjeOyMbpZdTytsOwc3IWEg&s=10",
+    genre: ["Misterio","Drama","Suspenso"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1yQk5F6S77fZhece3KW7BmKr5EwVPhVKk",
+            download:"https://ouo.io/wQX04w",
+          },
+
+ 
+        ],
+              
+},
 ];
