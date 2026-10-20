@@ -1353,4 +1353,40 @@ export const series: Serie[] = [
       
     ],
   },
+       {
+    id: "16",
+    title: "Black Clover Temporada 2(2026)",
+    year: 2026,
+    languaje:["Subtitulado"],
+    description: "Una violencia sin precedentes ha traído el caos al Reino del Trébol. La irrupción de la “Tríada Oscura” (Dark Triad), que alberga el poder de demonios de alto rango. Ni siquiera los capitanes de los Caballeros Mágicos pudieron resistir y fueron llevados; la última esperanza se derrumbó. En una situación desesperada, sin embargo, hay quien sigue levantándose una y otra vez.En un mundo donde la magia lo es todo, el único ser que está fuera de las leyes de la magia: Asta.",
+    trailer:"youtube:9QyiEgv33z4",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK-r87XSWzOid6zL1rGFW2TcTRReIGDTvXw4ylPjOFAEAwVqDAcJir5dQ&s=10",
+    genre: ["Anime","Magia","Acción","Ciencia Ficción"],
+    createdAt: Date.now(),
+    seasons: [
+      {
+        seasonNumber: 2,
+        episodes: [
+          {
+            title: "Episodio 1",
+            file: "mega:mc4QhKyK#dotn_Q-YgUWwZPDQZjvL4UcQIzz4UwFeP3KMXSzyjxA",
+            download:"https://ouo.io/84KA6L",
+          },
+          {
+            title: "Episodio 2",
+            file: "mega:3FBT2ZJD#ibjkrb5f7kruvxDn38ba4vk6foN-Q9YWNp5kgjvDTyw",
+            download:"https://ouo.io/3ExzzRb",
+          },
+                    {
+            title: "Episodio 3",
+            file: "mega:GU4kSC5B#NTuOkIh-8cszWCzzvHtkB9WElvOeDrJhkKMMlaiCWis",
+            download:"https://ouo.io/XOmOdj",
+          },
+               
+                                                    
+        ],
+      },
+      
+    ],
+  },
 ];
