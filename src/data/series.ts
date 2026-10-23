@@ -1353,7 +1353,7 @@ export const series: Serie[] = [
       
     ],
   },
-       {
+  {
     id: "16",
     title: "Black Clover Temporada 2(2026)",
     year: 2026,
@@ -1381,6 +1381,67 @@ export const series: Serie[] = [
             title: "Episodio 3",
             file: "mega:GU4kSC5B#NTuOkIh-8cszWCzzvHtkB9WElvOeDrJhkKMMlaiCWis",
             download:"https://ouo.io/XOmOdj",
+          },
+               
+                                                    
+        ],
+      },
+      
+    ],
+  },
+   {
+    id: "17",
+    title: "Lanterns(Linternas) 2026",
+    year: 2026,
+    languaje:["Español Latino"],
+    description: "Sigue al nuevo recluta John Stewart y al legendario Linterna Hal Jordan, dos policías intergalácticos que se ven envueltos en un oscuro misterio terrestre mientras investigan un asesinato en el corazón de Estados Unidos. Esto les lleva a misterios y ajustes de cuentas más oscuros.",
+    trailer:"youtube:sFLHxOARswg",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb7VO7u2NmfMYihPI15WPFBaAfWJkh2pgzZc_Bm66zDQ&s=10",
+    genre: ["Super Heroes","DC","Fantasía","Acción","Ciencia Ficción"],
+    createdAt: Date.now(),
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            title: "Episodio 1",
+            file: "drive:131KdLswg5va7Xg4coYPPog6Nmhkc9N_b",
+            download:"https://ouo.io/I8DtcBM",
+          },
+          {
+            title: "Episodio 2",
+            file: "drive:1Y16hjlPjE2jQhCN_v6c7vx-M6p9Q2Nmp",
+            download:"https://ouo.io/RHP6sNw",
+          },
+                    {
+            title: "Episodio 3",
+            file: "drive:1hzhXGXWJHkUm8yk9NzLelgSmwusNxmWl",
+            download:"https://ouo.io/3Fjb5O",
+          },
+                              {
+            title: "Episodio 4",
+            file: "drive:1WEXQ_ksrdH4TE2o_pB9pNthIPwml1fSd",
+            download:"https://ouo.io/xRqSd2",
+          },
+                              {
+            title: "Episodio 5",
+            file: "drive:1EtaFOlZ8_8_5Kjrs2ZUq7i1Npc00kM3H",
+            download:"https://ouo.io/cJ4xeE",
+          },
+                              {
+            title: "Episodio 6",
+            file: "drive:1x2tIkyt476oXUkxzSfFaJH87IuAHn8Xa",
+            download:"https://ouo.io/aTFhmr",
+          },
+                              {
+            title: "Episodio 7",
+            file: "drive:1PfcpLujIdmw0yEa7MZmmFYsKVptETH1H",
+            download:"https://ouo.io/2OM1Zj4",
+          },
+                              {
+            title: "Episodio 8",
+            file: "drive:17ArSBU7Bg2Hxhe8BpCnXISSxTLX-790k",
+            download:"https://ouo.io/aapbVjW",
           },
                
                                                     
