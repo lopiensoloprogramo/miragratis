@@ -1383,7 +1383,12 @@ export const series: Serie[] = [
             download:"https://ouo.io/XOmOdj",
           },
                
-                                                    
+          {
+            title: "Episodio 4",
+            file: "drive:1DlzbkG6szkkB73K9_ReMzObdlULlD51l",
+            download:"https://ouo.io/hmILQpv",
+          },
+                                                          
         ],
       },
       
