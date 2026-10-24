@@ -90,7 +90,7 @@ export default function App() {
       }
     />
     <Route path="/series" element={<Series />} />
-
+  
   </Routes>
  
    <Footer/>

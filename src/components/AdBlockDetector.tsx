@@ -1,68 +1,69 @@
+
 import { useEffect, useState } from "react";
 
 export default function AdBlockDetector() {
   const [adBlockDetected, setAdBlockDetected] = useState(false);
+  const [checked, setChecked] = useState(false);
 
   useEffect(() => {
-    const checkAdBlock = () => {
-      // Elemento señuelo con nombres comúnmente bloqueados
-      const bait = document.createElement("div");
+    let active = true;
 
-      bait.className =
-        "ads ad-banner ad-container advertisement ad-unit adsbox";
+    const script = document.createElement("script");
+    script.src = "https://quge5.com/88/tag.min.js";
+    script.async = true;
+    script.dataset.zone = "88";
 
-      bait.style.position = "absolute";
-      bait.style.left = "-9999px";
-      bait.style.width = "1px";
-      bait.style.height = "1px";
+    const timeout = window.setTimeout(() => {
+      if (active) {
+        setAdBlockDetected(true);
+        setChecked(true);
+      }
+    }, 2000);
 
-      document.body.appendChild(bait);
-
-      setTimeout(() => {
-        const blocked =
-          bait.offsetHeight === 0 ||
-          bait.offsetParent === null ||
-          getComputedStyle(bait).display === "none" ||
-          getComputedStyle(bait).visibility === "hidden";
-
-        document.body.removeChild(bait);
-
-        if (blocked) {
-          setAdBlockDetected(true);
-        }
-      }, 200);
+    script.onload = () => {
+      window.clearTimeout(timeout);
+      if (active) setChecked(true);
     };
 
-    checkAdBlock();
+    script.onerror = () => {
+      window.clearTimeout(timeout);
+      if (active) {
+        setAdBlockDetected(true);
+        setChecked(true);
+      }
+    };
+
+    document.head.appendChild(script);
+
+    return () => {
+      active = false;
+      window.clearTimeout(timeout);
+      script.remove();
+    };
   }, []);
 
-  if (!adBlockDetected) return null;
+  if (!checked || !adBlockDetected) return null;
 
   return (
     <div className="fixed inset-0 z-[999999] bg-black flex items-center justify-center p-6">
-      <div className="max-w-md w-full bg-gray-900 border border-red-600 rounded-2xl p-6 text-center shadow-2xl">
-
-        <div className="text-5xl mb-4">
-          🚫
-        </div>
+      <div className="max-w-md w-full bg-gray-900 border border-red-600 rounded-2xl p-6 text-center">
+        <div className="text-5xl mb-4">🚫</div>
 
         <h2 className="text-2xl font-bold text-white mb-3">
           Bloqueador de anuncios detectado
         </h2>
 
-        <p className="text-gray-300 leading-relaxed">
-          MiraGratis se mantiene gracias a la publicidad.
-          Para continuar navegando, desactiva tu bloqueador de anuncios 
-          y recarga la página.
+        <p className="text-gray-300">
+          Miragratis se mantiene gracias a la publicidad.
+          Desactiva tu bloqueador y recarga la página para continuar.
         </p>
 
         <button
           onClick={() => window.location.reload()}
           className="mt-6 w-full bg-red-600 hover:bg-red-700 text-white font-bold py-3 rounded-xl transition"
         >
-          🔄 Ya lo desactivé, recargar página
+          🔄 Recargar página
         </button>
-
       </div>
     </div>
   );
