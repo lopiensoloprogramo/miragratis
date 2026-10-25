@@ -1901,4 +1901,25 @@ export const movies: Movie[] = [
         ],
               
 },
+{
+    id: "81",
+    title: "Street Fighter(2026) ",
+    year: 2026,
+    languaje:["Español latino"],
+    description:"En 1993, los distanciados luchadores callejeros Ryu y Ken Masters se ven arrastrados de nuevo al combate cuando la misteriosa Chun-Li los recluta para el próximo Torneo World Warrior: un enfrentamiento brutal de puños, destino y furia. Sin embargo, tras esta gran batalla se esconde una conspiración mortal que los obliga a enfrentarse tanto entre sí como a los demonios de su pasado. Y si no lo logran... ¡será el fin de la partida!",
+    trailer:"youtube:mzYHS4VIjgY",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCyNw8ngZ1WUynKkh-tMZ7uMW1CFJQnZww2E1qqBQxKA&s=10",
+    genre: ["Accion","Fantasia"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1acABNyZfzefoTs8SNiC6-AZzTwPzXwX3",
+            download:"https://ouo.io/Bq4S4i",
+          },
+
+ 
+        ],
+              
+},
 ];
