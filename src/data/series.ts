@@ -405,51 +405,58 @@ export const series: Serie[] = [
         episodes: [
           {
             title: "Episodio 1",
-            file: "migratisInvencible S1 E1.mp4",
-            download:"",
+            file: "drive:1PIw5sgUNyRGOa5-Yay-NpX4cERr6HOsd",
+            download:"https://ouo.io/AYnL48",
           },
           {
             title: "Episodio 2",
-            file: "migratisInvencible S1 E2.mp4",
-            download:"",
+            file: "drive:1lRNZHX7m_Bs8Lcs-sdWb5IjFvIjPSHFU",
+            download:"https://ouo.io/EA1IMYD",
           },
-        ],
-      },
-      {
-        seasonNumber: 2,
-        episodes: [
-          {
-            title: "Episodio 1",
-            file: "migratisInvencible S2 E1.mp4",
-            download:"",
+                    {
+            title: "Episodio 3",
+            file: "drive:1UkLdFRqMcgCwSEPcNbUDqLTb5WwYXKwQ",
+            download:"https://ouo.io/W9Uhcd",
           },
-        ],
-      },
-      {
-              seasonNumber: 3,
-        episodes: [
-          {
-            title: "Episodio 1",
-            file: "",
-            download:"",
+                    {
+            title: "Episodio 4",
+            file: "drive:15h8CpBuZXWasz9lM9wJ4_cn7_b2yzQxx",
+            download:"https://ouo.io/RHqVDb",
           },
-        ],
-      },
-      {
-              seasonNumber: 4,
-        episodes: [
-          {
-            title: "Episodio 1",
-            file: "migratisInvencible S4 Latino 01.mp4",
+                    {
+            title: "Episodio 5",
+            file: "drive:1xSwco1xrck-gHNDDtpwUZGHETIntC7Ph",
+            download:"https://ouo.io/LgHNVJ",
+          },
+                    {
+            title: "Episodio 6",
+            file: "drive:1bq-UwiIkIGIbjCBjgrxjHwdsOgWRDCMI/view",
+            download:"https://ouo.io/GnzEA3H",
+          },
+                    {
+            title: "Episodio 7",
+            file: "drive:",
             download:"",
           },
                     {
-            title: "Episodio 2",
-            file: "miragratisInvencible S4Latin02.mp4",
+            title: "Episodio 8",
+            file: "drive:",
+            download:"",
+          },
+                              {
+            title: "Episodio 9",
+            file: "drive:",
+            download:"",
+          },
+                              {
+            title: "Episodio 10",
+            file: "drive:",
             download:"",
           },
         ],
       },
+
+     
     ],
   },
      {
