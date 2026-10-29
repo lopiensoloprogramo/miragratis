@@ -1922,4 +1922,25 @@ export const movies: Movie[] = [
         ],
               
 },
+{
+    id: "82",
+    title: "La guerra de los últimos(2026) ",
+    year: 2026,
+    languaje:["Español latino"],
+    description:"En un mundo postapocalíptico, un virus aniquila a prácticamente toda la humanidad. Los supervivientes se enfrentan a unos carroñeros errantes llamados'Segadores'. El protagonista, Hig, un piloto, sobrevivió a la gripe pero perdió a su mujer.",
+    trailer:"youtube:8E1pkrmZQ0o",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcjCc4sbN6h9XjsPIWc-eMG-L-rtzU27bSbTSzeEc08HutDm8yPyaOjUWT&s=10",
+    genre: ["Accion","Aventura","Ciencia Ficción","Fantasia"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1sLn09BagFZNhBUm8XHIMrHNF15X3Aa9r",
+            download:"https://ouo.io/aCdIqO",
+          },
+
+ 
+        ],
+              
+},
 ];
