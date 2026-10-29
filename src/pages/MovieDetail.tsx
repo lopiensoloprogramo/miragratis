@@ -26,24 +26,9 @@ export default function MovieDetail() {
   };
 
   // 🔥 ADS CONTROL
-  const openAddirecto = () => {
-    let clicks = parseInt(localStorage.getItem("ad_clicks") || "0");
-
-    // primer click SIEMPRE abre
-    if (clicks === 0) {
-      window.open("https://omg10.com/4/10893314", "_blank");
-      clicks = 1;
-    } else {
-      clicks++;
-
-      // cada 2 clics
-      if (clicks % 1 !== 0) {
-        window.open("https://omg10.com/4/10893314", "_blank");
-      }
-    }
-
-    localStorage.setItem("ad_clicks", clicks.toString());
-  };
+const openAddirecto = () => {
+  window.open("https://omg10.com/4/10893314", "_blank");
+};
 
 const normalizeText = (text: string) =>
   text
@@ -181,7 +166,7 @@ const relatedMovies = movies
                   <button
                     key={index}
                     onClick={() => {
-                      openAddirecto();
+                    
                       setSelectedOption(op);
 
                       setTimeout(() => {
@@ -208,11 +193,15 @@ const relatedMovies = movies
           )}
 
           {/* 🎬 PLAYER */}
-          {selectedOption && (
-            <div ref={playerRef} className="scroll-mt-24">
-              <VideoPlayer item={selectedOption.file} />
-            </div>
-          )}
+              {selectedOption && (
+                <div
+                  ref={playerRef}
+                  className="scroll-mt-24"
+                  onClick={openAddirecto}
+                >
+                  <VideoPlayer item={selectedOption.file} />
+                </div>
+              )}
             <button
               onClick={() => {
                 setSelectedOption(null);
@@ -242,7 +231,7 @@ const relatedMovies = movies
                     <button
                       key={index}
                       onClick={() => {
-                        openAddirecto();
+                   
 
                         window.location.href = `/go/movie-${movie.id}-${index}`;
                       }}
