@@ -19,10 +19,10 @@ export default function HeroBanner({ serie }: { serie: Serie }) {
 
       {/* contenido */}
       <div className="absolute bottom-10 left-10 max-w-xl">
-        <h1 className="text-4xl text-sky-600 font-bold mb-4">{"Black Clover Temporada 2"}</h1>
+        <h1 className="text-4xl text-sky-600 font-bold mb-4">{ "IT: Bienvenidos a Derry"}</h1>
 
         <p className="text-gray-300 mb-4 line-clamp-3">
-          {"Capitulo especial por Halloween de la famosa serie de IT, Welcome to Derry"}
+          {"CAPITULO ESPECIAL por Halloween de la famosa serie de IT, Welcome to Derry"}
         </p>
 
         <Link to={`/serie/${(serie.id).replace("1","8")}`}>
