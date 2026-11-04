@@ -1,12 +1,13 @@
+
 import { useParams } from "react-router-dom";
 import { movies } from "../data/movies";
 import VideoPlayer from "../components/VideoPlayer";
 import { useState, useRef } from "react";
 import AnuncioSidebar from "../components/AnunciosSidebar";
-import qryape from '../assets/yape-qr.png'
+import qryape from "../assets/yape-qr.png";
 import MovieRow from "../components/MovieRow";
 import ImageGallery from "../components/ImageGallery";
-import donarmeme from '../assets/donarmeme.jpg'
+import donarmeme from "../assets/donarmeme.jpg";
 
 export default function MovieDetail() {
   const { id } = useParams();
@@ -20,68 +21,57 @@ export default function MovieDetail() {
   const [showDownloadOptions, setShowDownloadOptions] = useState(false);
   const [showOptions, setShowOptions] = useState(false);
   const [mode, setMode] = useState<"view" | "download" | null>(null);
-  // 🔥 SCROLL
+
+  // SCROLL
   const scrollToPlayer = () => {
     playerRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
-  // 🔥 ADS CONTROL
-const openAddirecto = () => {
-  window.open("https://omg10.com/4/10893314", "_blank");
-};
+  // ADS CONTROL
+  const openAddirecto = () => {
+    window.open("https://omg10.com/4/10893314", "_blank");
+  };
 
-const normalizeText = (text: string) =>
-  text
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^a-z0-9\s]/g, "")
-    .split(" ")
-    .filter(word => word.length > 2);
+  const normalizeText = (text: string) =>
+    text
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^a-z0-9\s]/g, "")
+      .split(" ")
+      .filter((word) => word.length > 2);
 
+  const normalize = (genres: string[]) =>
+    genres.map((g) => g.trim().toLowerCase());
 
-const normalize = (genres: string[]) =>
-  genres.map((g) => g.trim().toLowerCase());
+  const movieGenres = normalize(movie.genre);
+  const movieTitleWords = normalizeText(movie.title);
 
+  const relatedMovies = movies
+    .filter((m) => m.id !== movie.id)
+    .map((m) => {
+      const genres = normalize(m.genre);
 
-const movieGenres = normalize(movie.genre);
-const movieTitleWords = normalizeText(movie.title);
+      const genreMatches = genres.filter((g) =>
+        movieGenres.includes(g)
+      ).length;
 
+      const titleWords = normalizeText(m.title);
 
-const relatedMovies = movies
-  .filter((m) => m.id !== movie.id)
-  .map((m) => {
+      const titleMatches = titleWords.filter((word) =>
+        movieTitleWords.includes(word)
+      ).length;
 
-    const genres = normalize(m.genre);
+      const score = titleMatches * 100 + genreMatches * 2;
 
-    // Coincidencia de géneros
-    const genreMatches = genres.filter((g) =>
-      movieGenres.includes(g)
-    ).length;
-
-
-    // Coincidencia de palabras del título
-    const titleWords = normalizeText(m.title);
-
-    const titleMatches = titleWords.filter(word =>
-      movieTitleWords.includes(word)
-    ).length;
-
-
-    // Puntaje final
-    const score =
-      (titleMatches * 100) +
-      (genreMatches * 2);
-
-
-    return {
-      movie: m,
-      score
-    };
-  })
-  .filter((x) => x.score > 0)
-  .sort((a, b) => b.score - a.score)
-  .map((x) => x.movie);
+      return {
+        movie: m,
+        score,
+      };
+    })
+    .filter((x) => x.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .map((x) => x.movie);
 
   return (
     <div className="p-4 md:p-6 text-white max-w-9xl mx-auto">
@@ -101,7 +91,7 @@ const relatedMovies = movies
               <h1 className="text-2xl md:text-4xl text-blue-950 font-bold">
                 {movie.title}
               </h1>
-              
+
               <p className="text-gray-400 text-sm md:text-base">
                 {movie.year}
               </p>
@@ -114,7 +104,7 @@ const relatedMovies = movies
                 {movie.description}
               </p>
 
-              {/* TRAILER */}
+              {/* TRAILER: SIN BLOQUEO */}
               {movie.trailer && (
                 <div className="mt-4">
                   <h3 className="text-black font-semibold mb-2">
@@ -133,178 +123,169 @@ const relatedMovies = movies
           {movie.opcion?.length > 0 && (
             <div className="space-y-3">
 
-            <div className="flex items-center gap-3 flex-wrap">
+              <div className="flex items-center gap-3 flex-wrap">
 
-              {/* 🎬 VER */}
-            <button
-              onClick={() => {
-                openAddirecto();
-                setMode("view");
-                setShowDownloadOptions(false);
-                setShowOptions(true);
-              }}
-              className={`font-bold py-2 px-5 rounded shadow transition ${
-                mode === "view"
-                  ? "bg-blue-700  ring-2 ring-blue-300"
-                  : "bg-blue-600 hover:bg-blue-700"
-              }`}
-            >
-              🎬 VER AHORA
-            </button>
-
-              {/* ⬇️ DESCARGAR */}
-
-            
-            </div>
-
-              {/* 🎬 OPCIONES DE REPRODUCCIÓN */}
-                {showOptions &&!showDownloadOptions&& (
-                  
-              <div className="flex gap-3 flex-wrap">
-                <p className="text-black">Elije entre las opciones</p>
-                {movie.opcion.map((op, index) => (
-                  <button
-                    key={index}
-                    onClick={() => {
-                    
-                      setSelectedOption(op);
-
-                      setTimeout(() => {
-                        scrollToPlayer();
-                      }, 100);
-                    }}
-                    className={`px-4 py-2 rounded text-sm transition ${
-                      selectedOption?.file === op.file
-                        ? "bg-blue-600"
-                        : "bg-blue-500 hover:bg-blue-700"
-                    }`}
-                  >
-                    ▶ {op.title}
-                  </button>
-                ))}
-                
-              </div>
-                )}
-
-
-
-            </div>
-            
-          )}
-
-          {/* 🎬 PLAYER */}
-              {selectedOption && (
-                <div
-                  ref={playerRef}
-                  className="scroll-mt-24"
-                  onClick={openAddirecto}
+                {/* VER */}
+                <button
+                  onClick={() => {
+                    openAddirecto();
+                    setMode("view");
+                    setShowDownloadOptions(false);
+                    setShowOptions(true);
+                  }}
+                  className={`font-bold py-2 px-5 rounded shadow transition ${
+                    mode === "view"
+                      ? "bg-blue-700 ring-2 ring-blue-300"
+                      : "bg-blue-600 hover:bg-blue-700"
+                  }`}
                 >
-                  <VideoPlayer item={selectedOption.file} />
-                </div>
-              )}
-            <button
-              onClick={() => {
-                setSelectedOption(null);
-                setMode("download");
-                setShowDownloadOptions(true);
-                setShowOptions(true);
-              }}
-              className={`font-bold py-2 px-5 rounded shadow transition ${
+                  🎬 VER AHORA
+                </button>
 
-                mode === "download"
-                  ? "bg-green-700  ring-2 ring-green-300"
-                  : "bg-green-700 hover:bg-green-600"
-                
-              }`
-            
-            }
-            >
-              ⬇️ DESCARGAR
-            </button>
-                          {/* ⬇️ OPCIONES DE DESCARGA */}
-              { showOptions&&showDownloadOptions && (
-                
-                <div className="flex gap-3 flex-wrap mt-3">
-                  <p className="text-black">Elije entre las opciones</p>
+              </div>
+
+              {/* OPCIONES DE REPRODUCCIÓN */}
+              {showOptions && !showDownloadOptions && (
+                <div className="flex gap-3 flex-wrap">
+                  <p className="text-black">
+                    Elije entre las opciones
+                  </p>
+
                   {movie.opcion.map((op, index) => (
-                    
                     <button
                       key={index}
                       onClick={() => {
-                   
+                        setSelectedOption(op);
 
-                        window.location.href = `/go/movie-${movie.id}-${index}`;
+                        setTimeout(() => {
+                          scrollToPlayer();
+                        }, 100);
                       }}
-                      className="px-4 py-2 rounded text-sm bg-green-700 hover:bg-green-600 "
+                      className={`px-4 py-2 rounded text-sm transition ${
+                        selectedOption?.file === op.file
+                          ? "bg-blue-600"
+                          : "bg-blue-500 hover:bg-blue-700"
+                      }`}
                     >
-                      ⬇ {op.title}
+                      ▶ {op.title}
                     </button>
                   ))}
-                  
                 </div>
               )}
+            </div>
+          )}
+
+          {/* PLAYER: SEIS CLICS */}
+          {selectedOption && (
+            <div
+              ref={playerRef}
+              className="scroll-mt-24"
+            >
+              <VideoPlayer
+                item={selectedOption.file}
+                requireClicks={true}
+                showAd={true}
+              />
+            </div>
+          )}
+
+          {/* DESCARGAR */}
+          <button
+            onClick={() => {
+              setSelectedOption(null);
+              setMode("download");
+              setShowDownloadOptions(true);
+              setShowOptions(true);
+            }}
+            className={`font-bold py-2 px-5 rounded shadow transition ${
+              mode === "download"
+                ? "bg-green-700 ring-2 ring-green-300"
+                : "bg-green-700 hover:bg-green-600"
+            }`}
+          >
+            ⬇️ DESCARGAR
+          </button>
+
+          {/* OPCIONES DE DESCARGA */}
+          {showOptions && showDownloadOptions && (
+            <div className="flex gap-3 flex-wrap mt-3">
+              <p className="text-black">
+                Elije entre las opciones
+              </p>
+
+              {movie.opcion.map((op, index) => (
+                <button
+                  key={index}
+                  onClick={() => {
+                    window.location.href = `/go/movie-${movie.id}-${index}`;
+                  }}
+                  className="px-4 py-2 rounded text-sm bg-green-700 hover:bg-green-600"
+                >
+                  ⬇ {op.title}
+                </button>
+              ))}
+            </div>
+          )}
 
         </div>
 
         {/* DERECHA */}
         <div className="block md:block">
+          <div className="bg-gray-900 p-3 rounded-lg sticky top-6 text-sm">
 
-             <div className="bg-gray-900 p-3 rounded-lg sticky top-6 text-sm">
+            <button
+              onClick={() =>
+                window.open(
+                  "https://www.facebook.com/profile.php?id=61574281967368",
+                  "_blank"
+                )
+              }
+              className="w-full bg-blue-600 px-4 py-2 rounded text-white"
+            >
+              👍 Síguenos en Facebook
+            </button>
 
-                <button
-                  onClick={() =>
-                    window.open(
-                      "https://www.facebook.com/profile.php?id=61574281967368",
-                      "_blank"
-                    )
-                  }
-                  className="w-full bg-blue-600 px-4 py-2 rounded text-white"
-                >
-                  👍 Síguenos en Facebook
-                </button>
+            <div className="mt-4 border-t border-gray-700 pt-4 mb-0 text-center">
+              <p className="text-white font-semibold">
+                ❤️ Apoya MiraGratis
+              </p>
 
-                <div className="mt-4 border-t border-gray-700 pt-4 mb-0 text-center">
-                  <p className="text-white font-semibold">
-                     ❤️ Apoya MiraGratis
-                  </p>
-                  <p>
-                    <img src={donarmeme}
-                    className="w-30 mx-auto mt-2 rounde-lg"
-                    /> 
-                  </p>
-                  <img
-                    src={qryape}
-                    alt="Yape"
-                    className="w-24 mx-auto mt-2 rounded-lg"
-                  />
+              <p>
+                <img
+                  src={donarmeme}
+                  className="w-30 mx-auto mt-2 rounde-lg"
+                />
+              </p>
 
+              <img
+                src={qryape}
+                alt="Yape"
+                className="w-24 mx-auto mt-2 rounded-lg"
+              />
 
-                  <p className="text-green-400 text-sm mt-2">
-                      Ayuda a mantener la web
-                  </p>
-                  
-                </div>
-                <ImageGallery images={movie.gallery} />
+              <p className="text-green-400 text-sm mt-2">
+                Ayuda a mantener la web
+              </p>
             </div>
-                  
 
-
+            <ImageGallery images={movie.gallery} />
+          </div>
 
           <AnuncioSidebar />
         </div>
-
       </div>
-                    <div >
-                                    {relatedMovies.length > 0 && (
-                        <div className="mt-8 text-black font-semibold">
-                          <MovieRow
-                            title="🍿 Películas relacionadas"
-                            items={relatedMovies}
-                          />
-                        </div>
-                      )}
-              </div>
+
+      {/* PELÍCULAS RELACIONADAS */}
+      <div>
+        {relatedMovies.length > 0 && (
+          <div className="mt-8 text-black font-semibold">
+            <MovieRow
+              title="🍿 Películas relacionadas"
+              items={relatedMovies}
+            />
+          </div>
+        )}
+      </div>
     </div>
-    
   );
 }
