@@ -1943,4 +1943,25 @@ export const movies: Movie[] = [
         ],
               
 },
+{
+    id: "83",
+    title: "Avengers: Infinity War",
+    year: 2018,
+    languaje:["Español latino"],
+    description:"Los Vengadores y sus aliados deben estar dispuestos a sacrificarlo todo para intentar derrotar al poderoso Thanos antes de que su ataque de devastación y ruina ponga fin al universo.",
+    trailer:"youtube:3xk11d9hjp0",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3MruClqA8Ym7amzIcIDLxjXnlyidDBdO4vJ8QBPghyA&s=10",
+    genre: ["Accion","Aventura","Marvel","Super Heroes","Ciencia Ficción","Fantasia"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1nKzILKR0tPloGVBDJK84RZobyQMEaXyu",
+            download:"https://ouo.io/eps37q",
+          },
+
+ 
+        ],
+              
+},
 ];
