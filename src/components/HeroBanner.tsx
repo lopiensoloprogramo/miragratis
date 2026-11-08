@@ -19,10 +19,10 @@ export default function HeroBanner({ serie }: { serie: Serie }) {
 
       {/* contenido */}
       <div className="absolute bottom-10 left-10 max-w-xl">
-        <h1 className="text-4xl text-sky-600 font-bold mb-4">{ "Black Clover Season 2"}</h1>
+        <h1 className="text-4xl text-sky-600 font-bold mb-4">{ "Black Clover Season 2 ESTRENO DE NUEVO CAPITULO 6"}</h1>
 
         <p className="text-gray-300 mb-4 line-clamp-3">
-          {"Black Clover Season 2 ESTRENO DE NUEVO CAPITULO 6"}
+          {"Una violencia sin precedentes ha traído el caos al Reino del Trébol. La irrupción de la “Tríada Oscura” (Dark Triad), que alberga el poder de demonios de alto rango. Ni siquiera los capitanes de los Caballeros Mágicos pudieron resistir y fueron llevados; la última esperanza se derrumbó. En una situación desesperada, sin embargo, hay quien sigue levantándose una y otra vez.En un mundo donde la magia lo es todo, el único ser que está fuera de las leyes de la magia: Asta."}
         </p>
 
         <Link to={`/serie/${(serie.id).replace("1","16")}`}>
