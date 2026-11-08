@@ -4,10 +4,8 @@ import { movies } from "../data/movies";
 import VideoPlayer from "../components/VideoPlayer";
 import { useState, useRef } from "react";
 import AnuncioSidebar from "../components/AnunciosSidebar";
-import qryape from "../assets/yape-qr.png";
 import MovieRow from "../components/MovieRow";
 import ImageGallery from "../components/ImageGallery";
-import donarmeme from "../assets/donarmeme.jpg";
 
 export default function MovieDetail() {
   const { id } = useParams();
