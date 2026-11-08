@@ -247,25 +247,10 @@ export default function MovieDetail() {
 
             <div className="mt-4 border-t border-gray-700 pt-4 mb-0 text-center">
               <p className="text-white font-semibold">
-                ❤️ Apoya MiraGratis
+                Unete al grupo de Telegram y olvidate de los anuncios
               </p>
 
-              <p>
-                <img
-                  src={donarmeme}
-                  className="w-30 mx-auto mt-2 rounde-lg"
-                />
-              </p>
-
-              <img
-                src={qryape}
-                alt="Yape"
-                className="w-24 mx-auto mt-2 rounded-lg"
-              />
-
-              <p className="text-green-400 text-sm mt-2">
-                Ayuda a mantener la web
-              </p>
+           
             </div>
 
             <ImageGallery images={movie.gallery} />

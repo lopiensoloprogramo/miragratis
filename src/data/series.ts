@@ -1410,7 +1410,11 @@ export const series: Serie[] = [
             file: "drive:1cqtXVPkny5-9O6OVXxfjfWJyEWF_Aqhy",
             download:"https://ouo.io/Npxuf4",
           },
-                                                          
+                                         {
+            title: "Episodio 6",
+            file: "drive:1QCyp834bnrTINU8oYJgoWHj8xj0iFbrv",
+            download:"https://ouo.io/2uqGhl1",
+          },                                     
         ],
       },
       
