@@ -13,7 +13,7 @@ import MomentosPage from "./pages/MomentosPage";
 import MomentoDetail from "./pages/MomentoDetail";
 import Peliculas from "./pages/Peliculas";
 import Series from "./pages/Series";
-
+import Vip from "./pages/Vip";
 
 export default function App() {
 
@@ -90,9 +90,16 @@ export default function App() {
       }
     />
     <Route path="/series" element={<Series />} />
-  
+        <Route
+        path="/vip"
+        element={
+          <div className="pt-14">
+            <Vip />
+          </div>
+        }
+      />
   </Routes>
- 
+
    <Footer/>
    
 </Router>
