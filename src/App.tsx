@@ -14,6 +14,8 @@ import MomentoDetail from "./pages/MomentoDetail";
 import Peliculas from "./pages/Peliculas";
 import Series from "./pages/Series";
 import Vip from "./pages/Vip";
+import VipAdmin from "./pages/VipAdmin";
+
 
 export default function App() {
 
@@ -95,6 +97,15 @@ export default function App() {
         element={
           <div className="pt-14">
             <Vip />
+          </div>
+        }
+      />
+
+      <Route
+        path="/vip-admin"
+        element={
+          <div className="pt-14">
+            <VipAdmin />
           </div>
         }
       />
