@@ -9,6 +9,7 @@ const MAX_FILE_SIZE = 2 * 1024 * 1024;
 export default function Vip() {
   const [name, setName] = useState("");
   const [telegram, setTelegram] = useState("");
+  const [email, setEmail] = useState("");
   const [file, setFile] = useState<File | null>(null);
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
@@ -44,6 +45,7 @@ export default function Vip() {
 
     const cleanName = name.trim();
     const cleanTelegram = telegram.trim().replace(/^@/, "");
+    const cleanEmail = email.trim().toLowerCase();
 
     if (cleanName.length < 2) {
       setMessage("Escribe tu nombre.");
@@ -52,6 +54,11 @@ export default function Vip() {
 
     if (!/^[a-zA-Z0-9_]{5,32}$/.test(cleanTelegram)) {
       setMessage("Escribe un usuario válido de Telegram.");
+      return;
+    }
+
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(cleanEmail)) {
+      setMessage("Escribe un correo electrónico válido.");
       return;
     }
 
@@ -87,13 +94,14 @@ export default function Vip() {
           action: "submit",
           name: cleanName,
           telegram: cleanTelegram,
+          email: cleanEmail,
           fileName: file.name,
           mimeType: file.type,
           fileBase64: base64,
         }),
       });
 
-     const responseText = await response.text();
+      const responseText = await response.text();
 
       console.log("Estado HTTP:", response.status);
       console.log("Respuesta del servidor:", responseText);
@@ -116,11 +124,12 @@ export default function Vip() {
 
       setSuccess(true);
       setMessage(
-        "¡Comprobante recibido! Revisaremos tu pago y te daremos acceso cuando sea aprobado."
+        "¡Comprobante recibido! Revisaremos tu pago y te enviaremos la invitación por correo cuando sea aprobado."
       );
 
       setName("");
       setTelegram("");
+      setEmail("");
       setFile(null);
 
       if (fileRef.current) {
@@ -252,6 +261,22 @@ export default function Vip() {
                 className="w-full bg-transparent px-2 py-3 outline-none"
               />
             </div>
+
+            <label className="block text-sm font-semibold mb-2">
+              Correo electrónico
+            </label>
+
+            <input
+              type="email"
+              value={email}
+              onChange={(e: ChangeEvent<HTMLInputElement>) =>
+                setEmail(e.target.value)
+              }
+              placeholder="tucorreo@gmail.com"
+              maxLength={120}
+              required
+              className="w-full bg-[#292929] border border-white/10 rounded-xl px-4 py-3 mb-5 outline-none focus:border-red-500"
+            />
 
             <label className="block text-sm font-semibold mb-2">
               Comprobante de Yape
