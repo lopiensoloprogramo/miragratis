@@ -56,11 +56,10 @@ export default function Vip() {
       setMessage("Escribe un usuario válido de Telegram.");
       return;
     }
-
-    if (/^[a-zA-Z0-9._%+-]+@gmail\.com$/i.test(cleanEmail)) {
-      setMessage("Escribe un correo electrónico válido.");
-      return;
-    }
+  if (!/^[a-zA-Z0-9._%+-]+@gmail\.com$/i.test(cleanEmail)) {
+    setMessage("Ingresa un correo Gmail válido, por ejemplo: usuario@gmail.com");
+    return;
+  }
 
     if (!file) {
       setMessage("Adjunta tu comprobante de Yape.");
