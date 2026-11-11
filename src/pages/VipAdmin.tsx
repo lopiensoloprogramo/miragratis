@@ -10,13 +10,17 @@ import {
   ExternalLink,
   Copy,
   Clock,
-  Users
+  Users,
+  Mail,
+  AlertCircle
 } from "lucide-react";
 
 interface VipRequest {
   row: number;
   name: string;
   telegram: string;
+  email?: string;
+  emailStatus?: string;
   date?: string;
   status: "PENDIENTE" | "APROBADO" | "RECHAZADO";
   receipt?: string;
@@ -28,6 +32,7 @@ interface ApiResponse {
   message?: string;
   data?: VipRequest[] & {
     invitation?: string;
+    emailStatus?: string;
     message?: string;
   };
 }
@@ -144,7 +149,7 @@ export default function VipAdmin() {
   ) {
     const confirmation =
       action === "approve"
-        ? "¿Confirmas que deseas aprobar este pago y generar su enlace de Telegram?"
+        ? "¿Confirmas que deseas aprobar este pago y enviar su enlace de Telegram por correo?"
         : "¿Confirmas que deseas rechazar esta solicitud?";
 
     if (!window.confirm(confirmation)) return;
@@ -156,14 +161,14 @@ export default function VipAdmin() {
     try {
       const result = await apiRequest(action, { row });
 
-      if (action === "approve" && result.data?.invitation) {
+      if (action === "approve") {
         setMessage(
-          "Solicitud aprobada. Enlace de invitación: " +
-            result.data.invitation
+          result.data?.message ||
+          "Solicitud aprobada. Revisa el estado del correo."
         );
       } else {
         setMessage(
-          result.data?.message || "Operación realizada correctamente."
+          result.data?.message || "Solicitud rechazada correctamente."
         );
       }
 
@@ -174,6 +179,15 @@ export default function VipAdmin() {
       );
     } finally {
       setBusyRow(null);
+    }
+  }
+
+  async function copyText(value: string) {
+    try {
+      await navigator.clipboard.writeText(value);
+      setMessage("Copiado correctamente.");
+    } catch {
+      setError("No se pudo copiar. Inténtalo manualmente.");
     }
   }
 
@@ -284,17 +298,6 @@ export default function VipAdmin() {
         {message && (
           <div className="mb-5 break-words rounded-xl border border-green-500/30 bg-green-500/10 p-4 text-sm text-green-300">
             {message}
-            {message.includes("https://t.me/") && (
-              <button
-                onClick={() => {
-                  const link = message.match(/https:\/\/t\.me\/\S+/)?.[0];
-                  if (link) navigator.clipboard.writeText(link);
-                }}
-                className="ml-2 inline-flex items-center gap-1 underline"
-              >
-                <Copy size={14} /> Copiar enlace
-              </button>
-            )}
           </div>
         )}
 
@@ -351,9 +354,26 @@ export default function VipAdmin() {
                       <h3 className="font-semibold text-white">
                         {item.name}
                       </h3>
+
                       <p className="mt-1 text-sm text-purple-300">
                         {item.telegram}
                       </p>
+
+                      <div className="mt-3 flex flex-wrap items-center gap-2 text-sm text-slate-300">
+                        <Mail size={15} className="text-slate-400" />
+                        <span>{item.email || "Sin correo registrado"}</span>
+
+                        {item.email && (
+                          <button
+                            onClick={() => copyText(item.email!)}
+                            title="Copiar correo"
+                            className="text-slate-400 hover:text-white"
+                          >
+                            <Copy size={14} />
+                          </button>
+                        )}
+                      </div>
+
                       <p className="mt-2 text-xs text-slate-500">
                         {item.date
                           ? new Date(item.date).toLocaleString("es-PE")
@@ -362,6 +382,33 @@ export default function VipAdmin() {
                     </div>
 
                     <StatusBadge status={item.status} />
+                  </div>
+
+                  <div className="mt-4 flex flex-wrap items-center gap-2">
+                    <span className="text-xs text-slate-400">
+                      Estado del correo:
+                    </span>
+
+                    {item.emailStatus === "ENVIADO" ? (
+                      <span className="inline-flex items-center gap-1 rounded-full border border-green-500/20 bg-green-500/10 px-3 py-1 text-xs font-semibold text-green-400">
+                        <CheckCircle size={13} />
+                        Enviado
+                      </span>
+                    ) : item.emailStatus === "ERROR" ? (
+                      <span className="inline-flex items-center gap-1 rounded-full border border-red-500/20 bg-red-500/10 px-3 py-1 text-xs font-semibold text-red-400">
+                        <AlertCircle size={13} />
+                        Error de envío
+                      </span>
+                    ) : item.status === "PENDIENTE" ? (
+                      <span className="inline-flex items-center gap-1 rounded-full border border-yellow-500/20 bg-yellow-500/10 px-3 py-1 text-xs font-semibold text-yellow-400">
+                        <Clock size={13} />
+                        Pendiente de aprobación
+                      </span>
+                    ) : (
+                      <span className="inline-flex items-center gap-1 rounded-full border border-slate-700 bg-slate-800 px-3 py-1 text-xs font-semibold text-slate-400">
+                        Sin información
+                      </span>
+                    )}
                   </div>
 
                   <div className="mt-4 flex flex-wrap gap-3">
@@ -406,15 +453,25 @@ export default function VipAdmin() {
                     )}
 
                     {item.invitation && (
-                      <a
-                        href={item.invitation}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 rounded-lg border border-green-700 px-3 py-2 text-sm text-green-300 hover:bg-green-950"
-                      >
-                        <ExternalLink size={15} />
-                        Enlace de invitación
-                      </a>
+                      <>
+                        <a
+                          href={item.invitation}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 rounded-lg border border-green-700 px-3 py-2 text-sm text-green-300 hover:bg-green-950"
+                        >
+                          <ExternalLink size={15} />
+                          Enlace de invitación
+                        </a>
+
+                        <button
+                          onClick={() => copyText(item.invitation!)}
+                          className="inline-flex items-center gap-2 rounded-lg border border-slate-700 px-3 py-2 text-sm hover:bg-slate-800"
+                        >
+                          <Copy size={15} />
+                          Copiar enlace
+                        </button>
+                      </>
                     )}
                   </div>
                 </article>
