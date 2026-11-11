@@ -154,7 +154,7 @@ export default async function handler(req, res) {
           success: false,
           message: "Acción no válida"
         });
-      }
+      } 
     }
 
     if (!scriptUrl) {
