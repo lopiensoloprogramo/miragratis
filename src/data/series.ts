@@ -460,6 +460,17 @@ export const series: Serie[] = [
           },
         ],
       },
+       {
+        seasonNumber: 9,
+        episodes: [
+          {
+            title: "Episodio 1",
+            file: "mega:qFBSEZqQ#QHayXKv9d9itRd8DI1IuUkPKa6Kfik9DVl2nGNJDnrE",
+            download:"https://ouo.io/W2mEgf",
+          },
+         
+        ],
+      },
 
      
     ],
