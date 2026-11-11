@@ -89,7 +89,7 @@ export default async function handler(req, res) {
     const sessionSecret = process.env.VIP_SESSION_SECRET;
 
     if (!adminPassword || !sessionSecret || sessionSecret.length < 32) {
-    throw new Error("Falta configurar correctamente la autenticación VIP");
+      throw new Error("Falta configurar correctamente la autenticación VIP");
     }
 
     const payload =
@@ -148,16 +148,19 @@ export default async function handler(req, res) {
         });
       }
 
-      if (!["list", "approve", "reject"].includes(action)) {
+      // Incluimos renew entre las acciones protegidas.
+      if (!["list", "approve", "reject", "renew"].includes(action)) {
         return res.status(400).json({
           success: false,
           message: "Acción no válida"
         });
       }
     }
-        if (!scriptUrl) {
-        throw new Error("Falta configurar GOOGLE_APPS_SCRIPT_URL");
-        }
+
+    if (!scriptUrl) {
+      throw new Error("Falta configurar GOOGLE_APPS_SCRIPT_URL");
+    }
+
     // La contraseña administrativa se agrega únicamente en el servidor.
     const backendPayload =
       action === "submit"

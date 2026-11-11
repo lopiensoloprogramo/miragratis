@@ -37,7 +37,13 @@ interface ApiResponse {
   };
 }
 
-type VipAction = "login" | "logout" | "list" | "approve" | "reject";
+type VipAction =
+  | "login"
+  | "logout"
+  | "list"
+  | "approve"
+  | "reject"
+  | "renew";
 
 interface StatCardProps {
   icon: ReactNode;
@@ -144,13 +150,21 @@ export default function VipAdmin() {
   }
 
   async function handleAction(
-    action: "approve" | "reject",
+    action: "approve" | "reject" | "renew",
     row: number
   ) {
-    const confirmation =
-      action === "approve"
-        ? "¿Confirmas que deseas aprobar este pago y enviar su enlace de Telegram por correo?"
-        : "¿Confirmas que deseas rechazar esta solicitud?";
+    let confirmation = "";
+
+    if (action === "approve") {
+      confirmation =
+        "¿Confirmas que deseas aprobar este pago y enviar su enlace de Telegram por correo?";
+    } else if (action === "reject") {
+      confirmation =
+        "¿Confirmas que deseas rechazar esta solicitud?";
+    } else {
+      confirmation =
+        "¿Deseas generar un nuevo enlace de Telegram y enviarlo al Gmail registrado? Se intentará revocar el enlace anterior.";
+    }
 
     if (!window.confirm(confirmation)) return;
 
@@ -165,6 +179,11 @@ export default function VipAdmin() {
         setMessage(
           result.data?.message ||
           "Solicitud aprobada. Revisa el estado del correo."
+        );
+      } else if (action === "renew") {
+        setMessage(
+          result.data?.message ||
+          "Se generó el nuevo acceso. Revisa el estado del correo."
         );
       } else {
         setMessage(
@@ -472,6 +491,26 @@ export default function VipAdmin() {
                           Copiar enlace
                         </button>
                       </>
+                    )}
+
+                    {item.status === "APROBADO" && (
+                      <button
+                        onClick={() =>
+                          handleAction("renew", item.row)
+                        }
+                        disabled={busyRow === item.row}
+                        className="inline-flex items-center gap-2 rounded-lg bg-purple-600 px-3 py-2 text-sm font-semibold hover:bg-purple-500 disabled:opacity-50"
+                      >
+                        <RefreshCw
+                          size={15}
+                          className={
+                            busyRow === item.row ? "animate-spin" : ""
+                          }
+                        />
+                        {busyRow === item.row
+                          ? "Generando acceso..."
+                          : "Generar nuevo acceso"}
+                      </button>
                     )}
                   </div>
                 </article>
