@@ -15,7 +15,7 @@ export default function VideoPlayer({
   const [clickCount, setClickCount] = useState(0);
   const [unlocked, setUnlocked] = useState(false);
 
-  const MAX_CLICKS = 6;
+  const MAX_CLICKS = 8;
 
   // Detectar tipos
   const isDrive = item?.startsWith("drive:");

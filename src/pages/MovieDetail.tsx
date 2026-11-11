@@ -73,7 +73,7 @@ export default function MovieDetail() {
 
   return (
     <div className="p-4 md:p-6 text-white max-w-9xl mx-auto">
-      <div className="grid grid-cols-1 md:grid-cols-[4fr_1fr] gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-[3fr_1fr] gap-6">
 
         {/* IZQUIERDA */}
         <div className="space-y-6 w-full">
@@ -242,13 +242,41 @@ export default function MovieDetail() {
             >
               👍 Síguenos en Facebook
             </button>
+            <div className="mt-5 mb-1 border-t border-gray-700 pt-5">
+              <div className="relative overflow-hidden rounded-2xl border border-purple-500/30 bg-gradient-to-br from-[#24183e] via-[#19142c] to-[#111827] p-5 text-center shadow-lg">
 
-            <div className="mt-4 border-t border-gray-700 pt-4 mb-0 text-center">
-              <p className="text-white font-semibold">
-                Unete al grupo de Telegram y olvidate de los anuncios
-              </p>
+                <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-purple-400/30 bg-purple-500/10 px-3 py-1 text-xs font-bold tracking-wider text-purple-300">
+                  ⭐ MIRAGRATIS VIP
+                </div>
 
-           
+                <h3 className="mb-2 text-xl font-extrabold text-white">
+                  ¡Disfruta sin interrupciones!
+                </h3>
+
+                <p className="mx-auto mb-4 max-w-sm text-sm leading-relaxed text-gray-300">
+                  Únete a nuestra comunidad VIP de Telegram y disfruta de una experiencia más cómoda, sin anuncios durante la reproducción.
+                </p>
+
+                <div className="mb-5 flex flex-col gap-2 text-sm text-gray-200">
+                  <span>✓ Experiencia sin interrupciones publicitarias</span>
+                  <span>✓ Acceso a nuestra comunidad VIP</span>
+                  <span>✓ Acceso exclusivo para miembros</span>
+                  <span>✓ Soporte técnico y ayuda</span>
+                </div>
+
+                <a
+                  href="/vip"
+                  className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-purple-600 px-5 py-3 font-bold text-white shadow-lg shadow-purple-900/30 transition hover:bg-purple-500"
+                >
+                  QUIERO UNIRME A VIP
+                  <span>→</span>
+                </a>
+
+                <p className="mt-3 text-xs text-gray-400">
+                  Conoce cómo obtener tu acceso.
+                </p>
+
+              </div>
             </div>
 
             <ImageGallery images={movie.gallery} />
