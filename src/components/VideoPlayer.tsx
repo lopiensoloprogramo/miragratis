@@ -171,7 +171,7 @@ export default function VideoPlayer({
             </span>
 
             <span className="text-xs text-gray-400">
-              {`Progreso: ${clickCount} de 6`}
+              {`Progreso: ${clickCount} de 10`}
             </span>
           </button>
         </div>
