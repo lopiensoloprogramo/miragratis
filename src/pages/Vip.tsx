@@ -57,7 +57,7 @@ export default function Vip() {
       return;
     }
 
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(cleanEmail)) {
+    if (/^[a-zA-Z0-9._%+-]+@gmail\.com$/i.test(cleanEmail)) {
       setMessage("Escribe un correo electrónico válido.");
       return;
     }
