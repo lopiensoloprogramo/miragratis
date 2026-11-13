@@ -384,8 +384,7 @@ export default function SerieDetail() {
 
                 <a
                   href="/vip"
-                  className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-purple-600 px-5 py-3 font-bold text-white shadow-lg shadow-purple-900/30 transition hover:bg-purple-500"
-                >
+className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-purple-600 px-5 py-3 font-bold text-white shadow-lg shadow-purple-500/50 transition hover:bg-purple-500 animate-pulse"                >
                   QUIERO UNIRME A VIP
                   <span>→</span>
                 </a>
