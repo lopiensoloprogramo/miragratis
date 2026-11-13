@@ -493,6 +493,11 @@ export const series: Serie[] = [
             file: "mega:CEZw3ASQ#o4O7E_MXqIt1pOGo1rb5UH79gO0QjZYAjqyUdYvjqq4",
             download:"https://ouo.io/UeNJ9f",
           },
+                              {
+            title: "Episodio 7",
+            file: "mega:DRIkFDgY#19yb53D63jeHEhu83HITmKhHanAypTXcuUoP_9LxbCQ",
+            download:"https://ouo.io/40JWyp",
+          },
          
         ],
       },
