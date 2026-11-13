@@ -10,7 +10,7 @@ export default function HeroBanner({ serie }: { serie: Serie }) {
     <div className="relative w-full h-[85vh] mb-8">
       {/* imagen de fondo */}
       <img
-        src={"https://static.animecorner.me/2026/07/1783221476-51aadc324f729cb42d6e004d108a0b7b-1024x576.png"}
+        src={"https://wallpapers-clan.com/wp-content/uploads/2025/12/rick-and-morty-silhouette-interdimensional-portal-desktop-wallpaper-cover.jpg"}
         className="w-full h-full object-cover"
       />
 
@@ -19,13 +19,13 @@ export default function HeroBanner({ serie }: { serie: Serie }) {
 
       {/* contenido */}
       <div className="absolute bottom-10 left-10 max-w-xl">
-        <h1 className="text-4xl text-sky-600 font-bold mb-4">{ "Black Clover Season 2 ESTRENO DE NUEVO CAPITULO 6"}</h1>
+        <h1 className="text-4xl text-sky-600 font-bold mb-4">{ "Rick y Morty Temporada 9 ya disponible"}</h1>
 
         <p className="text-gray-300 mb-4 line-clamp-3">
-          {"Una violencia sin precedentes ha traído el caos al Reino del Trébol. La irrupción de la “Tríada Oscura” (Dark Triad), que alberga el poder de demonios de alto rango. Ni siquiera los capitanes de los Caballeros Mágicos pudieron resistir y fueron llevados; la última esperanza se derrumbó. En una situación desesperada, sin embargo, hay quien sigue levantándose una y otra vez.En un mundo donde la magia lo es todo, el único ser que está fuera de las leyes de la magia: Asta."}
+          {"Comedia animada que narra las aventuras de un científico loco Rick Sánchez, que regresa después de 20 años para vivir con su hija, su marido y sus hijos Morty y Summer."}
         </p>
 
-        <Link to={`/serie/${(serie.id).replace("1","16")}`}>
+        <Link to={`/serie/${(serie.id).replace("1","4")}`}>
           <button onClick={openAddirecto}
           className="bg-red-600 px-6 py-2 rounded hover:bg-red-700 transition">
             

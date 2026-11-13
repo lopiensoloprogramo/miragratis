@@ -468,6 +468,31 @@ export const series: Serie[] = [
             file: "mega:qFBSEZqQ#QHayXKv9d9itRd8DI1IuUkPKa6Kfik9DVl2nGNJDnrE",
             download:"https://ouo.io/W2mEgf",
           },
+                    {
+            title: "Episodio 2",
+            file: "mega:rdJRhajL#IxD26z25JZFtz-bmsaOdqIAa0CPg01N1NXc-JtIgvrQ",
+            download:"https://ouo.io/UJmESFA",
+          },
+                    {
+            title: "Episodio 3",
+            file: "mega:jQQ32J7I#I6fYvMgcVpbaiu5TnzqJ6xqH0sd3b0MPbq9OATqnhzo",
+            download:"https://ouo.io/myrwn2A",
+          },
+                    {
+            title: "Episodio 4",
+            file: "mega:qbRZXwB6Y#_sFkJu40mr4l2HdRqBRDmYh4eylYC_wgjNnyGxoWkZU",
+            download:"https://ouo.io/MAFB5E",
+          },
+                    {
+            title: "Episodio 5",
+            file: "mega:mc4nFTbD#GrIdjA7GcoVGKc6gBGxytB2NhJiL4JxddJJpAyzwOks",
+            download:"https://ouo.io/FE5rvy",
+          },
+                    {
+            title: "Episodio 6",
+            file: "mega:CEZw3ASQ#o4O7E_MXqIt1pOGo1rb5UH79gO0QjZYAjqyUdYvjqq4",
+            download:"https://ouo.io/UeNJ9f",
+          },
          
         ],
       },
