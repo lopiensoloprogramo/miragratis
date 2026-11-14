@@ -1465,7 +1465,12 @@ export const series: Serie[] = [
             title: "Episodio 6",
             file: "drive:1QCyp834bnrTINU8oYJgoWHj8xj0iFbrv",
             download:"https://ouo.io/2uqGhl1",
-          },                                     
+          },     
+                                                   {
+            title: "Episodio 7",
+            file: "mega:bwIGmRhI#5aS5uCim7W6tgtdf0iKSoYf8G-mdtD6ifxMRxB6xxHw",
+            download:"https://ouo.io/Wj437S",
+          },                                  
         ],
       },
       
