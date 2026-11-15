@@ -1985,4 +1985,25 @@ export const movies: Movie[] = [
         ],
               
 },
+{
+    id: "85",
+    title: "Los juegos del hambre: Sinsajo - Parte 2 (2015)",
+    year: 2015,
+    languaje:["Español latino"],
+    description:"Katniss Everdeen (Jennifer Lawrence) se da cuenta de que ya no sólo está en juego su supervivencia, sino también el futuro. Con Panem sumida en una guerra a gran escala, Katniss tendrá que plantar cara al presidente Snow (Donald Sutherland) en el enfrentamiento final. Katniss, acompañada por un grupo de sus mejores amigos, que incluye a Gale (Liam Hemsworth), Finnick (Sam Claflin) y Peeta (Josh Hutcherson), emprende una misión con la unidad del Distrito 13, en la que arriesgan sus vidas para liberar a los ciudadanos de Panem y orquestan un intento de asesinato del presidente Snow, cada vez más obsesionado con destruirla. Las trampas mortales, los enemigos y las decisiones morales que aguardan a Katniss la pondrán en mayores aprietos que ninguna arena de Los Juegos del Hambre.",
+    trailer:"youtube:sMzrsw3GV_k",
+    thumbnail: "https://es.web.img2.acsta.net/pictures/15/10/05/09/45/058912.jpg",
+    genre: ["Accion","Aventura","Ciencia Ficción","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:7JBAVC7Z#YUNrA9zoyUsIyajYDZgkLWu_zCW9UUXZu8ZqaMjLVY0",
+            download:"https://ouo.io/gVWejaD",
+          },
+
+ 
+        ],
+              
+},
 ];
