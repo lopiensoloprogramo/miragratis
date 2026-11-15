@@ -2006,4 +2006,25 @@ export const movies: Movie[] = [
         ],
               
 },
+{
+    id: "86",
+    title: "Los juegos del hambre: La balada de pájaros cantores y serpientes (2023)",
+    year: 2023,
+    languaje:["Español latino"],
+    description:"Años antes de convertirse en el tiránico Presidente de Panem, el Coriolanus Snow de 18 años es la última esperanza de su desvaneciente linaje, la una vez orgullosa familia que había caído en desgracia en un Capitolio post-guerra. Con los décimos Juegos del Hambre aproximándose rápidamente, el joven Snow se sorprende cuando es asignado como mentor de Lucy Gray Baird, la niña tributo del empobrecido Distrito 12. Pero luego de que Lucy Gray consigue toda la atención de Panem al cantar desafiante durante la ceremonia de la cosecha, Snow piensa que podría dar vuelta su suerte. Uniendo sus instintos de espectáculo y de encontrada astucia política, la carrera de Snow y Lucy Gray para sobrevivir revelerá quién es un pájaro cantor, y quién es una víbora.",
+    trailer:"youtube:IWjAy4lIyoY",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVQgG_SukmUIEUi45Cf0M1nwHLd4TOqxh7ycueTrmk8g&s=10",
+    genre: ["Accion","Aventura","Ciencia Ficción","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:TZZzjQxQ#7yO9klZVvc8-GDP2edLW6yTmaKT2mM2wIei2Satagws",
+            download:"https://ouo.io/c9ZxbmI",
+          },
+
+ 
+        ],
+              
+},
 ];
