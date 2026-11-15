@@ -1964,4 +1964,25 @@ export const movies: Movie[] = [
         ],
               
 },
+{
+    id: "84",
+    title: "Los juegos del hambre: Sinsajo - Parte 1 (2014)",
+    year: 2014,
+    languaje:["Español latino"],
+    description:"Katniss Everdeen (Jennifer Lawrence) en el Distrito 13 tras, literalmente, destrozar los juegos para siempre. Bajo el liderazgo de la Presidenta Coin (Julianne Moore) y contando con las advertencias de los amigos en quien confía, Katniss expande sus alas al tiempo que lucha por salvar a Peeta (Josh Hutcherson) y a una nación conmovida por su coraje...",
+    trailer:"youtube:kmLk_-LQE6k",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1xF4Ni-LxFwyQhbM2ytb-JfKTMKk8PvXb9eLzmLBoSQ&s=10",
+    genre: ["Accion","Aventura","Ciencia Ficción","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:yVpDWYIJ#VF9vydJmVSaWiuPVJm0i-U7RgBQWDMBUEqzllzTHxK8",
+            download:"https://ouo.io/y4Z0SF",
+          },
+
+ 
+        ],
+              
+},
 ];
