@@ -1966,6 +1966,27 @@ export const movies: Movie[] = [
 },
 {
     id: "84",
+    title: "Los juegos del hambre(2012)",
+    year: 2012,
+    languaje:["Español latino"],
+    description:"Lo que en el pasado fueron los Estados Unidos, ahora es una nación llamada Panem: un fastuoso Capitolio ejerce un control riguroso sobre los doce distritos que lo rodean y que están aislados entre sí. Cada distrito se ve obligado a enviar anualmente un chico y una chica entre los doce y los dieciocho años para que participen en los Hunger Games, que son transmitidos en directo por la televisión. Se trata de una lucha a muerte, en la que sólo puede haber un superviviente. Katniss Everdeen, una joven de dieciséis años, decide sustituir a su hermana en los juegos; pero para ella, que ya ha visto la muerte de cerca, la lucha por la supervivencia es su segunda naturaleza.",
+    trailer:"youtube:mfmrPu43DF8",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmzRAmTUTDaKfgUbHYdSYxrRC2kWNEzoDJHBvryGdykd33zq2D4lYnj-td&s=10",
+    genre: ["Accion","Aventura","Ciencia Ficción","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:3UJ33KyK#CMB4i-ogYN33Ho28sTIqSsbbNxciQIanhwNQjq_ahBw",
+            download:"https://ouo.io/4YlTnAU",
+          },
+
+ 
+        ],
+              
+},
+{
+    id: "85",
     title: "Los juegos del hambre: Sinsajo - Parte 1 (2014)",
     year: 2014,
     languaje:["Español latino"],
@@ -1986,7 +2007,7 @@ export const movies: Movie[] = [
               
 },
 {
-    id: "85",
+    id: "86",
     title: "Los juegos del hambre: Sinsajo - Parte 2 (2015)",
     year: 2015,
     languaje:["Español latino"],
@@ -2007,7 +2028,7 @@ export const movies: Movie[] = [
               
 },
 {
-    id: "86",
+    id: "87",
     title: "Los juegos del hambre: La balada de pájaros cantores y serpientes (2023)",
     year: 2023,
     languaje:["Español latino"],
