@@ -1987,6 +1987,27 @@ export const movies: Movie[] = [
 },
 {
     id: "85",
+    title: "Los juegos del hambre: En llamas (2013)",
+    year: 2013,
+    languaje:["Español latino"],
+    description:"Cuando Katniss Everdeen regresa sana y salva a casa tras ganar la 74ª edición anual de los Juegos del Hambre, junto a su compañero tributo Peeta Mellark. Ganar significa tener que dejar atrás a su familia y amigos, para emprender una 'Gira de la Victoria' por los diferentes distritos. Por el camino, Katniss se da cuenta de que está comenzando a gestarse una rebelión, pero el Capitolio sigue manteniéndolo todo perfectamente bajo control, mientras el presidente Snow prepara la 75ª edición anual de los Juegos del Hambre (El Vasallaje de los Veinticinco), una competición que podría cambiar Panem para siempre...",
+    trailer:"youtube:wTwabD43r2w",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7-X0-1pgkY3pcLd96c6W8hcezuYhTpaDz58VCSBzBCw&s=10",
+    genre: ["Accion","Aventura","Ciencia Ficción","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:zdhDFCAR#luyMYKp81BTsngI9X74dFkVGD1hPkBpgFUIVu7rvljs",
+            download:"https:https://ouo.io/APTRIMa",
+          },
+
+ 
+        ],
+              
+},
+{
+    id: "86",
     title: "Los juegos del hambre: Sinsajo - Parte 1 (2014)",
     year: 2014,
     languaje:["Español latino"],
@@ -2007,7 +2028,7 @@ export const movies: Movie[] = [
               
 },
 {
-    id: "86",
+    id: "87",
     title: "Los juegos del hambre: Sinsajo - Parte 2 (2015)",
     year: 2015,
     languaje:["Español latino"],
@@ -2028,7 +2049,7 @@ export const movies: Movie[] = [
               
 },
 {
-    id: "87",
+    id: "88",
     title: "Los juegos del hambre: La balada de pájaros cantores y serpientes (2023)",
     year: 2023,
     languaje:["Español latino"],
