@@ -10,7 +10,7 @@ export default function Home() {
 
   
 
-      <HeroBanner serie={series[0]} />
+      <HeroBanner movie={movies[0]} />{/**volver a poner serie={series[0]}  cuando ponga serie en la portada*/}
 
       <div className="px-6 pb-6 pt-2">
         <MovieRow title="Recomendadas" items={series} />
