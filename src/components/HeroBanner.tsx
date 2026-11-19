@@ -10,7 +10,7 @@ export default function HeroBanner({ serie }: { serie: Serie }) {
     <div className="relative w-full h-[85vh] mb-8">
       {/* imagen de fondo */}
       <img
-        src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl6an4tiwKGNdpBPh01sLI56qe8DOQc2B3BNnMcRR5vg&s=10"}
+        src={"https://m.media-amazon.com/images/S/pv-target-images/315debcb615b93a216d9099ef391e902648cab102220f90f4d977355f1a08ea3._UR1920,1080_.jpg"}
         className="w-full h-full object-cover"
       />
 
