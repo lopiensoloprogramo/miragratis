@@ -17,9 +17,10 @@ export default function HeroBanner({ serie }: { serie: Serie }) {
       {/* overlay oscuro */}
       <div className="absolute inset-0 bg-black bg-opacity-60" />
 
-      {/* contenido */}
+     
       <div className="absolute bottom-10 left-10 max-w-xl">
-        <h1 className="text-4xl text-sky-600 font-bold mb-4">{ "LOS JUEGOS DEL HAMBRE: EN LLAMAS"}</h1>
+         {/* <h1 className="text-4xl text-red-600 font-bold mb-4">{ "LOS JUEGOS DEL HAMBRE: EN LLAMAS"}</h1> contenido */}
+       
 
         <p className="text-gray-300 mb-4 line-clamp-3">
           {"Cuando Katniss Everdeen regresa sana y salva a casa tras ganar la 74ª edición anual de los Juegos del Hambre, junto a su compañero tributo Peeta Mellark. Ganar significa tener que dejar atrás a su familia y amigos, para emprender una 'Gira de la Victoria' por los diferentes distritos."}
