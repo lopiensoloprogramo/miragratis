@@ -37,7 +37,11 @@ interface VipSeries {
 interface CatalogResponse {
   success: boolean;
   message?: string;
-  data?: { movies: VipMovie[]; series: VipSeries[] };
+  data?: {
+    movies: VipMovie[];
+    series: VipSeries[];
+    access?: "admin" | "member";
+  };
 }
 
 type Section = "movies" | "series";
@@ -50,6 +54,7 @@ export default function VipLibrary() {
   const [search, setSearch] = useState("");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const [access, setAccess] = useState<"admin" | "member">("member");
 
   useEffect(() => {
     let cancelled = false;
@@ -75,6 +80,7 @@ export default function VipLibrary() {
         if (!cancelled) {
           setMovies(result.data.movies || []);
           setSeries(result.data.series || []);
+          setAccess(result.data.access || "member");
         }
       } catch (err) {
         if (!cancelled) {
@@ -105,18 +111,23 @@ export default function VipLibrary() {
     );
   }, [series, search]);
 
-  async function logout() {
-    try {
-      await fetch("/api/vip", {
-        method: "POST",
-        credentials: "include",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ action: "memberLogout" })
-      });
-    } finally {
-      navigate("/vip-acceso", { replace: true });
-    }
+async function logout() {
+  if (access === "admin") {
+    navigate("/vip-admin", { replace: true });
+    return;
   }
+
+  try {
+    await fetch("/api/vip", {
+      method: "POST",
+      credentials: "include",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ action: "memberLogout" })
+    });
+  } finally {
+    navigate("/vip-acceso", { replace: true });
+  }
+}
 
   return (
     <main className="min-h-screen bg-slate-950 px-4 py-8 text-white sm:py-12">
@@ -133,7 +144,15 @@ export default function VipLibrary() {
             onClick={logout}
             className="inline-flex items-center gap-2 rounded-xl border border-slate-700 px-4 py-2.5 text-sm font-semibold text-slate-200 transition hover:bg-slate-800"
           >
-            <LogOut size={17} /> Cerrar sesión
+                    {access === "admin" ? (
+            <>
+                <ShieldCheck size={17} /> Volver al panel
+            </>
+            ) : (
+            <>
+                <LogOut size={17} /> Cerrar sesión
+            </>
+            )}
           </button>
         </header>
 

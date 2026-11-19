@@ -139,16 +139,50 @@ export default async function handler(req, res) {
     }
 
     if (action === "catalog") {
-      const session = verifyMemberSession(getCookie(req, MEMBER_COOKIE), sessionSecret);
-      if (!session) {
-        return res.status(401).json({ success: false, message: "Tu sesión VIP caducó. Inicia sesión nuevamente." });
+      // Primero comprobamos si existe una sesión administrativa válida.
+      const adminToken = getCookie(req, ADMIN_COOKIE);
+
+      if (verifyAdminSession(adminToken, sessionSecret)) {
+        const catalog = await callAppsScript(scriptUrl, {
+          action: "adminCatalog",
+          password: adminPassword
+        });
+
+        return res.status(200).json({
+          success: true,
+          data: {
+            ...catalog,
+            access: "admin"
+          }
+        });
       }
+
+      // Si no es administrador, comprobamos la sesión de miembro VIP.
+      const member = verifyMemberSession(
+        getCookie(req, MEMBER_COOKIE),
+        sessionSecret
+      );
+
+      if (!member) {
+        return res.status(401).json({
+          success: false,
+          message: "Tu sesión VIP caducó. Inicia sesión nuevamente."
+        });
+      }
+
       const catalog = await callAppsScript(scriptUrl, {
         action: "catalog",
-        email: session.email,
+        email: member.email,
         password: adminPassword
       });
-      return res.status(200).json({ success: true, data: catalog });
+
+      return res.status(200).json({
+        success: true,
+        data: {
+          ...catalog,
+          access: "member"
+        }
+      });
     }
 
     const adminToken = getCookie(req, ADMIN_COOKIE);
