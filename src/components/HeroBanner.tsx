@@ -1,11 +1,11 @@
-import type  { Serie } from "../types/Serie";
+import type  { Movie } from "../types/Movie";
 import { Link } from "react-router-dom";
 
 const openAddirecto = () => {
   window.open("https://omg10.com/4/10893314", "_blank");
 };
 
-export default function HeroBanner({ serie }: { serie: Serie }) {
+export default function HeroBanner({ movie }: { movie: Movie }) {
   return (
     <div className="relative w-full h-[85vh] mb-8">
       {/* imagen de fondo */}
@@ -26,7 +26,7 @@ export default function HeroBanner({ serie }: { serie: Serie }) {
           {"Cuando Katniss Everdeen regresa sana y salva a casa tras ganar la 74ª edición anual de los Juegos del Hambre, junto a su compañero tributo Peeta Mellark. Ganar significa tener que dejar atrás a su familia y amigos, para emprender una 'Gira de la Victoria' por los diferentes distritos."}
         </p>
 
-        <Link to={`/serie/${(serie.id).replace("1","85")}`}>
+        <Link to={`/movie/${(movie.id).replace("1","85")}`}>
           <button onClick={openAddirecto}
           className="bg-red-600 px-6 py-2 rounded hover:bg-red-700 transition">
             
