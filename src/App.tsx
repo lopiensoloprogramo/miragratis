@@ -15,7 +15,8 @@ import Peliculas from "./pages/Peliculas";
 import Series from "./pages/Series";
 import Vip from "./pages/Vip";
 import VipAdmin from "./pages/VipAdmin";
-
+import VipAccess from "./pages/VipAccess";
+import VipLibrary from "./pages/VipLibrary"
 
 export default function App() {
 
@@ -109,6 +110,8 @@ export default function App() {
           </div>
         }
       />
+      <Route path="/vip-acceso" element={<VipAccess />} />
+      <Route path="/vip-biblioteca" element={<VipLibrary />} />
   </Routes>
 
    <Footer/>
