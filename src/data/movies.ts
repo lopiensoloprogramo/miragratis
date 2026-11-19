@@ -1977,7 +1977,7 @@ export const movies: Movie[] = [
         opcion: [
           {
             title: "Opcion 1",
-            file: "mega:3UJ33KyK#CMB4i-ogYN33Ho28sTIqSsbbNxciQIanhwNQjq_ahBw",
+            file: "mega:WYB1zRTK#w2e2Vlc17KCEdjDq1FLIdhy9dZlCti0N-h4UEq-lwMU",
             download:"https://ouo.io/4YlTnAU",
           },
 
