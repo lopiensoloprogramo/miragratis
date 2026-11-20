@@ -155,13 +155,11 @@ export default function Vip() {
           </span>
 
           <h1 className="text-3xl md:text-5xl font-black mb-4">
-            Disfruta sin publicidad
+            🌟 ¡Pásate a MiraGratis VIP!
           </h1>
 
           <p className="text-gray-400 max-w-xl mx-auto">
-            Accede a nuestro grupo privado de Telegram y disfruta
-            de los enlaces disponibles para miembros VIP.
-          </p>
+          ¿Cansado de los anuncios? Disfruta de MiraGratis sin publicidad y accede a nuestra biblioteca privada de películas y series.          </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 items-start">
@@ -197,17 +195,21 @@ export default function Vip() {
             <div className="mt-5 space-y-3 text-sm text-gray-300">
               <div className="flex items-center gap-2">
                 <CheckCircle size={18} className="text-green-500" />
-                Acceso al grupo privado.
+                🎬 Películas y series exclusivas para miembros VIP.
               </div>
 
               <div className="flex items-center gap-2">
                 <CheckCircle size={18} className="text-green-500" />
-                Enlaces para miembros VIP.
+                🚫 Disfruta del contenido sin publicidad.
               </div>
 
               <div className="flex items-center gap-2">
                 <ShieldCheck size={18} className="text-green-500" />
-                Aprobación manual de pagos.
+                📩 Recibe tus credenciales de acceso en tu correo.
+              </div>
+                            <div className="flex items-center gap-2">
+                <ShieldCheck size={18} className="text-green-500" />
+                🔔 Entérate de las nuevas subidas y recibe ayuda en nuestro grupo privado de Telegram.
               </div>
             </div>
           </div>
