@@ -1539,7 +1539,7 @@ export const series: Serie[] = [
   },
    {
     id: "18",
-    title: "El señor de los anillos: Los anillos de poder",
+    title: "El Señor de los anillos: Los anillos de poder",
     year: 2022,
     languaje:["Español"],
     description: "Serie de televisión basada en El señor de los anillos, ambientada durante el período de 3.441 años, conocida como la Era de Númenor, o la Segunda Edad.",
@@ -1549,7 +1549,7 @@ export const series: Serie[] = [
     createdAt: Date.now(),
     seasons: [
       {
-        seasonNumber: 1,
+        seasonNumber: 3,
         episodes: [
           {
             title: "Episodio 1",
