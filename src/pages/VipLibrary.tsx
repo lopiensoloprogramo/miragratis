@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import {
   Film,
@@ -113,6 +113,7 @@ export default function VipLibrary() {
   const [access, setAccess] = useState<"admin" | "member">("member");
   const [selected, setSelected] = useState<SelectedContent>(null);
   const [trailerOpen, setTrailerOpen] = useState(false);
+  const trailerContainerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -158,6 +159,15 @@ export default function VipLibrary() {
       cancelled = true;
     };
   }, [navigate]);
+
+  useEffect(() => {
+    if (!trailerOpen || !trailerContainerRef.current) return;
+
+    trailerContainerRef.current.scrollIntoView({
+      behavior: "smooth",
+      block: "center",
+    });
+  }, [trailerOpen]);
 
   useEffect(() => {
     if (!selected) {
@@ -548,15 +558,17 @@ export default function VipLibrary() {
               </div>
 
               {trailerOpen && trailerUrl ? (
-                <div>
+                <div ref={trailerContainerRef} className="scroll-mt-6">
                   <div className="mb-3 flex items-center justify-between gap-3">
                     <h3 className="text-sm font-bold text-white">Tráiler</h3>
                     <button
                       type="button"
                       onClick={() => setTrailerOpen(false)}
-                      className="text-xs font-semibold text-slate-400 hover:text-white"
+                      aria-label="Cerrar tráiler"
+                      title="Cerrar tráiler"
+                      className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-slate-700 bg-slate-800 text-slate-300 transition hover:border-purple-500 hover:bg-purple-600 hover:text-white"
                     >
-                      Cerrar tráiler
+                      <X size={18} />
                     </button>
                   </div>
                   <div className="aspect-video overflow-hidden rounded-xl bg-black">
