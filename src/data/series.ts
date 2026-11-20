@@ -1537,4 +1537,46 @@ export const series: Serie[] = [
       
     ],
   },
+   {
+    id: "18",
+    title: "El señor de los anillos: Los anillos de poder",
+    year: 2022,
+    languaje:["Español"],
+    description: "Serie de televisión basada en El señor de los anillos, ambientada durante el período de 3.441 años, conocida como la Era de Númenor, o la Segunda Edad.",
+    trailer:"youtube:PeNtZczt2u8",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZgGQ2gzNl5R39L9LyCAgGrSggzvlBeURgps8KN0jNEg&s=10",
+    genre: ["Fantasía","Acción","Ciencia Ficción"],
+    createdAt: Date.now(),
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            title: "Episodio 1",
+            file: "mega:yVYHVaxS#89boToLP5xWL7VptunCliUBdtKmtgDm1Jp2GhOXsDgg",
+            download:"https://ouo.io/MASo3dj",
+          },
+          {
+            title: "Episodio 2",
+            file: "mega:aYQg2bba#lFH9VOBlCE1MXPhcKGgmn3DTKm_ixiA_Hl9kfteiT4U",
+            download:"https://ouo.io/fdXGZn",
+          },
+                    {
+            title: "Episodio 3",
+            file: "mega:rFAAWICB#IQil9k8sELLc9-K9wS_xXIjdkh8e6wxcGrqKiPT-JLE",
+            download:"https://ouo.io/3hKc8P",
+          },
+                              {
+            title: "Episodio 4",
+            file: "mega:qBxjCIYZ#B0Hgcdivd22A2URHyvGNo3yXmzP4aR3jVNpRgyFJ5iE",
+            download:"https://ouo.io/OlGxk4",
+          },
+
+               
+                                                    
+        ],
+      },
+      
+    ],
+  },
 ];
