@@ -192,7 +192,7 @@ export default function Vip() {
               />
             </div>
 
-            <div className="mt-5 space-y-3 text-sm text-gray-300">
+            <div className="mt-5 space-y-4 text-sm text-gray-300">
               <div className="flex items-center gap-2">
                 <CheckCircle size={18} className="text-green-500" />
                 🎬 Películas y series exclusivas para miembros VIP.
