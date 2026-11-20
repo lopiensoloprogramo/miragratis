@@ -192,23 +192,24 @@ export default function Vip() {
               />
             </div>
 
-            <div className="mt-5 space-y-4 text-sm text-gray-300">
+            <div className="mt-5 space-y-3 text-base text-gray-300">
               <div className="flex items-center gap-2">
-                <CheckCircle size={18} className="text-green-500" />
+                <CheckCircle size={18} className="shrink-0 text-green-500" />
                 🎬 Películas y series exclusivas para miembros VIP.
               </div>
 
               <div className="flex items-center gap-2">
-                <CheckCircle size={18} className="text-green-500" />
+                <CheckCircle size={18} className="shrink-0 text-green-500" />
                 🚫 Disfruta del contenido sin publicidad.
               </div>
 
               <div className="flex items-center gap-2">
-                <ShieldCheck size={18} className="text-green-500" />
+                <ShieldCheck size={18} className="shrink-0 text-green-500" />
                 📩 Recibe tus credenciales de acceso en tu correo.
               </div>
-                            <div className="flex items-center gap-2">
-                <ShieldCheck size={18} className="text-green-500" />
+
+              <div className="flex items-center gap-2">
+                <ShieldCheck size={18} className="shrink-0 text-green-500" />
                 🔔 Entérate de las nuevas subidas y recibe ayuda en nuestro grupo privado de Telegram.
               </div>
             </div>
