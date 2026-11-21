@@ -2069,4 +2069,25 @@ export const movies: Movie[] = [
         ],
               
 },
+{
+    id: "89",
+    title: "Boulevard (2026)",
+    year: 2026,
+    languaje:["Español"],
+    description:"Cuando Hasley (Eve Ryan) se muda a una nueva ciudad con su madre, lo último que espera es cruzarse con Luke (Mikel Niso), un joven envuelto en un aura peligrosa y un pasado trágico. Atrapado en sus propios demonios, Luke es todo lo que Hasley debería temer... pero a lo que se siente irremediablemente atraída. A pesar de las sombras que lo rodean, Hasley descubre en Luke una vulnerabilidad y un mundo interior apasionante. Juntos, crearán su propio boulevard: un refugio escondido donde poder ser ellos mismos, cumplir sueños imposibles, atreverse a amar a pesar de los prejuicios, el dolor y las cicatrices que arrastran, y demostrar que el amor es capaz de florecer incluso en los corazones más insospechados.",
+    trailer:"youtube:rZ6xn57p4J0",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb8Y0kNjDeHkKYjzibJG6uQxRvjMpwjucr95cFbhab51-WgHscV35hIEo&s=10",
+    genre: ["Romance","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "mega:aYBQjaaY#x7DEnvn2XzxEE_CjxFb_JNi-wU557Yd4H-OcSsjNg4E",
+            download:"https://ouo.io/uSsQmj",
+          },
+
+ 
+        ],
+              
+},
 ];
