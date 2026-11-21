@@ -207,9 +207,7 @@ export default function VipVideoPlayer({
             allowFullScreen
           />
         </div>
-        <div className="border-t border-slate-800 px-3 py-2 text-xs text-slate-500">
-          Fuente: {source.provider}. Los controles de reproducción pertenecen al reproductor de origen.
-        </div>
+
       </div>
     );
   }
