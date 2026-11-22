@@ -19,7 +19,7 @@ export default function HeroBanner({ serie }: { serie: Serie }) {
 
      
       <div className="absolute bottom-10 left-10 max-w-xl">
-     <h1 className="text-4xl text-white-600 font-bold mb-4">{ "BLACK CLOVER ESTRENO CAPITULO 8 SEGUNDA TEMPORADA"}</h1>
+     <h1 className="text-4xl text-white font-bold mb-4">{ "BLACK CLOVER ESTRENO CAPITULO 8 SEGUNDA TEMPORADA"}</h1>
        
 
         <p className="text-gray-300 mb-4 line-clamp-3">
