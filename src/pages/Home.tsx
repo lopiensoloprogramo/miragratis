@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="pt-20">
 
-      <HeroBanner movie={movies[0]} />
+      <HeroBanner serie={series[0]} />
 
       <div className="px-6 pb-6 pt-2">
 
