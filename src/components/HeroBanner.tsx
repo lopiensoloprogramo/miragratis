@@ -19,7 +19,7 @@ export default function HeroBanner({ serie }: { serie: Serie }) {
 
      
       <div className="absolute bottom-10 left-10 max-w-xl">
-     <h1 className="text-4xl text-red-600 font-bold mb-4">{ "BLACK CLOVER ESTRENO CAPITULO 8 SEGUNDA TEMPORADA"}</h1>
+     <h1 className="text-4xl text-white-600 font-bold mb-4">{ "BLACK CLOVER ESTRENO CAPITULO 8 SEGUNDA TEMPORADA"}</h1>
        
 
         <p className="text-gray-300 mb-4 line-clamp-3">
@@ -28,7 +28,7 @@ export default function HeroBanner({ serie }: { serie: Serie }) {
 
         <Link to={`/serie/${(serie.id).replace("1","16")}`}>
           <button onClick={openAddirecto}
-          className="bg-white-600 px-6 py-2 rounded hover:bg-red-700 transition">
+          className="bg-red-600 px-6 py-2 rounded hover:bg-red-700 transition">
             
             ▶ Ver ahora
           </button>
