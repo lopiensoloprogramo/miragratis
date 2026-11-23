@@ -41,6 +41,8 @@ interface VipMovie {
 
   year: number;
 
+  createdAt?: string;
+
   description: string;
 
   trailer?: string;
@@ -60,6 +62,8 @@ interface VipEpisode {
   title: string;
 
   file: string;
+
+  createdAt?: string;
 
 }
 
@@ -120,6 +124,19 @@ type SelectedContent =
   | { type: "series"; item: VipSeries }
 
   | null;
+
+type RecentItem =
+
+  | { type: "movie"; date: number; movie: VipMovie }
+
+  | {
+      type: "episode";
+      date: number;
+      series: VipSeries;
+      episode: VipEpisode;
+      seasonNumber: number;
+      episodeNumber: number;
+    };
 
 function getTrailerEmbedUrl(trailer?: string): string | null {
 
@@ -356,6 +373,40 @@ export default function VipLibrary() {
 
   }, [movies, search]);
 
+  const recentItems = useMemo<RecentItem[]>(() => {
+    const items: RecentItem[] = [];
+
+    movies.forEach((movie) => {
+      const date = movie.createdAt ? new Date(movie.createdAt).getTime() : NaN;
+      if (Number.isFinite(date)) {
+        items.push({ type: "movie", date, movie });
+      }
+    });
+
+    series.forEach((item) => {
+      item.seasons?.forEach((season) => {
+        season.episodes?.forEach((episode, index) => {
+          const date = episode.createdAt
+            ? new Date(episode.createdAt).getTime()
+            : NaN;
+
+          if (Number.isFinite(date)) {
+            items.push({
+              type: "episode",
+              date,
+              series: item,
+              episode,
+              seasonNumber: season.seasonNumber,
+              episodeNumber: index + 1,
+            });
+          }
+        });
+      });
+    });
+
+    return items.sort((a, b) => b.date - a.date).slice(0, 8);
+  }, [movies, series]);
+
   const filteredSeries = useMemo(() => {
 
     const term = search.trim().toLowerCase();
@@ -394,6 +445,15 @@ export default function VipLibrary() {
 
     setSelected({ type: "series", item });
 
+  }
+
+  function openRecentEpisode(item: Extract<RecentItem, { type: "episode" }>) {
+    setTrailerOpen(false);
+    setSelected({ type: "series", item: item.series });
+    setActivePlayback({
+      title: `${item.series.title} · T${item.seasonNumber} · ${item.episode.title || `Episodio ${item.episodeNumber}`}`,
+      file: item.episode.file,
+    });
   }
 
   function closeModal() {
@@ -505,6 +565,80 @@ export default function VipLibrary() {
           </button>
 
         </header>
+
+        {!loading && !error && recentItems.length > 0 && (
+          <section className="mb-10">
+            <div className="mb-5">
+              <div className="flex items-center gap-2">
+                <span className="h-2 w-2 animate-pulse rounded-full bg-purple-400" />
+                <span className="text-xs font-bold uppercase tracking-[0.2em] text-purple-300">
+                  Actualizaciones
+                </span>
+              </div>
+              <h2 className="mt-2 text-2xl font-black sm:text-3xl">
+                Lo último en MiraGratis VIP
+              </h2>
+              <p className="mt-1 text-sm text-slate-400">
+                Descubre las últimas películas y episodios agregados.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-5 lg:grid-cols-4">
+              {recentItems.map((item) => (
+                <button
+                  key={
+                    item.type === "movie"
+                      ? `movie-${item.movie.id}`
+                      : `episode-${item.series.id}-${item.seasonNumber}-${item.episodeNumber}`
+                  }
+                  type="button"
+                  onClick={() =>
+                    item.type === "movie"
+                      ? openMovie(item.movie)
+                      : openRecentEpisode(item)
+                  }
+                  className="group relative overflow-hidden rounded-2xl border border-slate-800 bg-slate-900 text-left transition duration-300 hover:-translate-y-1 hover:border-purple-500 hover:shadow-xl hover:shadow-purple-950/40"
+                >
+                  <div className="relative aspect-[2/3] overflow-hidden bg-slate-800">
+                    <img
+                      src={item.type === "movie" ? item.movie.thumbnail : item.series.thumbnail}
+                      alt={item.type === "movie" ? item.movie.title : item.series.title}
+                      loading="lazy"
+                      className="h-full w-full object-cover transition duration-500 group-hover:scale-110"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black via-black/10 to-transparent" />
+                    <span
+                      className={`absolute left-2 top-2 rounded-md px-2 py-1 text-[9px] font-black tracking-wide text-white sm:text-[10px] ${
+                        item.type === "movie" ? "bg-purple-600" : "bg-emerald-600"
+                      }`}
+                    >
+                      {item.type === "movie" ? "PELÍCULA" : "NUEVO EPISODIO"}
+                    </span>
+                    <span className="absolute bottom-3 left-3 right-3">
+                      <span className="block text-sm font-black leading-snug text-white sm:text-base">
+                        {item.type === "movie" ? item.movie.title : item.series.title}
+                      </span>
+                      {item.type === "episode" ? (
+                        <span className="mt-1 block text-xs text-purple-200">
+                          T{item.seasonNumber} · E{item.episodeNumber} — {item.episode.title || `Episodio ${item.episodeNumber}`}
+                        </span>
+                      ) : (
+                        <span className="mt-1 block text-xs text-slate-300">
+                          {item.movie.year}
+                        </span>
+                      )}
+                    </span>
+                    <span className="absolute inset-0 flex items-center justify-center bg-black/30 opacity-0 transition group-hover:opacity-100">
+                      <span className="flex h-12 w-12 items-center justify-center rounded-full bg-purple-600 text-white shadow-xl">
+                        <Play size={22} fill="currentColor" />
+                      </span>
+                    </span>
+                  </div>
+                </button>
+              ))}
+            </div>
+          </section>
+        )}
 
         <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
 
