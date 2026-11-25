@@ -1606,13 +1606,13 @@ export const series: Serie[] = [
         episodes: [
           {
             title: "Episodio 1",
-            file: "mega:yVYHVaxS#89boToLP5xWL7VptunCliUBdtKmtgDm1Jp2GhOXsDgg",
-            download:"https://ouo.io/MASo3dj",
+            file: "mega:jIwhkJwB#3ghG0nimQexaHRKuqix8sWk7pwRQ_6HfAPEfAZCUB_w",
+            download:"https://ouo.io/juJxWz",
           },
           {
             title: "Episodio 2",
-            file: "mega:aYQg2bba#lFH9VOBlCE1MXPhcKGgmn3DTKm_ixiA_Hl9kfteiT4U",
-            download:"https://ouo.io/fdXGZn",
+            file: "mega:eEoX3BQS#588bH4Di1Z0tCzTpFbF4GjijXngPb7ikDkSVg5C1jv8",
+            download:"https://ouo.io/1JFVsP",
           },
                     {
             title: "Episodio 3",
