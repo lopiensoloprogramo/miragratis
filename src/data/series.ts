@@ -1580,6 +1580,61 @@ export const series: Serie[] = [
             title: "Episodio 5",
             file: "mega:bUoGkSRS#nJgOwP_XBNiGK8TfZgWpulVIUwZf29A3GEruEyeUWjI",
             download:"https://ouo.io/C09zM1",
+            
+          },
+
+               
+                                                    
+        ],
+      },
+      
+    ],
+  },
+   {
+    id: "19",
+    title: "La emperatriz divorciada",
+    year: 2026,
+    languaje:["Español"],
+    description: "Navier, la querida emperatriz del Imperio Oriental, gobierna junto al emperador Sovieshu. Pero cuando Sovieshu se enamora de una esclava fugitiva y pide el divorcio, Navier accede con la condición de poder volver a casarse con su rival, el príncipe Heinrey del Reino Occidental.",
+    trailer:"youtube:AK7ifrn25nY",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUg7ICmiS6tKm1iybivpMMwu5mt8ObSxi652eSOWeA6Q&s=10",
+    genre: ["Romance","Drama"],
+    createdAt: Date.now(),
+    seasons: [
+      {
+        seasonNumber: 1,
+        episodes: [
+          {
+            title: "Episodio 1",
+            file: "mega:yVYHVaxS#89boToLP5xWL7VptunCliUBdtKmtgDm1Jp2GhOXsDgg",
+            download:"https://ouo.io/MASo3dj",
+          },
+          {
+            title: "Episodio 2",
+            file: "mega:aYQg2bba#lFH9VOBlCE1MXPhcKGgmn3DTKm_ixiA_Hl9kfteiT4U",
+            download:"https://ouo.io/fdXGZn",
+          },
+                    {
+            title: "Episodio 3",
+            file: "mega:nZAwiKpJ#5sykuQfmG5KkMt5xawZpeIahMQrjEHiCuJptf0ppdXY",
+            download:"https://ouo.io/A2zaLKm",
+          },
+                              {
+            title: "Episodio 4",
+            file: "mega:OYIkjayK#ZbBUIbGgcCjsG8HnG0rf88ccYDCzq-VvM5fa7Di3x_M",
+            download:"https://ouo.io/csed6s",
+          },
+                                        {
+            title: "Episodio 5",
+            file: "mega:vcQhyRjL#fSK1-3xhpRDW2KewaikzuAdAQx0QV225PI3B3m6QEC4",
+            download:"https://ouo.io/DA9qTLo",
+            
+          },
+                                                  {
+            title: "Episodio 6",
+            file: "mega:eVQnRaBa#HIQ6LkCpDUxfb-WrSIan5W-CbdjMWZfTtG7-G8ns_Tw",
+            download:"https://ouo.io/fDKT3dC",
+            
           },
 
                
