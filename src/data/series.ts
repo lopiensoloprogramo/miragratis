@@ -1642,6 +1642,12 @@ export const series: Serie[] = [
             download:"https://ouo.io/LgYCaf",
             
           },
+                                                                      {
+            title: "Episodio 8",
+            file: "mega:PEomHSTC#uvASMGMLNKlB_4JIKiqTE-xee6hIObJJn0vCMcnOPIE",
+            download:"https://ouo.io/h5bZ33",
+            
+          },
 
                
                                                     
