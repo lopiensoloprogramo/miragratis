@@ -254,14 +254,14 @@ export default function MovieDetail() {
                 </h3>
 
                 <p className="mx-auto mb-4 max-w-sm text-sm leading-relaxed text-gray-300">
-                  Únete a nuestra comunidad VIP de Telegram y disfruta de una experiencia más cómoda, sin anuncios durante la reproducción.
+                  Unete a nuetra zona VIP por solo 5 soles y disfruta de una experiencia más cómoda, sin anuncios durante la reproducción.
                 </p>
 
                 <div className="mb-5 flex flex-col gap-2 text-sm text-gray-200">
                   <span>✓ Experiencia sin interrupciones publicitarias</span>
-                  <span>✓ Acceso a nuestra comunidad VIP</span>
+                  <span>✓ Acceso a nuestra grupo privado de telegram VIP</span>
                   <span>✓ Acceso exclusivo para miembros</span>
-                  <span>✓ Soporte técnico y ayuda</span>
+                   <span>✓ Soporte técnico y ayuda</span>
                 </div>
 
                 <a
