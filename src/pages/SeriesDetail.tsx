@@ -372,7 +372,7 @@ export default function SerieDetail() {
                 </h3>
 
                 <p className="mx-auto mb-4 max-w-sm text-sm leading-relaxed text-gray-300">
-                  Unete a nuetra zona VIP por solo 5 soles y disfruta de una experiencia más cómoda, sin anuncios durante la reproducción.
+                  Unete a nuetra zona VIP por solo S/.5  y disfruta de una experiencia más cómoda, sin anuncios durante la reproducción.
                 </p>
 
                 <div className="mb-5 flex flex-col gap-2 text-sm text-gray-200">
