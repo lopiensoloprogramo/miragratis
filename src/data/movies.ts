@@ -2090,4 +2090,25 @@ export const movies: Movie[] = [
         ],
               
 },
+{
+    id: "90",
+    title: "Los Juegos del Hambre: Amanecer en la cosecha (2026)",
+    year: 2026,
+    languaje:["Español Latino"],
+    description:"Explora Panem 24 años antes de la saga de Katniss, comenzando en la mañana de la cosecha de los 50º Juegos del Hambre, donde participa un joven Haymitch Abernathy.",
+    trailer:"youtube:qLQi7rU2Ul4",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfAiq0fHb_ZmwuGSivIT22UOKNCLBFu9cpy3S2KojOig&s=10",
+    genre: ["Romance","Drama"],
+    gallery:[],
+        opcion: [
+          {
+            title: "Opcion 1",
+            file: "drive:1ADAYKVuFgr2E9XZ1M9zi1bJGZSvREGKe",
+            download:"https://ouo.io/S4CxqXK",
+          },
+
+ 
+        ],
+              
+},
 ];
